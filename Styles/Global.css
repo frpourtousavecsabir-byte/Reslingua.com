@@ -58,11 +58,54 @@ header{
   justify-content: center;
   align-items: center;
 }
+.profile-image-div {
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1.5px white solid;
+  box-shadow: 0px 0px 0px 2px #B8912F;
+  position: relative;
+}
 .profile-image {
   height: 2rem;
   border-radius: 1rem;
   border: 1.5px white solid;
   box-shadow: 0px 0px 0px 2px #B8912F;
+}
+.green-dot{
+  background-color: green;
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 10px;
+  border: 2px solid white;
+  position: absolute;
+  right: -2px;
+  bottom: -1px;
+}
+.green-dot::after{
+  content: '';
+  background-color: green;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  animation: pulse infinite 3s;
+}
+@keyframes pulse {
+0% {
+transform: scale(1);
+opacity: 1;
+}
+70% {
+transform: scale(1.8);
+opacity: 0;
+}
+100% {
+transform: scale(1.8);
+opacity: 0;
+}
+
 }
 .profile-button {
   background-color: #ffffff;
