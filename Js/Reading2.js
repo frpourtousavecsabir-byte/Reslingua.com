@@ -1584,8 +1584,8 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
     min.textContent = sessionStorage.getItem('mn');
     second.textContent = sessionStorage.getItem('scn');
     progress.value = sessionStorage.getItem('prog') ;
-    let prog = sessionStorage.getItem('prog') || 1800;
-    let mins = sessionStorage.getItem('mn') || 29;
+    let prog = sessionStorage.getItem('prog') || 900;
+    let mins = sessionStorage.getItem('mn') || 14;
     let seconds = sessionStorage.getItem('scn') || 59;
     second.textContent = seconds;
     min.textContent = mins;
@@ -1630,9 +1630,9 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
           });
           relire.className = 'relire';
           relire.addEventListener('click', function() {
-            mins =  29;
-            seconds =  59;
-            prog = 1800;
+            mins =  14;
+            seconds =  60;
+            prog = 900;
           div2.classList.remove('code');
           div2.textContent = '';
           div.classList.remove('all');
