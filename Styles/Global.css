@@ -26,8 +26,10 @@ body{
 }
 header{
   display: flex;
-  position: sticky;
+  position:fixed;
   top: 0;
+  right: 0;
+  left: 0;
   justify-content: space-between;
   background: var(--header);
   padding: 0rem 1rem;

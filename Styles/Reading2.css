@@ -1,5 +1,6 @@
 body{
         height: 2000px;
+        padding-top: 7rem;
       }
       .all {
         position:fixed;
@@ -102,8 +103,10 @@ body{
       align-items: center;
       background-color: var(--bg-card);
       height: 2.5rem;
-      position: sticky;
+      position: fixed;
       top: 3.5rem;
+      right: 0;
+      left: 0;
       padding: 0.5rem 1rem;
       margin-bottom: 1.1rem;
      }
@@ -215,6 +218,7 @@ body{
         border-radius: 15px;
         display: inline-block;
         color: #A9841E;
+        margin-left: 0.5rem;
         background-color: #F6ECCB;
      }
      .page-title {
@@ -229,6 +233,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   min-height: fit-content;
+  margin-top: 1rem;
      }
      .instruction {
       color: var(--text-muted);
@@ -367,8 +372,7 @@ body{
       align-items: center;
       background-color: var(--bg-card);
       height: 3rem;
-      position: sticky;
-      top: 4rem;
+      top: 6rem;
       padding: 0.6rem 2rem;
       margin-bottom: 1.4rem;
      }
@@ -576,4 +580,10 @@ body{
         align-items: center;
         font-size: 1.4rem;
          border-radius: 50%;
+      }
+      @media (min-width: 1024px) {
+       .header2 {
+        position: fixed;
+        top: 4rem;
+       }
       }
