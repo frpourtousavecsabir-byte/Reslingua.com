@@ -1697,15 +1697,17 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
     apdate();
     
     function afficher() {
-      
-      let prenom = `${name[0].toUpperCase()}`;
-      let rest = '';
-      for (let i = 1; i< name.length; i++) {
-      rest += name[i]
+    let prenom = name[0].toUpperCase();
+    let rest = '';
+
+    for (let i = 1; i < name.length; i++) {
+        rest += name[i];
     }
-    nadirah.textContent =  prenom + rest;
-    }
-   afficher();
+
+    nadirah.textContent = prenom + rest;
+}
+
+afficher();
 
 
    function profileLink() {
