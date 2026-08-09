@@ -1511,7 +1511,7 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
       id: 18,
       date: 18,
       txt: "7"
-     },{
+    },{
       id: 19,
       date: 19,
       txt: "7"
@@ -1529,18 +1529,34 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
         txt: "7"
       }
    ]
-   
-   
+  
    
    const name = localStorage.getItem('name');
    const progress = document.getElementById('progress');
    const start = document.getElementById('start');
+   const reset = document.getElementById('reset');
    const min = document.getElementById('min');
-     const second = document.getElementById('second');
-     const nadirah= document.getElementById('nadirah');
-     
-     
-     
+   const second = document.getElementById('second');
+   const nadirah= document.getElementById('nadirah');
+   
+    reset.textContent = 'Reset';
+    reset.classList.add('reset');
+    reset.addEventListener('click', () => {
+            second.textContent = String(0).padStart(2, 0);
+             mins = 15;
+             seconds = 0;
+             prog = 900;
+             progress.value = 900;
+             second.textContent = String(seconds).padStart(2, 0);
+             min.textContent = mins;
+            start.textContent = 'Start';
+             start.classList.remove('inProgress');
+            start.classList.add('start-button');
+            
+            clearInterval(interval);
+    });
+   
+   
      const contDef = document.getElementById('contDef');
      const conten = document.getElementById('conten');
      const text = document.getElementById('text');
@@ -1548,19 +1564,19 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
      function showText() {
        let indexDay = deviceDate.getDate() % textes.length;
        text.textContent = textes[indexDay].txt;
-      
+       
        console.log(textes[indexDay].wordef[i].mot);
        let texto = text.textContent;
        textes[indexDay].wordef.forEach((element, index) => {
-        texto = texto.replace(element.mot, `<span onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
-        text.innerHTML = texto;
+         texto = texto.replace(element.mot, `<span onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
+         text.innerHTML = texto;
         
-      });
-   }
-   
-   const croixDef =  document.createElement('div');
-   const croix =  document.createElement('div');
-   const def = document.createElement('div');
+        });
+      }
+      
+      const croixDef =  document.createElement('div');
+      const croix =  document.createElement('div');
+      const def = document.createElement('div');
    function meaning(ind) {
      croixDef.className = 'croixDef';
      croix.textContent = '🗴';
@@ -1568,52 +1584,86 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
      def.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].definition}`;
      def.className = 'def';
      
+      
+  
+
 
      
      croix.addEventListener('click', function() {
-      if(croix) {
+       if(croix) {
           def.innerHTML = ``;
           def.className = '';
           croix.textContent = '';
           croixDef.className = '';
       } 
-   })
+    })
    setTimeout(function() {
       def.innerHTML = ``;
     def.className = '';
     croix.textContent = '';
     croixDef.className = '';
-   }, 8000) 
-     
-     croixDef.appendChild(croix);
-     croixDef.appendChild(def);
-     contDef.appendChild(croixDef);
-     
-     
-  }
-   showText();
-   
+  }, 8000) 
+  
+  croixDef.appendChild(croix);
+  croixDef.appendChild(def);
+  contDef.appendChild(croixDef);
+  
+  
+}
+showText();
 
-     start.classList.add('inProgress');
-     start.textContent = 'In progress';
 
-     //start.disabled = true;
-     localStorage.setItem('prg', start.textContent);
-     localStorage.setItem('prg2', start.className);
+
+
+//start.disabled = true;
+localStorage.setItem('prg', start.textContent);
+localStorage.setItem('prg2', start.className);
+
+
+let interval;
+min.textContent = sessionStorage.getItem('mn');
+second.textContent = sessionStorage.getItem('scn');
+progress.value = sessionStorage.getItem('prog') ;
+
+let prog = sessionStorage.getItem('prog') || 900;
+let mins = sessionStorage.getItem('mn') || 15;
+let seconds = sessionStorage.getItem('scn') || 0;
+second.textContent = String(seconds).padStart(2, 0);
+min.textContent = mins;
+if(sessionStorage.getItem('start')) {
+ start.className = sessionStorage.getItem('start');
+}
+
+if (sessionStorage.getItem('start-text')) {
+  start.textContent = sessionStorage.getItem('start-text');
+  start.className = sessionStorage.getItem('start') ;
+} else {
+  start.textContent = 'Start';
+  start.classList.add('start-button');
+}
+    
+    start.addEventListener('click', () => {
+
+     if (start.textContent === 'Start') {
+       start.classList.remove('start-button');
+       start.textContent = 'Stop';
+       start.classList.add('inProgress');
+       apdate();
+      } 
+     else   {
+        start.textContent = 'Start';
+        start.classList.remove('inProgress');
+        start.classList.add('start-button');
+        clearInterval(interval);
+      } 
+      sessionStorage.setItem('start', start.className);
+      sessionStorage.setItem('start-text', start.textContent);
+    });
       
-
-    let interval;
-    min.textContent = sessionStorage.getItem('mn');
-    second.textContent = sessionStorage.getItem('scn');
-    progress.value = sessionStorage.getItem('prog') ;
-    let prog = sessionStorage.getItem('prog') || 900;
-    let mins = sessionStorage.getItem('mn') || 14;
-    let seconds = sessionStorage.getItem('scn') || 59;
-    second.textContent = seconds;
-    min.textContent = mins;
-    
-    
-    
+    if(start.textContent === 'Stop') {
+     apdate();
+    }
+      
     
     function apdate() {
       interval = setInterval(function() {
@@ -1694,7 +1744,7 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
       }, 1000);
       
     }
-    apdate();
+    
     
     function afficher() {
     let prenom = name[0].toUpperCase();

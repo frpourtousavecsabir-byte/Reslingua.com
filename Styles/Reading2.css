@@ -171,6 +171,29 @@ body{
       font-size: 1.25rem;
       border-radius: 10px;
      }
+     .start-button {
+       height: 1.75rem;
+      width: 50%;
+      background-color: #a68722 ;
+      color: var(--bg-card);
+      border: 1px solid;
+      font-family:'Caveat', cursive;
+      font-weight: 700;
+      font-size: 1.25rem;
+      border-radius: 10px;
+     }
+     .reset {
+      height: 1.75rem;
+      width: 50%;
+      background-color: #745e15 ;
+      color: var(--bg-card);
+      border: 1px solid;
+      font-family:'Caveat', cursive;
+      font-weight: 700;
+      font-size: 1.25rem;
+      border-radius: 10px;
+      margin-right: 0.25rem;
+     }
      .time {
       font-family: 'SpaceMono', monospace;
       font-weight: 600;
@@ -405,6 +428,17 @@ body{
       height: 1.8rem;
       width: 40%;
       background-color:#dabb55 ;
+      color: var(--bg-card);
+      border: 1px solid;
+      font-family:'Caveat', cursive;
+      font-weight: 800;
+      font-size: 1.4rem;
+      border-radius: 10px;
+     }
+     .start-button {
+      height: 1.8rem;
+      width: 40%;
+      background-color:#a68722 ;
       color: var(--bg-card);
       border: 1px solid;
       font-family:'Caveat', cursive;
