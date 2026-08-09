@@ -572,6 +572,28 @@ Depuis ce jour, chaque fois qu'Émilie voyait une personne en difficulté, elle 
      },{
       id: 9,
       date: 9,
+         wordef: [
+  { mot: "rayonnages", definition: "Shelves used to store books." },
+  { mot: "jaunie", definition: "Turned yellow with age." },
+  { mot: "cachet postal", definition: "A mark put on a letter by the post office." },
+  { mot: "inscrit", definition: "Written or marked on something." },
+  { mot: "en soi", definition: "In itself." },
+  { mot: "distrait", definition: "Not fully focused; thinking about something else." },
+  { mot: "hausser les épaules", definition: "To raise your shoulders to show uncertainty or indifference." },
+  { mot: "quai", definition: "The platform where people wait for a train." },
+  { mot: "envahi", definition: "Completely covered or filled by something." },
+  { mot: "acquiesça", definition: "Agreed or showed that she accepted what was said." },
+  { mot: "cliché", definition: "A photograph, especially an old one." },
+  { mot: "tirage", definition: "A printed copy of a photograph." },
+  { mot: "insouciance", definition: "A carefree feeling without worries." },
+  { mot: "éclat", definition: "Brightness or shine." },
+  { mot: "frisson", definition: "A sudden feeling that makes your body shake slightly." },
+  { mot: "contemplait", definition: "Looked at something carefully for a long time." },
+  { mot: "instinctivement", definition: "Without thinking; by instinct." },
+  { mot: "remit", definition: "Gave something back or handed something to someone." },
+  { mot: "fillette", definition: "A young girl." },
+  { mot: "relisait", definition: "Read again." }
+],
       txt: `La lettre qui n'aurait jamais dû arriver
 
 Lorsque Julien ouvrit sa boîte aux lettres ce mardi matin, il ne s'attendait pas à y trouver autre chose que des factures et quelques publicités. Il habitait dans un petit immeuble depuis près de six ans et sa vie suivait une routine presque parfaite. Il se levait à sept heures, prenait un café noir sans sucre, lisait les titres de l'actualité pendant quelques minutes, puis partait travailler dans une bibliothèque municipale. Son travail lui plaisait. Il aimait le calme des rayonnages, l'odeur des livres anciens et les conversations discrètes avec les lecteurs.
