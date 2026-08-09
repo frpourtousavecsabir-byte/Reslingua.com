@@ -1630,6 +1630,7 @@ let mins = sessionStorage.getItem('mn') || 15;
 let seconds = sessionStorage.getItem('scn') || 0;
 second.textContent = String(seconds).padStart(2, 0);
 min.textContent = mins;
+progress.value = prog;
 if(sessionStorage.getItem('start')) {
  start.className = sessionStorage.getItem('start');
 }
