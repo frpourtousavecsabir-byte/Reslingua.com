@@ -1,6 +1,5 @@
 body{
         height: 2000px;
-        padding-top: 7rem;
       }
       .all {
         position:fixed;
@@ -104,7 +103,7 @@ body{
       background-color: var(--bg-card);
       height: 2.5rem;
       position: fixed;
-      top: 3.5rem;
+      top: 3.4rem;
       right: 0;
       left: 0;
       padding: 0.5rem 1rem;
@@ -139,6 +138,7 @@ body{
      }
      main {
       margin-inline: auto;
+      margin-top: 6.5rem;
       
      }
      
