@@ -813,242 +813,176 @@ En rentrant chez lui ce soir-là, Julien ouvrit une nouvelle page de son carnet 
       id: 10,
       date: 10,
       wordef: [
-  { mot: "factures", definition: "Bills; invoices." },
-  { mot: "enveloppe", definition: "Envelope." },
-  { mot: "jaunie", definition: "Yellowed with age." },
-  { mot: "cachet postal", definition: "Postmark." },
-  { mot: "précaution", definition: "Care; caution." },
-  { mot: "argentique", definition: "Film (non-digital)." },
-  { mot: "distrait", definition: "Distracted." },
-  { mot: "hausser les épaules", definition: "To shrug." },
-  { mot: "suspendu", definition: "Hanging." },
-  { mot: "abandonnée", definition: "Abandoned." },
-  { mot: "acquiesça", definition: "Nodded in agreement." },
-  { mot: "frisson", definition: "Shiver." },
-  { mot: "insouciance", definition: "Carefreeness." },
-  { mot: "éclat", definition: "Brightness; shine." },
-  { mot: "contemplait", definition: "Looked at thoughtfully." },
-  { mot: "couchers de soleil", definition: "Sunsets." },
-  { mot: "évidence", definition: "Something obvious." },
-  { mot: "instinctivement", definition: "Instinctively." },
-  { mot: "accrocha", definition: "Hung up." },
-  { mot: "façades", definition: "Building fronts." }
+  { mot: "évoquaient", definition: "Talked about; mentioned." },
+  { mot: "bordée de", definition: "Lined with." },
+  { mot: "rayonnages", definition: "Bookshelves." },
+  { mot: "ouvrages", definition: "Books; works." },
+  { mot: "emprunté", definition: "Borrowed." },
+  { mot: "déposait", definition: "Placed." },
+  { mot: "étiquette", definition: "Label." },
+  { mot: "prêtait attention", definition: "Paid attention." },
+  { mot: "phare", definition: "Lighthouse." },
+  { mot: "agitée", definition: "Rough; stormy." },
+  { mot: "guider", definition: "To guide." },
+  { mot: "rendit", definition: "Returned." },
+  { mot: "sous le bras", definition: "Under one's arm." },
+  { mot: "poussière", definition: "Dust." },
+  { mot: "voisins", definition: "Neighboring." },
+  { mot: "surmonter", definition: "To overcome." },
+  { mot: "récit", definition: "Story; account." },
+  { mot: "panne", definition: "Breakdown; failure." },
+  { mot: "agrandit", definition: "Became larger." },
+  { mot: "se croiser", definition: "To cross paths." }
 ],
-      txt: `La lettre qui n'aurait jamais dû arriver
+      txt: `Le gardien des livres oubliés
+      
+Lorsque les habitants de Valmont parlaient de la vieille bibliothèque municipale, ils évoquaient surtout son silence. Le bâtiment existait depuis plus d'un siècle. Ses grandes fenêtres donnaient sur une place bordée de platanes, et son immense porte en bois semblait accueillir les visiteurs avec une élégance discrète. Pourtant, chaque année, ils étaient de moins en moins nombreux à y entrer.
 
-Lorsque Julien ouvrit sa boîte aux lettres ce mardi matin, il ne s'attendait pas à y trouver autre chose que des factures et quelques publicités. Il habitait dans un petit immeuble depuis près de six ans et sa vie suivait une routine presque parfaite. Il se levait à sept heures, prenait un café noir sans sucre, lisait les titres de l'actualité pendant quelques minutes, puis partait travailler dans une bibliothèque municipale. Son travail lui plaisait. Il aimait le calme des rayonnages, l'odeur des livres anciens et les conversations discrètes avec les lecteurs.
+Les enfants préféraient les écrans, les étudiants cherchaient leurs informations sur Internet et les adultes disaient souvent qu'ils n'avaient plus le temps de lire. Les rayonnages continuaient pourtant de porter des milliers d'ouvrages qui attendaient patiemment qu'une main les ouvre.
 
-Ce matin-là, pourtant, une enveloppe attira immédiatement son attention.
+Au milieu de cette bibliothèque travaillait Antoine, un homme d'une cinquantaine d'années. Il connaissait presque tous les livres par leur place, leur couleur et parfois même leur odeur. Lorsqu'un lecteur cherchait un roman oublié depuis longtemps, Antoine retrouvait presque toujours l'ouvrage en quelques minutes.
 
-Elle était en papier épais, légèrement jaunie par le temps. L'écriture, tracée à l'encre bleue, semblait appartenir à une autre époque. Aucun timbre récent, seulement un cachet postal difficile à lire.
+Il avait une habitude étrange.
 
-Julien regarda plusieurs fois le nom inscrit sur l'enveloppe.
+Chaque soir, avant de fermer la bibliothèque, il choisissait un livre qui n'avait pas été emprunté depuis plusieurs années. Il le déposait sur une petite table près de l'entrée avec une simple étiquette où l'on pouvait lire :
 
-C'était bien le sien.
+« Pourquoi ne pas lui donner une seconde chance ? »
 
-Il monta rapidement dans son appartement, posa son sac sur la table et ouvrit la lettre avec précaution.
+Personne ne savait pourquoi il faisait cela.
 
-À l'intérieur se trouvait une seule feuille.
+Au début, presque aucun visiteur n'y prêtait attention.
 
-> « Si cette lettre est arrivée jusqu'à toi, c'est que le hasard a encore fait son travail. Va samedi à dix heures devant la vieille gare de Saint-Clair. N'oublie pas ton appareil photo. Tu comprendras pourquoi. »
+Puis, un jour, une adolescente nommée Clara entra dans la bibliothèque pour préparer un exposé. Elle n'aimait pas particulièrement lire. Pour elle, les livres étaient surtout une obligation scolaire.
 
+En attendant que son ordinateur démarre, son regard tomba sur le livre posé sur la petite table.
 
+La couverture représentait un phare face à une mer agitée.
 
-Aucune signature.
+Sans vraiment réfléchir, elle l'ouvrit.
 
-Julien relut plusieurs fois ces quelques lignes.
+Les premières lignes racontaient l'histoire d'un marin qui passait sa vie à guider les bateaux sans jamais quitter son île.
 
-Qui pouvait lui envoyer un message aussi étrange ? Et surtout, comment cette personne savait-elle qu'il possédait encore un vieil appareil photo argentique, rangé depuis des années dans une armoire ?
+Clara lut quelques pages.
 
-Toute la journée, il pensa à cette mystérieuse lettre. Ses collègues remarquèrent rapidement qu'il semblait distrait.
+Puis quelques autres.
 
-— Tout va bien ? demanda Sophie, une bibliothécaire avec qui il travaillait depuis longtemps.
+Au moment de partir, elle emprunta le livre.
 
-— Oui... enfin, je crois. J'ai reçu une lettre un peu étrange ce matin.
+Trois jours plus tard, elle revint.
 
-— Une lettre ? En papier ?
+Non seulement elle rendit le roman, mais elle demanda aussi à Antoine de lui conseiller une autre lecture.
 
-— Oui.
+Le bibliothécaire sourit discrètement.
 
-— C'est déjà étrange en soi, répondit-elle en riant.
+Il avait déjà vu cette scène des dizaines de fois.
 
-Julien lui montra le message.
+Certaines personnes entraient dans la bibliothèque sans intention de lire. Elles repartaient pourtant avec une histoire sous le bras.
 
-Elle le regarda quelques secondes avant de hausser les épaules.
+Au fil des mois, cette petite table devint célèbre dans le quartier.
 
-— Si j'étais toi, j'irais. Au pire, tu perdras une heure. Au mieux, tu vivras une histoire que tu raconteras toute ta vie.
+Les habitués demandaient souvent quel serait le « livre oublié » de la semaine.
 
-Cette phrase resta dans son esprit.
+Les romans qui prenaient la poussière depuis des années retrouvaient enfin des lecteurs.
 
-Le samedi arriva plus vite qu'il ne l'imaginait.
+Un matin d'automne, un journaliste local découvrit cette curieuse initiative.
 
-À neuf heures quarante-cinq, Julien descendit du train à Saint-Clair avec son vieil appareil photo suspendu autour du cou.
+Il décida d'écrire un article.
 
-La gare semblait presque abandonnée. Quelques voyageurs traversaient rapidement le quai sans prêter attention au vieux bâtiment de pierre.
+Quelques jours plus tard, de nouveaux visiteurs commencèrent à arriver.
 
-À dix heures précises, rien ne se passa.
+Ils venaient parfois de villages voisins uniquement pour découvrir la fameuse table des livres oubliés.
 
-Julien attendit.
+Mais ce qui étonnait le plus Antoine n'était pas le nombre de visiteurs.
 
-Cinq minutes.
+C'était leurs réactions.
 
-Puis dix.
+Un homme expliqua qu'il avait retrouvé le goût de lire après vingt ans.
 
-Il commençait à penser qu'il avait fait le voyage pour rien lorsqu'une vieille dame s'approcha de lui.
+Une jeune mère raconta que son fils lui demandait désormais une histoire chaque soir avant de dormir.
 
-— Vous êtes Julien ?
+Une retraitée confia qu'elle avait enfin osé emprunter des romans qu'elle croyait trop difficiles.
 
-Il hésita avant de répondre.
+Antoine comprit alors que les livres avaient simplement besoin d'une rencontre.
 
-— Oui.
+Comme les êtres humains.
 
-Elle sourit doucement.
+Un ouvrage pouvait rester des années sur une étagère sans intéresser personne.
 
-— Alors suivez-moi.
+Puis, un jour précis, il trouvait exactement le lecteur qui en avait besoin.
 
-Sans poser de question, Julien marcha derrière elle dans les petites rues de la ville.
+Cette idée lui plaisait énormément.
 
-Après quelques minutes, ils arrivèrent devant une immense maison entourée d'un jardin envahi par les fleurs sauvages.
+Un soir de décembre, alors qu'il rangeait les derniers livres, Antoine remarqua un petit carnet glissé entre deux romans.
 
-Une dizaine de personnes étaient déjà présentes.
+Il ne figurait dans aucun registre de la bibliothèque.
 
-Toutes semblaient attendre quelqu'un.
+À l'intérieur, chaque lecteur était invité à écrire quelques lignes après avoir terminé un livre.
 
-La vieille dame prit la parole.
+Les pages étaient remplies de messages.
 
-— Merci d'être venu. Aujourd'hui, cela fait exactement cinquante ans que mon mari a pris cette photographie.
+Certains ne faisaient que quelques mots.
 
-Elle montra une grande photo en noir et blanc.
+D'autres racontaient de véritables souvenirs.
 
-On y voyait un groupe d'enfants riant devant la vieille gare de Saint-Clair.
+Une femme expliquait qu'un roman l'avait aidée à surmonter une période difficile.
 
-— Mon mari était photographe. Toute sa vie, il a photographié des inconnus dans les rues, les marchés, les gares et les villages. Avant de mourir, il m'a demandé une chose : retrouver certaines personnes présentes sur ses photos pour leur offrir un tirage qu'elles n'avaient jamais vu.
+Un étudiant racontait qu'une biographie lui avait donné envie de devenir médecin.
 
-Julien observait attentivement le cliché.
+Un voyageur écrivait qu'il avait choisi de visiter un pays après avoir lu un récit d'aventure.
 
-Au premier rang se trouvait un petit garçon tenant un ballon rouge.
+Antoine ajouta discrètement le carnet sur la petite table.
 
-Il lui ressemblait étrangement.
+Très vite, il devint presque aussi populaire que les livres eux-mêmes.
 
-— Ce n'est pas possible..., murmura-t-il.
+Les lecteurs prenaient plaisir à découvrir les impressions laissées par les précédents visiteurs.
 
-La vieille dame acquiesça.
+Ils avaient parfois l'impression de discuter avec des inconnus séparés par plusieurs mois, voire plusieurs années.
 
-— C'est bien vous.
+Le carnet créait un lien invisible entre eux.
 
-Julien sentit un frisson parcourir son dos.
+Un hiver particulièrement froid, une panne de chauffage obligea la bibliothèque à fermer pendant plusieurs semaines.
 
-Il n'avait aucun souvenir de cette journée.
+Antoine craignait que les lecteurs oublient rapidement cet endroit.
 
-— Vos parents passaient leurs vacances ici. Mon mari vous a photographié par hasard. Il disait toujours que votre sourire représentait parfaitement l'insouciance de l'enfance.
+Pourtant, à la réouverture, une longue file d'attente se forma devant la porte.
 
-Elle lui tendit la photographie.
+Les habitants apportaient même des cartons remplis de livres qu'ils souhaitaient offrir.
 
-Le papier avait traversé cinquante années sans perdre son éclat.
+Ils expliquaient que leurs bibliothèques personnelles étaient pleines d'ouvrages qui méritaient eux aussi une seconde vie.
 
-Julien resta silencieux.
+En quelques mois, la collection s'agrandit considérablement.
 
-Autour de lui, les autres invités recevaient eux aussi des images oubliées.
+La vieille bibliothèque retrouva peu à peu son animation d'autrefois.
 
-Une femme découvrait une photo où elle tenait la main de son père, disparu depuis longtemps.
+Les enfants participaient à des lectures, les adultes échangeaient leurs recommandations et les étudiants restaient parfois toute une journée à travailler dans le calme.
 
-Un homme retrouvait un portrait pris le jour où il avait obtenu son diplôme.
+Un après-midi, Clara revint voir Antoine.
 
-Un autre reconnaissait sa grand-mère, assise devant sa maison.
+Elle n'était plus la jeune adolescente timide de ses débuts.
 
-Très vite, les inconnus commencèrent à discuter entre eux.
+Elle étudiait désormais les lettres à l'université.
 
-Chacun racontait l'histoire cachée derrière son image.
+Elle confia au bibliothécaire que tout avait commencé avec ce roman trouvé par hasard sur la petite table.
 
-Les souvenirs remplissaient peu à peu le jardin.
+Si elle ne l'avait jamais ouvert, elle aurait probablement suivi un tout autre chemin.
 
-Julien s'assit sur un vieux banc.
+En quittant la bibliothèque, Antoine observa une dernière fois les rayonnages.
 
-Il contemplait encore la photographie lorsqu'un jeune garçon s'approcha.
+Des milliers de livres attendaient encore leur prochain lecteur.
 
-— Monsieur, vous aimez la photo ?
+Il se dit que chaque ouvrage ressemblait à une porte.
 
-— Oui... enfin, je l'aimais beaucoup avant.
+Certaines restaient fermées pendant longtemps.
 
-— Pourquoi avez-vous arrêté ?
+Puis, un jour, quelqu'un trouvait enfin le courage de les ouvrir.
 
-Julien réfléchit quelques secondes.
+Et derrière chacune de ces portes pouvait se cacher une idée, un souvenir, un rêve ou même une nouvelle direction pour toute une vie.
 
-Il n'avait jamais vraiment trouvé de réponse à cette question.
+Depuis ce jour, Antoine continua de déposer chaque soir un livre oublié sur sa petite table.
 
-Autrefois, il photographiait tout : les couchers de soleil, les rues, les visages, les voyages.
+Il savait qu'il ne pouvait pas deviner qui l'emprunterait.
 
-Puis le travail, les responsabilités et les habitudes avaient lentement remplacé cette passion.
-
-— Je crois que je pensais manquer de temps.
-
-Le garçon sourit.
-
-— Mon grand-père disait toujours que le temps existe. C'est notre attention qui disparaît.
-
-Cette phrase frappa Julien comme une évidence.
-
-Il leva les yeux.
-
-Autour de lui, personne ne regardait son téléphone.
-
-Les gens parlaient.
-
-Ils riaient.
-
-Ils observaient les vieilles photos avec émotion.
-
-Julien prit instinctivement son appareil.
-
-Il photographia la vieille maison.
-
-Puis les fleurs.
-
-Puis le sourire d'un enfant courant dans le jardin.
-
-Pour la première fois depuis des années, il retrouvait le plaisir simple d'observer le monde.
-
-Avant de repartir, la vieille dame lui remit une seconde enveloppe.
-
-— Mon mari voulait que je vous donne ceci seulement si vous veniez aujourd'hui.
-
-Julien l'ouvrit dans le train du retour.
-
-À l'intérieur se trouvait une petite carte.
-
-Quelques mots seulement.
-
-> « Les appareils photo ne servent pas à arrêter le temps. Ils nous rappellent simplement qu'il mérite d'être regardé. Continue à voir ce que les autres oublient de regarder. »
-
-
-
-En arrivant chez lui, Julien ne rangea pas son appareil dans l'armoire.
-
-Le lendemain matin, il partit plus tôt pour le travail.
-
-Sur le chemin, il photographia un musicien jouant dans la rue, une vieille librairie, une femme lisant sur un banc, un chien impatient devant une boulangerie et les premiers rayons du soleil qui illuminaient les façades.
-
-Quelques semaines plus tard, il accrocha certaines de ses photographies dans la bibliothèque où il travaillait.
-
-Les visiteurs s'arrêtaient souvent pour les regarder.
-
-Un jour, une petite fille lui demanda :
-
-— C'est vous qui avez pris ces photos ?
-
-Julien répondit avec un sourire :
-
-— Oui.
-
-— Elles donnent envie de regarder les choses autrement.
-
-Il remercia la fillette.
-
-Sans le savoir, elle venait de lui offrir le plus beau compliment qu'il ait jamais reçu.
-
-En rentrant chez lui ce soir-là, Julien ouvrit une nouvelle page de son carnet et écrivit une phrase qu'il relisait encore plusieurs années plus tard :
-
-« Les plus belles surprises ne changent pas toujours notre destination. Elles changent notre façon de regarder le chemin. »`
+Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son lecteur par hasard. Il attend simplement le moment où leurs chemins sont enfin prêts à se croiser.`
      },{
       id: 11,
       date: 11,
@@ -1320,177 +1254,7 @@ Et il pensa avec gratitude à cette vieille maison aux volets bleus qui lui avai
      },{
       id: 13,
       date: 6,
-      wordef: [
-  { mot: "évoquaient", definition: "Talked about; mentioned." },
-  { mot: "bordée de", definition: "Lined with." },
-  { mot: "rayonnages", definition: "Bookshelves." },
-  { mot: "ouvrages", definition: "Books; works." },
-  { mot: "emprunté", definition: "Borrowed." },
-  { mot: "déposait", definition: "Placed." },
-  { mot: "étiquette", definition: "Label." },
-  { mot: "prêtait attention", definition: "Paid attention." },
-  { mot: "phare", definition: "Lighthouse." },
-  { mot: "agitée", definition: "Rough; stormy." },
-  { mot: "guider", definition: "To guide." },
-  { mot: "rendit", definition: "Returned." },
-  { mot: "sous le bras", definition: "Under one's arm." },
-  { mot: "poussière", definition: "Dust." },
-  { mot: "voisins", definition: "Neighboring." },
-  { mot: "surmonter", definition: "To overcome." },
-  { mot: "récit", definition: "Story; account." },
-  { mot: "panne", definition: "Breakdown; failure." },
-  { mot: "agrandit", definition: "Became larger." },
-  { mot: "se croiser", definition: "To cross paths." }
-],
-      txt: `Le gardien des livres oubliés
       
-Lorsque les habitants de Valmont parlaient de la vieille bibliothèque municipale, ils évoquaient surtout son silence. Le bâtiment existait depuis plus d'un siècle. Ses grandes fenêtres donnaient sur une place bordée de platanes, et son immense porte en bois semblait accueillir les visiteurs avec une élégance discrète. Pourtant, chaque année, ils étaient de moins en moins nombreux à y entrer.
-
-Les enfants préféraient les écrans, les étudiants cherchaient leurs informations sur Internet et les adultes disaient souvent qu'ils n'avaient plus le temps de lire. Les rayonnages continuaient pourtant de porter des milliers d'ouvrages qui attendaient patiemment qu'une main les ouvre.
-
-Au milieu de cette bibliothèque travaillait Antoine, un homme d'une cinquantaine d'années. Il connaissait presque tous les livres par leur place, leur couleur et parfois même leur odeur. Lorsqu'un lecteur cherchait un roman oublié depuis longtemps, Antoine retrouvait presque toujours l'ouvrage en quelques minutes.
-
-Il avait une habitude étrange.
-
-Chaque soir, avant de fermer la bibliothèque, il choisissait un livre qui n'avait pas été emprunté depuis plusieurs années. Il le déposait sur une petite table près de l'entrée avec une simple étiquette où l'on pouvait lire :
-
-« Pourquoi ne pas lui donner une seconde chance ? »
-
-Personne ne savait pourquoi il faisait cela.
-
-Au début, presque aucun visiteur n'y prêtait attention.
-
-Puis, un jour, une adolescente nommée Clara entra dans la bibliothèque pour préparer un exposé. Elle n'aimait pas particulièrement lire. Pour elle, les livres étaient surtout une obligation scolaire.
-
-En attendant que son ordinateur démarre, son regard tomba sur le livre posé sur la petite table.
-
-La couverture représentait un phare face à une mer agitée.
-
-Sans vraiment réfléchir, elle l'ouvrit.
-
-Les premières lignes racontaient l'histoire d'un marin qui passait sa vie à guider les bateaux sans jamais quitter son île.
-
-Clara lut quelques pages.
-
-Puis quelques autres.
-
-Au moment de partir, elle emprunta le livre.
-
-Trois jours plus tard, elle revint.
-
-Non seulement elle rendit le roman, mais elle demanda aussi à Antoine de lui conseiller une autre lecture.
-
-Le bibliothécaire sourit discrètement.
-
-Il avait déjà vu cette scène des dizaines de fois.
-
-Certaines personnes entraient dans la bibliothèque sans intention de lire. Elles repartaient pourtant avec une histoire sous le bras.
-
-Au fil des mois, cette petite table devint célèbre dans le quartier.
-
-Les habitués demandaient souvent quel serait le « livre oublié » de la semaine.
-
-Les romans qui prenaient la poussière depuis des années retrouvaient enfin des lecteurs.
-
-Un matin d'automne, un journaliste local découvrit cette curieuse initiative.
-
-Il décida d'écrire un article.
-
-Quelques jours plus tard, de nouveaux visiteurs commencèrent à arriver.
-
-Ils venaient parfois de villages voisins uniquement pour découvrir la fameuse table des livres oubliés.
-
-Mais ce qui étonnait le plus Antoine n'était pas le nombre de visiteurs.
-
-C'était leurs réactions.
-
-Un homme expliqua qu'il avait retrouvé le goût de lire après vingt ans.
-
-Une jeune mère raconta que son fils lui demandait désormais une histoire chaque soir avant de dormir.
-
-Une retraitée confia qu'elle avait enfin osé emprunter des romans qu'elle croyait trop difficiles.
-
-Antoine comprit alors que les livres avaient simplement besoin d'une rencontre.
-
-Comme les êtres humains.
-
-Un ouvrage pouvait rester des années sur une étagère sans intéresser personne.
-
-Puis, un jour précis, il trouvait exactement le lecteur qui en avait besoin.
-
-Cette idée lui plaisait énormément.
-
-Un soir de décembre, alors qu'il rangeait les derniers livres, Antoine remarqua un petit carnet glissé entre deux romans.
-
-Il ne figurait dans aucun registre de la bibliothèque.
-
-À l'intérieur, chaque lecteur était invité à écrire quelques lignes après avoir terminé un livre.
-
-Les pages étaient remplies de messages.
-
-Certains ne faisaient que quelques mots.
-
-D'autres racontaient de véritables souvenirs.
-
-Une femme expliquait qu'un roman l'avait aidée à surmonter une période difficile.
-
-Un étudiant racontait qu'une biographie lui avait donné envie de devenir médecin.
-
-Un voyageur écrivait qu'il avait choisi de visiter un pays après avoir lu un récit d'aventure.
-
-Antoine ajouta discrètement le carnet sur la petite table.
-
-Très vite, il devint presque aussi populaire que les livres eux-mêmes.
-
-Les lecteurs prenaient plaisir à découvrir les impressions laissées par les précédents visiteurs.
-
-Ils avaient parfois l'impression de discuter avec des inconnus séparés par plusieurs mois, voire plusieurs années.
-
-Le carnet créait un lien invisible entre eux.
-
-Un hiver particulièrement froid, une panne de chauffage obligea la bibliothèque à fermer pendant plusieurs semaines.
-
-Antoine craignait que les lecteurs oublient rapidement cet endroit.
-
-Pourtant, à la réouverture, une longue file d'attente se forma devant la porte.
-
-Les habitants apportaient même des cartons remplis de livres qu'ils souhaitaient offrir.
-
-Ils expliquaient que leurs bibliothèques personnelles étaient pleines d'ouvrages qui méritaient eux aussi une seconde vie.
-
-En quelques mois, la collection s'agrandit considérablement.
-
-La vieille bibliothèque retrouva peu à peu son animation d'autrefois.
-
-Les enfants participaient à des lectures, les adultes échangeaient leurs recommandations et les étudiants restaient parfois toute une journée à travailler dans le calme.
-
-Un après-midi, Clara revint voir Antoine.
-
-Elle n'était plus la jeune adolescente timide de ses débuts.
-
-Elle étudiait désormais les lettres à l'université.
-
-Elle confia au bibliothécaire que tout avait commencé avec ce roman trouvé par hasard sur la petite table.
-
-Si elle ne l'avait jamais ouvert, elle aurait probablement suivi un tout autre chemin.
-
-En quittant la bibliothèque, Antoine observa une dernière fois les rayonnages.
-
-Des milliers de livres attendaient encore leur prochain lecteur.
-
-Il se dit que chaque ouvrage ressemblait à une porte.
-
-Certaines restaient fermées pendant longtemps.
-
-Puis, un jour, quelqu'un trouvait enfin le courage de les ouvrir.
-
-Et derrière chacune de ces portes pouvait se cacher une idée, un souvenir, un rêve ou même une nouvelle direction pour toute une vie.
-
-Depuis ce jour, Antoine continua de déposer chaque soir un livre oublié sur sa petite table.
-
-Il savait qu'il ne pouvait pas deviner qui l'emprunterait.
-
-Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son lecteur par hasard. Il attend simplement le moment où leurs chemins sont enfin prêts à se croiser.`
      },{
       id: 14,
       date: 14,
