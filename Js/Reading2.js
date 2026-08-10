@@ -812,177 +812,329 @@ En rentrant chez lui ce soir-là, Julien ouvrit une nouvelle page de son carnet 
      },{
       id: 10,
       date: 10,
-      wordef: [
-  { mot: "évoquaient", definition: "Talked about; mentioned." },
-  { mot: "bordée de", definition: "Lined with." },
-  { mot: "rayonnages", definition: "Bookshelves." },
-  { mot: "ouvrages", definition: "Books; works." },
-  { mot: "emprunté", definition: "Borrowed." },
-  { mot: "déposait", definition: "Placed." },
-  { mot: "étiquette", definition: "Label." },
-  { mot: "prêtait attention", definition: "Paid attention." },
-  { mot: "phare", definition: "Lighthouse." },
-  { mot: "agitée", definition: "Rough; stormy." },
-  { mot: "guider", definition: "To guide." },
-  { mot: "rendit", definition: "Returned." },
-  { mot: "sous le bras", definition: "Under one's arm." },
-  { mot: "poussière", definition: "Dust." },
-  { mot: "voisins", definition: "Neighboring." },
-  { mot: "surmonter", definition: "To overcome." },
-  { mot: "récit", definition: "Story; account." },
-  { mot: "panne", definition: "Breakdown; failure." },
-  { mot: "agrandit", definition: "Became larger." },
-  { mot: "se croiser", definition: "To cross paths." }
+       wordef: [
+  { mot: "défiler", definition: "To pass by, especially one after another." },
+  { mot: "inhabituel", definition: "Unusual; not normal or common." },
+  { mot: "hésiter", definition: "To be unsure about what to do or say." },
+  { mot: "proposition", definition: "An offer or suggestion." },
+  { mot: "survivras", definition: "You will manage to continue despite a difficult situation." },
+  { mot: "abandonner", definition: "To stop doing something or give it up." },
+  { mot: "projets", definition: "Plans or things you want to do in the future." },
+  { mot: "enveloppe", definition: "A paper cover used for a letter." },
+  { mot: "oser", definition: "To have enough courage to do something." },
+  { mot: "responsable", definition: "A person who manages or supervises something." },
+  { mot: "demande", definition: "A request for something." },
+  { mot: "poste", definition: "A job or position in a company." },
+  { mot: "obtenir", definition: "To succeed in getting something." },
+  { mot: "possibilités", definition: "Things that may happen or choices that are available." },
+  { mot: "rencontre", definition: "An occasion when you meet someone." },
+  { mot: "déterminante", definition: "Very important in causing a particular result." },
+  { mot: "direction", definition: "The path or way that someone chooses to follow." },
+  { mot: "décision", definition: "A choice made after thinking about something." },
+  { mot: "premier pas", definition: "The first action taken toward achieving something." },
+  { mot: "oser faire", definition: "To have the courage to do something." }
 ],
-      txt: `Le gardien des livres oubliés
-      
-Lorsque les habitants de Valmont parlaient de la vieille bibliothèque municipale, ils évoquaient surtout son silence. Le bâtiment existait depuis plus d'un siècle. Ses grandes fenêtres donnaient sur une place bordée de platanes, et son immense porte en bois semblait accueillir les visiteurs avec une élégance discrète. Pourtant, chaque année, ils étaient de moins en moins nombreux à y entrer.
+      txt: `Le jour où tout a changé
 
-Les enfants préféraient les écrans, les étudiants cherchaient leurs informations sur Internet et les adultes disaient souvent qu'ils n'avaient plus le temps de lire. Les rayonnages continuaient pourtant de porter des milliers d'ouvrages qui attendaient patiemment qu'une main les ouvre.
+Chaque matin, Thomas se réveillait à sept heures.
 
-Au milieu de cette bibliothèque travaillait Antoine, un homme d'une cinquantaine d'années. Il connaissait presque tous les livres par leur place, leur couleur et parfois même leur odeur. Lorsqu'un lecteur cherchait un roman oublié depuis longtemps, Antoine retrouvait presque toujours l'ouvrage en quelques minutes.
+Il habitait dans un petit appartement au troisième étage d'un immeuble ancien. De sa fenêtre, il pouvait voir une rue assez calme, avec quelques arbres et une petite boulangerie au coin.
 
-Il avait une habitude étrange.
+Thomas avait vingt-six ans et travaillait dans une entreprise située à environ trente minutes de chez lui. Il aimait son travail, mais il avait souvent l'impression de vivre toujours la même journée.
 
-Chaque soir, avant de fermer la bibliothèque, il choisissait un livre qui n'avait pas été emprunté depuis plusieurs années. Il le déposait sur une petite table près de l'entrée avec une simple étiquette où l'on pouvait lire :
+Du lundi au vendredi, son réveil sonnait à sept heures. Il prenait une douche, préparait rapidement son petit déjeuner et quittait son appartement à huit heures moins dix.
 
-« Pourquoi ne pas lui donner une seconde chance ? »
+Il prenait ensuite le même bus.
 
-Personne ne savait pourquoi il faisait cela.
+Il s'asseyait presque toujours au même endroit, près de la fenêtre.
 
-Au début, presque aucun visiteur n'y prêtait attention.
+Pendant le trajet, il regardait les rues défiler sans vraiment y penser. Parfois, il écoutait de la musique. D'autres fois, il regardait simplement les personnes autour de lui.
 
-Puis, un jour, une adolescente nommée Clara entra dans la bibliothèque pour préparer un exposé. Elle n'aimait pas particulièrement lire. Pour elle, les livres étaient surtout une obligation scolaire.
+Il connaissait maintenant plusieurs visages.
 
-En attendant que son ordinateur démarre, son regard tomba sur le livre posé sur la petite table.
+Il y avait une femme qui lisait toujours un livre rouge, un homme qui travaillait sur son ordinateur et une vieille dame qui descendait toujours trois arrêts avant lui.
 
-La couverture représentait un phare face à une mer agitée.
+Thomas ne leur avait jamais parlé.
 
-Sans vraiment réfléchir, elle l'ouvrit.
+Pourtant, il avait l'impression de les connaître.
 
-Les premières lignes racontaient l'histoire d'un marin qui passait sa vie à guider les bateaux sans jamais quitter son île.
+Un lundi matin, quelque chose d'inhabituel s'est produit.
 
-Clara lut quelques pages.
+Thomas est monté dans le bus comme d'habitude. Il a trouvé une place près de la fenêtre et a regardé son téléphone.
 
-Puis quelques autres.
+Quelques secondes plus tard, une jeune femme est montée.
 
-Au moment de partir, elle emprunta le livre.
+Elle semblait chercher quelqu'un.
 
-Trois jours plus tard, elle revint.
+Elle regardait les places une par une, puis elle s'est arrêtée près de Thomas.
 
-Non seulement elle rendit le roman, mais elle demanda aussi à Antoine de lui conseiller une autre lecture.
+— Excusez-moi, cette place est libre ?
 
-Le bibliothécaire sourit discrètement.
+Thomas a regardé le siège à côté de lui.
 
-Il avait déjà vu cette scène des dizaines de fois.
+— Oui, bien sûr.
 
-Certaines personnes entraient dans la bibliothèque sans intention de lire. Elles repartaient pourtant avec une histoire sous le bras.
+La jeune femme s'est assise.
 
-Au fil des mois, cette petite table devint célèbre dans le quartier.
+Elle portait un petit sac noir et tenait une enveloppe dans sa main.
 
-Les habitués demandaient souvent quel serait le « livre oublié » de la semaine.
+Pendant quelques minutes, ils n'ont pas parlé.
 
-Les romans qui prenaient la poussière depuis des années retrouvaient enfin des lecteurs.
+Puis elle a regardé par la fenêtre et a souri.
 
-Un matin d'automne, un journaliste local découvrit cette curieuse initiative.
+— Vous prenez souvent ce bus ?
 
-Il décida d'écrire un article.
+Thomas a été un peu surpris par la question.
 
-Quelques jours plus tard, de nouveaux visiteurs commencèrent à arriver.
+— Oui. Tous les jours.
 
-Ils venaient parfois de villages voisins uniquement pour découvrir la fameuse table des livres oubliés.
+— Moi aussi, normalement.
 
-Mais ce qui étonnait le plus Antoine n'était pas le nombre de visiteurs.
+Thomas a souri.
 
-C'était leurs réactions.
+— Je ne vous ai jamais vue avant.
 
-Un homme expliqua qu'il avait retrouvé le goût de lire après vingt ans.
+— C'est normal. Je viens d'emménager dans le quartier.
 
-Une jeune mère raconta que son fils lui demandait désormais une histoire chaque soir avant de dormir.
+Ils ont commencé à discuter.
 
-Une retraitée confia qu'elle avait enfin osé emprunter des romans qu'elle croyait trop difficiles.
+Elle s'appelait Emma. Elle avait vingt-quatre ans et venait de commencer un nouveau travail dans une école.
 
-Antoine comprit alors que les livres avaient simplement besoin d'une rencontre.
+Le trajet est devenu beaucoup plus court que d'habitude.
 
-Comme les êtres humains.
+Quand le bus est arrivé à l'arrêt de Thomas, il a regardé sa montre.
 
-Un ouvrage pouvait rester des années sur une étagère sans intéresser personne.
+Il devait descendre.
 
-Puis, un jour précis, il trouvait exactement le lecteur qui en avait besoin.
+— Je dois y aller, a-t-il dit.
 
-Cette idée lui plaisait énormément.
+— Moi aussi.
 
-Un soir de décembre, alors qu'il rangeait les derniers livres, Antoine remarqua un petit carnet glissé entre deux romans.
+Ils sont descendus ensemble.
 
-Il ne figurait dans aucun registre de la bibliothèque.
+Avant de partir, Emma lui a demandé :
 
-À l'intérieur, chaque lecteur était invité à écrire quelques lignes après avoir terminé un livre.
+— Vous prenez le bus demain ?
 
-Les pages étaient remplies de messages.
+Thomas a ri.
 
-Certains ne faisaient que quelques mots.
+— Comme tous les jours.
 
-D'autres racontaient de véritables souvenirs.
+— Alors peut-être à demain.
 
-Une femme expliquait qu'un roman l'avait aidée à surmonter une période difficile.
+Ils se sont séparés.
 
-Un étudiant racontait qu'une biographie lui avait donné envie de devenir médecin.
+Pendant toute la journée, Thomas a pensé à cette rencontre.
 
-Un voyageur écrivait qu'il avait choisi de visiter un pays après avoir lu un récit d'aventure.
+Il ne savait pas pourquoi.
 
-Antoine ajouta discrètement le carnet sur la petite table.
+Ce n'était qu'une conversation dans un bus.
 
-Très vite, il devint presque aussi populaire que les livres eux-mêmes.
+Pourtant, quelque chose était différent.
 
-Les lecteurs prenaient plaisir à découvrir les impressions laissées par les précédents visiteurs.
+Le lendemain matin, il est arrivé à l'arrêt cinq minutes plus tôt.
 
-Ils avaient parfois l'impression de discuter avec des inconnus séparés par plusieurs mois, voire plusieurs années.
+Il ne voulait pas vraiment l'avouer, mais il espérait revoir Emma.
 
-Le carnet créait un lien invisible entre eux.
+Elle était là.
 
-Un hiver particulièrement froid, une panne de chauffage obligea la bibliothèque à fermer pendant plusieurs semaines.
+Elle lui a fait un petit signe de la main.
 
-Antoine craignait que les lecteurs oublient rapidement cet endroit.
+Ils sont montés ensemble dans le bus.
 
-Pourtant, à la réouverture, une longue file d'attente se forma devant la porte.
+Cette fois, ils ont parlé pendant presque tout le trajet.
 
-Les habitants apportaient même des cartons remplis de livres qu'ils souhaitaient offrir.
+Emma lui a raconté qu'elle avait toujours voulu travailler avec des enfants. Thomas lui a expliqué qu'il travaillait dans une entreprise informatique, mais qu'il rêvait depuis longtemps de faire quelque chose de différent.
 
-Ils expliquaient que leurs bibliothèques personnelles étaient pleines d'ouvrages qui méritaient eux aussi une seconde vie.
+— Pourquoi tu ne changes pas ? a demandé Emma.
 
-En quelques mois, la collection s'agrandit considérablement.
+Thomas a haussé les épaules.
 
-La vieille bibliothèque retrouva peu à peu son animation d'autrefois.
+— Je ne sais pas. J'ai peur de faire une erreur.
 
-Les enfants participaient à des lectures, les adultes échangeaient leurs recommandations et les étudiants restaient parfois toute une journée à travailler dans le calme.
+Emma a réfléchi quelques secondes.
 
-Un après-midi, Clara revint voir Antoine.
+— Parfois, ne rien faire est aussi une décision.
 
-Elle n'était plus la jeune adolescente timide de ses débuts.
+Cette phrase est restée dans la tête de Thomas.
 
-Elle étudiait désormais les lettres à l'université.
+Les jours suivants, ils ont continué à prendre le bus ensemble.
 
-Elle confia au bibliothécaire que tout avait commencé avec ce roman trouvé par hasard sur la petite table.
+Ils parlaient de leurs projets, de leurs familles, de leurs voyages et même de leurs petits problèmes.
 
-Si elle ne l'avait jamais ouvert, elle aurait probablement suivi un tout autre chemin.
+Thomas a découvert qu'Emma aimait marcher sous la pluie et qu'elle détestait les films d'horreur.
 
-En quittant la bibliothèque, Antoine observa une dernière fois les rayonnages.
+Emma a découvert que Thomas voulait voyager en Asie et qu'il avait peur de parler devant beaucoup de personnes.
 
-Des milliers de livres attendaient encore leur prochain lecteur.
+Petit à petit, leur amitié est devenue importante.
 
-Il se dit que chaque ouvrage ressemblait à une porte.
+Mais un vendredi soir, Emma lui a annoncé une nouvelle.
 
-Certaines restaient fermées pendant longtemps.
+— Je vais partir.
 
-Puis, un jour, quelqu'un trouvait enfin le courage de les ouvrir.
+Thomas a essayé de rester calme.
 
-Et derrière chacune de ces portes pouvait se cacher une idée, un souvenir, un rêve ou même une nouvelle direction pour toute une vie.
+— Partir où ?
 
-Depuis ce jour, Antoine continua de déposer chaque soir un livre oublié sur sa petite table.
+— Dans une autre ville. J'ai reçu une proposition pour travailler dans une grande école.
 
-Il savait qu'il ne pouvait pas deviner qui l'emprunterait.
+Thomas n'a rien répondu pendant quelques secondes.
 
-Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son lecteur par hasard. Il attend simplement le moment où leurs chemins sont enfin prêts à se croiser.`
+Il était heureux pour elle, mais il était aussi triste.
+
+— C'est une bonne nouvelle, non ?
+
+— Oui. Une très bonne nouvelle.
+
+— Alors pourquoi tu as l'air triste ?
+
+Thomas a souri.
+
+— Parce que je vais devoir prendre le bus tout seul maintenant.
+
+Emma a ri.
+
+— Tu survivras.
+
+Ils ont passé leur dernier week-end ensemble.
+
+Ils ont marché dans la ville, ils ont mangé dans un petit restaurant et ils ont parlé pendant des heures.
+
+Le dimanche soir, Emma lui a donné une petite enveloppe.
+
+— Ouvre-la quand je serai partie.
+
+Le lendemain matin, elle n'était pas à l'arrêt de bus.
+
+Thomas a attendu quelques minutes.
+
+Puis le bus est arrivé.
+
+Il est monté et s'est installé près de la fenêtre.
+
+Tout semblait exactement comme avant.
+
+Mais pour la première fois depuis longtemps, il n'aimait pas cette routine.
+
+Il a ouvert l'enveloppe.
+
+À l'intérieur, il y avait une petite feuille.
+
+Emma avait écrit quelques lignes.
+
+Elle lui disait qu'elle avait aimé leurs conversations et qu'elle espérait qu'il n'abandonnerait pas ses projets.
+
+Elle lui demandait surtout de faire une chose :
+
+« Fais quelque chose qui te fait peur. Pas demain. Aujourd'hui. »
+
+Thomas a relu la phrase plusieurs fois.
+
+Ce matin-là, il est arrivé au travail comme d'habitude.
+
+Mais au lieu de commencer immédiatement sa journée, il a ouvert son ordinateur et a écrit une lettre à son responsable.
+
+Depuis plusieurs mois, il voulait demander à travailler sur un nouveau projet. Il n'avait jamais osé.
+
+Cette fois, il a envoyé sa demande.
+
+La réponse est arrivée dans l'après-midi.
+
+Son responsable voulait en discuter avec lui.
+
+Thomas était nerveux, mais il était aussi heureux.
+
+Quelques semaines plus tard, il a obtenu le poste qu'il voulait.
+
+Son travail est devenu plus intéressant.
+
+Il a commencé à apprendre de nouvelles choses et à rencontrer de nouvelles personnes.
+
+Il a même commencé à voyager pour son entreprise.
+
+Pendant ce temps, Emma lui envoyait régulièrement des messages.
+
+Ils parlaient moins qu'avant, mais leur amitié continuait.
+
+Un soir, plusieurs mois après leur première rencontre, Thomas est rentré chez lui après un long voyage.
+
+Il était fatigué.
+
+En entrant dans son appartement, il a trouvé une lettre dans sa boîte aux lettres.
+
+Il a reconnu l'écriture d'Emma.
+
+Elle lui annonçait qu'elle revenait dans la ville pour quelques jours.
+
+Elle lui demandait s'il voulait prendre un café.
+
+Thomas a souri.
+
+Le lendemain matin, il est retourné à l'ancien arrêt de bus.
+
+Il faisait froid et le ciel était gris.
+
+Il a attendu quelques minutes.
+
+Puis il a entendu une voix derrière lui.
+
+— Tu prends toujours ce bus ?
+
+Thomas s'est retourné.
+
+Emma était là.
+
+— Oui, a-t-il répondu. Mais maintenant, je ne le prends plus pour aller travailler.
+
+— Alors pourquoi ?
+
+Thomas a souri.
+
+— Parce que c'est ici que tout a commencé.
+
+Ils sont montés dans le bus.
+
+Ils se sont installés près de la fenêtre, exactement comme la première fois.
+
+Thomas a regardé les rues défiler.
+
+Elles semblaient différentes.
+
+Pourtant, rien n'avait vraiment changé.
+
+La même boulangerie était toujours au coin de la rue.
+
+Les mêmes arbres étaient devant les maisons.
+
+Le même bus suivait presque le même chemin.
+
+Ce qui avait changé, c'était lui.
+
+Thomas avait compris quelque chose d'important.
+
+Il avait longtemps attendu que sa vie change toute seule.
+
+Il pensait qu'un jour, quelque chose allait arriver et lui montrer la bonne direction.
+
+Mais finalement, le changement avait commencé avec une petite conversation dans un bus.
+
+Une personne était entrée dans sa vie pendant quelques minutes et lui avait posé une question simple.
+
+« Pourquoi tu ne changes pas ? »
+
+Cette question avait été déterminante.
+
+Depuis ce jour, Thomas essayait de ne plus avoir peur des nouvelles possibilités.
+
+Il savait maintenant que la vie ne changeait pas toujours avec de grandes décisions.
+
+Parfois, elle changeait avec une conversation.
+
+Parfois avec une rencontre.
+
+Et parfois, avec une décision très simple :
+
+oser faire le premier pas.`
      },{
       id: 11,
       date: 11,
