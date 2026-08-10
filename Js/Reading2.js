@@ -1536,7 +1536,11 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
    
    
    
-
+  /* 
+    header.className = sessionStorage.setItem('header', header.className);
+    header2.className = sessionStorage.setItem('header2', header2.className);
+    main.className = sessionStorage.setItem('main-after', main.className);
+*/
    const name = localStorage.getItem('name');
    const progress = document.getElementById('progress');
    const start = document.getElementById('start');
@@ -1638,35 +1642,45 @@ let seconds = sessionStorage.getItem('scn') || 0;
 second.textContent = String(seconds).padStart(2, 0);
 min.textContent = mins;
 progress.value = prog;
-if(sessionStorage.getItem('start')) {
- start.className = sessionStorage.getItem('start');
-}
+
+
 
 if (sessionStorage.getItem('start-text')) {
+  start.className = sessionStorage.getItem('start');
   start.textContent = sessionStorage.getItem('start-text');
-  start.className = sessionStorage.getItem('start') ;
+
+  header.className = sessionStorage.getItem('header');
+  header2.className = sessionStorage.getItem('header2');
+  main.className = sessionStorage.getItem('main-after');
+
+      
 } else {
   start.textContent = 'Start';
   start.classList.add('start-button');
 }
-    
+
+
+
     
     start.addEventListener('click', () => {
 
      if (start.textContent === 'Start') {
+
        main.classList.add('main-after');
        header.classList.add('header-after');
        header2.classList.add('header2-after');
+
        start.classList.remove('start-button');
        start.textContent = 'Stop';
        start.classList.add('inProgress');
        apdate();
-      } 
-     else   {
-       
-      main.classList.remove('main-after');
+      } else  {
+       main.classList.remove('main-after');
        header.classList.remove('header-after');
        header2.classList.remove('header2-after');
+       
+
+
         start.textContent = 'Start';
         start.classList.remove('inProgress');
         start.classList.add('start-button');
@@ -1674,9 +1688,10 @@ if (sessionStorage.getItem('start-text')) {
       } 
       sessionStorage.setItem('start', start.className);
       sessionStorage.setItem('start-text', start.textContent);
+
       sessionStorage.setItem('header', header.className);
-      sessionStorage.setItem('header2', header2.textContent);
-      sessionStorage.setItem('main-after', main.textContent);
+      sessionStorage.setItem('header2', header2.className);
+      sessionStorage.setItem('main-after', main.className);
     });
       
     if(start.textContent === 'Stop') {
