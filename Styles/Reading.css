@@ -257,9 +257,9 @@ font-size: 0.8rem;
   font-size: 0.8rem;
 }
 main {
-  padding: 2rem;
-  margin-top: 2.7rem;
-  max-width: 70%;
+  padding: 2rem 3rem;
+  margin-top: 7rem;
+  max-width: 60%;
   width: auto;
   height: auto;
   min-height: fit-content;

@@ -1478,6 +1478,13 @@ Et il pensa avec gratitude à cette vieille maison aux volets bleus qui lui avai
             start.textContent = 'Start';
              start.classList.remove('inProgress');
             start.classList.add('start-button');
+           
+            if ( start.textContent = 'Start') {
+            main.classList.remove('main-after');
+            header.classList.remove('header-after');
+            header2.classList.remove('header2-after');
+}
+            
             
             clearInterval(interval);
     });
