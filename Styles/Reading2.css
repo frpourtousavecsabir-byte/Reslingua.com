@@ -143,6 +143,9 @@ body{
       padding: 0.5rem 1rem;
       margin-bottom: 1.1rem;
      }
+     .footer-after {
+      display: none;
+     }
      
      .toread {
        padding: 2rem 1rem;

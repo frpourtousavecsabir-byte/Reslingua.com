@@ -1450,6 +1450,8 @@ Et il pensa avec gratitude à cette vieille maison aux volets bleus qui lui avai
    const header2 = document.querySelector('.js-header2');
    const main = document.querySelector('.js-main');
    
+   const footer = document.querySelector('.js-footer');
+   
    
    
   /* 
@@ -1483,6 +1485,8 @@ Et il pensa avec gratitude à cette vieille maison aux volets bleus qui lui avai
             main.classList.remove('main-after');
             header.classList.remove('header-after');
             header2.classList.remove('header2-after');
+
+            footer.classList.remove('footer-after');
 }
             
             
@@ -1576,6 +1580,7 @@ if (sessionStorage.getItem('start-text')) {
   header2.className = sessionStorage.getItem('header2');
   main.className = sessionStorage.getItem('main-after');
 
+  footer.className = sessionStorage.getItem('footer-after');
       
 } else {
   start.textContent = 'Start';
@@ -1593,6 +1598,8 @@ if (sessionStorage.getItem('start-text')) {
        header.classList.add('header-after');
        header2.classList.add('header2-after');
 
+        footer.classList.add('footer-after');
+
        start.classList.remove('start-button');
        start.textContent = 'Stop';
        start.classList.add('inProgress');
@@ -1602,7 +1609,7 @@ if (sessionStorage.getItem('start-text')) {
        header.classList.remove('header-after');
        header2.classList.remove('header2-after');
        
-
+      footer.classList.remove('footer-after');
 
         start.textContent = 'Start';
         start.classList.remove('inProgress');
@@ -1615,6 +1622,9 @@ if (sessionStorage.getItem('start-text')) {
       sessionStorage.setItem('header', header.className);
       sessionStorage.setItem('header2', header2.className);
       sessionStorage.setItem('main-after', main.className);
+
+      sessionStorage.setItem('footer-after', footer.className);
+
     });
       
     if(start.textContent === 'Stop') {
