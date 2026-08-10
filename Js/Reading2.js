@@ -1138,295 +1138,2153 @@ oser faire le premier pas.`
      },{
       id: 11,
       date: 11,
-      wordef: [
-  { mot: "enseigne", definition: "Shop sign." },
-  { mot: "écaillée", definition: "Peeling." },
-  { mot: "tablier", definition: "Apron." },
-  { mot: "arrosait", definition: "Watered." },
-  { mot: "cabinet", definition: "Firm; office." },
-  { mot: "défilaient", definition: "Went by quickly." },
-  { mot: "comptoir", definition: "Counter." },
-  { mot: "feuilleter", definition: "To flip through." },
-  { mot: "perdu de vue", definition: "Lost touch with." },
-  { mot: "témoignages", definition: "Personal stories; testimonies." },
-  { mot: "échappé", definition: "Escaped; went unnoticed." },
-  { mot: "orage", definition: "Thunderstorm." },
-  { mot: "réfugièrent", definition: "Took shelter." },
-  { mot: "gouttes", definition: "Drops." },
-  { mot: "vitre", definition: "Window pane." },
-  { mot: "secoua", definition: "Shook." },
-  { mot: "ralentir", definition: "To slow down." },
-  { mot: "inaperçus", definition: "Unnoticed." },
-  { mot: "intervenir", definition: "To step in." },
-  { mot: "se déroulaient", definition: "Took place." }
+     wordef: [
+  { mot: "écaillée", definition: "With small pieces of paint coming off." },
+  { mot: "au hasard", definition: "Without choosing something specific." },
+  { mot: "défiler", definition: "To pass by one after another." },
+  { mot: "cahiers", definition: "Notebooks used for writing." },
+  { mot: "ému", definition: "Feeling a strong emotion." },
+  { mot: "souvenirs", definition: "Things that you remember from the past." },
+  { mot: "reprendre confiance", definition: "To start believing in yourself again." },
+  { mot: "nostalgique", definition: "Feeling emotional when thinking about the past." },
+  { mot: "faire attention", definition: "To be careful or to notice something." },
+  { mot: "faire une erreur", definition: "To do something wrong or make a mistake." },
+  { mot: "économiser", definition: "To save money instead of spending it." },
+  { mot: "déménager", definition: "To move to a different home." },
+  { mot: "à distance", definition: "From another place, without being physically present." },
+  { mot: "transmettre", definition: "To pass an idea, message, or knowledge to someone." },
+  { mot: "laisser quelques mots", definition: "To write a short message before leaving." },
+  { mot: "ralentir", definition: "To become slower or make something slower." },
+  { mot: "avoir besoin de", definition: "To need something." },
+  { mot: "reprendre", definition: "To start doing something again." },
+  { mot: "faire partie de", definition: "To be included in something." },
+  { mot: "au loin", definition: "Far away, at a distance." }
 ],
-      txt: `Le café au bout de la rue
+      txt: `La petite maison près de la mer
 
-Chaque matin, à sept heures trente, les premiers rayons du soleil éclairaient la façade d'un petit café situé au coin d'une rue calme. L'enseigne était ancienne, la peinture légèrement écaillée, et les tables en bois portaient les traces de milliers de conversations. Pourtant, malgré son apparence modeste, cet endroit avait quelque chose de particulier. Les habitants du quartier disaient souvent que l'on n'y venait pas seulement pour boire un café, mais pour repartir avec une histoire.
+Depuis trois ans, Martin vivait dans une grande ville où tout allait très vite. Chaque matin, il se levait à sept heures, prenait un café et partait travailler. Il passait presque une heure dans les transports avant d'arriver au bureau.
 
-Le propriétaire s'appelait Victor. Il avait dépassé la soixantaine et portait toujours un tablier brun soigneusement repassé. Chaque matin, avant l'arrivée des clients, il ouvrait les fenêtres, arrosait les deux plantes installées devant la porte et préparait le premier café de la journée. Ce rituel ne changeait jamais. Selon lui, une journée qui commençait dans le calme avait plus de chances de bien se terminer.
+Son travail était correct, mais il ne l'aimait pas vraiment. Il passait ses journées devant un ordinateur et avait rarement le temps de parler avec ses collègues. Le soir, il rentrait chez lui fatigué. Il mangeait quelque chose de simple, regardait une série et allait dormir.
 
-Parmi les clients réguliers se trouvait Camille, une jeune architecte qui travaillait dans un grand cabinet situé à quelques rues de là. Depuis plusieurs mois, elle venait chaque matin avec son ordinateur portable. Elle commandait toujours la même boisson, s'installait près de la fenêtre et passait quelques minutes à regarder les passants avant de commencer sa journée.
+Il avait souvent l'impression que les semaines passaient sans qu'il fasse vraiment attention à elles.
 
-En apparence, tout allait bien. Elle avait un emploi stable, un appartement agréable et de nombreux projets. Pourtant, elle avait le sentiment étrange de vivre trop vite. Les semaines défilaient sans qu'elle ait le temps de s'en rendre compte. Les journées étaient remplies de réunions, de dossiers, d'appels et de messages. Le soir, elle rentrait fatiguée, sans vraiment se souvenir de ce qu'elle avait fait quelques heures plus tôt.
+Un vendredi soir, alors qu'il rentrait du travail, son téléphone a sonné. C'était sa tante Claire.
 
-Un mercredi matin, alors qu'elle attendait son café, son regard fut attiré par un petit carnet posé sur une étagère près du comptoir. Sa couverture était en cuir brun et les pages semblaient déjà bien remplies. Curieuse, elle demanda à Victor ce que c'était.
+Elle lui a annoncé une nouvelle surprenante : elle voulait vendre une petite maison qu'elle possédait près de la mer. Elle n'y allait presque plus et elle pensait que Martin pourrait être intéressé.
 
-Le vieil homme expliqua qu'il avait commencé ce carnet une dizaine d'années auparavant. Chaque client qui le souhaitait pouvait y écrire une phrase, un souvenir ou une leçon de vie. Il n'y avait aucune règle. Certains racontaient un événement important, d'autres écrivaient simplement quelques lignes avant de repartir.
+Martin a immédiatement pensé que ce n'était pas pour lui.
 
-Camille demanda la permission de le feuilleter.
+Il ne connaissait presque rien à la vie dans une petite ville. Il avait toujours vécu dans des endroits où les magasins étaient ouverts tard, où les bus passaient toutes les dix minutes et où il y avait toujours du monde dans les rues.
 
-Les premières pages contenaient des messages très courts.
+Mais sa tante lui a proposé de passer quelques jours dans la maison avant de prendre une décision.
 
-« Aujourd'hui, j'ai retrouvé un ami perdu de vue depuis vingt ans. »
+Le week-end suivant, Martin a pris un train.
 
-« N'attendez pas le bon moment pour appeler vos parents. »
+Après trois heures de voyage, il est arrivé dans une petite ville située près de la mer. Il y avait beaucoup moins de voitures que dans sa ville et les rues étaient presque vides.
 
-« Le bonheur est parfois caché dans une promenade de dix minutes. »
+La maison se trouvait à quinze minutes à pied de la gare.
 
-En continuant sa lecture, elle remarqua que certains auteurs racontaient des histoires beaucoup plus longues. Une femme expliquait comment un simple voyage en train lui avait permis de rencontrer celle qui deviendrait sa meilleure amie. Un étudiant racontait son premier entretien d'embauche. Un grand-père écrivait quelques lignes destinées à ses petits-enfants.
+Elle était petite, avec des murs blancs et des fenêtres bleues. Un vieux jardin entourait la maison. Au fond, il y avait un petit arbre qui semblait avoir poussé là depuis très longtemps.
 
-Camille referma doucement le carnet.
+Martin a ouvert la porte avec la clé que sa tante lui avait donnée.
 
-Toute la journée, elle pensa à ces témoignages. Elle réalisa qu'elle passait son temps à préparer l'avenir sans vraiment profiter du présent. Chaque objectif atteint était immédiatement remplacé par un autre. Elle ne prenait jamais le temps de célébrer ses petites victoires.
+À l'intérieur, tout était simple.
 
-Les jours suivants, elle continua à venir au café. Cette fois, avant d'ouvrir son ordinateur, elle lisait quelques pages du carnet. Peu à peu, une étrange habitude s'installa. Elle observait davantage les personnes autour d'elle. Elle remarquait le serveur qui connaissait le prénom de presque tous les clients, l'étudiant qui révisait chaque matin avant les cours, ou encore le fleuriste qui passait toujours acheter un café avant d'ouvrir sa boutique.
+Il y avait une cuisine, un salon, deux chambres et une petite salle de bain. Les meubles étaient anciens, mais la maison était propre.
 
-Ces détails lui avaient toujours échappé.
+Sur une étagère, Martin a trouvé plusieurs livres.
 
-Un vendredi, un violent orage éclata au-dessus de la ville. Les rues se vidèrent en quelques minutes. Plusieurs passants se réfugièrent dans le café pour attendre la fin de la pluie. L'atmosphère changea immédiatement. Des inconnus commencèrent à discuter, à partager une table ou à commenter le mauvais temps.
+Il en a pris un au hasard.
 
-Camille leva les yeux de son ordinateur et observa la scène. Un enfant riait en regardant les gouttes glisser sur la vitre. Une vieille dame racontait qu'elle adorait les orages parce qu'ils lui rappelaient son enfance à la campagne. Un musicien sortit discrètement une guitare et joua quelques mélodies pendant que les clients applaudissaient.
+C'était un vieux livre sur la région. Il expliquait comment le village avait changé au cours des cinquante dernières années.
 
-Personne ne semblait pressé de repartir.
+Martin a passé une partie de l'après-midi à lire.
 
-Lorsque le calme revint, Victor s'approcha de Camille avec le vieux carnet.
+Puis il est sorti se promener.
 
-Il lui expliqua qu'il remarquait depuis plusieurs semaines qu'elle lisait souvent les histoires des autres sans jamais écrire la sienne.
+À quelques mètres de la maison, il a découvert un petit chemin qui descendait vers la mer.
 
-Cette remarque la fit sourire.
+Le soleil commençait à disparaître derrière les nuages.
 
-Elle répondit qu'elle pensait ne rien avoir d'intéressant à raconter.
+Martin a marché jusqu'à la plage.
 
-Victor secoua doucement la tête.
+Il n'y avait presque personne.
 
-Selon lui, beaucoup de personnes croyaient que seules les aventures extraordinaires méritaient d'être racontées. Pourtant, les récits qui touchaient le plus les lecteurs étaient souvent les plus simples. Une promenade avec un grand-parent, une décision difficile, un voyage imprévu ou une rencontre dans un café pouvaient parfois transformer une existence.
+Un homme âgé était assis sur un banc et regardait la mer.
 
-En rentrant chez elle ce soir-là, Camille réfléchit longtemps.
+Martin s'est installé un peu plus loin.
 
-Elle comprit qu'elle attendait toujours qu'un événement exceptionnel donne un sens à sa vie. Pendant ce temps, des centaines de petits moments passaient inaperçus.
+Pendant plusieurs minutes, aucun des deux hommes n'a parlé.
 
-Le lendemain matin, elle arriva plus tôt que d'habitude.
+Puis l'homme lui a demandé s'il était nouveau dans le quartier.
 
-Le café était presque vide.
+Martin lui a expliqué qu'il était là pour quelques jours.
 
-Elle prit le carnet, ouvrit une page blanche et commença à écrire.
+L'homme s'appelait André. Il habitait dans le village depuis plus de quarante ans.
 
-Elle ne parla ni de son travail ni de ses réussites. Elle raconta simplement cette habitude qu'elle avait prise de regarder les passants chaque matin sans vraiment les voir. Elle expliqua comment ce vieux carnet lui avait appris à ralentir, à écouter les autres et à remarquer la beauté des choses ordinaires.
+Ils ont commencé à parler.
 
-Avant de partir, elle relut une dernière fois ce qu'elle avait écrit.
+André connaissait presque toutes les maisons de la rue. Il connaissait aussi l'histoire de plusieurs familles du village.
 
-Puis elle referma le carnet avec le sentiment étrange d'avoir laissé une petite partie d'elle-même entre ses pages.
+Quand Martin lui a parlé de la maison de sa tante, le visage d'André a changé.
 
-Les mois passèrent.
+Il lui a expliqué qu'une femme y avait vécu pendant très longtemps. Elle s'appelait Louise et elle travaillait autrefois dans une petite école du village.
 
-Le café continua d'accueillir des voyageurs, des étudiants, des retraités et des habitants du quartier.
+Martin ne connaissait pas cette histoire.
 
-Un matin d'hiver, une jeune femme entra pour la première fois. En attendant sa commande, elle aperçut le vieux carnet et demanda si elle pouvait le consulter.
+André lui a raconté que Louise aimait beaucoup écrire. Elle gardait des cahiers dans lesquels elle notait les choses importantes de sa vie.
 
-Au fil des pages, elle tomba sur le texte écrit plusieurs mois auparavant par Camille.
+Après sa mort, les cahiers avaient disparu.
 
-Elle le lut entièrement.
+Martin a pensé aux livres qu'il avait trouvés dans la maison.
 
-À la fin, elle resta silencieuse quelques instants avant de refermer le carnet.
+Il a demandé à André s'il savait où se trouvaient les cahiers.
 
-Ce même soir, elle décida d'annuler une réunion qui n'était pas urgente pour aller dîner avec sa sœur, qu'elle n'avait pas vue depuis plusieurs semaines.
+André a répondu qu'il n'en savait rien.
 
-Elle ne saurait jamais que cette décision avait été inspirée par les mots d'une inconnue.
+Le lendemain matin, Martin a commencé à chercher.
 
-Victor observait souvent ce genre de scène sans intervenir. Il savait que les histoires avaient un pouvoir particulier. Elles voyageaient d'une personne à une autre sans faire de bruit. Une simple phrase pouvait parfois modifier une journée, une décision ou même une vie entière.
+Il a ouvert les placards, déplacé quelques cartons et regardé dans les tiroirs.
 
-En fermant son café chaque soir, il regardait quelques instants le carnet posé sur son étagère.
+Au fond d'une vieille armoire, il a découvert une petite boîte en bois.
 
-Il pensait à toutes ces pages remplies par des inconnus qui ne se rencontreraient probablement jamais.
+Elle était couverte de poussière.
 
-Pourtant, grâce à leurs histoires, ils continuaient à se parler à travers le temps.
+Martin l'a ouverte.
 
-Et Victor souriait en se disant que, parfois, les plus belles conversations étaient celles qui se déroulaient entre deux personnes qui ne se connaîtraient jamais.`
+À l'intérieur, il y avait six cahiers.
+
+Sur la première page du premier cahier, il y avait écrit :
+
+« Pour celui qui trouvera ces pages un jour. »
+
+Martin s'est assis sur le sol et a commencé à lire.
+
+Louise racontait sa vie dans le village.
+
+Elle parlait de ses élèves, de ses amis, de ses parents et de ses voyages.
+
+Mais elle écrivait surtout sur les petits moments de la vie.
+
+Un matin où elle avait vu un enfant aider une vieille dame.
+
+Une promenade sous la pluie.
+
+Un repas avec des amis.
+
+Une journée difficile à l'école.
+
+Une conversation avec son frère.
+
+Martin a continué à lire pendant plusieurs heures.
+
+Il a été ému par certaines pages.
+
+Louise écrivait avec des mots simples, mais ses souvenirs semblaient très vivants.
+
+Dans un des cahiers, elle parlait de la maison.
+
+Elle expliquait qu'elle avait acheté cette maison lorsqu'elle avait trente ans. À cette époque, elle avait beaucoup de projets, mais elle avait aussi peur de faire des erreurs.
+
+Elle avait écrit une phrase que Martin a relue plusieurs fois :
+
+« On attend souvent le bon moment pour commencer une nouvelle vie. Mais le bon moment n'arrive pas toujours. Parfois, il faut simplement commencer. »
+
+Martin a fermé le cahier.
+
+Cette phrase lui faisait penser à sa propre vie.
+
+Depuis plusieurs années, il disait qu'il voulait changer de travail.
+
+Il voulait voyager davantage.
+
+Il voulait apprendre à jouer de la guitare.
+
+Il voulait passer plus de temps avec sa famille.
+
+Mais il avait toujours une raison pour attendre.
+
+Il travaillait trop.
+
+Il n'avait pas assez d'argent.
+
+Il n'avait pas assez de temps.
+
+Ce soir-là, il a préparé un repas simple et s'est installé devant la fenêtre.
+
+Il pouvait entendre la mer au loin.
+
+Pour la première fois depuis longtemps, il n'avait aucune envie de regarder son téléphone.
+
+Le lendemain, il est retourné voir André.
+
+Il lui a parlé des cahiers.
+
+André a souri.
+
+Il semblait nostalgique en entendant le prénom de Louise.
+
+Il lui a expliqué qu'elle avait été une personne importante pour beaucoup d'habitants. Elle aidait souvent les enfants qui avaient des difficultés à l'école et elle organisait parfois des repas pour les personnes seules.
+
+Martin a compris que les cahiers ne racontaient qu'une partie de son histoire.
+
+Les autres parties vivaient encore dans les souvenirs des habitants.
+
+Il a alors eu une idée.
+
+Pendant les jours suivants, il a rencontré plusieurs personnes qui avaient connu Louise.
+
+Une ancienne élève lui a raconté comment Louise l'avait aidée à reprendre confiance en elle.
+
+Un boulanger lui a raconté qu'elle venait acheter du pain chaque samedi matin.
+
+Une autre femme lui a expliqué que Louise lui avait donné le courage de quitter un travail qu'elle détestait.
+
+Chaque personne possédait un petit morceau de son histoire.
+
+Martin a commencé à prendre des notes.
+
+Il a compris que la maison n'était pas seulement une maison.
+
+Elle était devenue un lieu rempli de souvenirs.
+
+Le dernier jour de son séjour, Martin a appelé sa tante.
+
+Il lui a dit qu'il voulait acheter la maison.
+
+Sa tante a été surprise.
+
+Elle pensait qu'il allait simplement passer quelques jours avant de retourner en ville.
+
+Martin lui a expliqué qu'il ne savait pas encore exactement ce qu'il allait faire de sa vie.
+
+Mais il savait une chose : il ne voulait plus attendre que sa vie change toute seule.
+
+Quelques semaines plus tard, Martin a quitté son travail.
+
+Il n'a pas immédiatement déménagé dans la petite maison.
+
+Il a pris quelques mois pour réfléchir, économiser de l'argent et préparer son nouveau projet.
+
+Puis il est revenu près de la mer.
+
+Il a commencé à travailler à distance et a transformé une petite pièce de la maison en bureau.
+
+Il a aussi réparé le jardin.
+
+Et surtout, il a continué à lire les cahiers de Louise.
+
+Un jour, il a eu une nouvelle idée.
+
+Il a installé une petite bibliothèque devant la maison.
+
+Les habitants pouvaient prendre un livre et en laisser un autre.
+
+À côté des livres, Martin a placé un carnet.
+
+Sur la première page, il a écrit :
+
+« Écrivez quelque chose que vous aimeriez transmettre à une autre personne. »
+
+Au début, personne n'a vraiment fait attention au carnet.
+
+Puis quelqu'un a écrit quelques lignes.
+
+Une autre personne a ajouté un message.
+
+Puis une troisième.
+
+Avec le temps, le carnet s'est rempli.
+
+Des habitants racontaient leurs souvenirs.
+
+Des enfants écrivaient leurs rêves.
+
+Des voyageurs laissaient quelques mots avant de repartir.
+
+Martin lisait parfois ces messages le soir.
+
+Il pensait alors à Louise.
+
+Elle avait écrit ses souvenirs sans savoir qui les lirait un jour.
+
+Et maintenant, des dizaines de personnes faisaient la même chose.
+
+Une histoire en avait commencé une autre.
+
+Un souvenir en avait créé un nouveau.
+
+Martin avait longtemps pensé qu'il devait trouver une grande raison de changer sa vie.
+
+Finalement, il avait simplement eu besoin de ralentir, de regarder autour de lui et de comprendre ce qu'il voulait vraiment.
+
+La petite maison près de la mer n'avait pas changé sa vie en une seule journée.
+
+Elle lui avait seulement donné le temps de l'écouter.
+
+Et parfois, c'est tout ce dont une personne a besoin pour trouver une nouvelle direction.`
      },{
       id: 12,
       date: 12,
       wordef: [
-  { mot: "volets", definition: "Window shutters." },
-  { mot: "colline", definition: "Hill." },
-  { mot: "grinçait", definition: "Creaked." },
-  { mot: "illustrateur", definition: "Illustrator." },
-  { mot: "bruyante", definition: "Noisy." },
-  { mot: "recouvrait", definition: "Covered." },
-  { mot: "rideaux", definition: "Curtains." },
-  { mot: "étagères", definition: "Shelves." },
-  { mot: "penchaient", definition: "Leaned." },
-  { mot: "recueils", definition: "Collections." },
-  { mot: "sifflait", definition: "Whistled." },
-  { mot: "parvenait", definition: "Managed to." },
-  { mot: "nourrissait", definition: "Fed." },
-  { mot: "maître", definition: "Owner." },
-  { mot: "s'en aperçoivent", definition: "Notice it." },
-  { mot: "capturer", definition: "Capture." },
-  { mot: "nichoirs", definition: "Birdhouses." },
-  { mot: "la une", definition: "The front page." },
-  { mot: "croisaient", definition: "Passed by." },
-  { mot: "reconnaissance", definition: "Gratitude; appreciation." }
+  { mot: "froissée", definition: "Bent and marked because it has been pressed or folded." },
+  { mot: "par cœur", definition: "Knowing something completely from memory." },
+  { mot: "touchante", definition: "Causing a strong feeling of emotion." },
+  { mot: "au dos", definition: "On the back side of something." },
+  { mot: "voisine", definition: "A woman who lives near someone." },
+  { mot: "audacieuse", definition: "Brave and willing to take risks." },
+  { mot: "hésité", definition: "Taken time before making a choice because you were unsure." },
+  { mot: "dépense", definition: "Money that you use to buy something." },
+  { mot: "ingrédients", definition: "The foods or products used to prepare a dish." },
+  { mot: "transmettre", definition: "To pass something, such as knowledge or memories, to another person." },
+  { mot: "recopier", definition: "To write something again exactly or almost exactly." },
+  { mot: "arrière-grand-mère", definition: "The mother of your grandparent." },
+  { mot: "précaution", definition: "Care taken to avoid damage or danger." },
+  { mot: "humides", definition: "Slightly wet." },
+  { mot: "disparaître", definition: "To stop being visible or to no longer exist." },
+  { mot: "tiroir", definition: "A part of a piece of furniture that slides out and is used to store things." },
+  { mot: "appartenir", definition: "To be someone's property or to be connected to someone." },
+  { mot: "partager", definition: "To give part of something to someone else or use it together." },
+  { mot: "gestes", definition: "Movements made with the hands or body." },
+  { mot: "se remplir", definition: "To become full." }
 ],
-      txt: `La maison aux volets bleus
+      txt: `Le carnet de recettes
 
-Au sommet d'une petite colline, à quelques kilomètres d'un village oublié par le temps, se trouvait une maison aux volets bleus. Elle n'était ni grande ni luxueuse. Son jardin était rempli de fleurs sauvages, un vieux pommier poussait derrière la terrasse et un petit chemin de pierres conduisait jusqu'à une porte en bois qui grinçait à chaque ouverture.
+Quand Nora est rentrée chez sa grand-mère pour les vacances, elle ne pensait pas que quelques vieux papiers allaient changer sa façon de voir sa famille.
 
-Depuis plusieurs années, personne n'y habitait.
+Elle avait vingt-deux ans et vivait depuis plusieurs années dans une grande ville. Elle étudiait à l'université et travaillait quelques heures par semaine dans un café. Sa vie était assez chargée, mais elle aimait cette activité.
 
-Les habitants du village passaient souvent devant cette maison sans vraiment la regarder. Certains disaient qu'elle appartenait autrefois à un écrivain célèbre. D'autres racontaient qu'une vieille femme y avait vécu seule pendant des décennies avant de partir dans une maison de retraite. Personne ne connaissait vraiment la vérité.
+Pendant les vacances d'été, elle avait décidé de passer deux semaines chez sa grand-mère, dans une petite ville à la campagne.
 
-Au printemps, un jeune homme nommé Louis arriva dans le village. Il travaillait comme illustrateur et cherchait un endroit calme pour terminer un livre destiné aux enfants. Après plusieurs mois passés dans une grande ville bruyante, il rêvait de silence, de nature et de journées sans circulation ni immeubles immenses.
+Sa grand-mère, Jeanne, vivait dans la même maison depuis presque cinquante ans.
 
-Lorsqu'il aperçut la maison aux volets bleus, il ressentit immédiatement une étrange impression. Elle semblait l'attendre depuis longtemps.
+La maison était grande, avec un jardin rempli de fleurs. Derrière la maison, il y avait même un petit potager où Jeanne faisait pousser des tomates, des courgettes et des herbes.
 
-Le propriétaire accepta de lui louer la maison pour tout l'été.
+Nora connaissait bien cette maison.
 
-Les premiers jours furent consacrés au nettoyage. Une fine couche de poussière recouvrait presque tous les meubles. Les rideaux avaient perdu leur couleur d'origine et certaines étagères penchaient légèrement sous le poids des vieux livres. Pourtant, tout était encore en bon état. Chaque objet semblait avoir été laissé à sa place avec l'espoir qu'une nouvelle personne viendrait un jour lui redonner vie.
+Elle y venait souvent quand elle était enfant.
 
-Louis découvrit rapidement une bibliothèque impressionnante. Des centaines de livres occupaient les murs du salon. Il y avait des romans, des recueils de poésie, des atlas anciens et même plusieurs carnets soigneusement rangés dans une boîte en bois.
+Pourtant, elle avait l'impression de la redécouvrir maintenant qu'elle était adulte.
 
-Par curiosité, il ouvrit le premier carnet.
+Le premier matin, Jeanne lui a proposé de préparer le déjeuner ensemble.
 
-Il ne contenait ni journal intime ni récit de voyage. Chaque page décrivait une personne différente.
+— Tu veux m'aider ?
 
-« Le facteur qui sifflait toujours en distribuant le courrier. »
+— Bien sûr.
 
-« La petite fille qui rêvait de devenir pilote d'avion. »
+Elles sont entrées dans la cuisine.
 
-« Le boulanger qui offrait un morceau de pain aux enfants chaque matin. »
+Jeanne a ouvert un vieux meuble et a sorti une grande boîte en carton.
 
-Ces textes étaient courts, mais incroyablement précis. En quelques lignes seulement, l'auteur parvenait à rendre chaque personnage vivant. Louis eut l'impression de rencontrer ces inconnus malgré les années qui les séparaient.
+— Tu peux prendre ça ?
 
-Les jours suivants, il continua sa lecture. Chaque soir, il découvrait de nouveaux portraits. Certains faisaient sourire. D'autres étaient plus émouvants. Aucun ne racontait un événement spectaculaire. Pourtant, tous donnaient envie de connaître les personnes décrites.
+Nora a posé la boîte sur la table.
 
-Progressivement, Louis comprit une chose étonnante.
+Elle était pleine de feuilles, de petites cartes et de morceaux de papier.
 
-L'auteur ne s'intéressait pas aux héros célèbres.
+— Qu'est-ce que c'est ?
 
-Il écrivait sur les gens ordinaires.
+Jeanne a souri.
 
-Une institutrice qui encourageait ses élèves.
+— Mes recettes.
 
-Un jardinier passionné.
+Nora a commencé à regarder les papiers.
 
-Une vieille dame qui nourrissait les oiseaux chaque hiver.
+Il y avait des recettes de gâteaux, de soupes, de plats avec des légumes et même quelques recettes écrites dans une autre langue.
 
-Un mécanicien toujours prêt à aider ses voisins.
+Certaines feuilles étaient très anciennes.
 
-Plus Louis avançait dans sa lecture, plus il changeait sa manière d'observer le village.
+L'écriture était parfois difficile à lire.
 
-Auparavant, il traversait les rues sans faire attention aux autres.
+Nora a trouvé cela amusant.
 
-Désormais, il remarquait les détails.
+— Tu as vraiment gardé tout ça ?
 
-Le fleuriste qui saluait chaque client avec le même sourire.
+— Bien sûr. Certaines recettes sont plus importantes que les plats eux-mêmes.
 
-Le chien qui attendait son maître devant la boulangerie tous les matins.
+Nora n'a pas vraiment compris.
 
-Le facteur qui connaissait le prénom de presque tous les habitants.
+Jeanne a choisi une petite feuille.
 
-Le vieil homme qui réparait gratuitement les vélos des enfants.
+Elle était presque complètement froissée.
 
-Ces scènes existaient depuis longtemps.
+— Celle-ci vient de mon père.
 
-Simplement, personne ne semblait plus les regarder.
+Nora a regardé sa grand-mère avec surprise.
 
-Un dimanche matin, Louis décida de prendre son carnet de dessin et de s'installer sur la place principale.
+— Ton père cuisinait ?
 
-Pendant plusieurs heures, il dessina les habitants sans qu'ils s'en aperçoivent. Il ne cherchait pas à réaliser des portraits parfaits. Il voulait capturer une expression, un geste ou une émotion.
+— Très peu. Mais il faisait un gâteau que toute la famille adorait.
 
-À la fin de la journée, il avait rempli plusieurs pages.
+Jeanne lui a raconté que son père préparait ce gâteau seulement quelques fois par an.
 
-En les observant, il réalisa qu'aucun dessin ne montrait quelqu'un d'extraordinaire.
+Il n'utilisait jamais de recette complète.
 
-Pourtant, chacun racontait une histoire.
+Il connaissait les ingrédients par cœur.
 
-Cette découverte transforma complètement son projet.
+Après sa mort, Jeanne avait essayé de refaire le gâteau plusieurs fois.
 
-Au lieu d'écrire un livre imaginaire, il décida de créer un album consacré aux personnes qu'il rencontrait réellement.
+Mais elle n'arrivait jamais à retrouver exactement le même goût.
 
-Chaque chapitre présenterait un habitant du village.
+Nora a trouvé cette histoire touchante.
 
-Le lecteur découvrirait leurs habitudes, leurs rêves, leurs petits gestes de gentillesse et leur manière de voir le monde.
+Elle a demandé si elle pouvait essayer.
 
-Pendant les semaines suivantes, Louis passa beaucoup de temps à marcher.
+Jeanne a accepté.
 
-Il s'arrêtait dans les commerces, discutait avec les habitants et prenait des notes.
+Elles ont passé une partie de l'après-midi dans la cuisine.
 
-Il apprit qu'une fleuriste déposait discrètement un bouquet devant la maison des personnes âgées qui vivaient seules.
+Nora suivait les instructions pendant que Jeanne essayait de se souvenir des détails.
 
-Il découvrit qu'un ancien professeur donnait encore des cours gratuits aux enfants qui avaient des difficultés à l'école.
+— Un peu plus de farine.
 
-Il rencontra un menuisier qui fabriquait chaque année des nichoirs pour les oiseaux sans jamais demander le moindre paiement.
+— Comme ça ?
 
-Peu à peu, Louis comprit que les plus belles histoires étaient souvent invisibles.
+— Non, moins.
 
-Elles ne faisaient jamais la une des journaux.
+— Tu es sûre ?
 
-Personne ne les partageait sur les réseaux sociaux.
+— Absolument pas ! a répondu Jeanne en riant.
 
-Elles existaient simplement dans le quotidien.
+Le gâteau était finalement prêt.
 
-À la fin de l'été, son livre était terminé.
+Elles l'ont goûté ensemble.
 
-Avant de quitter la maison aux volets bleus, il rangea soigneusement les vieux carnets à leur place.
+Il était bon, mais différent du souvenir de Jeanne.
 
-Puis il ajouta le sien.
+— Ce n'est pas exactement le même, a-t-elle dit.
 
-Sur la première page, il écrivit seulement quelques lignes.
+Nora a souri.
 
-« J'étais venu chercher le calme pour dessiner. J'ai trouvé bien davantage. J'ai appris que les vies ordinaires sont souvent extraordinaires lorsqu'on prend enfin le temps de les regarder. »
+— Peut-être que ce n'est pas grave.
 
-Quelques mois plus tard, son livre fut publié.
+Jeanne a réfléchi.
 
-Contrairement à ce qu'il imaginait, les lecteurs ne parlaient presque jamais des illustrations.
+— Peut-être.
 
-Ils écrivaient surtout pour dire qu'après avoir refermé le livre, ils regardaient leur propre quartier autrement.
+Le soir, Nora a continué à regarder les anciennes recettes.
 
-Certains racontaient qu'ils avaient enfin pris le temps de discuter avec un voisin qu'ils croisaient depuis des années.
+Elle a remarqué quelque chose.
 
-D'autres avaient commencé à remercier plus souvent les personnes qui rendaient leur quotidien plus agréable sans recevoir de reconnaissance.
+Sur plusieurs feuilles, il y avait des noms écrits au dos.
 
-Louis comprit alors que son livre n'avait pas seulement raconté des histoires.
+Paul — 1978.
 
-Il avait appris aux lecteurs à ouvrir les yeux.
+Marie — 1986.
 
-Et il pensa avec gratitude à cette vieille maison aux volets bleus qui lui avait rappelé une vérité simple : les plus grands trésors ne sont pas toujours cachés dans des lieux extraordinaires. Ils vivent souvent juste à côté de nous, dans les gestes silencieux des personnes que nous croisons chaque jour sans les remarquer.`
+Lucie — 1992.
+
+Nathalie — 2001.
+
+Nora a demandé à sa grand-mère qui étaient ces personnes.
+
+Jeanne lui a expliqué que certaines recettes venaient de membres de la famille, mais que d'autres avaient été données par des amis.
+
+Chaque recette avait donc une histoire.
+
+Une soupe appartenait à une voisine qui venait souvent prendre le café.
+
+Une recette de pain venait d'un ancien collègue.
+
+Un gâteau avait été préparé pour le mariage d'une cousine.
+
+Une recette de confiture venait d'une femme que Jeanne avait rencontrée pendant un voyage.
+
+Nora a commencé à comprendre ce que sa grand-mère voulait dire.
+
+Ce n'était pas seulement une collection de recettes.
+
+C'était une collection de souvenirs.
+
+Le lendemain, Nora a proposé une idée.
+
+— Et si on faisait toutes les recettes ?
+
+Jeanne a ri.
+
+— Toutes ?
+
+— Oui. Une par jour.
+
+— Il y en a plus de cinquante.
+
+— Alors il nous faudra plus de vacances.
+
+Elles ont commencé par une soupe.
+
+Puis un gâteau.
+
+Puis un plat de légumes.
+
+Chaque fois qu'elles préparaient quelque chose, Jeanne racontait une histoire.
+
+Nora apprenait ainsi des choses qu'elle n'avait jamais entendues auparavant.
+
+Elle a découvert que sa grand-mère avait travaillé dans un hôtel lorsqu'elle était jeune.
+
+Elle a appris qu'elle avait voyagé seule dans un autre pays à vingt-cinq ans.
+
+Elle a découvert aussi que Jeanne avait autrefois voulu ouvrir son propre restaurant.
+
+— Pourquoi tu ne l'as pas fait ?
+
+Jeanne a regardé la fenêtre.
+
+— Parce que j'ai eu peur.
+
+— Peur de quoi ?
+
+— De ne pas réussir.
+
+Nora est restée silencieuse.
+
+Elle ne s'attendait pas à cette réponse.
+
+Sa grand-mère lui semblait toujours très audacieuse.
+
+Elle avait toujours donné l'impression de savoir exactement ce qu'elle voulait.
+
+Mais Nora comprenait maintenant que les adultes avaient aussi leurs peurs.
+
+Quelques jours plus tard, elles ont trouvé une recette sans nom.
+
+Le papier était très ancien.
+
+Il n'y avait qu'une liste d'ingrédients et quelques instructions.
+
+En bas de la page, quelqu'un avait écrit :
+
+« Pour les jours où tout semble difficile. »
+
+Nora a regardé sa grand-mère.
+
+— Tu sais qui a écrit ça ?
+
+Jeanne a secoué la tête.
+
+— Non.
+
+Elles ont décidé de préparer cette recette.
+
+Il s'agissait d'une simple soupe avec des légumes et des herbes.
+
+Pendant qu'elles cuisinaient, Nora a demandé à Jeanne si elle avait déjà eu une période vraiment difficile.
+
+Jeanne a hésité.
+
+Puis elle a raconté une partie de sa vie dont Nora n'avait jamais entendu parler.
+
+Quelques années après son mariage, son mari avait perdu son travail.
+
+Pendant plusieurs mois, leur famille avait eu très peu d'argent.
+
+Ils avaient dû faire attention à chaque dépense.
+
+Jeanne avait alors commencé à préparer cette soupe.
+
+Elle était simple et peu chère.
+
+Mais toute la famille l'aimait.
+
+— C'est pour ça que cette recette est importante, a expliqué Jeanne.
+
+Nora a compris.
+
+La soupe n'était pas spéciale à cause de ses ingrédients.
+
+Elle était spéciale parce qu'elle représentait une période de leur vie.
+
+Le lendemain, Nora a eu une idée.
+
+Elle voulait créer un nouveau carnet.
+
+Elle a acheté un grand cahier et a écrit sur la première page :
+
+« Les recettes de notre famille. »
+
+Elle a commencé à recopier les anciennes recettes.
+
+Mais elle a aussi ajouté une petite partie sous chacune d'elles.
+
+Elle écrivait l'histoire de la personne qui avait donné la recette.
+
+Elle ajoutait parfois une photographie.
+
+Elle notait également les souvenirs de sa grand-mère.
+
+Jeanne l'a aidée.
+
+Elles ont passé plusieurs jours à chercher des informations.
+
+Elles ont appelé des membres de la famille.
+
+Elles ont retrouvé de vieilles photographies.
+
+Elles ont même contacté certaines personnes qui avaient donné des recettes plusieurs années auparavant.
+
+Une femme a répondu au téléphone après quelques minutes de silence.
+
+Quand Nora lui a parlé de la recette, elle a commencé à rire.
+
+Elle se souvenait parfaitement du jour où elle l'avait donnée à Jeanne.
+
+Elle a raconté qu'à cette époque, elle travaillait dans une petite boulangerie.
+
+Elle avait préparé ce gâteau pour l'anniversaire de sa fille.
+
+Nora a écrit toute l'histoire dans le carnet.
+
+Plus les pages se remplissaient, plus le projet devenait important.
+
+À la fin des vacances, le carnet était presque terminé.
+
+Il contenait des recettes, des photographies, des dates et des histoires.
+
+Nora l'a posé devant sa grand-mère.
+
+— Voilà.
+
+Jeanne a ouvert le carnet.
+
+Elle a tourné les pages lentement.
+
+Puis elle s'est arrêtée devant une photographie de ses parents.
+
+Elle n'a rien dit pendant quelques secondes.
+
+Ses yeux étaient humides.
+
+— Tu as gardé toutes ces histoires, a-t-elle dit.
+
+— Non, a répondu Nora. C'est toi qui les as gardées.
+
+Jeanne a souri.
+
+— Alors maintenant, c'est à toi.
+
+Nora a compris ce qu'elle voulait dire.
+
+Pendant longtemps, elle avait pensé que les souvenirs appartenaient au passé.
+
+Elle comprenait maintenant qu'on pouvait les transmettre.
+
+Quelques semaines après son retour en ville, Nora a commencé à écrire régulièrement à sa famille.
+
+Elle demandait des recettes.
+
+Mais surtout, elle demandait les histoires qui se trouvaient derrière.
+
+Son oncle lui a envoyé la recette d'un plat qu'il préparait lorsqu'il était étudiant.
+
+Sa cousine lui a envoyé une recette de biscuits que leur arrière-grand-mère préparait pendant les fêtes.
+
+Même sa mère, qui disait ne jamais avoir le temps de cuisiner, a retrouvé une vieille recette dans un tiroir.
+
+Petit à petit, le carnet est devenu beaucoup plus grand.
+
+Un an plus tard, Nora est retournée chez sa grand-mère.
+
+Elle avait apporté le nouveau carnet.
+
+Il était maintenant rempli de centaines de pages.
+
+Jeanne l'a ouvert avec précaution.
+
+— Tu sais, a-t-elle dit, je pensais que tu venais simplement passer les vacances.
+
+Nora a ri.
+
+— Moi aussi.
+
+Elles sont restées dans la cuisine pendant un long moment.
+
+Puis Jeanne a sorti une nouvelle feuille.
+
+— J'ai trouvé ça hier.
+
+Nora l'a prise.
+
+C'était une recette écrite par son arrière-grand-mère.
+
+En bas de la page, il y avait une phrase :
+
+« Une recette est meilleure quand elle est partagée. »
+
+Nora a souri.
+
+Elle a ajouté la feuille au carnet.
+
+Puis elle a compris que certaines choses ne disparaissaient pas vraiment.
+
+Une voix pouvait rester dans une histoire.
+
+Un souvenir pouvait rester dans une photographie.
+
+Et une personne pouvait continuer à vivre un peu dans les gestes de ceux qui venaient après elle.
+
+Ce jour-là, Nora a décidé de continuer le carnet.
+
+Elle ne savait pas combien de pages il aurait un jour.
+
+Elle savait seulement qu'il y aurait toujours une nouvelle recette, une nouvelle histoire et quelqu'un pour la raconter.`
      },{
       id: 13,
-      date: 6,
+      date: 13,
+      txt: `La dernière place
+
+Chaque matin, Lina prenait le même train pour aller travailler.
+
+Elle habitait dans une petite ville située à une quarantaine de minutes de la grande ville où elle travaillait. Le trajet était devenu une habitude. Elle montait dans le train à sept heures vingt, cherchait une place près de la fenêtre et passait le voyage à écouter de la musique ou à regarder les personnes autour d'elle.
+
+Elle connaissait certains voyageurs sans connaître leur nom.
+
+Il y avait un homme qui lisait toujours le journal, une femme qui travaillait sur son ordinateur et deux étudiants qui discutaient presque chaque matin.
+
+Lina ne leur parlait jamais.
+
+Elle aimait cette distance.
+
+Après une longue journée de travail, elle préférait rester tranquille.
+
+Un mardi matin, pourtant, quelque chose a changé.
+
+Le train était presque plein.
+
+Lina est montée dans le dernier wagon et a regardé autour d'elle.
+
+Il restait une seule place.
+
+Elle s'est approchée, mais au moment où elle allait s'asseoir, un homme âgé est arrivé.
+
+Il tenait une petite valise et semblait chercher une place.
+
+Lina s'est levée.
+
+— Vous pouvez vous asseoir ici.
+
+L'homme a souri.
+
+— Merci. C'est gentil.
+
+Lina est restée debout.
+
+Quelques minutes plus tard, une autre place s'est libérée.
+
+Elle s'est assise en face de lui.
+
+L'homme regardait régulièrement sa montre.
+
+Il semblait un peu inquiet.
+
+Après quelques minutes, il lui a demandé :
+
+— Excusez-moi, vous savez à quelle heure nous arrivons à Saint-Charles ?
+
+Lina lui a répondu.
+
+Ils ont ensuite commencé à parler.
+
+L'homme s'appelait Marcel.
+
+Il avait soixante-dix ans et venait dans la grande ville pour la première fois depuis très longtemps.
+
+— Je n'aime pas beaucoup les grandes villes, a-t-il expliqué.
+
+— Moi non plus, a répondu Lina.
+
+Marcel a ri.
+
+— Alors pourquoi vous y allez tous les jours ?
+
+Lina lui a expliqué qu'elle y travaillait.
+
+Elle lui a aussi raconté qu'elle rêvait depuis quelque temps de changer de métier, mais qu'elle ne savait pas vraiment quoi faire.
+
+Marcel l'a écoutée sans l'interrompre.
+
+Puis il lui a demandé :
+
+— Vous aimez votre travail ?
+
+Lina a réfléchi.
+
+— Pas vraiment.
+
+— Alors pourquoi vous continuez ?
+
+Lina a souri.
+
+— C'est compliqué.
+
+Marcel a regardé par la fenêtre.
+
+— On dit souvent que c'est compliqué quand on a peur de changer quelque chose.
+
+Cette phrase a surpris Lina.
+
+Elle a voulu lui demander ce qu'il voulait dire, mais le train arrivait déjà à la prochaine station.
+
+Marcel a pris sa valise.
+
+Avant de descendre, il lui a donné une petite carte.
+
+— Tenez.
+
+Lina a regardé la carte.
+
+Il y avait seulement un prénom et un numéro de téléphone.
+
+— Pourquoi ?
+
+— Parce que vous m'avez donné votre place. Je vous dois quelque chose.
+
+Puis il est descendu.
+
+Lina a gardé la carte dans son sac.
+
+Elle n'y a plus pensé pendant plusieurs jours.
+
+Une semaine plus tard, elle a reçu un appel.
+
+C'était Marcel.
+
+Il lui a demandé si elle pouvait l'aider.
+
+Il avait oublié un petit sac dans le train et pensait qu'il était peut-être encore dans le wagon.
+
+Lina a promis de regarder.
+
+Le lendemain matin, elle a demandé au personnel de la gare.
+
+Le sac avait été retrouvé.
+
+Elle l'a récupéré et a appelé Marcel.
+
+Ils se sont donné rendez-vous dans un petit café près de la gare.
+
+Marcel était très heureux de retrouver son sac.
+
+— Il n'y avait rien de précieux dedans, a-t-il expliqué. Mais il y avait quelque chose d'important.
+
+Il a ouvert le sac.
+
+À l'intérieur, il y avait plusieurs photographies.
+
+Lina les a regardées.
+
+Elles montraient une petite maison, un jardin et plusieurs personnes.
+
+— C'est ma famille, a expliqué Marcel.
+
+Il a pris une photographie plus ancienne.
+
+On y voyait une jeune femme devant la maison.
+
+— C'est ma sœur.
+
+Lina a remarqué que son visage était triste.
+
+— Elle habite encore ici ?
+
+Marcel a secoué la tête.
+
+— Non.
+
+Il lui a expliqué qu'ils ne s'étaient pas parlé depuis plus de vingt ans.
+
+Ils avaient eu une dispute après la mort de leurs parents.
+
+Au début, ils pensaient qu'ils allaient rapidement se réconcilier.
+
+Mais les années sont passées.
+
+Chacun attendait que l'autre fasse le premier pas.
+
+Et personne ne l'a fait.
+
+Marcel était venu dans cette ville pour essayer de la retrouver.
+
+— Vous pensez qu'elle acceptera de vous voir ?
+
+Il a pris quelques secondes avant de répondre.
+
+— Je ne sais pas.
+
+Lina lui a demandé pourquoi il avait attendu aussi longtemps.
+
+Marcel a regardé les photographies.
+
+— Parce que je pensais avoir encore beaucoup de temps.
+
+Cette phrase est restée dans la tête de Lina pendant toute la journée.
+
+Elle pensait à son propre travail.
+
+À toutes les choses qu'elle voulait faire.
+
+À toutes les décisions qu'elle repoussait.
+
+Le soir, elle est rentrée chez elle et a ouvert son ordinateur.
+
+Elle a commencé à chercher des formations dans un domaine qui l'intéressait depuis plusieurs années.
+
+Elle avait peur.
+
+Elle ne savait pas si elle réussirait.
+
+Mais pour la première fois, elle a fait quelque chose au lieu de simplement y penser.
+
+Quelques jours plus tard, Marcel l'a appelée.
+
+Il avait retrouvé sa sœur.
+
+Elle vivait dans une petite ville à deux heures de là.
+
+Ils avaient parlé au téléphone pendant presque une heure.
+
+Puis ils avaient décidé de se rencontrer.
+
+Lina était heureuse pour lui.
+
+— Vous voyez ? a-t-elle dit. Vous avez réussi.
+
+— Oui, mais j'ai attendu beaucoup trop longtemps.
+
+Lina a souri.
+
+— Peut-être. Mais vous avez quand même commencé.
+
+Après cet appel, Lina a continué ses recherches.
+
+Elle a finalement envoyé une candidature pour une formation.
+
+Elle ne savait pas encore si elle serait acceptée.
+
+Mais cette fois, elle ne voulait pas attendre.
+
+Quelques semaines plus tard, elle a reçu une réponse positive.
+
+Elle allait pouvoir commencer sa formation quelques mois plus tard.
+
+Le même jour, elle a reçu un message de Marcel.
+
+Il lui disait qu'il avait enfin revu sa sœur.
+
+Ils avaient parlé pendant plusieurs heures.
+
+Ils avaient même ri de certaines vieilles histoires de famille.
+
+À la fin du message, Marcel avait écrit :
+
+« Parfois, la vie nous donne une dernière place. Il faut simplement avoir le courage de s'y asseoir. »
+
+Lina a relu le message.
+
+Puis elle a regardé son billet de train.
+
+Elle a souri.
+
+Le lendemain matin, elle est montée dans le même train.
+
+Elle a trouvé sa place habituelle près de la fenêtre.
+
+Mais cette fois, elle n'a pas mis ses écouteurs.
+
+Elle regardait les personnes autour d'elle.
+
+Elle se demandait combien d'entre elles avaient une décision qu'elles repoussaient depuis longtemps.
+
+À la station suivante, une jeune femme est montée.
+
+Elle cherchait une place.
+
+Lina a déplacé son sac.
+
+— Vous pouvez vous asseoir ici.
+
+La jeune femme l'a remerciée.
+
+Lina a regardé par la fenêtre.
+
+Le train a commencé à avancer.
+
+Et pour la première fois depuis longtemps, elle avait l'impression d'aller quelque part, même si elle ne savait pas encore exactement où.`,
+wordef: [
+  { mot: "wagon", definition: "A section of a train where passengers sit." },
+  { mot: "se libérer", definition: "To become available because someone is no longer using a place." },
+  { mot: "se mêler", definition: "To get involved in someone else's situation or business." },
+  { mot: "valise", definition: "A case used for carrying clothes and personal things when travelling." },
+  { mot: "récupérer", definition: "To get something back after losing or leaving it somewhere." },
+  { mot: "sac", definition: "A container used to carry personal things." },
+  { mot: "se réconcilier", definition: "To become friends again after an argument." },
+  { mot: "dispute", definition: "A serious argument between people." },
+  { mot: "repousser", definition: "To delay doing something until later." },
+  { mot: "s'asseoir", definition: "To sit down." },
+  { mot: "faire le premier pas", definition: "To be the first person to take action." },
+  { mot: "avoir peur de", definition: "To feel afraid of something." },
+  { mot: "se débrouiller", definition: "To manage to do something, even when it is difficult." },
+  { mot: "rater", definition: "To fail to catch, reach, or do something." },
+  { mot: "se rendre compte", definition: "To suddenly understand or notice something." },
+  { mot: "longtemps", definition: "For a long period of time." },
+  { mot: "auparavant", definition: "Before the time being discussed." },
+  { mot: "désormais", definition: "From now on; starting from this moment." },
+  { mot: "remarquer", definition: "To notice something." },
+  { mot: "pourtant", definition: "However; despite what was just said." }
+]
       
      },{
       id: 14,
       date: 14,
-      txt: ``
+      txt: `La lumière de la fenêtre
+
+Chaque soir, après son travail, Camille rentrait chez elle par la même rue.
+
+Elle habitait dans un petit appartement au quatrième étage d'un immeuble assez ancien. Son quartier était calme et elle aimait particulièrement le moment où les magasins fermaient et où les rues devenaient plus tranquilles.
+
+Sur le chemin, elle passait toujours devant une grande maison blanche.
+
+La maison était vide depuis plusieurs années.
+
+Les fenêtres étaient fermées, le jardin n'était plus entretenu et la peinture commençait à partir sur certains murs. Pourtant, une chose attirait toujours l'attention de Camille.
+
+Chaque soir, une petite lumière était allumée derrière une fenêtre du deuxième étage.
+
+Au début, elle pensait que quelqu'un vivait encore dans la maison.
+
+Mais un jour, elle a demandé à son voisin.
+
+— Tu sais qui habite dans la maison blanche ?
+
+Il a réfléchi.
+
+— Personne, je crois. Elle est vide depuis longtemps.
+
+Camille a trouvé cela étrange.
+
+Le lendemain soir, la lumière était encore là.
+
+Puis le soir suivant.
+
+Et encore le lendemain.
+
+Elle a commencé à remarquer cette lumière sans même le vouloir.
+
+Quand elle rentrait chez elle, elle levait les yeux vers la fenêtre.
+
+La lumière était toujours allumée.
+
+Un soir de novembre, il pleuvait beaucoup.
+
+Camille marchait rapidement quand elle a vu quelque chose près de la porte de la maison.
+
+Une petite enveloppe était posée sur les marches.
+
+Elle s'est arrêtée.
+
+Son nom était écrit dessus.
+
+Camille.
+
+Elle a regardé autour d'elle.
+
+Personne.
+
+Elle a pris l'enveloppe et l'a ouverte.
+
+À l'intérieur, il y avait une petite feuille.
+
+Une seule phrase était écrite :
+
+« Si vous voyez cette lumière, revenez demain à la même heure. »
+
+Camille a pensé à une plaisanterie.
+
+Elle a presque jeté la feuille.
+
+Mais quelque chose l'a empêchée de le faire.
+
+Le lendemain, elle est revenue.
+
+À dix-neuf heures précises, elle se trouvait devant la maison.
+
+La petite lumière était allumée.
+
+Cette fois, une autre enveloppe était posée sur les marches.
+
+Elle portait encore son prénom.
+
+Camille l'a ouverte.
+
+Le message était plus long.
+
+La personne expliquait qu'elle avait besoin de parler à quelqu'un, mais qu'elle n'arrivait pas à le faire directement.
+
+Elle demandait simplement à Camille de revenir le lendemain.
+
+Camille était perplexe.
+
+Elle ne comprenait pas pourquoi une personne qu'elle ne connaissait pas lui écrivait.
+
+Pourtant, elle est revenue le jour suivant.
+
+Puis le suivant.
+
+Chaque soir, une nouvelle lettre l'attendait.
+
+Au début, les messages étaient très courts.
+
+La personne racontait qu'elle vivait une période difficile.
+
+Elle expliquait qu'elle avait perdu son travail et qu'elle avait aussi quitté sa ville après une séparation.
+
+Elle disait qu'elle ne connaissait presque personne dans le quartier.
+
+Camille a commencé à reconnaître certains détails.
+
+La personne écrivait qu'elle passait beaucoup de temps près de la fenêtre.
+
+Elle regardait les gens rentrer chez eux.
+
+Elle voyait les familles sortir du restaurant.
+
+Elle voyait les enfants rentrer de l'école.
+
+Elle avait l'impression que tout le monde avait une vie normale pendant qu'elle ne savait plus quoi faire de la sienne.
+
+Camille a ressenti quelque chose d'étrange.
+
+Elle comprenait cette sensation.
+
+Quelques années auparavant, elle aussi avait vécu une période où elle avait eu l'impression d'être seule.
+
+Elle a donc commencé à répondre.
+
+Elle ne savait pas qui allait lire ses lettres.
+
+Elle écrivait simplement ce qu'elle pensait.
+
+Elle disait que les mauvaises périodes pouvaient être longues, mais qu'elles ne duraient pas toujours.
+
+Elle expliquait qu'on pouvait recommencer même après avoir fait des erreurs.
+
+Elle racontait aussi de petites choses de sa propre vie.
+
+Un jour, elle a écrit :
+
+« Vous n'avez pas besoin de résoudre toute votre vie aujourd'hui. Commencez seulement par demain. »
+
+Le lendemain, la personne lui a répondu.
+
+Elle disait que cette phrase lui avait fait du bien.
+
+Puis elle a ajouté quelque chose d'étrange :
+
+« Je vous connais mieux que vous ne le pensez. »
+
+Camille a commencé à avoir peur.
+
+Elle a demandé comment cette personne connaissait son prénom.
+
+Aucune réponse.
+
+Le soir suivant, une nouvelle lettre l'attendait.
+
+Cette fois, la personne expliquait qu'elle connaissait Camille parce qu'elle la voyait passer chaque soir devant la maison.
+
+Elle savait qu'elle rentrait toujours vers la même heure.
+
+Elle savait aussi qu'elle regardait parfois la fenêtre.
+
+Camille a trouvé cela inquiétant.
+
+Elle a décidé de ne plus revenir.
+
+Pendant deux jours, elle a pris une autre rue pour rentrer chez elle.
+
+Elle ne voulait plus voir la maison.
+
+Mais le troisième soir, elle a trouvé une enveloppe devant son appartement.
+
+Son cœur s'est mis à battre rapidement.
+
+Elle l'a ouverte.
+
+La personne lui expliquait qu'elle était désolée de lui avoir fait peur.
+
+Elle ne voulait pas lui faire de mal.
+
+Elle voulait seulement remercier Camille parce que ses lettres l'avaient aidée.
+
+Puis elle lui demandait de venir une dernière fois devant la maison.
+
+Camille a hésité longtemps.
+
+Finalement, elle y est allée.
+
+La porte de la maison était ouverte.
+
+Elle est entrée.
+
+À l'intérieur, tout était sombre.
+
+Sur les murs, il y avait de vieilles photographies.
+
+Camille avançait lentement.
+
+Elle a monté les escaliers.
+
+La lumière était toujours allumée au deuxième étage.
+
+Elle a ouvert la porte.
+
+Une femme était assise près de la fenêtre.
+
+Camille l'avait déjà vue.
+
+C'était la femme qui travaillait dans la petite boulangerie du quartier.
+
+Camille achetait parfois son pain chez elle.
+
+La femme s'est levée.
+
+— Je suis désolée, a-t-elle dit.
+
+Camille ne savait pas quoi répondre.
+
+La femme lui a expliqué que la maison appartenait à sa famille.
+
+Elle y avait vécu lorsqu'elle était enfant.
+
+Après la mort de ses parents, elle avait quitté la maison.
+
+Mais après avoir perdu son travail et s'être séparée de son compagnon, elle était revenue ici.
+
+Elle avait passé plusieurs semaines seule dans la maison.
+
+Elle ne voulait parler à personne.
+
+Puis elle avait commencé à voir Camille passer chaque soir.
+
+Elle avait remarqué que Camille s'arrêtait parfois devant les magasins, regardait les lumières des appartements et continuait son chemin.
+
+Elle avait alors eu une idée.
+
+Elle voulait simplement savoir si quelqu'un accepterait de lui parler sans la connaître.
+
+Camille a compris pourquoi elle avait utilisé les lettres.
+
+Elle avait peur de parler directement.
+
+— Pourquoi moi ? a demandé Camille.
+
+La femme a souri.
+
+— Parce que vous aviez l'air de regarder autour de vous.
+
+Camille a ri.
+
+— C'est une drôle de raison.
+
+— Peut-être. Mais parfois, une petite chose suffit.
+
+Elles ont parlé pendant longtemps.
+
+La femme s'appelait Sarah.
+
+Elle avait trente-deux ans.
+
+Elle a expliqué qu'elle voulait retrouver un travail, mais qu'elle ne savait pas par où commencer.
+
+Camille lui a parlé d'une entreprise qui cherchait des employés.
+
+Elle ne savait pas si Sarah serait acceptée, mais elle lui a proposé de l'aider à préparer son dossier.
+
+Les semaines suivantes, elles se sont revues régulièrement.
+
+Sarah a trouvé un travail dans une petite entreprise du quartier.
+
+Elle a commencé à sortir davantage.
+
+Elle a même repris contact avec une amie qu'elle n'avait pas vue depuis plusieurs années.
+
+La maison blanche a aussi changé.
+
+Les fenêtres ont été nettoyées.
+
+Le jardin a retrouvé des fleurs.
+
+La peinture a été réparée.
+
+Et chaque soir, la petite lumière était toujours allumée.
+
+Mais maintenant, Camille savait pourquoi.
+
+Un soir, plusieurs mois plus tard, elle est passée devant la maison.
+
+Sarah était à la fenêtre.
+
+Elle lui a fait un signe de la main.
+
+Camille a souri et a continué son chemin.
+
+Elle a pensé à toutes les personnes qu'elle croisait chaque jour sans vraiment les connaître.
+
+Dans un immeuble, une lumière pouvait être allumée parce qu'une personne travaillait tard.
+
+Dans un autre, quelqu'un pouvait être en train de préparer un dîner pour sa famille.
+
+Et derrière une autre fenêtre, une personne pouvait simplement attendre que quelqu'un lui parle.
+
+Camille a compris qu'on ne savait jamais ce que les autres vivaient.
+
+Une personne pouvait sourire dans la rue et se sentir très seule quelques minutes plus tard.
+
+Une autre pouvait sembler heureuse alors qu'elle avait besoin d'aide.
+
+Depuis ce jour, Camille a commencé à faire plus attention aux personnes autour d'elle.
+
+Elle disait bonjour au voisin qu'elle ne connaissait presque pas.
+
+Elle parlait quelques minutes avec la dame de la boulangerie.
+
+Elle demandait parfois à ses collègues comment ils allaient vraiment.
+
+Ce n'était pas grand-chose.
+
+Mais elle avait compris une chose :
+
+parfois, une petite lumière suffit pour montrer à quelqu'un qu'il n'est pas complètement seul.`,
+wordef: [
+  { mot: "écaillée", definition: "With small pieces of paint coming off." },
+  { mot: "entourait", definition: "Was around something." },
+  { mot: "enveloppe", definition: "A paper cover used for a letter." },
+  { mot: "marches", definition: "The steps leading up to a door or building." },
+  { mot: "plaisanterie", definition: "Something said or done to make people laugh or to joke." },
+  { mot: "empêchée", definition: "Stopped someone from doing something." },
+  { mot: "perplexe", definition: "Confused because you do not understand something." },
+  { mot: "sensation", definition: "A feeling that you experience." },
+  { mot: "durée", definition: "The amount of time that something continues." },
+  { mot: "résoudre", definition: "To find a solution to a problem." },
+  { mot: "inquiétant", definition: "Making you feel worried or afraid." },
+  { mot: "désolée", definition: "Sorry; feeling bad about something you have done." },
+  { mot: "appartenait", definition: "Was owned by someone." },
+  { mot: "compagnon", definition: "A person with whom someone has a romantic relationship." },
+  { mot: "dossier", definition: "A collection of documents prepared for a particular purpose." },
+  { mot: "reprendre contact", definition: "To start communicating with someone again." },
+  { mot: "croiser", definition: "To meet or pass someone while going somewhere." },
+  { mot: "se sentir seul", definition: "To feel that you have nobody close to you." },
+  { mot: "faire attention", definition: "To notice something or be careful about it." },
+  { mot: "complètement", definition: "Totally; entirely." }
+]
      },{
       id: 15,
       date: 15,
-      txt: ``
+      txt: `Le café du matin
+
+Chaque matin, avant d'aller travailler, Julien s'arrêtait dans un petit café près de la gare.
+
+Il commandait toujours la même chose : un café et un croissant.
+
+Le café était petit, mais agréable. Il y avait six tables, quelques plantes près des fenêtres et une vieille horloge au-dessus du comptoir. Le propriétaire connaissait presque tous ses clients.
+
+Julien, lui, ne parlait pas beaucoup.
+
+Il travaillait dans un bureau à quelques rues de là. Il venait au café pour être tranquille avant de commencer sa journée.
+
+Un matin, alors qu'il attendait son café, il a remarqué une femme assise seule près de la fenêtre.
+
+Elle avait devant elle un carnet ouvert, mais elle n'écrivait rien.
+
+Elle regardait simplement les personnes qui entraient et sortaient du café.
+
+Julien ne lui avait jamais parlé.
+
+Pourtant, pendant plusieurs jours, il l'a revue à la même table.
+
+Toujours à huit heures.
+
+Toujours avec le même carnet.
+
+Un vendredi matin, le serveur lui a apporté son café.
+
+— Vous connaissez la dame près de la fenêtre ?
+
+Julien a regardé la femme.
+
+— Non. Pourquoi ?
+
+Le serveur a souri.
+
+— Parce qu'elle vient ici depuis trois semaines et qu'elle ne commande jamais rien.
+
+Julien a été surpris.
+
+— Jamais ?
+
+— Elle demande seulement un verre d'eau.
+
+Julien a trouvé cela étrange, mais il n'a rien dit.
+
+Le lundi suivant, la femme était encore là.
+
+Cette fois, son carnet était fermé.
+
+Elle regardait la pluie tomber derrière la fenêtre.
+
+Julien s'est assis à la table voisine.
+
+Après quelques minutes, il lui a demandé :
+
+— Vous attendez quelqu'un ?
+
+Elle a levé les yeux.
+
+— Non.
+
+Puis elle a souri.
+
+— Je cherche simplement une idée.
+
+Julien a ri.
+
+— Une idée pour quoi ?
+
+Elle lui a expliqué qu'elle voulait écrire un livre.
+
+Elle avait commencé plusieurs fois, mais elle ne savait jamais comment continuer.
+
+— Alors vous venez ici pour chercher l'inspiration ?
+
+— Peut-être.
+
+Julien a trouvé cette réponse amusante.
+
+— Et ça marche ?
+
+Elle a secoué la tête.
+
+— Pas vraiment.
+
+Ils ont commencé à parler.
+
+La femme s'appelait Émilie.
+
+Elle avait travaillé comme journaliste pendant plusieurs années, mais elle avait arrêté son travail pour écrire son propre livre.
+
+Le problème était qu'elle avait beaucoup d'idées, mais aucune histoire complète.
+
+Julien lui a demandé ce qu'elle voulait raconter.
+
+Émilie a réfléchi.
+
+— Une histoire sur les personnes que l'on voit tous les jours sans vraiment les connaître.
+
+Julien a regardé autour de lui.
+
+Il y avait un homme qui lisait son journal.
+
+Une mère préparait le petit déjeuner de son fils.
+
+Un étudiant regardait son téléphone.
+
+Le serveur courait d'une table à l'autre.
+
+— Alors vous avez choisi le bon endroit, a dit Julien.
+
+Émilie a souri.
+
+À partir de ce jour, ils ont commencé à parler régulièrement.
+
+Julien lui racontait parfois des choses sur les clients du café.
+
+Il connaissait certaines de leurs habitudes.
+
+L'homme au journal venait toujours à la même heure.
+
+La mère du petit garçon travaillait dans un hôtel.
+
+L'étudiant préparait un examen depuis plusieurs mois.
+
+Le serveur rêvait d'ouvrir son propre restaurant.
+
+Émilie notait tout dans son carnet.
+
+Elle ne notait pas les noms.
+
+Elle écrivait seulement quelques détails.
+
+Un jour, Julien lui a demandé pourquoi elle faisait cela.
+
+— Parce qu'une personne peut sembler ordinaire, mais avoir une vie très intéressante.
+
+Cette phrase lui est restée dans la tête.
+
+Quelques jours plus tard, Julien est arrivé au café plus tôt que d'habitude.
+
+Il a remarqué que l'homme au journal était assis seul.
+
+Il avait l'air triste.
+
+Julien lui a demandé si tout allait bien.
+
+L'homme a répondu qu'il venait de perdre son frère.
+
+Julien ne savait pas quoi dire.
+
+Il s'est simplement assis quelques minutes avec lui.
+
+Plus tard, il a raconté cette rencontre à Émilie.
+
+Elle n'a rien écrit.
+
+Elle a seulement fermé son carnet.
+
+— Tu vois ? a-t-elle dit. C'est exactement ce que je cherche.
+
+Julien a compris.
+
+Ce n'était pas seulement une histoire qu'elle voulait écrire.
+
+Elle voulait comprendre les gens.
+
+Elle voulait savoir ce qui se cachait derrière les habitudes, les sourires et les silences.
+
+Les semaines ont passé.
+
+Émilie venait toujours au café.
+
+Mais maintenant, elle écrivait beaucoup.
+
+Elle avait enfin trouvé son histoire.
+
+Un matin, elle n'était pas là.
+
+Le lendemain non plus.
+
+Julien a commencé à se demander si elle avait abandonné son projet.
+
+Après une semaine, le serveur lui a donné une enveloppe.
+
+— C'est pour toi.
+
+Julien l'a ouverte.
+
+À l'intérieur, il y avait une lettre.
+
+Émilie expliquait qu'elle avait terminé son premier chapitre.
+
+Elle avait décidé de partir quelques jours dans une autre ville pour écrire tranquillement.
+
+Avant de partir, elle voulait remercier Julien.
+
+Elle disait qu'au début, elle pensait avoir besoin d'un endroit spécial pour trouver une bonne histoire.
+
+Finalement, elle avait compris que les histoires étaient partout.
+
+Il suffisait de regarder.
+
+Quelques mois plus tard, Julien a reçu une nouvelle lettre.
+
+Émilie avait terminé son livre.
+
+Elle lui envoyait un exemplaire.
+
+Sur la première page, elle avait écrit :
+
+« À Julien, qui m'a appris qu'une conversation ordinaire peut parfois changer une histoire. »
+
+Julien a souri.
+
+Il a rangé le livre dans son sac et est allé travailler.
+
+Le lendemain matin, il est retourné au café comme toujours.
+
+Mais quelque chose avait changé.
+
+Il regardait maintenant les personnes autour de lui avec plus d'attention.
+
+Il se demandait ce que vivait l'homme assis près de la porte.
+
+Il se demandait pourquoi la femme au manteau bleu souriait toute seule.
+
+Il se demandait quelle histoire se cachait derrière le silence de l'étudiant.
+
+Puis il a compris quelque chose.
+
+Nous passons chaque jour devant des dizaines de personnes.
+
+Nous connaissons leurs visages.
+
+Nous reconnaissons leurs habitudes.
+
+Mais nous ne savons presque jamais ce qu'elles vivent vraiment.
+
+Et parfois, il suffit d'un simple « bonjour » pour découvrir une histoire que personne ne connaissait.`,
+wordef: [
+  { mot: "comptoir", definition: "The long surface in a café where food and drinks are served." },
+  { mot: "serveur", definition: "A person who brings food and drinks to customers." },
+  { mot: "habitudes", definition: "Things that someone does regularly." },
+  { mot: "rêver de", definition: "To strongly want to do or have something." },
+  { mot: "se cacher", definition: "To be somewhere where you cannot easily be seen." },
+  { mot: "abandonner", definition: "To stop doing something that you started." },
+  { mot: "se rendre compte", definition: "To suddenly understand or realize something." },
+  { mot: "remarquer", definition: "To notice something." },
+  { mot: "se demander", definition: "To wonder about something." },
+  { mot: "derrière", definition: "At the back of something or on the other side of it." },
+  { mot: "silence", definition: "A period when nobody is speaking." },
+  { mot: "s'arrêter", definition: "To stop moving or stop doing something." },
+  { mot: "faire attention", definition: "To watch carefully or notice something." },
+  { mot: "se cacher derrière", definition: "To be hidden behind something." },
+  { mot: "pourtant", definition: "Used to say that something is surprising or different from what was expected." },
+  { mot: "au début", definition: "At the beginning." },
+  { mot: "finalement", definition: "After everything has happened; in the end." },
+  { mot: "partout", definition: "In every place or in many places." },
+  { mot: "se retrouver", definition: "To meet or find yourself in a particular situation or place." },
+  { mot: "ce qui se cache", definition: "Something that is hidden or not immediately visible." }
+]
+
      },{
       id: 16,
       date: 16,
-      txt: "7"
+      txt: `Le dernier bus
+
+Tous les soirs, après son travail, Mehdi prenait le même bus pour rentrer chez lui.
+
+Le trajet durait environ trente minutes. Il connaissait presque chaque arrêt et reconnaissait certains passagers qu'il voyait régulièrement.
+
+Il y avait une femme qui montait toujours avec un grand sac de courses, un étudiant qui lisait pendant tout le trajet et un homme âgé qui s'installait près de la porte.
+
+Mehdi ne parlait presque jamais avec eux.
+
+Il travaillait dans une petite librairie du centre-ville. Il aimait son travail, mais les journées étaient longues. Quand il montait dans le bus, il avait surtout envie de rentrer chez lui.
+
+Un jeudi soir, il pleuvait beaucoup.
+
+Mehdi est monté dans le bus comme d'habitude.
+
+Il restait seulement quelques places.
+
+Il s'est assis près de la fenêtre et a regardé la pluie.
+
+Au bout de quelques minutes, il a remarqué une petite fille assise seule deux rangées devant lui.
+
+Elle avait un manteau jaune et tenait un sac à dos contre elle.
+
+Elle regardait régulièrement par la fenêtre.
+
+Quand le bus est arrivé à son arrêt, elle n'est pas descendue.
+
+Le bus a continué.
+
+Mehdi a commencé à trouver cela étrange.
+
+Quelques minutes plus tard, la petite fille a demandé au conducteur :
+
+— Monsieur, vous allez où maintenant ?
+
+Le conducteur a répondu :
+
+— Jusqu'au dernier arrêt.
+
+La petite fille est devenue silencieuse.
+
+Mehdi a compris qu'elle ne savait probablement pas où descendre.
+
+Il s'est approché doucement.
+
+— Tu cherches quelqu'un ?
+
+La petite fille a hoché la tête.
+
+— Ma mère.
+
+— Elle est dans le bus ?
+
+— Non.
+
+Elle lui a expliqué qu'elle était montée dans le mauvais bus après l'école.
+
+Elle voulait rentrer chez elle, mais elle ne connaissait pas le chemin.
+
+Elle avait un téléphone, mais sa batterie était presque vide.
+
+Mehdi lui a demandé son prénom.
+
+— Inès.
+
+Il lui a demandé où elle habitait.
+
+Elle connaissait seulement le nom de son quartier.
+
+Mehdi a essayé de rester calme.
+
+Il a demandé au conducteur de s'arrêter quelques minutes à la prochaine station afin qu'ils puissent chercher une solution.
+
+Le conducteur a accepté.
+
+Mehdi a utilisé son téléphone pour chercher le quartier d'Inès.
+
+Il a trouvé plusieurs rues portant des noms similaires.
+
+Il ne savait pas laquelle était la bonne.
+
+Inès a alors sorti une feuille de son sac.
+
+C'était un dessin de son école et de sa maison.
+
+Sur le dessin, il y avait une boulangerie avec une grande enseigne rouge.
+
+Mehdi a reconnu le nom.
+
+Il connaissait cette boulangerie.
+
+Elle se trouvait à seulement quelques rues de chez lui.
+
+Il a montré l'adresse au conducteur.
+
+Le bus allait dans la bonne direction.
+
+Quelques minutes plus tard, ils sont descendus.
+
+Mehdi a accompagné Inès jusqu'à la boulangerie.
+
+Une femme attendait devant.
+
+Quand elle a vu sa fille, elle a couru vers elle.
+
+Elle était très inquiète.
+
+Elle a serré Inès dans ses bras et a remercié Mehdi plusieurs fois.
+
+— Je ne sais pas comment vous remercier.
+
+Mehdi a souri.
+
+— Ce n'est rien.
+
+Il a ensuite repris le chemin de son appartement.
+
+Il était tard lorsqu'il est rentré.
+
+Mais cette soirée lui avait laissé une impression étrange.
+
+Il pensait souvent aux personnes qu'il croisait chaque jour sans vraiment les connaître.
+
+Le lendemain, il est monté dans le même bus.
+
+L'homme âgé était là.
+
+La femme avec son grand sac aussi.
+
+L'étudiant lisait toujours son livre.
+
+Mais cette fois, Mehdi leur a dit bonjour.
+
+L'homme âgé lui a répondu avec un sourire.
+
+La femme lui a demandé comment il allait.
+
+L'étudiant a levé les yeux de son livre.
+
+Une petite conversation a commencé.
+
+Elle n'a duré que quelques minutes.
+
+Mais quelque chose avait changé.
+
+Le bus semblait moins silencieux.
+
+Les jours suivants, Mehdi a commencé à parler régulièrement avec les autres passagers.
+
+Il a appris que l'homme âgé s'appelait Robert et qu'il allait chaque matin voir sa femme à l'hôpital.
+
+La femme avec le grand sac s'appelait Nadia. Elle préparait des repas pour ses enfants et travaillait le soir dans un hôtel.
+
+L'étudiant s'appelait Lucas. Il préparait un examen important et lisait dans le bus parce qu'il n'avait pas beaucoup de temps chez lui.
+
+Mehdi avait pris ce bus pendant des mois sans savoir quoi que ce soit sur eux.
+
+Un soir, Robert n'était pas dans le bus.
+
+Le lendemain non plus.
+
+Mehdi a demandé au conducteur s'il savait pourquoi.
+
+Le conducteur lui a expliqué que Robert avait changé son trajet.
+
+Sa femme était sortie de l'hôpital et il n'avait plus besoin de prendre ce bus tous les jours.
+
+Mehdi était heureux pour lui.
+
+Mais il a aussi ressenti un petit manque.
+
+Il avait compris que les personnes que l'on voit chaque jour peuvent devenir importantes sans qu'on s'en rende compte.
+
+Quelques semaines plus tard, une nouvelle passagère est montée dans le bus.
+
+Elle semblait perdue.
+
+Elle regardait plusieurs fois son billet et les panneaux dans la rue.
+
+Mehdi lui a demandé :
+
+— Vous cherchez quelque chose ?
+
+Elle a expliqué qu'elle devait aller à un rendez-vous mais qu'elle ne connaissait pas le quartier.
+
+Mehdi lui a montré où descendre.
+
+Puis il lui a expliqué comment continuer à pied.
+
+La femme l'a remercié.
+
+— Vous travaillez ici ?
+
+Mehdi a ri.
+
+— Non. Je prends simplement ce bus tous les jours.
+
+Elle est descendue.
+
+Mehdi a regardé par la fenêtre.
+
+Il a pensé à Inès.
+
+Il a pensé à Robert, Nadia et Lucas.
+
+Et il a compris qu'un trajet ordinaire pouvait être rempli de petites histoires.
+
+On pouvait monter dans un bus en pensant seulement à sa journée et en descendre avec le sentiment d'avoir rencontré quelqu'un.
+
+Depuis, Mehdi continuait à prendre le même bus.
+
+Il ne connaissait toujours pas le nom de tous les passagers.
+
+Mais il faisait davantage attention à eux.
+
+Il savait maintenant qu'une personne assise en silence pouvait avoir beaucoup de choses dans la tête.
+
+Quelqu'un pouvait être fatigué.
+
+Quelqu'un pouvait être inquiet.
+
+Quelqu'un pouvait attendre une bonne nouvelle.
+
+Et parfois, un simple bonjour pouvait rendre une longue journée un peu plus facile.
+
+Le bus continuait son trajet, arrêt après arrêt.
+
+Les passagers montaient.
+
+Les passagers descendaient.
+
+Certains restaient seulement quelques minutes.
+
+D'autres faisaient tout le trajet.
+
+Mais pour Mehdi, le bus n'était plus seulement un moyen de rentrer chez lui.
+
+C'était devenu un petit endroit où les chemins de plusieurs personnes se rencontraient chaque soir.`,
+wordef: [
+  { mot: "passagers", definition: "People who are travelling in a bus, train, plane, etc." },
+  { mot: "arrêt", definition: "A place where a bus or train stops." },
+  { mot: "hocher la tête", definition: "To move your head up and down to say yes." },
+  { mot: "inquiet", definition: "Worried or nervous because something may be wrong." },
+  { mot: "batterie", definition: "The part of a phone that provides it with power." },
+  { mot: "se rendre", definition: "To go to a particular place." },
+  { mot: "feuille", definition: "A single piece of paper." },
+  { mot: "enseigne", definition: "A sign outside a shop showing its name." },
+  { mot: "serrer dans ses bras", definition: "To hold someone closely with your arms." },
+  { mot: "impression", definition: "A feeling or idea that you have about something." },
+  { mot: "croiser", definition: "To meet or pass someone while going somewhere." },
+  { mot: "s'en rendre compte", definition: "To realize or understand something." },
+  { mot: "manque", definition: "A feeling caused by someone or something no longer being there." },
+  { mot: "trajet", definition: "The journey from one place to another." },
+  { mot: "perdu", definition: "Not knowing where you are or where to go." },
+  { mot: "rendez-vous", definition: "A planned meeting at a particular time and place." },
+  { mot: "davantage", definition: "More; to a greater degree." },
+  { mot: "fatigué", definition: "Needing rest because you have little energy." },
+  { mot: "inquiet", definition: "Feeling worried about someone or something." },
+  { mot: "se rencontrer", definition: "To meet each other." }
+]
      },{
       id: 17,
       date: 17,
-      txt: "7"
+      txt: `La clé dans la boîte aux lettres
+
+Depuis quelques mois, Hugo vivait dans un petit appartement au troisième étage d'un immeuble ancien.
+
+Il avait choisi cet endroit parce qu'il était proche de son travail et assez calme. Chaque matin, il descendait les escaliers, traversait la rue et prenait le métro. Le soir, il rentrait souvent tard.
+
+Il connaissait peu ses voisins.
+
+Il croisait parfois une jeune femme au deuxième étage, un homme qui habitait au quatrième et une vieille dame qui sortait chaque matin avec son petit chien.
+
+Un lundi matin, alors qu'il allait partir travailler, Hugo a trouvé une petite enveloppe dans sa boîte aux lettres.
+
+Il n'y avait pas de nom.
+
+À l'intérieur, il y avait une clé.
+
+Hugo a regardé la clé avec étonnement.
+
+Un petit morceau de papier l'accompagnait :
+
+« Elle ouvre quelque chose qui vous appartient peut-être. »
+
+Hugo n'a rien compris.
+
+Il a pensé à une erreur.
+
+Peut-être que la clé était destinée à un autre appartement.
+
+Il l'a donc gardée dans sa poche et est parti travailler.
+
+Le soir, il a demandé au gardien s'il savait quelque chose.
+
+Le gardien a regardé la clé.
+
+— Non. Je ne reconnais pas cette clé.
+
+— Vous êtes sûr ?
+
+— Oui. Mais je vais regarder si quelqu'un a laissé un message.
+
+Ils ont vérifié les boîtes aux lettres.
+
+Rien.
+
+Hugo a décidé d'attendre.
+
+Le lendemain matin, une deuxième enveloppe était dans sa boîte.
+
+Cette fois, il y avait une phrase :
+
+« Regardez ce que vous ne regardez jamais. »
+
+Hugo a trouvé cela encore plus étrange.
+
+Il a réfléchi pendant quelques minutes.
+
+Puis il a pensé aux endroits qu'il ne regardait jamais dans son immeuble.
+
+Il est descendu au sous-sol.
+
+Il y avait plusieurs petites portes que les habitants utilisaient rarement.
+
+L'une d'elles n'avait pas de serrure normale.
+
+Elle avait une serrure qui ressemblait exactement à celle de la clé.
+
+Hugo a essayé.
+
+La porte s'est ouverte.
+
+Derrière, il y avait une petite pièce remplie de vieux cartons.
+
+Il y avait des meubles cassés, des lampes, des livres et plusieurs objets dont personne ne semblait avoir besoin.
+
+Sur une table, Hugo a trouvé une boîte en bois.
+
+Elle était fermée.
+
+La clé ouvrait la boîte.
+
+À l'intérieur, il y avait des photographies.
+
+Hugo a commencé à les regarder.
+
+Elles représentaient l'immeuble.
+
+Mais les photographies étaient très anciennes.
+
+Sur certaines images, la rue était presque vide.
+
+Sur d'autres, on voyait des enfants jouer devant l'entrée.
+
+Hugo a continué à chercher.
+
+Au fond de la boîte, il a trouvé une lettre.
+
+Elle était adressée à une personne appelée Paul.
+
+La lettre expliquait que Paul avait vécu dans l'immeuble lorsqu'il était enfant.
+
+Il avait quitté la ville plusieurs années auparavant.
+
+Avant de partir, il avait caché cette boîte parce qu'elle contenait les souvenirs de sa famille.
+
+Il avait écrit qu'il reviendrait un jour la chercher.
+
+Mais il ne l'avait jamais fait.
+
+Hugo a trouvé cela triste.
+
+Il s'est demandé pourquoi quelqu'un lui avait donné la clé.
+
+Le soir, il a montré les photographies au gardien.
+
+Le gardien les a reconnues.
+
+— Cette femme, je la connais.
+
+Il a montré une photographie.
+
+— C'est ma mère.
+
+Hugo a été surpris.
+
+Le gardien lui a expliqué que sa mère avait vécu dans l'immeuble lorsqu'elle était jeune.
+
+Elle parlait souvent de cette période.
+
+Elle avait gardé beaucoup de souvenirs, mais elle avait perdu presque toutes ses photographies lors d'un déménagement.
+
+Le gardien a regardé les images pendant plusieurs minutes.
+
+Il semblait très ému.
+
+— Je pensais ne jamais revoir ça.
+
+Hugo lui a donné les photographies.
+
+Mais le gardien a refusé.
+
+— Non. Gardez-les. Je crois qu'elles doivent rester ici.
+
+Hugo ne comprenait pas.
+
+— Pourquoi ?
+
+Le gardien a expliqué qu'il avait une idée.
+
+Il voulait créer un petit espace dans l'entrée de l'immeuble avec des photographies anciennes.
+
+Chaque habitant pourrait apporter une image ou une histoire.
+
+Hugo a trouvé l'idée intéressante.
+
+Le week-end suivant, ils ont commencé.
+
+Ils ont nettoyé un vieux mur près des boîtes aux lettres.
+
+Puis ils ont installé les premières photographies.
+
+Au début, personne ne faisait vraiment attention.
+
+Mais quelques jours plus tard, une voisine a apporté une vieille photo de son mariage.
+
+Un autre habitant a apporté une image de l'immeuble prise trente ans auparavant.
+
+Puis une famille a apporté une photographie de ses enfants lorsqu'ils étaient petits.
+
+Petit à petit, le mur s'est rempli.
+
+Les habitants ont commencé à parler entre eux.
+
+Certains vivaient dans l'immeuble depuis vingt ans mais ne s'étaient jamais vraiment parlé.
+
+Une femme a découvert qu'elle avait été dans la même école que son voisin.
+
+Un homme a appris que son appartement avait autrefois appartenu à la famille d'un autre habitant.
+
+Les photographies faisaient naître des conversations.
+
+Un soir, Hugo a trouvé une nouvelle enveloppe dans sa boîte aux lettres.
+
+Cette fois, il y avait un message plus long.
+
+La personne expliquait qu'elle était la petite-fille de Paul.
+
+Elle avait découvert que son grand-père avait autrefois caché la boîte dans l'immeuble.
+
+Elle avait retrouvé l'adresse mais ne savait pas comment récupérer les souvenirs.
+
+Elle avait donc décidé de laisser la clé dans la boîte aux lettres de quelqu'un choisi au hasard.
+
+Elle ne savait pas qui la trouverait.
+
+Elle espérait seulement que cette personne ouvrirait la porte.
+
+Hugo a souri.
+
+Il a compris que la clé n'était pas vraiment destinée à lui.
+
+Elle était destinée à quelqu'un qui prendrait le temps de chercher.
+
+Quelques semaines plus tard, la petite-fille de Paul est venue dans l'immeuble.
+
+Elle a regardé le mur rempli de photographies.
+
+Puis elle a reconnu plusieurs images de son grand-père.
+
+Elle a remercié Hugo.
+
+— Je pensais seulement récupérer une boîte.
+
+Hugo a souri.
+
+— Vous avez retrouvé beaucoup plus que ça.
+
+Elle a regardé autour d'elle.
+
+Les habitants discutaient dans l'entrée.
+
+Deux enfants regardaient les anciennes photographies.
+
+Le gardien racontait une histoire à une voisine.
+
+Elle a compris.
+
+La boîte avait gardé des souvenirs.
+
+Mais la clé avait permis de créer quelque chose de nouveau.
+
+Depuis ce jour, les habitants ont continué à ajouter des photographies.
+
+Le mur a changé plusieurs fois.
+
+De nouvelles histoires sont apparues.
+
+Certaines personnes ont même commencé à se retrouver dans l'entrée le dimanche après-midi pour boire un café ensemble.
+
+Hugo, lui, continuait à passer devant le mur chaque matin.
+
+Il regardait parfois les photographies avant de partir travailler.
+
+Il pensait à la petite clé.
+
+Au début, il avait cru qu'elle ouvrait seulement une vieille boîte.
+
+Il avait finalement compris qu'elle avait ouvert quelque chose de beaucoup plus important :
+
+la possibilité pour des inconnus de devenir un peu moins étrangers les uns aux autres.`,
+wordef: [
+  { mot: "boîte aux lettres", definition: "A box where letters and other mail are delivered." },
+  { mot: "enveloppe", definition: "A paper cover used to send a letter." },
+  { mot: "destinée à", definition: "Meant for a particular person or purpose." },
+  { mot: "gardien", definition: "A person who takes care of a building." },
+  { mot: "sous-sol", definition: "A part of a building below the ground floor." },
+  { mot: "serrure", definition: "A mechanism used to close and secure a door." },
+  { mot: "cartons", definition: "Containers made of thick paper, often used to store things." },
+  { mot: "caché", definition: "Put somewhere so that it cannot easily be seen." },
+  { mot: "souvenirs", definition: "Things that help you remember people or moments from the past." },
+  { mot: "déménagement", definition: "The act of leaving one home and moving to another." },
+  { mot: "émue", definition: "Strongly affected by a feeling, often making you want to cry." },
+  { mot: "faire attention", definition: "To notice something carefully." },
+  { mot: "faire naître", definition: "To cause something to begin or appear." },
+  { mot: "au hasard", definition: "Without choosing according to a particular plan." },
+  { mot: "récupérer", definition: "To get something back." },
+  { mot: "reconnaître", definition: "To know who or what something is because you have seen it before." },
+  { mot: "étranger", definition: "Someone who is not known or familiar to you." },
+  { mot: "appartenir", definition: "To be owned by someone." },
+  { mot: "autrefois", definition: "A long time ago; in the past." },
+  { mot: "pourtant", definition: "Used when something is different from what you might expect." }
+]
      },{
       id: 18,
       date: 18,
-      txt: "7"
+      txt: ``
     },{
       id: 19,
       date: 19,
