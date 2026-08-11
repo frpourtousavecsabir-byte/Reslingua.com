@@ -1520,7 +1520,7 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
       date: 20,
       txt: "7"
      },{
-      id: 21,
+       id: 21,
       date: 6,
       txt: "7"
      },{
@@ -1529,8 +1529,14 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
         txt: "7"
       }
    ]
-  
    
+   const header = document.querySelector('.js-header');
+   const header2 = document.querySelector('.js-header2');
+   const main = document.querySelector('.js-main');
+   
+   
+   
+
    const name = localStorage.getItem('name');
    const progress = document.getElementById('progress');
    const start = document.getElementById('start');
@@ -1621,6 +1627,7 @@ localStorage.setItem('prg2', start.className);
 
 
 let interval;
+
 min.textContent = sessionStorage.getItem('mn');
 second.textContent = sessionStorage.getItem('scn');
 progress.value = sessionStorage.getItem('prog') ;
@@ -1643,15 +1650,23 @@ if (sessionStorage.getItem('start-text')) {
   start.classList.add('start-button');
 }
     
+    
     start.addEventListener('click', () => {
 
      if (start.textContent === 'Start') {
+       main.classList.add('main-after');
+       header.classList.add('header-after');
+       header2.classList.add('header2-after');
        start.classList.remove('start-button');
        start.textContent = 'Stop';
        start.classList.add('inProgress');
        apdate();
       } 
      else   {
+       
+      main.classList.remove('main-after');
+       header.classList.remove('header-after');
+       header2.classList.remove('header2-after');
         start.textContent = 'Start';
         start.classList.remove('inProgress');
         start.classList.add('start-button');
@@ -1659,6 +1674,9 @@ if (sessionStorage.getItem('start-text')) {
       } 
       sessionStorage.setItem('start', start.className);
       sessionStorage.setItem('start-text', start.textContent);
+      sessionStorage.setItem('header', header.className);
+      sessionStorage.setItem('header2', header2.textContent);
+      sessionStorage.setItem('main-after', main.textContent);
     });
       
     if(start.textContent === 'Stop') {
