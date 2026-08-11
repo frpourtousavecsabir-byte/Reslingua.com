@@ -3676,7 +3676,7 @@ wordef: [
      wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
      wrd.className = 'wrd';
 
-     croix.textContent = '🗴';
+     croix.textContent = '𝘹';
      croix.className = 'croix';
      
      def.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].definition}`;
@@ -3691,7 +3691,7 @@ wordef: [
      synonyme.textContent = `Synonyme: ${textes[deviceDate.getDate()].wordef[ind].synonyme}`;
      synonyme.className = 'synonyme';
 
-     ajouter.textContent = '🩷 Add to my word list';
+     ajouter.textContent = '❤️ Add to my word list';
      ajouter.className = 'ajouter';
 
      
