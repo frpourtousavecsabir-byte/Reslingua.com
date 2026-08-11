@@ -1684,3 +1684,8 @@ Mais il était convaincu d'une chose : un livre ne choisit peut-être pas son le
     nadirah.textContent =  prenom + rest;
     }
    afficher();
+
+
+   function profileLink() {
+  window.location.href = 'https://preply.com/fr/tuteur/6178301'
+}
