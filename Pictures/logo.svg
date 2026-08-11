@@ -1,0 +1,25 @@
+<svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="or" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#8A6A22"/>
+      <stop offset="35%"  stop-color="#E1BA66"/>
+      <stop offset="60%"  stop-color="#F8EDC6"/>
+      <stop offset="100%" stop-color="#755717"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fond -->
+  <rect x="0" y="0" width="300" height="300" fill="transparent"/>
+
+  <!-- losange extérieur, contour plein -->
+  <rect x="70" y="70" width="160" height="160"
+        transform="rotate(45 150 150)"
+        fill="none" stroke="url(#or)" stroke-width="30"/>
+
+  <!-- losange intérieur, en tirets -->
+  <rect x="115" y="115" width="70" height="70"
+        transform="rotate(45 150 150)"
+        fill="none" stroke="url(#or)" stroke-width="26"
+        stroke-dasharray="8 6"/>
+
+</svg>
