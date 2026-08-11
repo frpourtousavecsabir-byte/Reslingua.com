@@ -812,27 +812,109 @@ En rentrant chez lui ce soir-là, Julien ouvrit une nouvelle page de son carnet 
      },{
       id: 10,
       date: 10,
-       wordef: [
-  { mot: "défiler", definition: "To pass by, especially one after another." },
-  { mot: "inhabituel", definition: "Unusual; not normal or common." },
-  { mot: "hésiter", definition: "To be unsure about what to do or say." },
-  { mot: "proposition", definition: "An offer or suggestion." },
-  { mot: "survivras", definition: "You will manage to continue despite a difficult situation." },
-  { mot: "abandonner", definition: "To stop doing something or give it up." },
-  { mot: "projets", definition: "Plans or things you want to do in the future." },
-  { mot: "enveloppe", definition: "A paper cover used for a letter." },
-  { mot: "oser", definition: "To have enough courage to do something." },
-  { mot: "responsable", definition: "A person who manages or supervises something." },
-  { mot: "demande", definition: "A request for something." },
-  { mot: "poste", definition: "A job or position in a company." },
-  { mot: "obtenir", definition: "To succeed in getting something." },
-  { mot: "possibilités", definition: "Things that may happen or choices that are available." },
-  { mot: "rencontre", definition: "An occasion when you meet someone." },
-  { mot: "déterminante", definition: "Very important in causing a particular result." },
-  { mot: "direction", definition: "The path or way that someone chooses to follow." },
-  { mot: "décision", definition: "A choice made after thinking about something." },
-  { mot: "premier pas", definition: "The first action taken toward achieving something." },
-  { mot: "oser faire", definition: "To have the courage to do something." }
+      wordef: [
+  { 
+    mot: "écaillée", 
+    definition: "With small pieces of paint coming off.",
+    contextExample: "La peinture de la vieille porte est écaillée.",
+    
+  },
+  { 
+    mot: "au hasard", 
+    definition: "Without choosing something specific.",
+    contextExample: "J'ai choisi un livre au hasard."
+  },
+  { 
+    mot: "défiler", 
+    definition: "To pass by one after another.",
+    contextExample: "Les voitures défilent dans la rue.",
+    synonyme: "Nostalgie"
+  },
+  { 
+    mot: "cahiers", 
+    definition: "Notebooks used for writing.",
+    contextExample: "Les élèves écrivent dans leurs cahiers."
+  },
+  { 
+    mot: "ému", 
+    definition: "Feeling a strong emotion.",
+    contextExample: "Il était très ému en lisant la lettre."
+  },
+  { 
+    mot: "souvenirs", 
+    definition: "Things that you remember from the past.",
+    contextExample: "Cette photo me rappelle de bons souvenirs."
+  },
+  { 
+    mot: "reprendre confiance", 
+    definition: "To start believing in yourself again.",
+    contextExample: "Après quelques réussites, elle a repris confiance."
+  },
+  { 
+    mot: "nostalgique", 
+    definition: "Feeling emotional when thinking about the past.",
+    contextExample: "Il devient nostalgique quand il pense à son enfance."
+  },
+  { 
+    mot: "faire attention", 
+    definition: "To be careful or to notice something.",
+    contextExample: "Il faut faire attention en traversant la rue."
+  },
+  { 
+    mot: "faire une erreur", 
+    definition: "To do something wrong or make a mistake.",
+    contextExample: "Tout le monde peut faire une erreur."
+  },
+  { 
+    mot: "économiser", 
+    definition: "To save money instead of spending it.",
+    contextExample: "J'essaie d'économiser pour acheter une voiture."
+  },
+  { 
+    mot: "déménager", 
+    definition: "To move to a different home.",
+    contextExample: "Ma famille va déménager dans une nouvelle maison."
+  },
+  { 
+    mot: "à distance", 
+    definition: "From another place, without being physically present.",
+    contextExample: "Elle travaille à distance depuis sa maison."
+  },
+  { 
+    mot: "transmettre", 
+    definition: "To pass an idea, message, or knowledge to someone.",
+    contextExample: "Les parents transmettent leurs valeurs à leurs enfants."
+  },
+  { 
+    mot: "laisser quelques mots", 
+    definition: "To write a short message before leaving.",
+    contextExample: "Avant de partir, il a laissé quelques mots sur la table."
+  },
+  { 
+    mot: "ralentir", 
+    definition: "To become slower or make something slower.",
+    contextExample: "La voiture doit ralentir près de l'école."
+  },
+  { 
+    mot: "avoir besoin de", 
+    definition: "To need something.",
+    contextExample: "J'ai besoin de plus de temps."
+  },
+  { 
+    mot: "reprendre", 
+    definition: "To start doing something again.",
+    contextExample: "Après une pause, il reprend son travail."
+  },
+  { 
+    mot: "faire partie de", 
+    definition: "To be included in something.",
+    contextExample: "Elle fait partie de notre équipe."
+  },
+  { 
+    mot: "au loin", 
+    definition: "Far away, at a distance.",
+    contextExample: "On voit la mer au loin."
+  }
 ],
       txt: `Le jour où tout a changé
 
@@ -1139,26 +1221,126 @@ oser faire le premier pas.`
       id: 11,
       date: 11,
      wordef: [
-  { mot: "écaillée", definition: "With small pieces of paint coming off." },
-  { mot: "au hasard", definition: "Without choosing something specific." },
-  { mot: "défiler", definition: "To pass by one after another." },
-  { mot: "cahiers", definition: "Notebooks used for writing." },
-  { mot: "ému", definition: "Feeling a strong emotion." },
-  { mot: "souvenirs", definition: "Things that you remember from the past." },
-  { mot: "reprendre confiance", definition: "To start believing in yourself again." },
-  { mot: "nostalgique", definition: "Feeling emotional when thinking about the past." },
-  { mot: "faire attention", definition: "To be careful or to notice something." },
-  { mot: "faire une erreur", definition: "To do something wrong or make a mistake." },
-  { mot: "économiser", definition: "To save money instead of spending it." },
-  { mot: "déménager", definition: "To move to a different home." },
-  { mot: "à distance", definition: "From another place, without being physically present." },
-  { mot: "transmettre", definition: "To pass an idea, message, or knowledge to someone." },
-  { mot: "laisser quelques mots", definition: "To write a short message before leaving." },
-  { mot: "ralentir", definition: "To become slower or make something slower." },
-  { mot: "avoir besoin de", definition: "To need something." },
-  { mot: "reprendre", definition: "To start doing something again." },
-  { mot: "faire partie de", definition: "To be included in something." },
-  { mot: "au loin", definition: "Far away, at a distance." }
+  {
+    mot: "écaillée",
+    definition: "With small pieces of paint coming off.",
+    synonyme: "abîmée",
+    contextExample: "La peinture du mur est écaillée."
+  },
+  {
+    mot: "au hasard",
+    definition: "Without choosing something specific.",
+    synonyme: "sans choisir",
+    contextExample: "J'ai choisi un livre au hasard."
+  },
+  {
+    mot: "défiler",
+    definition: "To pass by one after another.",
+    synonyme: "passer",
+    contextExample: "Les voitures défilent dans la rue."
+  },
+  {
+    mot: "cahiers",
+    definition: "Notebooks used for writing.",
+    synonyme: "carnets",
+    contextExample: "J'ai trois cahiers dans mon sac."
+  },
+  {
+    mot: "ému",
+    definition: "Feeling a strong emotion.",
+    synonyme: "touché",
+    contextExample: "Il est ému par cette histoire."
+  },
+  {
+    mot: "souvenirs",
+    definition: "Things that you remember from the past.",
+    synonyme: "mémoire",
+    contextExample: "J'ai de bons souvenirs de mon enfance."
+  },
+  {
+    mot: "reprendre confiance",
+    definition: "To start believing in yourself again.",
+    synonyme: "croire en soi",
+    contextExample: "Après son succès, il reprend confiance."
+  },
+  {
+    mot: "nostalgique",
+    definition: "Feeling emotional when thinking about the past.",
+    synonyme: "triste du passé",
+    contextExample: "Je suis nostalgique quand je regarde ces photos."
+  },
+  {
+    mot: "faire attention",
+    definition: "To be careful or to notice something.",
+    synonyme: "être prudent",
+    contextExample: "Fais attention en traversant la rue."
+  },
+  {
+    mot: "faire une erreur",
+    definition: "To do something wrong or make a mistake.",
+    synonyme: "se tromper",
+    contextExample: "J'ai fait une erreur dans mon exercice."
+  },
+  {
+    mot: "économiser",
+    definition: "To save money instead of spending it.",
+    synonyme: "mettre de côté",
+    contextExample: "J'économise pour acheter un vélo."
+  },
+  {
+    mot: "déménager",
+    definition: "To move to a different home.",
+    synonyme: "changer de maison",
+    contextExample: "Nous allons déménager le mois prochain."
+  },
+  {
+    mot: "à distance",
+    definition: "From another place, without being physically present.",
+    synonyme: "de loin",
+    contextExample: "Je travaille à distance aujourd'hui."
+  },
+  {
+    mot: "transmettre",
+    definition: "To pass an idea, message, or knowledge to someone.",
+    synonyme: "donner",
+    contextExample: "Le professeur transmet ses connaissances aux élèves."
+  },
+  {
+    mot: "laisser quelques mots",
+    definition: "To write a short message before leaving.",
+    synonyme: "écrire un petit message",
+    contextExample: "Il a laissé quelques mots sur la table."
+  },
+  {
+    mot: "ralentir",
+    definition: "To become slower or make something slower.",
+    synonyme: "aller moins vite",
+    contextExample: "La voiture doit ralentir."
+  },
+  {
+    mot: "avoir besoin de",
+    definition: "To need something.",
+    synonyme: "nécessiter",
+    contextExample: "J'ai besoin d'un stylo."
+  },
+  {
+    mot: "reprendre",
+    definition: "To start doing something again.",
+    synonyme: "recommencer",
+    contextExample: "Je vais reprendre le travail demain."
+  },
+  {
+    mot: "faire partie de",
+    definition: "To be included in something.",
+    synonyme: "être dans",
+    contextExample: "Je fais partie de cette équipe."
+  },
+  {
+    mot: "au loin",
+    definition: "Far away, at a distance.",
+    synonyme: "loin",
+    contextExample: "Je vois une montagne au loin."
+  }
 ],
       txt: `La petite maison près de la mer
 
@@ -1427,26 +1609,126 @@ Et parfois, c'est tout ce dont une personne a besoin pour trouver une nouvelle d
       id: 12,
       date: 12,
       wordef: [
-  { mot: "froissée", definition: "Bent and marked because it has been pressed or folded." },
-  { mot: "par cœur", definition: "Knowing something completely from memory." },
-  { mot: "touchante", definition: "Causing a strong feeling of emotion." },
-  { mot: "au dos", definition: "On the back side of something." },
-  { mot: "voisine", definition: "A woman who lives near someone." },
-  { mot: "audacieuse", definition: "Brave and willing to take risks." },
-  { mot: "hésité", definition: "Taken time before making a choice because you were unsure." },
-  { mot: "dépense", definition: "Money that you use to buy something." },
-  { mot: "ingrédients", definition: "The foods or products used to prepare a dish." },
-  { mot: "transmettre", definition: "To pass something, such as knowledge or memories, to another person." },
-  { mot: "recopier", definition: "To write something again exactly or almost exactly." },
-  { mot: "arrière-grand-mère", definition: "The mother of your grandparent." },
-  { mot: "précaution", definition: "Care taken to avoid damage or danger." },
-  { mot: "humides", definition: "Slightly wet." },
-  { mot: "disparaître", definition: "To stop being visible or to no longer exist." },
-  { mot: "tiroir", definition: "A part of a piece of furniture that slides out and is used to store things." },
-  { mot: "appartenir", definition: "To be someone's property or to be connected to someone." },
-  { mot: "partager", definition: "To give part of something to someone else or use it together." },
-  { mot: "gestes", definition: "Movements made with the hands or body." },
-  { mot: "se remplir", definition: "To become full." }
+  {
+    mot: "froissée",
+    definition: "Bent and marked because it has been pressed or folded.",
+    synonyme: "plissée",
+    contextExample: "La feuille est froissée."
+  },
+  {
+    mot: "par cœur",
+    definition: "Knowing something completely from memory.",
+    synonyme: "de mémoire",
+    contextExample: "Je connais cette chanson par cœur."
+  },
+  {
+    mot: "touchante",
+    definition: "Causing a strong feeling of emotion.",
+    synonyme: "émouvante",
+    contextExample: "Cette histoire est très touchante."
+  },
+  {
+    mot: "au dos",
+    definition: "On the back side of something.",
+    synonyme: "derrière",
+    contextExample: "Il y a une photo au dos de la feuille."
+  },
+  {
+    mot: "voisine",
+    definition: "A woman who lives near someone.",
+    synonyme: "femme d'à côté",
+    contextExample: "Ma voisine habite à côté de chez moi."
+  },
+  {
+    mot: "audacieuse",
+    definition: "Brave and willing to take risks.",
+    synonyme: "courageuse",
+    contextExample: "Elle est audacieuse et n'a pas peur."
+  },
+  {
+    mot: "hésité",
+    definition: "Taken time before making a choice because you were unsure.",
+    synonyme: "douté",
+    contextExample: "J'ai hésité avant de répondre."
+  },
+  {
+    mot: "dépense",
+    definition: "Money that you use to buy something.",
+    synonyme: "achat",
+    contextExample: "Cette dépense coûte cher."
+  },
+  {
+    mot: "ingrédients",
+    definition: "The foods or products used to prepare a dish.",
+    synonyme: "produits",
+    contextExample: "Il faut cinq ingrédients pour faire ce gâteau."
+  },
+  {
+    mot: "transmettre",
+    definition: "To pass something, such as knowledge or memories, to another person.",
+    synonyme: "donner",
+    contextExample: "Le professeur transmet ses connaissances aux élèves."
+  },
+  {
+    mot: "recopier",
+    definition: "To write something again exactly or almost exactly.",
+    synonyme: "réécrire",
+    contextExample: "Je dois recopier le texte."
+  },
+  {
+    mot: "arrière-grand-mère",
+    definition: "The mother of your grandparent.",
+    synonyme: "ancêtre",
+    contextExample: "Mon arrière-grand-mère a 90 ans."
+  },
+  {
+    mot: "précaution",
+    definition: "Care taken to avoid damage or danger.",
+    synonyme: "attention",
+    contextExample: "Par précaution, je ferme la porte."
+  },
+  {
+    mot: "humides",
+    definition: "Slightly wet.",
+    synonyme: "mouillés",
+    contextExample: "Mes vêtements sont encore humides."
+  },
+  {
+    mot: "disparaître",
+    definition: "To stop being visible or to no longer exist.",
+    synonyme: "ne plus être là",
+    contextExample: "Le soleil va disparaître derrière les nuages."
+  },
+  {
+    mot: "tiroir",
+    definition: "A part of a piece of furniture that slides out and is used to store things.",
+    synonyme: "rangement",
+    contextExample: "Les clés sont dans le tiroir."
+  },
+  {
+    mot: "appartenir",
+    definition: "To be someone's property or to be connected to someone.",
+    synonyme: "être à",
+    contextExample: "Ce livre appartient à Paul."
+  },
+  {
+    mot: "partager",
+    definition: "To give part of something to someone else or use it together.",
+    synonyme: "donner une partie",
+    contextExample: "Je partage mon gâteau avec mon frère."
+  },
+  {
+    mot: "gestes",
+    definition: "Movements made with the hands or body.",
+    synonyme: "mouvements",
+    contextExample: "Il fait des gestes avec ses mains."
+  },
+  {
+    mot: "se remplir",
+    definition: "To become full.",
+    synonyme: "devenir plein",
+    contextExample: "Le verre se remplit d'eau."
+  }
 ],
       txt: `Le carnet de recettes
 
@@ -3309,6 +3591,7 @@ wordef: [
    const main = document.querySelector('.js-main');
    
    const footer = document.querySelector('.js-footer');
+
    
    
    
@@ -3338,6 +3621,7 @@ wordef: [
             start.textContent = 'Start';
              start.classList.remove('inProgress');
             start.classList.add('start-button');
+            
            
             if ( start.textContent = 'Start') {
             main.classList.remove('main-after');
@@ -3345,6 +3629,7 @@ wordef: [
             header2.classList.remove('header2-after');
 
             footer.classList.remove('footer-after');
+
 }
             
             
@@ -3369,38 +3654,70 @@ wordef: [
         });
       }
       
+
+      const wrd = document.createElement('p');
       const croixDef =  document.createElement('div');
-      const croix =  document.createElement('div');
-      const def = document.createElement('div');
+      const croix =  document.createElement('button');
+      const def = document.createElement('p');
+      const context = document.createElement('p');
+      const contextExample = document.createElement('p');
+      const synonyme = document.createElement('p');
+      const ajouter = document.createElement('p');
+
+      const defX = document.createElement('div');
    function meaning(ind) {
-     croixDef.className = 'croixDef';
+     if(start.textContent === 'Start') {
+      croixDef.className = 'croixDef';
+ }  else {
+  croixDef.className = 'croixDef-after';
+ }
+     defX.className = 'defX';
+
+     wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
+     wrd.className = 'wrd';
+
      croix.textContent = '🗴';
      croix.className = 'croix';
+     
      def.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].definition}`;
      def.className = 'def';
+
+     context.textContent = 'CONTEXT';
+     context.className = 'context';
+
+     contextExample.textContent = `${textes[deviceDate.getDate()].wordef[ind].contextExample}`;
+     contextExample.className = 'contextExample';
+
+     synonyme.textContent = `Synonyme: ${textes[deviceDate.getDate()].wordef[ind].synonyme}`;
+     synonyme.className = 'synonyme';
+
+     ajouter.textContent = '🩷 Add to my word list';
+     ajouter.className = 'ajouter';
+
      
-      
-  
-
-
+     
+     
      
      croix.addEventListener('click', function() {
        if(croix) {
-          def.innerHTML = ``;
-          def.className = '';
-          croix.textContent = '';
-          croixDef.className = '';
-      } 
-    })
-   setTimeout(function() {
-      def.innerHTML = ``;
-    def.className = '';
-    croix.textContent = '';
-    croixDef.className = '';
-  }, 8000) 
-  
-  croixDef.appendChild(croix);
+         croixDef.textContent = '';
+         croixDef.className = '';
+        } 
+      })
+      
+      
+       
+
+  croixDef.appendChild(defX);
+  defX.appendChild(wrd);
+  defX.appendChild(croix);
   croixDef.appendChild(def);
+  croixDef.appendChild(context);
+  croixDef.appendChild(contextExample);
+  croixDef.appendChild(synonyme);
+  croixDef.appendChild(ajouter);
+  
+
   contDef.appendChild(croixDef);
   
   
@@ -3439,10 +3756,15 @@ if (sessionStorage.getItem('start-text')) {
   main.className = sessionStorage.getItem('main-after');
 
   footer.className = sessionStorage.getItem('footer-after');
+
+  croixDef.className = sessionStorage.getItem('croixDef-after');
       
 } else {
   start.textContent = 'Start';
   start.classList.add('start-button');
+
+
+  
 }
 
 
@@ -3450,6 +3772,10 @@ if (sessionStorage.getItem('start-text')) {
     
     start.addEventListener('click', () => {
 
+      if (start.textContent === 'Stop') {
+        croixDef.classList.remove('croixDef-after');
+          croixDef.classList.add('croixDef');
+      }
      if (start.textContent === 'Start') {
 
        main.classList.add('main-after');
@@ -3457,6 +3783,12 @@ if (sessionStorage.getItem('start-text')) {
        header2.classList.add('header2-after');
 
         footer.classList.add('footer-after');
+
+        if(croixDef.classList.contains('croixDef')) {
+          croixDef.classList.add('croixDef-after');
+        } 
+        
+        
 
        start.classList.remove('start-button');
        start.textContent = 'Stop';
@@ -3468,6 +3800,8 @@ if (sessionStorage.getItem('start-text')) {
        header2.classList.remove('header2-after');
        
       footer.classList.remove('footer-after');
+
+       
 
         start.textContent = 'Start';
         start.classList.remove('inProgress');
@@ -3482,6 +3816,8 @@ if (sessionStorage.getItem('start-text')) {
       sessionStorage.setItem('main-after', main.className);
 
       sessionStorage.setItem('footer-after', footer.className);
+
+      sessionStorage.setItem('croixDef-after', croixDef.className);
 
     });
       

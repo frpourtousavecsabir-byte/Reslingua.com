@@ -284,6 +284,8 @@
   margin-left: auto;
   margin-right: auto;
   min-height: fit-content;
+  margin-top: 0.4rem;
+  margin-bottom: 1.25rem;
      }
      .valid {
      height: 2rem;
@@ -305,6 +307,130 @@
   margin-left: auto;
   margin-right: auto;
   min-height: fit-content;
+  }
+  /* nouvelle vcarte*/
+  .defX {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .croixDef {
+    position: relative;
+        background-color: #fefcf7;
+        position: fixed;
+        bottom: 2.8rem;
+        left: 1.2rem;
+        right: 1.2rem;
+        margin-inline: auto;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        max-width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        border-top: 1px solid #e2d3b5;
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 1.3rem 1rem;
+        box-shadow: 0 2px 12px  rgba(59, 48, 40, 0.10);
+         width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+      }
+  .croixDef-after {
+    position: relative;
+        background-color: #fefcf7;
+        position:fixed;
+        height: 20rem;
+        min-height: fit-content;
+        left: 1.2rem;
+        right: 1.2rem;
+        bottom: 0;
+        margin-inline: auto;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        max-width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        border-top: 1px solid #e2d3b5;
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 1.3rem 1rem;
+        box-shadow: 0 2px 12px  rgba(59, 48, 40, 0.10);
+         width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+      }
+      .croix {
+        margin-right: 1rem;
+        background-color: red;
+        height: fit-content;
+        border: none;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+         border-radius: 50%;
+      }
+  .wrd {
+    font-size: 1.5rem;
+    color: #3b3028;
+    font-family: Georgia,  sans-serif;
+    font-weight: bold;
+  }
+  .def {
+    font-size: 1rem;
+    color: #6f6255;
+    font-weight: 600;
+    font-family: 'Inter',  sans-serif;
+    margin-bottom: 1rem;
+  }
+  .context {
+   color: #bfa26c;
+   font-weight: 700;
+   font-family: 'Inter',  sans-serif;
+    margin-top: 1.3rem;
+  }
+  .contextExample {
+    padding: 0.6rem 0.5rem;
+    background-color: #eee5d2;
+    height: auto;
+    min-height: fit-content;
+   font-family: 'Inter',  sans-serif;
+    margin-bottom: 0.5rem;
+    color: #8a6652;
+    border-radius: 15px;
+    margin-top: 0.4rem;
+    font-weight: 500;
+  }
+  .synonyme {
+     font-size: 0.87rem;
+    color: #94887d;
+    font-weight: 600;
+    
+    font-family: 'Inter',  sans-serif;
+    margin-bottom: 5rem;
+  }
+  .ajouter {
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fce9c3;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #d09320;
   }
 
     @media (min-width: 768px) {
@@ -557,6 +683,20 @@
     }
 
 
+    .croixDef {
+    width: 80%;
+  max-width: 700px;
+  height: auto;
+  min-height: fit-content;
+        
+      }
+  .croixDef-after {
+    width: 80%;
+  max-width: 700px;
+  height: auto;
+  min-height: fit-content;
+         
+      }
     }
 
    
@@ -575,34 +715,7 @@
         right: 30vh;
       }
 
-      .croixDef {
-        background-color: #dfece8;
-        position:fixed;
-        display: flex;
-        height: fit-content;
-        width: 100%;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        bottom: 5vh;
-        border: none;
-        border-radius: 1.25rem;
-        font-weight: 700;
-        height: 1.5rem;
-        font-size: 0.9rem;
-        padding: 1.3rem 1rem;
-        align-items: center;
-        justify-content: center;
-      }
-      .croix {
-        margin-right: 1rem;
-        background-color: red;
-        height: fit-content;
-        width: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.4rem;
-         border-radius: 50%;
-      }
+
+      
       
       
