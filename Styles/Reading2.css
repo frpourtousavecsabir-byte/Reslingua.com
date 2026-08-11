@@ -1,0 +1,545 @@
+body{
+        height: 2000px;
+      }
+      .all {
+        position:fixed;
+        background-color: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: (6px);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+      .code {
+        position:fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        padding: 2rem 1rem ;
+        background-color: var(--bg-card);
+        border-radius: 15px;
+        top:30vh;
+        bottom: 30vh;
+        left: 10vw;
+        right: 10vh;
+      }
+      .valid {
+        background-color: #E7EFE7;
+        color: #3F6B4A;
+        border-radius: 50%;
+        border: none;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .session {
+        font-family: 'Poppins', serif;
+      font-weight: 600;
+      font-size: 1.25rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      }
+      .todo {
+        color: var(--text-muted);
+      font-weight: 500;
+      font-size: 1rem;
+      }
+      .divCode {
+        height: 7rem;
+        width: 90%;
+        border-radius: 15px;
+        margin: 0.5rem 2rem;
+        background-color: #F6ECCB;
+        border: 2px dashed #A9841E ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .toSend {
+        color: #A9841E;
+        font-weight: 700;
+        font-size: 1.25rem;
+        font-family: 'Space Mono', monospace;
+      }
+      .completion {
+        color:#8A7A5C;
+        font-weight: 100;
+        font-size: 1rem;
+        font-family: 'Inter', sans-serif;
+        margin-left: 2.5rem;
+        margin-top: 0.5rem;
+      }
+      .copier {
+        background-color: #A9841E;
+        border: none;
+        margin-top: 0.3rem;
+        border-radius: 15px;
+        width: 5rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        color: #E7EFE7;
+      }
+      .relire {
+         background-color: #fffefa;
+        border: var(--line) 2px solid;
+        margin-top: 1rem;
+        width: 10rem;
+        border-radius: 15px;
+        height: 2rem;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        color: var(--text-muted);
+        
+      }
+     .header2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--bg-card);
+      height: 2.5rem;
+      position: sticky;
+      top: 3.5rem;
+      padding: 0.5rem 1rem;
+      margin-bottom: 1.1rem;
+     }
+     
+     .toread {
+       padding: 2rem 1rem;
+  margin-top: 1.3rem;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+  font-size: 1rem;
+  line-height: 1.8;
+  white-space: pre-line;
+  font-family: 'Literata', sans-serif;
+  position: static;
+  border-radius: 25px;
+  box-shadow: 0 1px 1px rgba(43, 36, 28, 0.04), 0 20px 40px -12px rgba(43, 36, 28, 0.16);
+  border: 1px solid var(--line);
+  background: 
+  var(--bg-card)
+  repeating-linear-gradient(
+            to bottom,
+            transparent 0px,
+            transparent 27px,
+            #D2DEEE 28.6px
+            );
+     }
+     main {
+      margin-inline: auto;
+      
+     }
+     
+     
+     .student-button {
+      background-color: var(--bg-main);
+      border: none;
+      font-size: 0.5rem;
+     }
+     progress{
+      appearance: none;
+      width: 90%;
+      height: 0.5rem;
+      margin-right: 0.75rem;
+      margin-left: 0.75rem;
+     }
+     progress::-webkit-progress-value {
+      background: #A9841E;
+      border-radius: 20px;
+     }
+     progress::-webkit-progress-bar {
+      background: #dabb55;
+      border-radius: 20px;
+     }
+     .inProgress {
+      height: 1.75rem;
+      width: 50%;
+      background-color:#dabb55 ;
+      color: var(--bg-card);
+      border: 1px solid;
+      font-family:'Caveat', cursive;
+      font-weight: 700;
+      font-size: 1.25rem;
+      border-radius: 10px;
+     }
+     .time {
+      font-family: 'SpaceMono', monospace;
+      font-weight: 600;
+      font-size: 1rem;
+     }
+     .student-button {
+      color: #3F6B4A;
+        display: inline-block;
+        font-family: 'Caveat', cursive;
+        font-weight: 900;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        background-color: #E7EFE7;
+      }
+      .min-number {
+        font-family: 'SpaceMono', monospace;
+        font-weight: 900;
+        font-size: 1rem;
+        border-radius: 15px;
+        display: inline-block;
+        color: #A9841E;
+        background-color: #F6ECCB;
+     }
+     .page-title {
+      font-family: 'Poppins', serif;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+     }
+     .instruction {
+      color: var(--text-muted);
+      font-weight: 500;
+      padding-right: 2rem;
+      font-size: 0.9rem;
+      margin-left: 1.5rem;
+      width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+     }
+     .valid {
+     height: 2rem;
+     width: 2rem;
+    }
+  .today {
+    background-color: #E7EFE7;
+       color: #3F6B4A;
+        display: inline-block;
+        font-family: 'SpaceMono', monospace;
+        font-weight: 800;
+        border-radius: 15px;
+        word-spacing: 0rem;
+  }
+  .todmin {
+     width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+  }
+
+    @media (min-width: 768px) {
+      .all {
+        position:fixed;
+        background-color: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: (6px);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+      .code {
+        position:fixed;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: 2rem 1rem ;
+        background-color: var(--bg-card);
+        border-radius: 15px;
+        top: 25vh;
+        bottom: 25vh;
+        left: 25vw;
+        right: 25vh;
+      }
+      .valid {
+        background-color: #E7EFE7;
+        color: #3F6B4A;
+        border-radius: 50%;
+        border: none;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .session {
+        font-family: 'Poppins', serif;
+      font-weight: 600;
+      font-size: 1.25rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      }
+      .todo {
+        color: var(--text-muted);
+      font-weight: 500;
+      font-size: 1rem;
+      }
+      .divCode {
+        height: 7rem;
+        width: 90%;
+        border-radius: 15px;
+        margin: 0.5rem 2rem;
+        background-color: #F6ECCB;
+        border: 2px dashed #A9841E ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .toSend {
+        color: #A9841E;
+        font-weight: 700;
+        font-size: 1.25rem;
+        font-family: 'Space Mono', monospace;
+      }
+      .completion {
+        color:#8A7A5C;
+        font-weight: 100;
+        font-size: 1rem;
+        font-family: 'Inter', sans-serif;
+        margin-left: 2.5rem;
+        margin-top: 0.5rem;
+      }
+      .copier {
+        background-color: #A9841E;
+        border: none;
+        margin-top: 0.3rem;
+        border-radius: 15px;
+        width: 5rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        color: #E7EFE7;
+      }
+      .relire {
+         background-color: #fffefa;
+        border: var(--line) 2px solid;
+        margin-top: 1rem;
+        width: 10rem;
+        border-radius: 15px;
+        height: 2rem;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        color: var(--text-muted);
+        
+      }
+     .header2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--bg-card);
+      height: 3rem;
+      position: sticky;
+      top: 4rem;
+      padding: 0.6rem 2rem;
+      margin-bottom: 1.4rem;
+     }
+     
+     .toread {
+       padding: 2rem 2rem;
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  min-height: fit-content;
+  font-size: 1rem;
+  line-height: 2.2;
+  white-space: pre-line;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Literata', sans-serif;
+  position: static;
+  border-radius: 25px;
+  box-shadow: 0 1px 1px rgba(43, 36, 28, 0.04), 0 20px 40px -12px rgba(43, 36, 28, 0.16);
+  border: 2px solid var(--line);
+  background: 
+  var(--bg-card)
+  repeating-linear-gradient(
+            to bottom,
+            transparent 0px,
+            transparent 29px,
+            #D2DEEE 30px
+            );
+     }
+    main{
+      margin-inline: auto;
+      
+    }
+     
+     
+     .student-button {
+      background-color: var(--bg-main);
+      border: none;
+      font-size: 0.6rem;
+     }
+     progress{
+      appearance: none;
+      width: 90%;
+      height: 0.4rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
+     }
+     progress::-webkit-progress-value {
+      background: #A9841E;
+      border-radius: 20px;
+     }
+     progress::-webkit-progress-bar {
+      background: #dabb55;
+      border-radius: 20px;
+     }
+     .inProgress {
+      height: 1.8rem;
+      width: 40%;
+      background-color:#dabb55 ;
+      color: var(--bg-card);
+      border: 1px solid;
+      font-family:'Caveat', cursive;
+      font-weight: 800;
+      font-size: 1.4rem;
+      border-radius: 10px;
+     }
+     .time {
+      font-family: 'SpaceMono', monospace;
+      font-weight: 600;
+      font-size: 1.2rem;
+     }
+     .student-button {
+      color: #3F6B4A;
+        display: inline-block;
+        font-family: 'Caveat', cursive;
+        font-weight: 900;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        background-color: #E7EFE7;
+      }
+    .todmin { 
+       width: 90%;
+  max-width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+    }
+      .min-number {
+        font-family: 'SpaceMono', monospace;
+        font-weight: 900;
+        border-radius: 15px;
+        color: #A9841E;
+        background-color: #F6ECCB;
+     }
+     .today {
+    background-color: #E7EFE7;
+       color: #3F6B4A;
+        display: inline-block;
+        font-family: 'SpaceMono', monospace;
+        font-weight: 800;
+        font-size: 1rem;
+        border-radius: 15px;
+        word-spacing: 0rem;
+        margin-left: 0;
+  }
+     .page-title {
+      font-family: 'Poppins', serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+       width: 90%;
+  max-width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+     }
+     .instruction {
+      color: var(--text-muted);
+      font-weight: 500;
+      padding-right: 2rem;
+      font-size: 1.1rem;
+       width: 90%;
+       max-width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+     }
+     .valid {
+     height: 2rem;
+     width: 2rem;
+    }
+    }
+
+    @media (min-width: 768px) {
+      .code {
+        position:fixed;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: 2rem 1rem ;
+        background-color: var(--bg-card);
+        border-radius: 15px;
+        top: 25vh;
+        bottom: 25vh;
+        left: 30vw;
+        right: 30vh;
+      }}
+
+      .saber {
+        display: inline-block;
+        color: var(--accent);
+        font-weight: 600;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: var(--accent);
+        text-underline-offset: 4px;
+      }
+      .saber:hover {
+        text-decoration-color: #0f8a5f;
+        color: #0f8a5f;
+        transform: scale(1.02);
+      }
+      .croixDef {
+        background-color: #dfece8;
+        position:fixed;
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        bottom: 5vh;
+        border: none;
+        border-radius: 1.25rem;
+        font-weight: 700;
+        height: 1.5rem;
+        font-size: 0.9rem;
+        padding: 1.3rem 1rem;
+        align-items: center;
+        justify-content: center;
+      }
+      .croix {
+        margin-right: 1rem;
+        background-color: red;
+        height: fit-content;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+         border-radius: 50%;
+      }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Styles/Global.css">
+    <link rel="stylesheet" href="Styles/Reading.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>READING</title>
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left-side">
+        <span class="logo-text">RESLINGUA</span>
+          <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="or" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#8A6A22"/>
+      <stop offset="35%"  stop-color="#E1BA66"/>
+      <stop offset="60%"  stop-color="#F8EDC6"/>
+      <stop offset="100%" stop-color="#755717"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fond -->
+  <rect x="0" y="0" width="300" height="300" fill="transparent"/>
+
+  <!-- losange extérieur, contour plein -->
+  <rect x="70" y="70" width="160" height="160"
+        transform="rotate(45 150 150)"
+        fill="none" stroke="url(#or)" stroke-width="30"/>
+
+  <!-- losange intérieur, en tirets -->
+  <rect x="115" y="115" width="70" height="70"
+        transform="rotate(45 150 150)"
+        fill="none" stroke="url(#or)" stroke-width="26"
+        stroke-dasharray="8 6"/>
+
+</svg>
+      </div>
+
+      <div class="right-side">
+        <button class="profile-button">View teacher profile</button>
+        <img class="profile-image" src="Pictures/teacher-profile.jpeg">
+      </div>
+    </header>
+    <main>
+      <h1>Your personal library is waiting for you.</h1>
+      <h2>A reading space tailored to you, at your own pace, one word at a time.</h2>
+      <p class="first-name">What's your first name?</p>
+      <input  id="inpuut" placeholder="Type your first name here">
+      <p class="greet" id="input-name"></p>
+      <button id="commencer">Start reading&nbsp;&nbsp;&nbsp;➼</button>
+      <p class="password">No password required. Just your first name, and you're good to go. </p>
+    </main>
+  </body>
+  <script src="Js/Reading.js"></script>
+</html>

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+--bg-main: rgb(230, 222, 207);
+--bg-card: #FBF7F0;
+--text-primary: #2B241C;
+--text-muted: #8C7F6C;
+--accent: #3A5A40;
+--accent-dark: #2C4530;
+--accent-soft: #E4EBE1;
+--gold: #B8912F;
+--line: #DCD0BB;
+--header: linear-gradient(
+        90deg,
+        #FFF9EF,
+        #F6E7C5,
+        #FFF9EF
+        );
+}
+body{
+  background-color: var(--bg-main);
+  position: relative;
+}
+header{
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background: var(--header);
+  padding: 0rem 1rem;
+  min-height: 3.5rem;
+  align-items: center;
+}
+/*left side*/
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+.logo-svg{
+  height: 1.25rem;
+  width: auto;
+}
+/*right side*/
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1.5px white solid;
+  box-shadow: 0px 0px 0px 2px #B8912F;
+}
+.profile-button {
+  background-color: #ffffff;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-bottom: 0.2rem;
+  border: solid 2px var(--gold);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  height: 1.5rem;
+  font-weight: 700;
+
+}
+
+/*medias*/
+
+@media (min-width: 768px) {
+header{
+  min-height: 6rem;
+}
+.logo-text{
+  font-size: 1.75rem;
+}
+.logo-svg{
+  height:1.75rem;
+}
+.profile-image {
+  height: 2rem;
+  border-radius: 2rem;
+  border: 1.5px white solid;
+  box-shadow: 0px 0px 0px 2px #B8912F;
+}
+.profile-button {
+  background-color: #ffffff;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-bottom: 0.2rem;
+  border: solid 2px var(--gold);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  height: 1.7rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+
+}
+}
+@media (min-width: 1024px) {
+header{
+  min-height: 4rem;
+}
+.logo-text{
+  font-size: 1.5rem;
+}
+.logo-svg{
+  height:1.5rem;
+}
+.profile-image {
+  height: 2rem;
+  border-radius: 2rem;
+  border: 2px white solid;
+  box-shadow: 0px 0px 0px 3px #B8912F;
+}
+.profile-button {
+  background-color: #ffffff;
+  margin-right: 0.8rem;
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+
+}
+}
+@media (min-width: 1440px) {
+header{
+  min-height: 4rem;
+}
+.logo-text{
+  font-size: 1.5rem;
+}
+.logo-svg{
+  height:1.5rem;
+}
+.profile-image {
+  height: 2rem;
+  border-radius: 2rem;
+  border: 2px white solid;
+  box-shadow: 0px 0px 0px 3px #B8912F;
+}
+.profile-button {
+  background-color: #ffffff;
+  margin-right: 0.8rem;
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+
+}
+}
+
+
