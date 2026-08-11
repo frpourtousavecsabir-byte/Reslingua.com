@@ -319,7 +319,7 @@
     position: relative;
         background-color: #fefcf7;
         position: fixed;
-        bottom: 2.8rem;
+        bottom: 3.4rem;
         left: 1.2rem;
         right: 1.2rem;
         margin-inline: auto;
@@ -371,14 +371,14 @@
       }
       .croix {
         margin-right: 1rem;
-        background-color: red;
         height: fit-content;
         border: none;
         width: 2rem;
         display: flex;
+        color: rgb(86, 85, 85);
         justify-content: center;
         align-items: center;
-        font-size: 1.4rem;
+        font-size: 1.7rem;
          border-radius: 50%;
       }
   .wrd {

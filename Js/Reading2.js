@@ -3676,7 +3676,7 @@ wordef: [
      wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
      wrd.className = 'wrd';
 
-     croix.textContent = '𝘹';
+     croix.textContent = `𝘹`;
      croix.className = 'croix';
      
      def.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].definition}`;
@@ -3757,13 +3757,13 @@ if (sessionStorage.getItem('start-text')) {
 
   footer.className = sessionStorage.getItem('footer-after');
 
-  croixDef.className = sessionStorage.getItem('croixDef-after');
+  
       
 } else {
   start.textContent = 'Start';
   start.classList.add('start-button');
 
-
+ 
   
 }
 
@@ -3772,10 +3772,11 @@ if (sessionStorage.getItem('start-text')) {
     
     start.addEventListener('click', () => {
 
-      if (start.textContent === 'Stop') {
+      if (start.textContent === 'Stop' && croixDef.classList.contains('croixDef-after')) {
+        console.log('stop');
         croixDef.classList.remove('croixDef-after');
           croixDef.classList.add('croixDef');
-      }
+      } 
      if (start.textContent === 'Start') {
 
        main.classList.add('main-after');
@@ -3801,7 +3802,7 @@ if (sessionStorage.getItem('start-text')) {
        
       footer.classList.remove('footer-after');
 
-       
+        
 
         start.textContent = 'Start';
         start.classList.remove('inProgress');
