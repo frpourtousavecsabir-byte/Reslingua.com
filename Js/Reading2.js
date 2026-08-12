@@ -3753,15 +3753,11 @@ wordef: [
        textes[indexDay].wordef.forEach((element, index) => {
          
          texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
-         if(sessionStorage.getItem('saberC' + index)) {
-           console.log('yes');
-           ajouter.textContent = sessionStorage.getItem('ajouterT');
-           ajouter.className = sessionStorage.getItem('ajouterC');
-         }
         })
         
         text.innerHTML = texto;
       };
+      showText();
       
       
         
@@ -3776,8 +3772,8 @@ wordef: [
         const ajouter = document.createElement('p');
         
         const defX = document.createElement('div');
-        
-        
+       
+        console.log(sessionStorage.getItem('saberC'));
         function meaning(ind) {
           const saber = document.getElementById(`word-${ind}`);
           
@@ -3819,7 +3815,7 @@ wordef: [
          sessionStorage.setItem('ajouterT', ajouter.textContent);
          sessionStorage.setItem('ajouterC', ajouter.className);
          saber.classList.add('saber-after');
-         sessionStorage.setItem('saberC' + ind, saber.className);
+         sessionStorage.setItem('saberC', saber.className);
         })
         
         
@@ -3848,10 +3844,9 @@ wordef: [
 
   contDef.appendChild(croixDef);
   
-  
+    
 }
-showText();
-
+meaning
 
 
 

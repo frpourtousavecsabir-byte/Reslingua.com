@@ -45,18 +45,17 @@
         right: 0;
       }
       .code {
-        position:fixed;
         display: flex;
+        position:fixed;
+        width: 50%;
+        height: auto;
+        min-height: fit-content;
         flex-direction: column;
         align-items: center;
         height: fit-content;
         padding: 2rem 1rem ;
         background-color: var(--bg-card);
         border-radius: 15px;
-        top:30vh;
-        bottom: 30vh;
-        left: 10vw;
-        right: 10vh;
       }
       .valid {
         background-color: #E7EFE7;
@@ -513,7 +512,8 @@
       }
       .divCode {
         height: 7rem;
-        width: 90%;
+        width: auto;
+        max-width: 90%;
         border-radius: 15px;
         margin: 0.5rem 2rem;
         background-color: #F6ECCB;
