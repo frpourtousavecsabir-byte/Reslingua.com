@@ -8,9 +8,24 @@
   text-decoration-color: var(--accent);
   text-underline-offset: 4px;
 }
+.saber-after {
+  display: static;
+  color: #A98a4a;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: underline dashed 1px;
+  text-decoration-color: #A98a4a;
+  text-underline-offset: 4px;
+}
 .saber:hover {
   text-decoration-color: #0f8a5f;
   color: #0f8a5f;
+  transform: scale(1.02);
+}
+.saber-after:hover {
+   text-decoration-color: #937741;
+  color: #937741;
   transform: scale(1.02);
 }
       
@@ -418,19 +433,33 @@
     font-weight: 600;
     
     font-family: 'Inter',  sans-serif;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
   .ajouter {
     bottom: 1rem;
     display: flex;
     justify-content: center;
-    background-color: #fce9c3;
+    background-color: var(--accent);
     align-items: center;
     border-radius: 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+    height: 2.5rem;
     color: #d09320;
+  }
+  .ajouter-after {
+     height: 2.5rem;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fce9c3;;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--accent);
   }
 
     @media (min-width: 768px) {

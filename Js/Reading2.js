@@ -3607,6 +3607,9 @@ wordef: [
    const min = document.getElementById('min');
    const second = document.getElementById('second');
    const nadirah= document.getElementById('nadirah');
+
+      
+
    
     reset.textContent = 'Reset';
     reset.classList.add('reset');
@@ -3630,10 +3633,10 @@ wordef: [
 
             footer.classList.remove('footer-after');
 
-}
-            
-            
-            clearInterval(interval);
+          }
+          
+          
+          clearInterval(interval);
     });
    
    
@@ -3645,27 +3648,34 @@ wordef: [
        let indexDay = deviceDate.getDate() % textes.length;
        text.textContent = textes[indexDay].txt;
        
-       console.log(textes[indexDay].wordef[i].mot);
        let texto = text.textContent;
-       textes[indexDay].wordef.forEach((element, index) => {
-         texto = texto.replace(element.mot, `<span onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
-         text.innerHTML = texto;
-        
-        });
-      }
+        ajouter.addEventListener('click', () => {
+         ajouter.textContent = '✔ Added to my word list';
+         ajouter.className = 'ajouter-after';
+         
+          })
+       
+         textes[indexDay].wordef.forEach((element, index) => {
+           
+            texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
+        })
+          
+          text.innerHTML = texto;
+        };
       
-
-      const wrd = document.createElement('p');
-      const croixDef =  document.createElement('div');
-      const croix =  document.createElement('button');
-      const def = document.createElement('p');
-      const context = document.createElement('p');
-      const contextExample = document.createElement('p');
-      const synonyme = document.createElement('p');
-      const ajouter = document.createElement('p');
-
-      const defX = document.createElement('div');
-   function meaning(ind) {
+        const wrd = document.createElement('p');
+        const croixDef =  document.createElement('div');
+        const croix =  document.createElement('button');
+        const def = document.createElement('p');
+        const context = document.createElement('p');
+        const contextExample = document.createElement('p');
+        const synonyme = document.createElement('p');
+        const ajouter = document.createElement('p');
+        
+        const defX = document.createElement('div');
+        function meaning(ind) {
+          const saber = document.getElementById(`word-${ind}`);
+         
      if(start.textContent === 'Start') {
       croixDef.className = 'croixDef';
  }  else {
@@ -3694,6 +3704,14 @@ wordef: [
      ajouter.textContent = '❤️ Add to my word list';
      ajouter.className = 'ajouter';
 
+      ajouter.addEventListener('click', () => {
+         ajouter.textContent = '✔ Added to my word list';
+         ajouter.className = 'ajouter-after';
+         ajouter.disabled = true;
+         saber.classList.add('saber-after');
+        })
+        sessionStorage.setItem('ajouter', ajouter.className);
+      
      
      
      
@@ -3720,7 +3738,10 @@ wordef: [
 
   contDef.appendChild(croixDef);
   
-  
+ 
+   if(sessionStorage.getItem('ajouter-after')) {
+          ajouter.className = localStorage.getItem('ajouter-after');
+          }
 }
 showText();
 

@@ -1,0 +1,13 @@
+
+.all-word-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.word-number {
+  display: flex;
+  flex-direction: column;
+}
+.commencer {
+ background-color: rgb(153, 153, 204);
+}
