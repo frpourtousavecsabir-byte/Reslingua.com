@@ -2392,26 +2392,126 @@ Le train a commencé à avancer.
 
 Et pour la première fois depuis longtemps, elle avait l'impression d'aller quelque part, même si elle ne savait pas encore exactement où.`,
 wordef: [
-  { mot: "wagon", definition: "A section of a train where passengers sit." },
-  { mot: "se libérer", definition: "To become available because someone is no longer using a place." },
-  { mot: "se mêler", definition: "To get involved in someone else's situation or business." },
-  { mot: "valise", definition: "A case used for carrying clothes and personal things when travelling." },
-  { mot: "récupérer", definition: "To get something back after losing or leaving it somewhere." },
-  { mot: "sac", definition: "A container used to carry personal things." },
-  { mot: "se réconcilier", definition: "To become friends again after an argument." },
-  { mot: "dispute", definition: "A serious argument between people." },
-  { mot: "repousser", definition: "To delay doing something until later." },
-  { mot: "s'asseoir", definition: "To sit down." },
-  { mot: "faire le premier pas", definition: "To be the first person to take action." },
-  { mot: "avoir peur de", definition: "To feel afraid of something." },
-  { mot: "se débrouiller", definition: "To manage to do something, even when it is difficult." },
-  { mot: "rater", definition: "To fail to catch, reach, or do something." },
-  { mot: "se rendre compte", definition: "To suddenly understand or notice something." },
-  { mot: "longtemps", definition: "For a long period of time." },
-  { mot: "auparavant", definition: "Before the time being discussed." },
-  { mot: "désormais", definition: "From now on; starting from this moment." },
-  { mot: "remarquer", definition: "To notice something." },
-  { mot: "pourtant", definition: "However; despite what was just said." }
+  {
+    mot: "wagon",
+    definition: "A section of a train where passengers sit.",
+    contextExample: "Nous sommes dans le même wagon.",
+    synonyme: "voiture"
+  },
+  {
+    mot: "se libérer",
+    definition: "To become available because someone is no longer using a place.",
+    contextExample: "Une place vient de se libérer.",
+    synonyme: "devenir disponible"
+  },
+  {
+    mot: "se mêler",
+    definition: "To get involved in someone else's situation or business.",
+    contextExample: "Ne te mêle pas de cette histoire.",
+    synonyme: "intervenir"
+  },
+  {
+    mot: "valise",
+    definition: "A case used for carrying clothes and personal things when travelling.",
+    contextExample: "Ma valise est très lourde.",
+    synonyme: "bagage"
+  },
+  {
+    mot: "récupérer",
+    definition: "To get something back after losing or leaving it somewhere.",
+    contextExample: "Je vais récupérer ma valise.",
+    synonyme: "reprendre"
+  },
+  {
+    mot: "sac",
+    definition: "A container used to carry personal things.",
+    contextExample: "Mon sac est sur la table.",
+    synonyme: "bagage"
+  },
+  {
+    mot: "se réconcilier",
+    definition: "To become friends again after an argument.",
+    contextExample: "Ils se sont réconciliés hier.",
+    synonyme: "faire la paix"
+  },
+  {
+    mot: "dispute",
+    definition: "A serious argument between people.",
+    contextExample: "Ils ont eu une dispute.",
+    synonyme: "querelle"
+  },
+  {
+    mot: "repousser",
+    definition: "To delay doing something until later.",
+    contextExample: "Je ne veux pas repousser le rendez-vous.",
+    synonyme: "reporter"
+  },
+  {
+    mot: "s'asseoir",
+    definition: "To sit down.",
+    contextExample: "Tu peux t'asseoir ici.",
+    synonyme: "prendre place"
+  },
+  {
+    mot: "faire le premier pas",
+    definition: "To be the first person to take action.",
+    contextExample: "Je vais faire le premier pas.",
+    synonyme: "agir en premier"
+  },
+  {
+    mot: "avoir peur de",
+    definition: "To feel afraid of something.",
+    contextExample: "J'ai peur de parler devant les autres.",
+    synonyme: "craindre"
+  },
+  {
+    mot: "se débrouiller",
+    definition: "To manage to do something, even when it is difficult.",
+    contextExample: "Ne t'inquiète pas, je vais me débrouiller.",
+    synonyme: "s'en sortir"
+  },
+  {
+    mot: "rater",
+    definition: "To fail to catch, reach, or do something.",
+    contextExample: "J'ai raté le train.",
+    synonyme: "manquer"
+  },
+  {
+    mot: "se rendre compte",
+    definition: "To suddenly understand or notice something.",
+    contextExample: "Je me suis rendu compte de mon erreur.",
+    synonyme: "comprendre"
+  },
+  {
+    mot: "longtemps",
+    definition: "For a long period of time.",
+    contextExample: "Je l'ai attendu longtemps.",
+    synonyme: "durant une longue période"
+  },
+  {
+    mot: "auparavant",
+    definition: "Before the time being discussed.",
+    contextExample: "Je l'avais vu auparavant.",
+    synonyme: "avant"
+  },
+  {
+    mot: "désormais",
+    definition: "From now on; starting from this moment.",
+    contextExample: "Désormais, je ferai attention.",
+    synonyme: "à partir de maintenant"
+  },
+  {
+    mot: "remarquer",
+    definition: "To notice something.",
+    contextExample: "J'ai remarqué son absence.",
+    synonyme: "observer"
+  },
+  {
+    mot: "pourtant",
+    definition: "However; despite what was just said.",
+    contextExample: "Il est fatigué, pourtant il continue.",
+    synonyme: "cependant"
+  }
 ]
       
      },{
@@ -2737,26 +2837,26 @@ Mais elle avait compris une chose :
 
 parfois, une petite lumière suffit pour montrer à quelqu'un qu'il n'est pas complètement seul.`,
 wordef: [
-  { mot: "écaillée", definition: "With small pieces of paint coming off." },
-  { mot: "entourait", definition: "Was around something." },
-  { mot: "enveloppe", definition: "A paper cover used for a letter." },
-  { mot: "marches", definition: "The steps leading up to a door or building." },
-  { mot: "plaisanterie", definition: "Something said or done to make people laugh or to joke." },
-  { mot: "empêchée", definition: "Stopped someone from doing something." },
-  { mot: "perplexe", definition: "Confused because you do not understand something." },
-  { mot: "sensation", definition: "A feeling that you experience." },
-  { mot: "durée", definition: "The amount of time that something continues." },
-  { mot: "résoudre", definition: "To find a solution to a problem." },
-  { mot: "inquiétant", definition: "Making you feel worried or afraid." },
-  { mot: "désolée", definition: "Sorry; feeling bad about something you have done." },
-  { mot: "appartenait", definition: "Was owned by someone." },
-  { mot: "compagnon", definition: "A person with whom someone has a romantic relationship." },
-  { mot: "dossier", definition: "A collection of documents prepared for a particular purpose." },
-  { mot: "reprendre contact", definition: "To start communicating with someone again." },
-  { mot: "croiser", definition: "To meet or pass someone while going somewhere." },
-  { mot: "se sentir seul", definition: "To feel that you have nobody close to you." },
-  { mot: "faire attention", definition: "To notice something or be careful about it." },
-  { mot: "complètement", definition: "Totally; entirely." }
+  { mot: "écaillée", definition: "With small pieces of paint coming off.", contextExample: "La peinture de la porte est écaillée.", synonyme: "abîmée" },
+  { mot: "entourait", definition: "Was around something.", contextExample: "Un petit jardin entourait la maison.", synonyme: "encerclait" },
+  { mot: "enveloppe", definition: "A paper cover used for a letter.", contextExample: "J'ai mis la lettre dans une enveloppe.", synonyme: "pochette" },
+  { mot: "marches", definition: "The steps leading up to a door or building.", contextExample: "Elle s'est assise sur les marches.", synonyme: "escaliers" },
+  { mot: "plaisanterie", definition: "Something said or done to make people laugh or to joke.", contextExample: "Ce n'était qu'une plaisanterie.", synonyme: "blague" },
+  { mot: "empêchée", definition: "Stopped someone from doing something.", contextExample: "La pluie l'a empêchée de sortir.", synonyme: "bloquée" },
+  { mot: "perplexe", definition: "Confused because you do not understand something.", contextExample: "Il était perplexe devant cette situation.", synonyme: "confus" },
+  { mot: "sensation", definition: "A feeling that you experience.", contextExample: "J'ai eu une étrange sensation.", synonyme: "impression" },
+  { mot: "durée", definition: "The amount of time that something continues.", contextExample: "La durée du film est de deux heures.", synonyme: "longueur" },
+  { mot: "résoudre", definition: "To find a solution to a problem.", contextExample: "Nous devons résoudre ce problème.", synonyme: "régler" },
+  { mot: "inquiétant", definition: "Making you feel worried or afraid.", contextExample: "Ce bruit est vraiment inquiétant.", synonyme: "préoccupant" },
+  { mot: "désolée", definition: "Sorry; feeling bad about something you have done.", contextExample: "Je suis désolée pour mon retard.", synonyme: "navrée" },
+  { mot: "appartenait", definition: "Was owned by someone.", contextExample: "Cette maison appartenait à mon grand-père.", synonyme: "était à" },
+  { mot: "compagnon", definition: "A person with whom someone has a romantic relationship.", contextExample: "Elle est venue avec son compagnon.", synonyme: "partenaire" },
+  { mot: "dossier", definition: "A collection of documents prepared for a particular purpose.", contextExample: "J'ai préparé mon dossier pour l'inscription.", synonyme: "document" },
+  { mot: "reprendre contact", definition: "To start communicating with someone again.", contextExample: "Je voudrais reprendre contact avec elle.", synonyme: "recontacter" },
+  { mot: "croiser", definition: "To meet or pass someone while going somewhere.", contextExample: "J'ai croisé Paul dans la rue.", synonyme: "rencontrer" },
+  { mot: "se sentir seul", definition: "To feel that you have nobody close to you.", contextExample: "Il se sent seul dans cette nouvelle ville.", synonyme: "se sentir isolé" },
+  { mot: "faire attention", definition: "To notice something or be careful about it.", contextExample: "Il faut faire attention aux voitures.", synonyme: "être prudent" },
+  { mot: "complètement", definition: "Totally; entirely.", contextExample: "J'ai complètement oublié son nom.", synonyme: "entièrement" }
 ]
      },{
       id: 15,
@@ -3003,26 +3103,26 @@ Mais nous ne savons presque jamais ce qu'elles vivent vraiment.
 
 Et parfois, il suffit d'un simple « bonjour » pour découvrir une histoire que personne ne connaissait.`,
 wordef: [
-  { mot: "comptoir", definition: "The long surface in a café where food and drinks are served." },
-  { mot: "serveur", definition: "A person who brings food and drinks to customers." },
-  { mot: "habitudes", definition: "Things that someone does regularly." },
-  { mot: "rêver de", definition: "To strongly want to do or have something." },
-  { mot: "se cacher", definition: "To be somewhere where you cannot easily be seen." },
-  { mot: "abandonner", definition: "To stop doing something that you started." },
-  { mot: "se rendre compte", definition: "To suddenly understand or realize something." },
-  { mot: "remarquer", definition: "To notice something." },
-  { mot: "se demander", definition: "To wonder about something." },
-  { mot: "derrière", definition: "At the back of something or on the other side of it." },
-  { mot: "silence", definition: "A period when nobody is speaking." },
-  { mot: "s'arrêter", definition: "To stop moving or stop doing something." },
-  { mot: "faire attention", definition: "To watch carefully or notice something." },
-  { mot: "se cacher derrière", definition: "To be hidden behind something." },
-  { mot: "pourtant", definition: "Used to say that something is surprising or different from what was expected." },
-  { mot: "au début", definition: "At the beginning." },
-  { mot: "finalement", definition: "After everything has happened; in the end." },
-  { mot: "partout", definition: "In every place or in many places." },
-  { mot: "se retrouver", definition: "To meet or find yourself in a particular situation or place." },
-  { mot: "ce qui se cache", definition: "Something that is hidden or not immediately visible." }
+  { mot: "comptoir", definition: "The long surface in a café where food and drinks are served.", contextExample: "Il est assis au comptoir.", synonyme: "bar" },
+  { mot: "serveur", definition: "A person who brings food and drinks to customers.", contextExample: "Le serveur apporte le café.", synonyme: "garçon de café" },
+  { mot: "habitudes", definition: "Things that someone does regularly.", contextExample: "J'ai de bonnes habitudes.", synonyme: "routines" },
+  { mot: "rêver de", definition: "To strongly want to do or have something.", contextExample: "Je rêve de voyager.", synonyme: "désirer" },
+  { mot: "se cacher", definition: "To be somewhere where you cannot easily be seen.", contextExample: "Le chat se cache sous le lit.", synonyme: "se dissimuler" },
+  { mot: "abandonner", definition: "To stop doing something that you started.", contextExample: "Il ne faut pas abandonner.", synonyme: "renoncer" },
+  { mot: "se rendre compte", definition: "To suddenly understand or realize something.", contextExample: "Je me rends compte de mon erreur.", synonyme: "réaliser" },
+  { mot: "remarquer", definition: "To notice something.", contextExample: "J'ai remarqué un changement.", synonyme: "observer" },
+  { mot: "se demander", definition: "To wonder about something.", contextExample: "Je me demande où il est.", synonyme: "s'interroger" },
+  { mot: "derrière", definition: "At the back of something or on the other side of it.", contextExample: "Le sac est derrière la porte.", synonyme: "à l'arrière de" },
+  { mot: "silence", definition: "A period when nobody is speaking.", contextExample: "Il y a un grand silence.", synonyme: "calme" },
+  { mot: "s'arrêter", definition: "To stop moving or stop doing something.", contextExample: "La voiture s'arrête.", synonyme: "cesser" },
+  { mot: "faire attention", definition: "To watch carefully or notice something.", contextExample: "Fais attention à la voiture.", synonyme: "être prudent" },
+  { mot: "se cacher derrière", definition: "To be hidden behind something.", contextExample: "Il se cache derrière la porte.", synonyme: "se dissimuler derrière" },
+  { mot: "pourtant", definition: "Used to say that something is surprising or different from what was expected.", contextExample: "Il est fatigué, pourtant il travaille.", synonyme: "cependant" },
+  { mot: "au début", definition: "At the beginning.", contextExample: "Au début, j'étais inquiet.", synonyme: "au commencement" },
+  { mot: "finalement", definition: "After everything has happened; in the end.", contextExample: "Finalement, il est venu.", synonyme: "en fin de compte" },
+  { mot: "partout", definition: "In every place or in many places.", contextExample: "J'ai cherché partout.", synonyme: "en tous lieux" },
+  { mot: "se retrouver", definition: "To meet or find yourself in a particular situation or place.", contextExample: "Nous nous retrouvons au café.", synonyme: "se réunir" },
+  { mot: "ce qui se cache", definition: "Something that is hidden or not immediately visible.", contextExample: "Je veux savoir ce qui se cache derrière la porte.", synonyme: "ce qui est caché" }
 ]
 
      },{
@@ -3268,26 +3368,26 @@ Mais pour Mehdi, le bus n'était plus seulement un moyen de rentrer chez lui.
 
 C'était devenu un petit endroit où les chemins de plusieurs personnes se rencontraient chaque soir.`,
 wordef: [
-  { mot: "passagers", definition: "People who are travelling in a bus, train, plane, etc." },
-  { mot: "arrêt", definition: "A place where a bus or train stops." },
-  { mot: "hocher la tête", definition: "To move your head up and down to say yes." },
-  { mot: "inquiet", definition: "Worried or nervous because something may be wrong." },
-  { mot: "batterie", definition: "The part of a phone that provides it with power." },
-  { mot: "se rendre", definition: "To go to a particular place." },
-  { mot: "feuille", definition: "A single piece of paper." },
-  { mot: "enseigne", definition: "A sign outside a shop showing its name." },
-  { mot: "serrer dans ses bras", definition: "To hold someone closely with your arms." },
-  { mot: "impression", definition: "A feeling or idea that you have about something." },
-  { mot: "croiser", definition: "To meet or pass someone while going somewhere." },
-  { mot: "s'en rendre compte", definition: "To realize or understand something." },
-  { mot: "manque", definition: "A feeling caused by someone or something no longer being there." },
-  { mot: "trajet", definition: "The journey from one place to another." },
-  { mot: "perdu", definition: "Not knowing where you are or where to go." },
-  { mot: "rendez-vous", definition: "A planned meeting at a particular time and place." },
-  { mot: "davantage", definition: "More; to a greater degree." },
-  { mot: "fatigué", definition: "Needing rest because you have little energy." },
-  { mot: "inquiet", definition: "Feeling worried about someone or something." },
-  { mot: "se rencontrer", definition: "To meet each other." }
+  { mot: "passagers", definition: "People who are travelling in a bus, train, plane, etc.", contextExample: "Les passagers attendent le train.", synonyme: "voyageurs" },
+  { mot: "arrêt", definition: "A place where a bus or train stops.", contextExample: "Je descends au prochain arrêt.", synonyme: "station" },
+  { mot: "hocher la tête", definition: "To move your head up and down to say yes.", contextExample: "Elle a hoché la tête.", synonyme: "faire oui de la tête" },
+  { mot: "inquiet", definition: "Worried or nervous because something may be wrong.", contextExample: "Il est inquiet pour son ami.", synonyme: "préoccupé" },
+  { mot: "batterie", definition: "The part of a phone that provides it with power.", contextExample: "Mon téléphone n'a plus de batterie.", synonyme: "pile" },
+  { mot: "se rendre", definition: "To go to a particular place.", contextExample: "Je dois me rendre au travail.", synonyme: "aller" },
+  { mot: "feuille", definition: "A single piece of paper.", contextExample: "Donne-moi une feuille, s'il te plaît.", synonyme: "papier" },
+  { mot: "enseigne", definition: "A sign outside a shop showing its name.", contextExample: "Je regarde l'enseigne du magasin.", synonyme: "panneau" },
+  { mot: "serrer dans ses bras", definition: "To hold someone closely with your arms.", contextExample: "Elle serre son frère dans ses bras.", synonyme: "enlacer" },
+  { mot: "impression", definition: "A feeling or idea that you have about something.", contextExample: "J'ai une bonne impression.", synonyme: "sentiment" },
+  { mot: "croiser", definition: "To meet or pass someone while going somewhere.", contextExample: "J'ai croisé mon voisin dans la rue.", synonyme: "rencontrer" },
+  { mot: "s'en rendre compte", definition: "To realize or understand something.", contextExample: "Je m'en suis rendu compte trop tard.", synonyme: "réaliser" },
+  { mot: "manque", definition: "A feeling caused by someone or something no longer being there.", contextExample: "Son absence me crée un manque.", synonyme: "absence" },
+  { mot: "trajet", definition: "The journey from one place to another.", contextExample: "Le trajet dure une heure.", synonyme: "parcours" },
+  { mot: "perdu", definition: "Not knowing where you are or where to go.", contextExample: "Je suis perdu dans cette ville.", synonyme: "désorienté" },
+  { mot: "rendez-vous", definition: "A planned meeting at a particular time and place.", contextExample: "J'ai un rendez-vous à 15 heures.", synonyme: "rencontre" },
+  { mot: "davantage", definition: "More; to a greater degree.", contextExample: "Je voudrais en savoir davantage.", synonyme: "plus" },
+  { mot: "fatigué", definition: "Needing rest because you have little energy.", contextExample: "Je suis très fatigué aujourd'hui.", synonyme: "épuisé" },
+  { mot: "inquiet", definition: "Feeling worried about someone or something.", contextExample: "Elle est inquiète pour sa mère.", synonyme: "préoccupé" },
+  { mot: "se rencontrer", definition: "To meet each other.", contextExample: "Nous nous rencontrons demain.", synonyme: "se voir" }
 ]
      },{
       id: 17,
@@ -3542,26 +3642,26 @@ Il avait finalement compris qu'elle avait ouvert quelque chose de beaucoup plus 
 
 la possibilité pour des inconnus de devenir un peu moins étrangers les uns aux autres.`,
 wordef: [
-  { mot: "boîte aux lettres", definition: "A box where letters and other mail are delivered." },
-  { mot: "enveloppe", definition: "A paper cover used to send a letter." },
-  { mot: "destinée à", definition: "Meant for a particular person or purpose." },
-  { mot: "gardien", definition: "A person who takes care of a building." },
-  { mot: "sous-sol", definition: "A part of a building below the ground floor." },
-  { mot: "serrure", definition: "A mechanism used to close and secure a door." },
-  { mot: "cartons", definition: "Containers made of thick paper, often used to store things." },
-  { mot: "caché", definition: "Put somewhere so that it cannot easily be seen." },
-  { mot: "souvenirs", definition: "Things that help you remember people or moments from the past." },
-  { mot: "déménagement", definition: "The act of leaving one home and moving to another." },
-  { mot: "émue", definition: "Strongly affected by a feeling, often making you want to cry." },
-  { mot: "faire attention", definition: "To notice something carefully." },
-  { mot: "faire naître", definition: "To cause something to begin or appear." },
-  { mot: "au hasard", definition: "Without choosing according to a particular plan." },
-  { mot: "récupérer", definition: "To get something back." },
-  { mot: "reconnaître", definition: "To know who or what something is because you have seen it before." },
-  { mot: "étranger", definition: "Someone who is not known or familiar to you." },
-  { mot: "appartenir", definition: "To be owned by someone." },
-  { mot: "autrefois", definition: "A long time ago; in the past." },
-  { mot: "pourtant", definition: "Used when something is different from what you might expect." }
+  { mot: "boîte aux lettres", definition: "A box where letters and other mail are delivered.", contextExample: "La lettre est dans la boîte aux lettres.", synonyme: "boîte à courrier" },
+  { mot: "enveloppe", definition: "A paper cover used to send a letter.", contextExample: "Je mets la lettre dans une enveloppe.", synonyme: "pochette" },
+  { mot: "destinée à", definition: "Meant for a particular person or purpose.", contextExample: "Cette lettre est destinée à Paul.", synonyme: "prévue pour" },
+  { mot: "gardien", definition: "A person who takes care of a building.", contextExample: "Le gardien ouvre la porte.", synonyme: "concierge" },
+  { mot: "sous-sol", definition: "A part of a building below the ground floor.", contextExample: "La voiture est au sous-sol.", synonyme: "niveau inférieur" },
+  { mot: "serrure", definition: "A mechanism used to close and secure a door.", contextExample: "La serrure de la porte est cassée.", synonyme: "système de fermeture" },
+  { mot: "cartons", definition: "Containers made of thick paper, often used to store things.", contextExample: "Les cartons sont dans la chambre.", synonyme: "boîtes" },
+  { mot: "caché", definition: "Put somewhere so that it cannot easily be seen.", contextExample: "Le cadeau est caché sous le lit.", synonyme: "dissimulé" },
+  { mot: "souvenirs", definition: "Things that help you remember people or moments from the past.", contextExample: "J'ai gardé des souvenirs de mon enfance.", synonyme: "mémoires" },
+  { mot: "déménagement", definition: "The act of leaving one home and moving to another.", contextExample: "Le déménagement est prévu samedi.", synonyme: "changement de logement" },
+  { mot: "émue", definition: "Strongly affected by a feeling, often making you want to cry.", contextExample: "Elle était très émue par la lettre.", synonyme: "touchée" },
+  { mot: "faire attention", definition: "To notice something carefully.", contextExample: "Fais attention à cette lettre.", synonyme: "être attentif" },
+  { mot: "faire naître", definition: "To cause something to begin or appear.", contextExample: "Cette histoire fait naître un sourire.", synonyme: "provoquer" },
+  { mot: "au hasard", definition: "Without choosing according to a particular plan.", contextExample: "J'ai choisi un livre au hasard.", synonyme: "sans choisir" },
+  { mot: "récupérer", definition: "To get something back.", contextExample: "Je vais récupérer mes affaires.", synonyme: "reprendre" },
+  { mot: "reconnaître", definition: "To know who or what something is because you have seen it before.", contextExample: "Je reconnais cette personne.", synonyme: "identifier" },
+  { mot: "étranger", definition: "Someone who is not known or familiar to you.", contextExample: "Un étranger était devant la maison.", synonyme: "inconnu" },
+  { mot: "appartenir", definition: "To be owned by someone.", contextExample: "Ce livre appartient à Marie.", synonyme: "être à" },
+  { mot: "autrefois", definition: "A long time ago; in the past.", contextExample: "Autrefois, cette rue était très calme.", synonyme: "dans le passé" },
+  { mot: "pourtant", definition: "Used when something is different from what you might expect.", contextExample: "Il pleut, pourtant il sort.", synonyme: "cependant" }
 ]
      },{
       id: 18,
@@ -3644,25 +3744,28 @@ wordef: [
      const conten = document.getElementById('conten');
      const text = document.getElementById('text');
      const deviceDate = new Date();
+
      function showText() {
        let indexDay = deviceDate.getDate() % textes.length;
        text.textContent = textes[indexDay].txt;
        
        let texto = text.textContent;
-        ajouter.addEventListener('click', () => {
-         ajouter.textContent = '✔ Added to my word list';
-         ajouter.className = 'ajouter-after';
+       textes[indexDay].wordef.forEach((element, index) => {
          
-          })
-       
-         textes[indexDay].wordef.forEach((element, index) => {
-           
-            texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
+         texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
+         if(sessionStorage.getItem('saberC' + index)) {
+           console.log('yes');
+           ajouter.textContent = sessionStorage.getItem('ajouterT');
+           ajouter.className = sessionStorage.getItem('ajouterC');
+         }
         })
-          
-          text.innerHTML = texto;
-        };
+        
+        text.innerHTML = texto;
+      };
       
+      
+        
+        
         const wrd = document.createElement('p');
         const croixDef =  document.createElement('div');
         const croix =  document.createElement('button');
@@ -3673,8 +3776,13 @@ wordef: [
         const ajouter = document.createElement('p');
         
         const defX = document.createElement('div');
+        
+        
         function meaning(ind) {
           const saber = document.getElementById(`word-${ind}`);
+          
+          
+          
          
      if(start.textContent === 'Start') {
       croixDef.className = 'croixDef';
@@ -3700,23 +3808,25 @@ wordef: [
 
      synonyme.textContent = `Synonyme: ${textes[deviceDate.getDate()].wordef[ind].synonyme}`;
      synonyme.className = 'synonyme';
-
+     
      ajouter.textContent = '❤️ Add to my word list';
      ajouter.className = 'ajouter';
-
-      ajouter.addEventListener('click', () => {
+     
+     
+     ajouter.addEventListener('click', () => {
          ajouter.textContent = '✔ Added to my word list';
          ajouter.className = 'ajouter-after';
-         ajouter.disabled = true;
+         sessionStorage.setItem('ajouterT', ajouter.textContent);
+         sessionStorage.setItem('ajouterC', ajouter.className);
          saber.classList.add('saber-after');
+         sessionStorage.setItem('saberC' + ind, saber.className);
         })
-        sessionStorage.setItem('ajouter', ajouter.className);
-      
+        
+        
+        
+        
      
-     
-     
-     
-     croix.addEventListener('click', function() {
+        croix.addEventListener('click', function() {
        if(croix) {
          croixDef.textContent = '';
          croixDef.className = '';
@@ -3724,7 +3834,7 @@ wordef: [
       })
       
       
-       
+      
 
   croixDef.appendChild(defX);
   defX.appendChild(wrd);
@@ -3738,10 +3848,7 @@ wordef: [
 
   contDef.appendChild(croixDef);
   
- 
-   if(sessionStorage.getItem('ajouter-after')) {
-          ajouter.className = localStorage.getItem('ajouter-after');
-          }
+  
 }
 showText();
 

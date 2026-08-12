@@ -444,6 +444,7 @@
     border-radius: 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    cursor: pointer;
     font-size: 1.25rem;
     height: 2.5rem;
     color: #d09320;
@@ -456,6 +457,7 @@
     background-color: #fce9c3;;
     align-items: center;
     border-radius: 15px;
+    cursor: pointer;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
