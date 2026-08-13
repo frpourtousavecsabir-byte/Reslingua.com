@@ -3745,8 +3745,8 @@ wordef: [
      const text = document.getElementById('text');
      const deviceDate = new Date();
 
-     let newWords = '';
      function showText() {
+       let newWords = '';
        let wrdNum = 0;
        let indexDay = deviceDate.getDate() % textes.length;
        text.textContent = textes[indexDay].txt;
@@ -3765,6 +3765,7 @@ wordef: [
            saber.className = savedClass;
           }
         })
+        
         textes[indexDay].wordef.forEach((element, index) => {
           const ajouter = sessionStorage.getItem(`ajouterT-${index}`);
          if(sessionStorage.getItem(`ajouterT-${index}`)) {

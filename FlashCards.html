@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="Styles/Global.css">
+    <link rel="stylesheet" href="Styles/FlashCards.css">
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>READING</title>
-    <link rel="stylesheet" href="Styles/Global.css">
-    <link rel="stylesheet" href="Styles/Reading2.css">
     <link rel="icon" type="image/svg+xml" href="Pictures/logo.svg">
     <style>
-      
-
+     
     </style>
   </head>
   <body>
-    <header class="header js-header">
+    <header>
       <div class="left-side">
         <span class="logo-text">RESLINGUA</span>
           <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
@@ -57,7 +59,7 @@
 </svg>
       </div>
 
-      <div class="left-side">
+      <div class="right-side">
         <a class="profile-button" href="https://preply.com/fr/tuteur/6178301">View teacher profile</a>
         <div class="profile-image-div" >
           <img class="profile-image" src="Pictures/teacher-profile.jpeg">
@@ -65,28 +67,22 @@
         </div>
       </div>
     </header>
-      <div class="header2 js-header2">
-        <button id="reset"></button>
-          <button id="start"></button>
-          <progress id="progress" value="900" max="900"></progress>
-          <p class="time" id="mins"><span class="time" id="min"></span>:<span id="second"></span></p>
-        </div>
-       
-    <main class="js-main">
-      <div class='todmin'>
-        <p   class=" today
-        ">Today's text for <button class="student-button" id="nadirah"></button></p>
-         <span class="min-number">≈ 15 MIN</span>
-
+     <main>
+      <div class="num-quitter">
+        <button>1/1</button>
+        <a href="Practice.html">Quitter</a>
       </div>
-
-       <p class="page-title">Reading time</p>
-       <p class="instruction">Read the text below attentively until the timer runs out.</p>
-       
-      <div class="toread" id="text">
+      <div>
+        <progress class="prog" value="4" max='5'></progress>
+      </div>
+      <div>
+        <p>revision rapide</p>
+         <span>melancolie</span>
+         <p>que signefie ce mot</p>
+         <button>affichier la definition</button>
       </div>
     </main>
-      <footer class="js-footer">
+    <footer class="js-footer">
       <div class="footer-button" >
         <svg  class="footer-svg" xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 24 24"
@@ -124,9 +120,6 @@
         <span class="footer-text">Profile</span>
       </div>
     </footer>
-    <div id="conten"></div>
-    <div id="contDef"></div>
   </body>
-  <script src="Js/Reading2.js">
-  </script>
+  <script src="Js/Reading.js"></script>
 </html>
