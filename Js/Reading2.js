@@ -3745,7 +3745,9 @@ wordef: [
      const text = document.getElementById('text');
      const deviceDate = new Date();
 
+     let newWords = '';
      function showText() {
+       let wrdNum = 0;
        let indexDay = deviceDate.getDate() % textes.length;
        text.textContent = textes[indexDay].txt;
        
@@ -3754,29 +3756,46 @@ wordef: [
          
          texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
         })
-        
         text.innerHTML = texto;
+        
+        textes[indexDay].wordef.forEach((element, index) => {
+          const saber = document.getElementById(`word-${index}`);
+         const savedClass = sessionStorage.getItem(`saber-${index}`);
+         if(sessionStorage.getItem(`saber-${index}`)) {
+           saber.className = savedClass;
+          }
+        })
+        textes[indexDay].wordef.forEach((element, index) => {
+          const ajouter = sessionStorage.getItem(`ajouterT-${index}`);
+         if(sessionStorage.getItem(`ajouterT-${index}`)) {
+           wrdNum++;
+          }
+        })
+        newWords += wrdNum;
+        console.log(newWords);
+        
+        sessionStorage.setItem('wordsNum', newWords);
+        console.log(sessionStorage.getItem(`wordsNum`));
       };
       showText();
       
       
-        
-        
-        const wrd = document.createElement('p');
-        const croixDef =  document.createElement('div');
-        const croix =  document.createElement('button');
-        const def = document.createElement('p');
-        const context = document.createElement('p');
+      
+      
+      const ajouter = document.createElement('p');
+      const wrd = document.createElement('p');
+      const croixDef =  document.createElement('div');
+      const croix =  document.createElement('button');
+      const def = document.createElement('p');
+      const context = document.createElement('p');
         const contextExample = document.createElement('p');
         const synonyme = document.createElement('p');
-        const ajouter = document.createElement('p');
         
         const defX = document.createElement('div');
        
-        console.log(sessionStorage.getItem('saberC'));
+       
         function meaning(ind) {
-          const saber = document.getElementById(`word-${ind}`);
-          
+        const saber = document.getElementById(`word-${ind}`); 
           
           
          
@@ -3812,13 +3831,17 @@ wordef: [
      ajouter.addEventListener('click', () => {
          ajouter.textContent = '✔ Added to my word list';
          ajouter.className = 'ajouter-after';
-         sessionStorage.setItem('ajouterT', ajouter.textContent);
-         sessionStorage.setItem('ajouterC', ajouter.className);
          saber.classList.add('saber-after');
-         sessionStorage.setItem('saberC', saber.className);
+         sessionStorage.setItem(`saber-${ind}`, saber.className);
+         sessionStorage.setItem(`ajouterT-${ind}`, ajouter.textContent);
+         
         })
         
-        
+        if(sessionStorage.getItem(`saber-${ind}`)) {
+         ajouter.textContent = '✔ Added to my word list';
+         ajouter.className = 'ajouter-after';
+         
+        }
         
         
      
@@ -3846,7 +3869,6 @@ wordef: [
   
     
 }
-meaning
 
 
 
@@ -4045,6 +4067,6 @@ if (sessionStorage.getItem('start-text')) {
 afficher();
 
 
-   function profileLink() {
-  window.location.href = 'https://preply.com/fr/tuteur/6178301'
-}
+ 
+   
+

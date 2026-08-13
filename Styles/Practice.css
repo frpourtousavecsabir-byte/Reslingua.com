@@ -1,13 +1,73 @@
 
+main {
+  margin-top: 5rem;
+  width: auto;
+  max-width: 90%;
+  margin-inline: auto;
+  height: auto;
+  min-height: fit-content;
+}
+.div {
+  background-color: #fffdf8;
+  padding: 0.7rem;
+  border-radius: 15px ;
+}
+.vocab {
+  color: #a8872f;
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.myWords {
+  color: #4a3b32;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+.sub {
+  color: #9c8468;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.num {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #4a3b32;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 0.5rem;
+}
+.word {
+  color: #9c8468;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
 .all-word-number {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 .word-number {
   display: flex;
   flex-direction: column;
 }
 .commencer {
- background-color: rgb(153, 153, 204);
+ background-color: #6e4a35;
+ color: #fff9e9;
+ border: none;
+ font-size: 1.5rem;
+ font-weight: 600;
+ font-family: sans-serif;
+ padding: 1rem 1rem;
+ width: auto;
+ max-width: 90%;
+ margin-inline: auto;
+ display: flex;
+ justify-content: center;
+ border-radius: 15px;
 }
