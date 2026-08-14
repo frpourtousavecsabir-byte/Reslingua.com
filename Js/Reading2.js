@@ -3852,7 +3852,6 @@ wordef: [
         
         audio.addEventListener('click', () => {
           speechSynthesis.cancel();
-          console.log('clcick');
             const audioWord = new SpeechSynthesisUtterance(wrd.textContent);
             audioWord.lang = "fr-FR";
             speechSynthesis.speak(audioWord);
@@ -3864,7 +3863,6 @@ wordef: [
           if(croix) {
          croixDef.textContent = '';
          croixDef.className = '';
-         speechSynthesis.cancel();
         } 
       })
       
