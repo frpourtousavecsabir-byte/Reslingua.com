@@ -3847,16 +3847,21 @@ wordef: [
         }
         
 
-        audio.addEventListener('click', () => {
-         const audioWord = new SpeechSynthesisUtterance(wrd.textContent);
-           audioWord.lang = "fr-FR";
-           speechSynthesis.speak(audioWord);
-          });
-          speechSynthesis.cancel();
         
-     
+        
+        
+        audio.addEventListener('click', () => {
+          speechSynthesis.cancel();
+          console.log('clcick');
+            const audioWord = new SpeechSynthesisUtterance(wrd.textContent);
+            audioWord.lang = "fr-FR";
+            speechSynthesis.speak(audioWord);
+      });
+          
+        
+          
         croix.addEventListener('click', function() {
-       if(croix) {
+          if(croix) {
          croixDef.textContent = '';
          croixDef.className = '';
          speechSynthesis.cancel();
@@ -3865,21 +3870,21 @@ wordef: [
       
       
       
-
-  croixDef.appendChild(defX);
-  defX.appendChild(wrd);
-  defX.appendChild(audio);
-  defX.appendChild(croix);
-  croixDef.appendChild(def);
-  croixDef.appendChild(context);
-  croixDef.appendChild(contextExample);
+      
+      croixDef.appendChild(defX);
+      defX.appendChild(wrd);
+      defX.appendChild(audio);
+      defX.appendChild(croix);
+      croixDef.appendChild(def);
+      croixDef.appendChild(context);
+      croixDef.appendChild(contextExample);
   croixDef.appendChild(synonyme);
   croixDef.appendChild(ajouter);
   
-
+  
   contDef.appendChild(croixDef);
   
-    
+  
 }
 
 
