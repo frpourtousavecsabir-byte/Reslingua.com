@@ -3785,6 +3785,7 @@ wordef: [
       
       const ajouter = document.createElement('p');
       const wrd = document.createElement('p');
+      const audio = document.createElement('p');
       const croixDef =  document.createElement('div');
       const croix =  document.createElement('button');
       const def = document.createElement('p');
@@ -3809,6 +3810,7 @@ wordef: [
 
      wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
      wrd.className = 'wrd';
+     audio.innerHTML = `<img class="parleur" src="svg/volume_up_24dp_RGB(86, 85, 85);_FILL0_wght400_GRAD0_opsz24.svg">`;
 
      croix.textContent = `𝘹`;
      croix.className = 'croix';
@@ -3844,12 +3846,20 @@ wordef: [
          
         }
         
+
+        audio.addEventListener('click', () => {
+         const audioWord = new SpeechSynthesisUtterance(wrd.textContent);
+           audioWord.lang = "fr-FR";
+           speechSynthesis.speak(audioWord);
+          });
+          speechSynthesis.cancel();
         
      
         croix.addEventListener('click', function() {
        if(croix) {
          croixDef.textContent = '';
          croixDef.className = '';
+         speechSynthesis.cancel();
         } 
       })
       
@@ -3858,6 +3868,7 @@ wordef: [
 
   croixDef.appendChild(defX);
   defX.appendChild(wrd);
+  defX.appendChild(audio);
   defX.appendChild(croix);
   croixDef.appendChild(def);
   croixDef.appendChild(context);
