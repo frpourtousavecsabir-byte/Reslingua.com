@@ -1,7 +1,25 @@
 main {
    background-color: aqua;
    margin-top: 7rem;
+   width: auto;
+   max-width: 90%;
+   margin-inline: auto;
 }
 .prog {
   width: 100%;
+}
+.num-quitter {
+  display: flex;
+  justify-content: space-between;
+
+}
+.revision {
+  display: flex;
+  justify-content: end;
+}
+.word-mean {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
