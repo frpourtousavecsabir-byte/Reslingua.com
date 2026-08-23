@@ -68,19 +68,20 @@
       </div>
     </header>
      <main>
-      <div class="num-quitter">
-        <button><span>1</span>/<span id="total">1</span></button>
-        <a href="Practice.html">Quitter</a>
-      </div>
-      <div>
-        <progress class="prog" value="4" max='5'></progress>
-      </div>
-      <div>
-        <p class="revision">revision rapide</p>
+       <div  class="num-quitter">
+         <button class="numWord-button"><span id="numero-mot"></span>/<span id="total">1</span></button>
+         <a class="quitter-button"  href="Practice.html">Quit</a>
+        </div>
+        <div class="progress">
+          
+        </div>
+        <div class="card">
+          <p  class="revision">Quick review</p>
+          <div id="contDef"></div>
         <div class="word-mean">
-          <span>melancolie</span>
-          <p>que signefie ce mot</p>
-          <button>affichier la definition</button>
+          <span id="wordToMemorise"></span>
+          <p class="que-signifie">What does this mean?</p>
+          <button id="afficher" class="afficher-button">Show meaning</button>
 
         </div>
       </div>
@@ -123,11 +124,8 @@
         <span class="footer-text">Profile</span>
       </div>
     </footer>
+    
   </body>
-  <script type="module">
-   const wrds = sessionStorage.getItem('wordsNum');
-
-   const total = document.getElementById('total');
-   total.textContent = wrds;
+  <script type="module" src="./Js/FlashCards.js">
   </script>
 </html>

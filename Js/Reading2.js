@@ -7460,6 +7460,10 @@ wordef: [
      const deviceDate = new Date();
 
      function showText() {
+       const wordsCart = [];
+       const defCart = [];
+       const contextCart = [];
+       const synonymeCart = [];
        let newWords = '';
        let wrdNum = 0;
        let indexDay = deviceDate.getDate() % textes.length;
@@ -7468,29 +7472,39 @@ wordef: [
        let texto = text.textContent;
        textes[indexDay].wordef.forEach((element, index) => {
          
-         texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index});" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
+         texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index})" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
         })
         text.innerHTML = texto;
+        console.log(text.innerHTML);
         
         textes[indexDay].wordef.forEach((element, index) => {
           const saber = document.getElementById(`word-${index}`);
-         const savedClass = sessionStorage.getItem(`saber-${index}`);
-         if(sessionStorage.getItem(`saber-${index}`)) {
+          const savedClass = sessionStorage.getItem(`saber-${index}`);
+          if(sessionStorage.getItem(`saber-${index}`)) {
            saber.className = savedClass;
           }
         })
         
         textes[indexDay].wordef.forEach((element, index) => {
           const ajouter = sessionStorage.getItem(`ajouterT-${index}`);
-         if(sessionStorage.getItem(`ajouterT-${index}`)) {
+          if(sessionStorage.getItem(`ajouterT-${index}`)) {
            wrdNum++;
+           wordsCart.push(`${textes[indexDay].wordef[index].mot}`)
+           defCart.push(`${textes[deviceDate.getDate()].wordef[index].definition}`)
+           contextCart.push(`${textes[deviceDate.getDate()].wordef[index].contextExample}`)
+           synonymeCart.push(`${textes[deviceDate.getDate()].wordef[index].synonyme}`)
+           
           }
         })
         newWords += wrdNum;
-        console.log(newWords);
         
-        sessionStorage.setItem('wordsNum', newWords);
-        console.log(sessionStorage.getItem(`wordsNum`));
+        localStorage.setItem('wordsNum', newWords);
+        localStorage.setItem('vocabToReview', JSON.stringify(wordsCart));
+        localStorage.setItem('defToReview', JSON.stringify(defCart));
+        localStorage.setItem('contextToReview', JSON.stringify(contextCart));
+        localStorage.setItem('synonymeToReview', JSON.stringify(synonymeCart));
+        console.log(wordsCart);
+        console.log(defCart);
       };
       showText();
       
@@ -7510,9 +7524,9 @@ wordef: [
         const defX = document.createElement('div');
        
        
+        
         function meaning(ind) {
         const saber = document.getElementById(`word-${ind}`); 
-          
           
          
      if(start.textContent === 'Start') {
@@ -7555,9 +7569,9 @@ wordef: [
         })
         
         if(sessionStorage.getItem(`saber-${ind}`)) {
+          
          ajouter.textContent = '✔ Added to my word list';
          ajouter.className = 'ajouter-after';
-         
         }
         
 

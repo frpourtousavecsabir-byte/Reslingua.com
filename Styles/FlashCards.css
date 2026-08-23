@@ -1,12 +1,81 @@
 main {
-   background-color: aqua;
-   margin-top: 7rem;
+   margin-top: 5rem;
    width: auto;
    max-width: 90%;
    margin-inline: auto;
 }
+.numWord-button {
+  color: #6B7A9C;
+  border: none;
+  background-color: transparent;
+}
+.quitter-button {
+  color: #6B7A9C;
+  text-decoration: none;
+}
+.card {
+  background-color: var(--bg-card);
+  border-radius: 15px;
+  padding: 0.7rem 1.3rem ;
+}
 .prog {
+  accent-color: rgb(180, 204, 180);
+  background-color: var(--bg);
   width: 100%;
+  height: 0.4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
+}
+.prog::-webkit-progress-bar {
+  background-color: rgba(27, 42, 74, 0.09);
+  border-radius: 15px;
+}
+.prog::-webkit-progress-value {
+  background-color:#d09320 ;
+  border-radius: 15px;
+}
+.revision {
+  color: #A5813C;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+.toMemorise {
+  margin-top: 1.5rem;
+    color: #3b3028;
+    font-family: Georgia,  sans-serif;
+    font-weight: bold;
+}
+.que-signifie{
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-family: 'Inter';
+  font-weight:300;
+  color: #8a6652;
+  margin-bottom: 1.5rem;
+}
+.afficher-button{
+  background-color: #e4d1ad;
+  font-family: 'Inter';
+  padding: 0.3rem 1.5rem;
+  border: none;
+  color: #6b4a37;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+.afficher-button-after{
+  background-color: #e4d1ad;
+  font-family: 'Inter';
+  padding: 0.3rem 1.5rem;
+  border: none;
+  color: #6b4a37;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 3rem;
 }
 .num-quitter {
   display: flex;
@@ -23,3 +92,309 @@ main {
   justify-content: center;
   align-items: center;
 }
+/**gggg**/
+.defX {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .croixDef {
+    position: relative;
+        background-color: #fefcf7;
+        position: fixed;
+        bottom: 3.4rem;
+        left: 1.2rem;
+        right: 1.2rem;
+        margin-inline: auto;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        max-width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        border-top: 1px solid #e2d3b5;
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 1.3rem 1rem;
+        box-shadow: 0 2px 12px  rgba(59, 48, 40, 0.10);
+         width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+      }
+  .wrd {
+    font-size: 1.5rem;
+    color: #3b3028;
+    font-family: Georgia,  sans-serif;
+    font-weight: bold;
+  }
+  .def {
+    font-size: 1rem;
+    color: #6f6255;
+    font-weight: 600;
+    font-family: 'Inter',  sans-serif;
+    margin-bottom: 1rem;
+  }
+  .context {
+   color: #bfa26c;
+   font-weight: 700;
+   font-family: 'Inter',  sans-serif;
+    margin-top: 1.3rem;
+  }
+  .contextExample {
+    padding: 0.6rem 0.5rem;
+    background-color: #eee5d2;
+    height: auto;
+    min-height: fit-content;
+   font-family: 'Inter',  sans-serif;
+    margin-bottom: 0.5rem;
+    color: #8a6652;
+    border-radius: 15px;
+    margin-top: 0.4rem;
+    font-weight: 500;
+  }
+  .synonyme {
+     font-size: 0.87rem;
+    color: #94887d;
+    font-weight: 600;
+    
+    font-family: 'Inter',  sans-serif;
+    margin-bottom: 3rem;
+  }
+  /** revison du mot carte a voir**/
+  .difficulte {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .facile {
+   background-color: #e2efe2;
+   border: none;
+   color: #4B7A5C;
+   font-family: 'Space Mono', monospace, sans-serif;
+   font-weight: 600;
+   font-size: 1rem;
+   padding: 0.5rem 1.5rem;
+   border-radius: 15px;
+  }
+  .revoir {
+    background-color: #ece3d0;
+    border: none;
+    color: #B4863C;
+    font-family: 'Space Mono', monospace, sans-serif;
+   font-weight: 600;
+   font-size: 1rem;
+   padding: 0.5rem 1.5rem;
+   border-radius: 15px;
+  }
+  .difficile {
+    background-color: #e8c9c2;
+    border: none;
+    color: #9C4438;
+    font-family: 'Space Mono', monospace, sans-serif;
+   font-weight: 600;
+   font-size: 1rem;
+   padding: 0.5rem 0.5rem;
+   border-radius: 15px;
+  }
+  .choose {
+    margin-top: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .defEng {
+    font-family: 'Inter', sans-serif;
+    color: #4a3719;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .defEngBUtton1 {
+    background-color: #e5dac9;
+    color: #6a4e3e;
+    border: 1px solid #6a4e3e;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+  .defEngBUtton2 {
+    background-color: #e5dac9;
+    color: #6a4e3e;
+    border: 1px solid #6a4e3e;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+  .defEngBUtton3 {
+    background-color: #e5dac9;
+    color: #6a4e3e;
+    border: 1px solid #6a4e3e;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+  .pass {
+    background-color: #b49985;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: 70%;
+    margin-inline: auto;
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+  .dif-button {
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 0.2rem;
+    background-color: transparent;
+    border: none;
+    color: #9C4438;
+    font-size: 1.2rem;
+  }
+  .rev-button {
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 0.2rem;
+    background-color: transparent;
+    border: none;
+    color: #B4863C;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .fac-button {
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 0.2rem;
+    background-color: transparent;
+    border: none;
+    color: #4B7A5C;
+    font-size: 1.2rem;
+  }
+  .defEngDiv {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .defEngBUtton-right {
+    background-color: #71d164;
+    color: #6a4e3e;
+    border: 1px solid #6a4e3e;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+  .defEngBUtton-wrong {
+    background-color:rgb(225, 69, 69);
+    color: #6a4e3e;
+    border: 1px solid #6a4e3e;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+  .fete {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .sessionTermine {
+    font-size: 1.6rem;
+    display: flex;
+    margin-top: 0.5rem;
+    color: #3b3028;
+    font-weight: 700 ;
+    justify-content: center;
+  }
+  .wordRevise {
+    font-size: 0.9rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    color: #8a6652;
+    margin-top: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+  }
+  .endDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .difficultNum {
+    display: flex;
+    margin-inline: auto;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: #9C4438;
+    font-family: 'Poppins';
+  }
+  .revoirNum {
+    display: flex;
+    margin-inline: auto;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: #B4863C;
+    font-family: 'Poppins';
+  }
+  .facileNum {
+    display: flex;
+    margin-inline: auto;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: #4B7A5C;
+    font-family: 'Poppins';
+  }
+  .wordNumDifficulty {
+    color: #6B7A9C;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .reviewAgain {
+    margin-top: 3rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    padding: 0.5rem;
+    color: #3b3028;
+    max-width: 80%;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: #caba9e;
+  }
+  .reread {
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    padding: 0.5rem;
+    max-width: 60%;
+    color: #3b3028;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: #e6decf;
+  }
