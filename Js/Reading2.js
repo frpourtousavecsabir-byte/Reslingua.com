@@ -7479,15 +7479,15 @@ wordef: [
         
         textes[indexDay].wordef.forEach((element, index) => {
           const saber = document.getElementById(`word-${index}`);
-          const savedClass = sessionStorage.getItem(`saber-${index}`);
-          if(sessionStorage.getItem(`saber-${index}`)) {
+          const savedClass = localStorage.getItem(`saber-${index}`);
+          if(localStorage.getItem(`saber-${index}`)) {
            saber.className = savedClass;
           }
         })
         
         textes[indexDay].wordef.forEach((element, index) => {
-          const ajouter = sessionStorage.getItem(`ajouterT-${index}`);
-          if(sessionStorage.getItem(`ajouterT-${index}`)) {
+          const ajouter = localStorage.getItem(`ajouterT-${index}`);
+          if(localStorage.getItem(`ajouterT-${index}`)) {
            wrdNum++;
            wordsCart.push(`${textes[indexDay].wordef[index].mot}`)
            defCart.push(`${textes[deviceDate.getDate()].wordef[index].definition}`)
@@ -7563,12 +7563,12 @@ wordef: [
          ajouter.textContent = '✔ Added to my word list';
          ajouter.className = 'ajouter-after';
          saber.classList.add('saber-after');
-         sessionStorage.setItem(`saber-${ind}`, saber.className);
-         sessionStorage.setItem(`ajouterT-${ind}`, ajouter.textContent);
+         localStorage.setItem(`saber-${ind}`, saber.className);
+         localStorage.setItem(`ajouterT-${ind}`, ajouter.textContent);
          
         })
         
-        if(sessionStorage.getItem(`saber-${ind}`)) {
+        if(localStorage.getItem(`saber-${ind}`)) {
           
          ajouter.textContent = '✔ Added to my word list';
          ajouter.className = 'ajouter-after';
@@ -7622,28 +7622,28 @@ localStorage.setItem('prg2', start.className);
 
 let interval;
 
-min.textContent = sessionStorage.getItem('mn');
-second.textContent = sessionStorage.getItem('scn');
-progress.value = sessionStorage.getItem('prog') ;
+min.textContent = localStorage.getItem('mn');
+second.textContent = localStorage.getItem('scn');
+progress.value = localStorage.getItem('prog') ;
 
-let prog = sessionStorage.getItem('prog') || 900;
-let mins = sessionStorage.getItem('mn') || 15;
-let seconds = sessionStorage.getItem('scn') || 0;
+let prog = localStorage.getItem('prog') || 900;
+let mins = localStorage.getItem('mn') || 15;
+let seconds = localStorage.getItem('scn') || 0;
 second.textContent = String(seconds).padStart(2, 0);
 min.textContent = mins;
 progress.value = prog;
 
 
 
-if (sessionStorage.getItem('start-text')) {
-  start.className = sessionStorage.getItem('start');
-  start.textContent = sessionStorage.getItem('start-text');
+if (localStorage.getItem('start-text')) {
+  start.className = localStorage.getItem('start');
+  start.textContent = localStorage.getItem('start-text');
 
-  header.className = sessionStorage.getItem('header');
-  header2.className = sessionStorage.getItem('header2');
-  main.className = sessionStorage.getItem('main-after');
+  header.className = localStorage.getItem('header');
+  header2.className = localStorage.getItem('header2');
+  main.className = localStorage.getItem('main-after');
 
-  footer.className = sessionStorage.getItem('footer-after');
+  footer.className = localStorage.getItem('footer-after');
 
   
       
@@ -7697,16 +7697,16 @@ if (sessionStorage.getItem('start-text')) {
         start.classList.add('start-button');
         clearInterval(interval);
       } 
-      sessionStorage.setItem('start', start.className);
-      sessionStorage.setItem('start-text', start.textContent);
+      localStorage.setItem('start', start.className);
+      localStorage.setItem('start-text', start.textContent);
 
-      sessionStorage.setItem('header', header.className);
-      sessionStorage.setItem('header2', header2.className);
-      sessionStorage.setItem('main-after', main.className);
+      localStorage.setItem('header', header.className);
+      localStorage.setItem('header2', header2.className);
+      localStorage.setItem('main-after', main.className);
 
-      sessionStorage.setItem('footer-after', footer.className);
+      localStorage.setItem('footer-after', footer.className);
 
-      sessionStorage.setItem('croixDef-after', croixDef.className);
+      localStorage.setItem('croixDef-after', croixDef.className);
 
     });
       
@@ -7787,9 +7787,9 @@ if (sessionStorage.getItem('start-text')) {
         }
         min.textContent = String(mins).padStart(2, '0')
         second.textContent = String(seconds).padStart(2, '0')
-        sessionStorage.setItem('prog', progress.value );
-        sessionStorage.setItem('mn', min.textContent);
-        sessionStorage.setItem('scn', second.textContent);
+        localStorage.setItem('prog', progress.value );
+        localStorage.setItem('mn', min.textContent);
+        localStorage.setItem('scn', second.textContent);
       }
       }, 1000);
       
