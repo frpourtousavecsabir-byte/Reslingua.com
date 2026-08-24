@@ -1,9 +1,9 @@
  let i = 0;
- const vocab = JSON.parse(localStorage.getItem('vocabToReview'));
- const defVocab = JSON.parse(localStorage.getItem('defToReview'));
- const contextVocab = JSON.parse(localStorage.getItem('contextToReview'));
- const synonymeVocab = JSON.parse(localStorage.getItem('synonymeToReview'));
- const localDef = localStorage.getItem('def');
+ const vocab = JSON.parse(sessionStorage.getItem('vocabToReview'));
+ const defVocab = JSON.parse(sessionStorage.getItem('defToReview'));
+ const contextVocab = JSON.parse(sessionStorage.getItem('contextToReview'));
+ const synonymeVocab = JSON.parse(sessionStorage.getItem('synonymeToReview'));
+ const localDef = sessionStorage.getItem('def');
  
  
  const wordToMemorise = document.getElementById('wordToMemorise');
@@ -137,7 +137,7 @@
         
         contDef.textContent = '';
         wordToMemorise.textContent =vocab[i];
-        localStorage.setItem('wordToMemorise', wordToMemorise.innerHTML);
+        sessionStorage.setItem('wordToMemorise', wordToMemorise.innerHTML);
         
         document.querySelector('.que-signifie').innerHTML = 'What does this mean?';
         afficher.innerHTML = `Show meaning`;
