@@ -5293,7 +5293,7 @@ wordef: [
       },{
         id: 24,
         date: 24,
-        txt: `La chaise devant la fenêtre...
+        txt: `La chaise devant la fenêtre
 
 Tous les matins, avant d'aller travailler, Antoine ouvrait les volets de son appartement.
 

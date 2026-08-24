@@ -143,7 +143,7 @@
         wordToMemorise.textContent =vocab[i];
         localStorage.setItem('wordToMemorise', wordToMemorise.innerHTML);
         
-        document.querySelector('.que-signifie').innerHTML = 'What does that means ?';
+        document.querySelector('.que-signifie').innerHTML = 'What does this mean?';
         afficher.innerHTML = `Show meaning`;
    afficher.classList.add('afficher-button-after');
    
