@@ -1,4 +1,5 @@
- let i = 0;
+ let i = Number(localStorage.getItem('index')) || 0;
+ console.log(i);
  const vocab = JSON.parse(localStorage.getItem('vocabToReview'));
  const defVocab = JSON.parse(localStorage.getItem('defToReview'));
  const contextVocab = JSON.parse(localStorage.getItem('contextToReview'));
@@ -8,14 +9,14 @@
  
  const wordToMemorise = document.getElementById('wordToMemorise');
  const afficher = document.getElementById('afficher');
- wordToMemorise.textContent = vocab[0];
+ wordToMemorise.textContent = vocab[i];
  wordToMemorise.classList.add('toMemorise');
  console.log(vocab);
  
  
- let value =1;
+ let value = i+1;
  const numeroMot = document.getElementById('numero-mot');
- numeroMot.textContent = 1;
+ numeroMot.textContent = i +1;
  const total = document.getElementById('total');
  total.textContent = vocab.length;
  
@@ -47,22 +48,23 @@
  const reviewAgain = document.createElement('div');
  const reRead = document.createElement('div');
  
- 
  const defX = document.createElement('div');
+ const index = localStorage.getItem('index');
  
+ console.log(i);
  
  afficher.addEventListener('click', () => {
    wordToMemorise.textContent ='';
   document.querySelector('.que-signifie').innerHTML = '';
-   afficher.textContent ='';
-   afficher.classList.remove('afficher-button');
-   afficher.classList.remove('afficher-button-after');
-
-   defX.className = 'defX';
-
-     wrd.innerHTML = `${vocab[i]}`;
-     wrd.className = 'wrd';
-     
+  afficher.textContent ='';
+  afficher.classList.remove('afficher-button');
+  afficher.classList.remove('afficher-button-after');
+  
+  defX.className = 'defX';
+  
+  wrd.innerHTML = `${vocab[i]}`;
+  wrd.className = 'wrd';
+  
      audio.innerHTML = `<img class="parleur" src="svg/volume_up_24dp_RGB(86, 85, 85);_FILL0_wght400_GRAD0_opsz24.svg">`;
      
      
@@ -80,10 +82,10 @@
      synonyme.className = 'synonyme';
      
      difficulte.className =  'difficulte';
-
+     
      difficile.innerHTML = `<button class="dif-button">✖</button>Difficult`;
      difficile.className = 'difficile';
-
+     
      revoir.innerHTML = `<button class="rev-button">≈</button>Again`;
      revoir.className = 'revoir';
      
@@ -100,14 +102,14 @@
        const audioWord = new SpeechSynthesisUtterance(wrd.textContent);
        audioWord.lang = "fr-FR";
        speechSynthesis.speak(audioWord);
-        });
+      });
           
         
         
+      
+      
         
-        
-        
-        
+      
         
         croixDef.appendChild(defX);
         defX.appendChild(wrd);
@@ -130,6 +132,8 @@
       
       function motSuivant () {
         i++;
+        console.log(i);
+        localStorage.setItem('index', i);
         numeroMot.textContent++;
         value = numeroMot.textContent;
         document.querySelector('.progress').innerHTML = `<progress class="prog" value="${value}" max='${total.textContent}'></progress>`;
@@ -145,6 +149,7 @@
    
    
    if(Number(numeroMot.textContent) > Number(total.textContent)) {
+
      document.querySelector('.num-quitter').innerHTML = '';
      console.log('go');
      wordToMemorise.textContent ='';
@@ -176,12 +181,16 @@
   
   reviewAgain.innerHTML = 'Review again';
   reviewAgain.className = 'reviewAgain';
+  reviewAgain.addEventListener('click', () => {
+    removeIndex();
+  });
   
   reRead.innerHTML = 'Re-read';
   reRead.className = 'reread';
   
   reRead.addEventListener('click', () => {
-    window.location.href='Reading2.html'
+    window.location.href='Reading2.html';
+    removeIndex();
   })
 
   contDef.append(fete);
@@ -200,13 +209,13 @@ reviewAgain.addEventListener('click', ()=> {
   window.location.href ='FlashCards.html'
 });
 
-let facileNum = 0;
+let facileNum = i;
 facile.addEventListener('click', () => {
   facileNum++;
  motSuivant();
 })
 
-let revoirNum = 0;
+let revoirNum = i;
 revoir.addEventListener('click', () => {
   revoirNum++;
  motSuivant();
@@ -234,7 +243,7 @@ console.log(randomOthers[0]);
 console.log(randomOthers[1]);
 
 
-let difficultNum = 0;
+let difficultNum = i;
 difficile.addEventListener('click', () => {
   difficultNum++;
 
@@ -310,4 +319,12 @@ difficile.addEventListener('click', () => {
 pass.addEventListener('click', ()=> {
   motSuivant();
 });
+
+function removeIndex() {
+  i=0;
+  localStorage.removeItem('index');
+}
+document.getElementById('quit').addEventListener('click', ()=> {
+ removeIndex();
+})
 
