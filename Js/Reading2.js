@@ -7408,12 +7408,7 @@ wordef: [
 
    
    
-   
-  /* 
-    header.className = sessionStorage.setItem('header', header.className);
-    header2.className = sessionStorage.setItem('header2', header2.className);
-    main.className = sessionStorage.setItem('main-after', main.className);
-*/
+  
    const name = localStorage.getItem('name');
    const progress = document.getElementById('progress');
    const start = document.getElementById('start');
@@ -7458,12 +7453,15 @@ wordef: [
      const conten = document.getElementById('conten');
      const text = document.getElementById('text');
      const deviceDate = new Date();
-
+     
+     
+     
+     
+     const wordsCart = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')) || [];
+     const defCart = JSON.parse(localStorage.getItem('defToReviewUniqueDef')) || [];
+     const contextCart =JSON.parse(localStorage.getItem('contextToReviewUniqueContext')) || [];
+     const synonymeCart =JSON.parse(localStorage.getItem('synonymeToReviewUniqueSynonyme')) || [];
      function showText() {
-       const wordsCart = [];
-       const defCart = [];
-       const contextCart = [];
-       const synonymeCart = [];
        let newWords = '';
        let wrdNum = 0;
        let indexDay = deviceDate.getDate() % textes.length;
@@ -7472,38 +7470,65 @@ wordef: [
        let texto = text.textContent;
        textes[indexDay].wordef.forEach((element, index) => {
          
-         texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index})" class="saber">${textes[indexDay].wordef[index].mot}</span>`);
+         texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index})" class="saber js-saber-${index}">${textes[indexDay].wordef[index].mot}</span>`);
+          
         })
         text.innerHTML = texto;
+
         
-        textes[indexDay].wordef.forEach((element, index) => {
-          const saber = document.getElementById(`word-${index}`);
-          const savedClass = sessionStorage.getItem(`saber-${index}`);
-          if(sessionStorage.getItem(`saber-${index}`)) {
-           saber.className = savedClass;
+       
+        
+        
+        document.getElementById('nadirah').addEventListener('click', ()=> {
+          localStorage.clear();
+        });
+        
+        const uniqueWord = wordsCart.filter((mot, index) => {
+          if(wordsCart.slice(0, index).includes(mot)) {
+            return false;
+          } else {
+            return true;
           }
-        })
-        
-        textes[indexDay].wordef.forEach((element, index) => {
-          const ajouter = sessionStorage.getItem(`ajouterT-${index}`);
-          if(sessionStorage.getItem(`ajouterT-${index}`)) {
-           wrdNum++;
-           wordsCart.push(`${textes[indexDay].wordef[index].mot}`)
-           defCart.push(`${textes[deviceDate.getDate()].wordef[index].definition}`)
-           contextCart.push(`${textes[deviceDate.getDate()].wordef[index].contextExample}`)
-           synonymeCart.push(`${textes[deviceDate.getDate()].wordef[index].synonyme}`)
-           
+        });
+
+        localStorage.setItem('vocabToReviewUniqueWord', JSON.stringify(uniqueWord));
+        console.log(uniqueWord);
+
+         const uniqueDef = defCart.filter((mot, index) => {
+          if(defCart.slice(0, index).includes(mot)) {
+           return false;
+          } else {
+            return true;
           }
-        })
-        newWords += wrdNum;
+        });
+        localStorage.setItem('defToReviewUniqueDef', JSON.stringify(uniqueDef));
+        console.log(uniqueDef);
+
+         const uniqueContext = contextCart.filter((mot, index) => {
+          if(contextCart.slice(0, index).includes(mot)) {
+           return false;
+          } else {
+            return true;
+          }
+        });
+        localStorage.setItem('contextToReviewUniqueContext', JSON.stringify(uniqueContext));
+
+        console.log(uniqueContext);
+         const uniqueSynonyme = synonymeCart.filter((mot, index) => {
+          if(synonymeCart.slice(0, index).includes(mot)) {
+           return false;
+          } else {
+            return true;
+          }
+        });
+        localStorage.setItem('synonymeToReviewUniqueSynonyme', JSON.stringify(uniqueSynonyme));
+        console.log(uniqueSynonyme);
+
         
-        localStorage.setItem('wordsNum', newWords);
-        localStorage.setItem('vocabToReview', JSON.stringify(wordsCart));
-        localStorage.setItem('defToReview', JSON.stringify(defCart));
-        localStorage.setItem('contextToReview', JSON.stringify(contextCart));
-        localStorage.setItem('synonymeToReview', JSON.stringify(synonymeCart));
-        console.log(wordsCart);
-        console.log(defCart);
+         
+          
+          
+
       };
       showText();
       
@@ -7517,40 +7542,40 @@ wordef: [
       const croix =  document.createElement('button');
       const def = document.createElement('p');
       const context = document.createElement('p');
-        const contextExample = document.createElement('p');
-        const synonyme = document.createElement('p');
-        
-        const defX = document.createElement('div');
-       
-       
-        
-        function meaning(ind) {
+      const contextExample = document.createElement('p');
+      const synonyme = document.createElement('p');
+      
+      const defX = document.createElement('div');
+      
+      
+      
+      function meaning(ind) {
         const saber = document.getElementById(`word-${ind}`); 
           
-         
-     if(start.textContent === 'Start') {
-      croixDef.className = 'croixDef';
- }  else {
-  croixDef.className = 'croixDef-after';
- }
-     defX.className = 'defX';
-
+        
+        if(start.textContent === 'Start') {
+          croixDef.className = 'croixDef';
+    }  else {
+      croixDef.className = 'croixDef-after';
+    }
+ defX.className = 'defX';
+ 
      wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
      wrd.className = 'wrd';
      audio.innerHTML = `<img class="parleur" src="svg/volume_up_24dp_RGB(86, 85, 85);_FILL0_wght400_GRAD0_opsz24.svg">`;
-
+     
      croix.textContent = `𝘹`;
      croix.className = 'croix';
      
      def.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].definition}`;
      def.className = 'def';
-
+     
      context.textContent = 'CONTEXT';
      context.className = 'context';
-
+     
      contextExample.textContent = `${textes[deviceDate.getDate()].wordef[ind].contextExample}`;
      contextExample.className = 'contextExample';
-
+     
      synonyme.textContent = `Synonyme: ${textes[deviceDate.getDate()].wordef[ind].synonyme}`;
      synonyme.className = 'synonyme';
      
@@ -7559,16 +7584,27 @@ wordef: [
      
      
      ajouter.addEventListener('click', () => {
-         ajouter.textContent = '✔ Added to my word list';
-         ajouter.className = 'ajouter-after';
-         saber.classList.add('saber-after');
-         sessionStorage.setItem(`saber-${ind}`, saber.className);
-         sessionStorage.setItem(`ajouterT-${ind}`, ajouter.textContent);
+       ajouter.textContent = '✔ Added to my word list';
+       ajouter.className = 'ajouter-after';
+       saber.classList.add('saber-after');
+       
+       
+       wordsCart.push(`${textes[deviceDate.getDate()].wordef[ind].mot}`)
+       defCart.push(`${textes[deviceDate.getDate()].wordef[ind].definition}`)
+       contextCart.push(`${textes[deviceDate.getDate()].wordef[ind].contextExample}`)
+       synonymeCart.push(`${textes[deviceDate.getDate()].wordef[ind].synonyme}`)
+       
+       sessionStorage.setItem(`saber-${ind}`, saber.className);
+       sessionStorage.setItem(`ajouterT-${ind}`, ajouter.textContent);
+        
+       
+        
+       
+       showText();
          
         })
         
         if(sessionStorage.getItem(`saber-${ind}`)) {
-          
          ajouter.textContent = '✔ Added to my word list';
          ajouter.className = 'ajouter-after';
         }
@@ -7634,15 +7670,15 @@ progress.value = prog;
 
 
 
-if (sessionStorage.getItem('start-text')) {
-  start.className = sessionStorage.getItem('start');
-  start.textContent = sessionStorage.getItem('start-text');
+if (localStorage.getItem('start-text')) {
+  start.className = localStorage.getItem('start');
+  start.textContent = localStorage.getItem('start-text');
 
-  header.className = sessionStorage.getItem('header');
-  header2.className = sessionStorage.getItem('header2');
-  main.className = sessionStorage.getItem('main-after');
+  header.className = localStorage.getItem('header');
+  header2.className = localStorage.getItem('header2');
+  main.className = localStorage.getItem('main-after');
 
-  footer.className = sessionStorage.getItem('footer-after');
+  footer.className = localStorage.getItem('footer-after');
 
   
       
@@ -7696,16 +7732,16 @@ if (sessionStorage.getItem('start-text')) {
         start.classList.add('start-button');
         clearInterval(interval);
       } 
-      sessionStorage.setItem('start', start.className);
-      sessionStorage.setItem('start-text', start.textContent);
+      localStorage.setItem('start', start.className);
+      localStorage.setItem('start-text', start.textContent);
 
-      sessionStorage.setItem('header', header.className);
-      sessionStorage.setItem('header2', header2.className);
-      sessionStorage.setItem('main-after', main.className);
+      localStorage.setItem('header', header.className);
+      localStorage.setItem('header2', header2.className);
+      localStorage.setItem('main-after', main.className);
 
-      sessionStorage.setItem('footer-after', footer.className);
+      localStorage.setItem('footer-after', footer.className);
 
-      sessionStorage.setItem('croixDef-after', croixDef.className);
+      localStorage.setItem('croixDef-after', croixDef.className);
 
     });
       
@@ -7786,9 +7822,9 @@ if (sessionStorage.getItem('start-text')) {
         }
         min.textContent = String(mins).padStart(2, '0')
         second.textContent = String(seconds).padStart(2, '0')
-        sessionStorage.setItem('prog', progress.value );
-        sessionStorage.setItem('mn', min.textContent);
-        sessionStorage.setItem('scn', second.textContent);
+        localStorage.setItem('prog', progress.value );
+        localStorage.setItem('mn', min.textContent);
+        localStorage.setItem('scn', second.textContent);
       }
       }, 1000);
       

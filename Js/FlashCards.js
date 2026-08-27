@@ -1,9 +1,10 @@
  let i = Number(localStorage.getItem('index')) || 0;
- console.log(i);
- const vocab = JSON.parse(localStorage.getItem('vocabToReview'));
- const defVocab = JSON.parse(localStorage.getItem('defToReview'));
- const contextVocab = JSON.parse(localStorage.getItem('contextToReview'));
- const synonymeVocab = JSON.parse(localStorage.getItem('synonymeToReview'));
+
+
+ const vocab = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord'));
+ const defVocab = JSON.parse(localStorage.getItem('defToReviewUniqueDef'));
+ const contextVocab = JSON.parse(localStorage.getItem('contextToReviewUniqueContext'));
+ const synonymeVocab = JSON.parse(localStorage.getItem('synonymeToReviewUniqueSynonyme'));
  const localDef = localStorage.getItem('def');
  
  
@@ -11,14 +12,14 @@
  const afficher = document.getElementById('afficher');
  wordToMemorise.textContent = vocab[i];
  wordToMemorise.classList.add('toMemorise');
- console.log(vocab);
  
  
  let value = i+1;
  const numeroMot = document.getElementById('numero-mot');
  numeroMot.textContent = i +1;
  const total = document.getElementById('total');
- total.textContent = vocab.length;
+ total.textContent = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
+ console.log(total);
  
  document.querySelector('.progress').innerHTML = `<progress class="prog" value="${value}" max='${total.textContent}'></progress>`
  
