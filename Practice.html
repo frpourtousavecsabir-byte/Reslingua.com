@@ -133,7 +133,8 @@
     </footer>
   </body>
   <script>
-     const wordsNum = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
+     let wordsNum = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
+     
      
      const wordsNumId = document.getElementById('wordsNum');
      const wordsNumIdCommencer = document.getElementById('wordsNumCommencer');

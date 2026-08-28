@@ -2,6 +2,8 @@
 
 
  const vocab = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord'));
+ const vocabAfterDelete = JSON.parse(localStorage.getItem('vocaAfterDelete'));
+ 
  const defVocab = JSON.parse(localStorage.getItem('defToReviewUniqueDef'));
  const contextVocab = JSON.parse(localStorage.getItem('contextToReviewUniqueContext'));
  const synonymeVocab = JSON.parse(localStorage.getItem('synonymeToReviewUniqueSynonyme'));
@@ -17,8 +19,8 @@
  let value = i+1;
  const numeroMot = document.getElementById('numero-mot');
  numeroMot.textContent = i +1;
- const total = document.getElementById('total');
- total.textContent = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
+ let total = document.getElementById('total');
+ total.textContent = vocab.length;
  console.log(total);
  
  document.querySelector('.progress').innerHTML = `<progress class="prog" value="${value}" max='${total.textContent}'></progress>`
@@ -133,21 +135,39 @@
         
         
       })
-/**
+
       delet.addEventListener('click', ()=> {
         vocab.splice(i, 1);
+        defVocab.splice(i, 1);
+        contextVocab.splice(i, 1);
+        synonymeVocab.splice(i, 1)
+        wrd.innerHTML = `${vocab[i]}`;
+         def.innerHTML = `${defVocab[i]}`;
+         contextExample.textContent = `${contextVocab[i]}`;
+         synonyme.textContent = `Synonyme: ${synonymeVocab[i]}`;
+
+         localStorage.setItem('vocaAfterDelete', JSON.stringify(vocab));
+
+        total.textContent = vocab.length ;
+        console.log(total.textContent);
         console.log(vocab);
-        motSuivant();
+
+        delet.innerHTML = '';
+        delet.classList.remove('Delete');
+        contDef.textContent = '';
+        wordToMemorise.textContent =vocab[i];
+         document.querySelector('.que-signifie').innerHTML = 'What does this mean?';
+        afficher.innerHTML = `Show meaning`;
+        afficher.classList.add('afficher-button-after');
+        end();
       });
-      console.log(vocab);
-      **/
+      
       
       
       function motSuivant () {
-        i++;
+       i++;
         delet.innerHTML = '';
         delet.classList.remove('Delete');
-        console.log(i);
         localStorage.setItem('index', i);
         numeroMot.textContent++;
         value = numeroMot.textContent;
@@ -161,9 +181,11 @@
         document.querySelector('.que-signifie').innerHTML = 'What does this mean?';
         afficher.innerHTML = `Show meaning`;
    afficher.classList.add('afficher-button-after');
-   
-   
-   if(Number(numeroMot.textContent) > Number(total.textContent)) {
+   end();
+}
+
+function end() {
+if(Number(numeroMot.textContent) > Number(total.textContent)) {
 
      document.querySelector('.num-quitter').innerHTML = '';
      console.log('go');
@@ -218,8 +240,9 @@
   contDef.append(reviewAgain);
   contDef.append(reRead);
 }
-
 }
+
+
 reviewAgain.addEventListener('click', ()=> {
   window.location.href ='FlashCards.html'
 });
@@ -261,6 +284,9 @@ console.log(randomOthers[1]);
 let difficultNum = i;
 difficile.addEventListener('click', () => {
   difficultNum++;
+
+delet.innerHTML = '';
+delet.classList.remove('Delete');
 
  contDef.textContent = '';
  missingWord.textContent = 'Choose the correct word';

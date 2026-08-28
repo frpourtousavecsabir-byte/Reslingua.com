@@ -7475,7 +7475,7 @@ wordef: [
         })
         text.innerHTML = texto;
 
-        
+        const vocabAfterDelete = JSON.parse(localStorage.getItem('vocaAfterDelete'));
        
         
         
@@ -7490,6 +7490,7 @@ wordef: [
             return true;
           }
         });
+
 
         localStorage.setItem('vocabToReviewUniqueWord', JSON.stringify(uniqueWord));
         console.log(uniqueWord);
