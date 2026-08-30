@@ -7409,7 +7409,7 @@ wordef: [
    
    
   
-   const name = localStorage.getItem('name');
+   const name = localStorage.getItem('name') || '';
    const progress = document.getElementById('progress');
    const start = document.getElementById('start');
    const reset = document.getElementById('reset');
@@ -7421,6 +7421,7 @@ wordef: [
 
    
     reset.textContent = 'Reset';
+    start.textContent = 'Start';
     reset.classList.add('reset');
     reset.addEventListener('click', () => {
             second.textContent = String(0).padStart(2, 0);
@@ -7435,7 +7436,7 @@ wordef: [
             start.classList.add('start-button');
             
            
-            if ( start.textContent = 'Start') {
+            if ( start.textContent === 'Start') {
             main.classList.remove('main-after');
             header.classList.remove('header-after');
             header2.classList.remove('header2-after');
@@ -7652,8 +7653,8 @@ wordef: [
 
 
 //start.disabled = true;
-localStorage.setItem('prg', start.textContent);
-localStorage.setItem('prg2', start.className);
+sessionStorage.setItem('prg', start.textContent);
+sessionStorage.setItem('prg2', start.className);
 
 
 let interval;
@@ -7684,7 +7685,7 @@ if (localStorage.getItem('start-text')) {
   
       
 } else {
-  start.textContent = 'Start';
+  start.textContent === 'Start';
   start.classList.add('start-button');
 
  
@@ -7784,7 +7785,7 @@ if (localStorage.getItem('start-text')) {
           divCode.className = 'divCode';
           copier.className = 'copier';
           copier.addEventListener('click', function() {
-            navigator.clipboard.writeText(`🎉Mission accomplished! Here is my confirmation code: RSL-${nadirah.textContent[i].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}`);
+            navigator.clipboard.writeText(`🎉Mission accomplished! Here is my confirmation code: RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}`);
           });
           relire.className = 'relire';
           relire.addEventListener('click', function() {
@@ -7823,9 +7824,9 @@ if (localStorage.getItem('start-text')) {
         }
         min.textContent = String(mins).padStart(2, '0')
         second.textContent = String(seconds).padStart(2, '0')
-        localStorage.setItem('prog', progress.value );
-        localStorage.setItem('mn', min.textContent);
-        localStorage.setItem('scn', second.textContent);
+        sessionStorage.setItem('prog', progress.value );
+        sessionStorage.setItem('mn', min.textContent);
+        sessionStorage.setItem('scn', second.textContent);
       }
       }, 1000);
       
