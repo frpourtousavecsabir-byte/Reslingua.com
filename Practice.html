@@ -74,7 +74,10 @@
     <p class="vocab">VOCABULARY</p>
     <div class="div">
       <div>
-        <span class="myWords">My words</span>
+        <div class="word-auto">
+          <span class="myWords">My reading words</span>
+          <span class="auto">Automatic</span>
+        </div>
         <p class="sub">Review the words encountered in your readings.</p>
       </div>
       <div class="all-word-number">
@@ -83,16 +86,18 @@
              <span class="word" >Words</span>
          </div>
          <div class="word-number">
-            <button  class="num" >0</button>
-             <span class="word" >To review</span>
+            <button  class="num2" >0</button>
+             <span class="word2" >To review</span>
          </div>
          <div class="word-number">
-            <button class="num" >0</button>
-             <span class="word" >Mastered</span>
+            <button class="num3" >0</button>
+             <span class="word3" >Mastered</span>
          </div>
       </div>
-      <a href="FlashCards.html" id="start" class="commencer"  >Start session (<span id="wordsNumCommencer">0</span>)</a>
+      <a class="commencer" id="start"  >Start session (<span id="wordsNumCommencer">0</span>)</a>
     </div>
+    <div class="add" id="add">+</div>
+    <div id="contCart"></div>
     </main>
 
 
@@ -133,14 +138,51 @@
     </footer>
   </body>
   <script>
-     let wordsNum = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
+     const wordsNum = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
      
      
      const wordsNumId = document.getElementById('wordsNum');
      const wordsNumIdCommencer = document.getElementById('wordsNumCommencer');
+     const commencer = document.getElementById('start');
+     const add = document.getElementById('add');
 
      wordsNumId.textContent = wordsNum;
      wordsNumIdCommencer.textContent = wordsNum;
+
+
+     commencer.addEventListener('click', ()=> {
+      if(wordsNum === 0) {
+       alert('Add new words');
+      } else {
+        window.location.href = 'FlashCards.html'
+      }
+     });
+
+     const contCart = document.getElementById('contCart');
+     add.addEventListener('click', () => {
+       const page = document.createElement('div');
+       const done = document.createElement('button');
+       const cancel = document.createElement('button');
+
+      
+       
+       page.className = 'page';
+
+       done.className = 'done';
+       done.textContent = 'done'
+
+       cancel.className = 'cancel';
+       cancel.textContent = 'cancel'
+
+       
+
+
+       page.appendChild(cancel);
+       page.appendChild(done);
+       contCart.appendChild(page);
+
+      
+     });
 
      
   </script>
