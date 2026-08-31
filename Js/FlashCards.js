@@ -3,18 +3,25 @@
 
 
  const vocab = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord'));
- const vocabAfterDelete = JSON.parse(localStorage.getItem('vocaAfterDelete'));
  
  const defVocab = JSON.parse(localStorage.getItem('defToReviewUniqueDef'));
+ 
  const contextVocab = JSON.parse(localStorage.getItem('contextToReviewUniqueContext'));
+
  const synonymeVocab = JSON.parse(localStorage.getItem('synonymeToReviewUniqueSynonyme'));
+ 
  const localDef = localStorage.getItem('def');
  
  
  const wordToMemorise = document.getElementById('wordToMemorise');
  const afficher = document.getElementById('afficher');
- wordToMemorise.textContent = vocab[i];
+ 
+ wordToMemorise.textContent = vocab[0];
  wordToMemorise.classList.add('toMemorise');
+ console.log(vocab);
+ console.log(defVocab);
+ console.log(contextVocab);
+ console.log(synonymeVocab);
  
  
  let value = i+1;
@@ -22,7 +29,6 @@
  numeroMot.textContent = i +1;
  let total = document.getElementById('total');
  total.textContent = vocab.length;
- console.log(total);
  
  document.querySelector('.progress').innerHTML = `<progress class="prog" value="${value}" max='${total.textContent}'></progress>`
  
@@ -55,7 +61,7 @@
  const defX = document.createElement('div');
  const index = localStorage.getItem('index');
  
- console.log(i);
+ 
  
  const delet = document.getElementById('delete');
  afficher.addEventListener('click', () => {
@@ -142,25 +148,34 @@
         defVocab.splice(i, 1);
         contextVocab.splice(i, 1);
         synonymeVocab.splice(i, 1)
-        wrd.innerHTML = `${vocab[i]}`;
-         def.innerHTML = `${defVocab[i]}`;
-         contextExample.textContent = `${contextVocab[i]}`;
-         synonyme.textContent = `Synonyme: ${synonymeVocab[i]}`;
-
-         localStorage.setItem('vocaAfterDelete', JSON.stringify(vocab));
-
-        total.textContent = vocab.length ;
-        console.log(total.textContent);
         console.log(vocab);
+        console.log(defVocab);
+        console.log(contextVocab);
+        console.log(synonymeVocab);
+        
+          wrd.innerHTML = `${vocab[i]}`;
+           def.innerHTML = `${defVocab[i]}`;
+           contextExample.textContent = `${contextVocab[i]}`;
+           synonyme.textContent = `Synonyme: ${synonymeVocab[i]}`;
+           total.textContent = vocab.length ;
+          
+          if (Number(numeroMot.textContent) > Number(total.textContent)) {
+  
+          delet.innerHTML = '';
+          delet.classList.remove('Delete');
+          contDef.textContent = '';
+           document.querySelector('.que-signifie').innerHTML = 'What does this mean?';
+          afficher.innerHTML = `Show meaning`;
+          afficher.classList.add('afficher-button-after');
+          end();
+          
+        }
+        localStorage.setItem('vocabToReviewUniqueWord', JSON.stringify(vocab));
+        localStorage.setItem('defToReviewUniqueDef', JSON.stringify(defVocab));
+        localStorage.setItem('contextToReviewUniqueContext', JSON.stringify(contextVocab));
+        localStorage.setItem('synonymeToReviewUniqueSynonyme', JSON.stringify(synonymeVocab));
 
-        delet.innerHTML = '';
-        delet.classList.remove('Delete');
-        contDef.textContent = '';
-        wordToMemorise.textContent =vocab[i];
-         document.querySelector('.que-signifie').innerHTML = 'What does this mean?';
-        afficher.innerHTML = `Show meaning`;
-        afficher.classList.add('afficher-button-after');
-        end();
+        
       });
       
       
@@ -189,7 +204,6 @@ function end() {
 if(Number(numeroMot.textContent) > Number(total.textContent)) {
 
      document.querySelector('.num-quitter').innerHTML = '';
-     console.log('go');
      wordToMemorise.textContent ='';
      document.querySelector('.que-signifie').innerHTML = '';
      afficher.innerHTML ='';
@@ -242,7 +256,7 @@ if(Number(numeroMot.textContent) > Number(total.textContent)) {
   contDef.append(reRead);
 }
 }
-
+console.log(vocab);
 
 reviewAgain.addEventListener('click', ()=> {
   window.location.href ='FlashCards.html'
@@ -276,10 +290,6 @@ randomOthers.splice(i, 1);
 randomOthers.sort((random1, random2)=> {
 return Math.random() - 0.5;
 })
-console.log(randomOthers);
-console.log(vocab[i]);
-console.log(randomOthers[0]);
-console.log(randomOthers[1]);
 
 
 let difficultNum = i;

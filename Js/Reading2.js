@@ -7123,7 +7123,7 @@ wordef: [
       ,{
         id: 31,
         date: 31,
-        txt: `Le ticket sans numéro
+        txt: `Le ticket sans numéro...
 
 Chaque matin, Nora prenait le train de 7 h 40 pour aller travailler.
 
@@ -7458,10 +7458,14 @@ wordef: [
      
      
      
-     const wordsCart = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')) || [];
-     const defCart = JSON.parse(localStorage.getItem('defToReviewUniqueDef')) || [];
-     const contextCart =JSON.parse(localStorage.getItem('contextToReviewUniqueContext')) || [];
-     const synonymeCart =JSON.parse(localStorage.getItem('synonymeToReviewUniqueSynonyme')) || [];
+     const  wordsCart = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')) || [];
+      
+       const defCart = JSON.parse(localStorage.getItem('defToReviewUniqueDef')) || [];
+       
+      const contextCart = JSON.parse(localStorage.getItem('contextToReviewUniqueContext')) || [];
+
+      const synonymeCart = JSON.parse(localStorage.getItem('synonymeToReviewUniqueSynonyme')) || [];
+
      function showText() {
        let newWords = '';
        let wrdNum = 0;
@@ -7476,7 +7480,7 @@ wordef: [
         })
         text.innerHTML = texto;
 
-        const vocabAfterDelete = JSON.parse(localStorage.getItem('vocaAfterDelete'));
+        
        
         
         
@@ -7484,45 +7488,21 @@ wordef: [
           localStorage.clear();
         });
         
-        const uniqueWord = wordsCart.filter((mot, index) => {
-          if(wordsCart.slice(0, index).includes(mot)) {
-            return false;
-          } else {
-            return true;
-          }
-        });
+        const uniqueWord = [... new Set(wordsCart)];
 
 
         localStorage.setItem('vocabToReviewUniqueWord', JSON.stringify(uniqueWord));
         console.log(uniqueWord);
 
-         const uniqueDef = defCart.filter((mot, index) => {
-          if(defCart.slice(0, index).includes(mot)) {
-           return false;
-          } else {
-            return true;
-          }
-        });
+         const uniqueDef = [... new Set(defCart)]
         localStorage.setItem('defToReviewUniqueDef', JSON.stringify(uniqueDef));
         console.log(uniqueDef);
 
-         const uniqueContext = contextCart.filter((mot, index) => {
-          if(contextCart.slice(0, index).includes(mot)) {
-           return false;
-          } else {
-            return true;
-          }
-        });
+         const uniqueContext = [... new Set(contextCart)];
         localStorage.setItem('contextToReviewUniqueContext', JSON.stringify(uniqueContext));
 
         console.log(uniqueContext);
-         const uniqueSynonyme = synonymeCart.filter((mot, index) => {
-          if(synonymeCart.slice(0, index).includes(mot)) {
-           return false;
-          } else {
-            return true;
-          }
-        });
+         const uniqueSynonyme = [... new Set(synonymeCart)]
         localStorage.setItem('synonymeToReviewUniqueSynonyme', JSON.stringify(uniqueSynonyme));
         console.log(uniqueSynonyme);
 
@@ -7533,6 +7513,7 @@ wordef: [
 
       };
       showText();
+      
       
       
       
@@ -7562,7 +7543,7 @@ wordef: [
     }
  defX.className = 'defX';
  
-     wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
+ wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
      wrd.className = 'wrd';
      audio.innerHTML = `<img class="parleur" src="svg/volume_up_24dp_RGB(86, 85, 85);_FILL0_wght400_GRAD0_opsz24.svg">`;
      
@@ -7595,26 +7576,29 @@ wordef: [
        defCart.push(`${textes[deviceDate.getDate()].wordef[ind].definition}`)
        contextCart.push(`${textes[deviceDate.getDate()].wordef[ind].contextExample}`)
        synonymeCart.push(`${textes[deviceDate.getDate()].wordef[ind].synonyme}`)
+
+      
        
+       localStorage.setItem('wordsCart', JSON.stringify(wordsCart));
        sessionStorage.setItem(`saber-${ind}`, saber.className);
        sessionStorage.setItem(`ajouterT-${ind}`, ajouter.textContent);
         
-       
-        
+       localStorage.setItem('wordsCart', JSON.stringify(wordsCart));
        
        showText();
-         
-        })
-        
-        if(sessionStorage.getItem(`saber-${ind}`)) {
-         ajouter.textContent = '✔ Added to my word list';
-         ajouter.className = 'ajouter-after';
-        }
-        
-
-        
-        
-        
+       
+      
+      })
+      
+      if(sessionStorage.getItem(`saber-${ind}`)) {
+        ajouter.textContent = '✔ Added to my word list';
+        ajouter.className = 'ajouter-after';
+      }
+      
+      
+      
+      
+      
         audio.addEventListener('click', () => {
           speechSynthesis.cancel();
             const audioWord = new SpeechSynthesisUtterance(wrd.textContent);
@@ -7683,19 +7667,19 @@ if (localStorage.getItem('start-text')) {
   footer.className = localStorage.getItem('footer-after');
 
   
-      
+  
 } else {
   start.textContent === 'Start';
   start.classList.add('start-button');
-
- 
+  
+  
   
 }
 
 
 
-    
-    start.addEventListener('click', () => {
+
+start.addEventListener('click', () => {
 
       if (start.textContent === 'Stop' && croixDef.classList.contains('croixDef-after')) {
         console.log('stop');
@@ -7751,6 +7735,7 @@ if (localStorage.getItem('start-text')) {
      apdate();
     }
       
+    
     
     function apdate() {
       interval = setInterval(function() {
@@ -7831,20 +7816,20 @@ if (localStorage.getItem('start-text')) {
       }, 1000);
       
     }
-    
-    
+  
+
     function afficher() {
     let prenom = name[0].toUpperCase();
     let rest = '';
-
+ 
     for (let i = 1; i < name.length; i++) {
         rest += name[i];
     }
-
+ 
     nadirah.textContent = prenom + rest;
-}
-
-afficher();
+ }
+ 
+ afficher();
 
 
  

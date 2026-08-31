@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+
+
+    <script>
+      let words2 = JSON.parse(localStorage.getItem('words'));
+      words2.splice(0,1);
+      words2.splice(1,1);
+      localStorage.setItem('words2', JSON.stringify(words2));
+      console.log(words2);
+      
+    </script>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 
 const input = document.getElementById('inpuut');
 const commencer = document.getElementById('commencer');
-const name = document.getElementById('input-name');
+const name1 = document.getElementById('input-name');
 
  
 input.classList.add('input');
@@ -14,11 +14,13 @@ input.addEventListener('input', function() {
     if(input.value.length >= 2) {
       commencer.disabled = false;
       commencer.classList.remove('commencer-disabled');
-      name.textContent =`Bonjour, ${input.value} 🫡 `;
+      let saber = input.value.charAt(0).toUpperCase() +  input.value.slice(1).toLowerCase()
+      name1.textContent =`Bonjour, ${saber} 🫡 `;
       commencer.classList.add('active');
       
+      
     } else {
-      name.textContent =``;
+      name1.textContent =``;
       commencer.classList.remove('active');
       commencer.classList.add('commencer-disabled');
     }
