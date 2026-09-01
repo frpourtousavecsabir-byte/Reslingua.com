@@ -143,3 +143,25 @@ main {
   bottom: 0;
   border-radius: 15px;
 }
+.doneCancel {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddcfa7;
+  height: 2rem;
+}
+.done {
+  padding: 0.15rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: #9c8468 1px solid;
+  color:#9c8468 ;
+  border-radius: 6px;
+}
+.cancel {
+  padding: 0.15rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: #9c8468 1px solid;
+  color:#9c8468 ;
+  border-radius: 6px;
+}

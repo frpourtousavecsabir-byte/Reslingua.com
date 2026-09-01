@@ -161,6 +161,7 @@
      const contCart = document.getElementById('contCart');
      add.addEventListener('click', () => {
        const page = document.createElement('div');
+       const doneCancel = document.createElement('div');
        const done = document.createElement('button');
        const cancel = document.createElement('button');
 
@@ -168,17 +169,23 @@
        
        page.className = 'page';
 
+       doneCancel.className = 'doneCancel';
+
        done.className = 'done';
-       done.textContent = 'done'
+       done.innerHTML = '✔'
 
        cancel.className = 'cancel';
-       cancel.textContent = 'cancel'
+       cancel.innerHTML = '✘'
+       cancel.addEventListener('click', ()=> {
+        contCart.textContent = '';
+       });
 
        
 
 
-       page.appendChild(cancel);
-       page.appendChild(done);
+       doneCancel.appendChild(cancel);
+       doneCancel.appendChild(done);
+       page.appendChild(doneCancel);
        contCart.appendChild(page);
 
       
