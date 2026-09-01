@@ -7,7 +7,276 @@
      },{
       id: 1,
       date: 1,
-      txt: "6."
+      txt: `La clé dans le livre
+
+Depuis quelques semaines, Thomas travaillait dans une petite bibliothèque au centre de la ville.
+
+Il avait commencé ce travail au début de l'été. Il aimait le calme de l'endroit, l'odeur des vieux livres et le bruit des pages que les visiteurs tournaient lentement.
+
+La bibliothèque n'était pas très grande, mais elle possédait plusieurs milliers de livres.
+
+Chaque matin, Thomas ouvrait les portes à neuf heures.
+
+Il allumait les lumières, vérifiait les ordinateurs et rangeait les livres que les visiteurs avaient laissés sur les tables.
+
+Il connaissait déjà quelques habitués.
+
+Une dame venait chaque mardi pour lire les journaux.
+
+Un étudiant passait presque tous les après-midis pour travailler.
+
+Un homme âgé venait régulièrement chercher des romans policiers.
+
+Mais Thomas ne connaissait pas encore tout le monde.
+
+Un lundi matin, alors qu'il rangeait des livres dans une vieille étagère, il a trouvé quelque chose d'étrange.
+
+Un petit livre bleu était posé derrière plusieurs gros dictionnaires.
+
+Thomas l'a pris.
+
+Il était très ancien.
+
+La couverture était abîmée et aucune étiquette n'indiquait son numéro.
+
+Il l'a ouvert pour chercher des informations.
+
+Sur la première page, il n'y avait qu'une phrase écrite à la main :
+
+« Si vous trouvez ce livre, regardez à la page 47. »
+
+Thomas a souri.
+
+Il pensait qu'un ancien lecteur avait probablement laissé cette phrase pour s'amuser.
+
+Il a tourné les pages jusqu'à la page 47.
+
+Une petite clé était cachée entre deux pages.
+
+Thomas l'a prise dans sa main.
+
+Elle était minuscule et légèrement rouillée.
+
+Il a regardé autour de lui.
+
+Personne ne semblait l'avoir vu.
+
+Il a ensuite trouvé une deuxième phrase sous la clé :
+
+« Certaines portes ne sont pas faites pour être ouvertes. Certaines sont faites pour être cherchées. »
+
+Thomas a trouvé cela encore plus étrange.
+
+Il a décidé de montrer la clé à sa collègue, Sophie.
+
+— Tu sais à quoi elle peut servir ?
+
+Sophie a regardé la clé.
+
+— Aucune idée. Elle vient peut-être d'un ancien meuble.
+
+Thomas lui a montré le livre.
+
+Sophie a lu les deux phrases.
+
+— Tu devrais peut-être demander au directeur.
+
+Mais le directeur n'était pas encore arrivé.
+
+Thomas a donc rangé la clé dans un tiroir et a continué son travail.
+
+Toute la journée, il a essayé de ne plus y penser.
+
+Mais le soir, lorsqu'il a fermé la bibliothèque, il a repensé au message.
+
+Il connaissait assez bien le bâtiment.
+
+Il y avait plusieurs portes : les toilettes, les bureaux, la salle de réunion, la réserve et une petite pièce que personne n'utilisait presque jamais.
+
+Cette pièce était située au fond du bâtiment.
+
+Thomas y était déjà entré une fois.
+
+Elle était remplie de vieux meubles et de cartons.
+
+Le lendemain matin, il a décidé d'y retourner.
+
+Il a ouvert la porte.
+
+La pièce était sombre et poussiéreuse.
+
+Il y avait une vieille armoire, plusieurs chaises cassées et des dizaines de cartons.
+
+Thomas a commencé à regarder autour de lui.
+
+Puis il a remarqué quelque chose.
+
+Sur le mur, derrière une étagère, il y avait une petite serrure.
+
+Il a déplacé l'étagère avec difficulté.
+
+La serrure était exactement de la même taille que la clé.
+
+Thomas a hésité.
+
+Puis il a introduit la clé.
+
+Elle a tourné.
+
+Un petit clic a résonné dans la pièce.
+
+Derrière le mur, une petite porte s'est ouverte.
+
+Thomas est resté immobile quelques secondes.
+
+Il ne s'attendait pas à trouver quelque chose derrière.
+
+La porte donnait sur un petit espace rempli de boîtes et de vieux documents.
+
+Sur une table, il y avait un cahier.
+
+Thomas l'a ouvert.
+
+La première page indiquait une date : 1988.
+
+Le cahier appartenait à une ancienne bibliothécaire appelée Marianne.
+
+Elle y avait écrit des notes sur la bibliothèque et sur les personnes qui la fréquentaient.
+
+Thomas a commencé à lire.
+
+Marianne racontait les histoires des habitants du quartier.
+
+Elle parlait d'un jeune homme qui venait chaque jour lire dans la même chaise.
+
+D'une mère qui empruntait des livres pour ses enfants.
+
+D'un étudiant qui avait trouvé son premier emploi grâce à une annonce affichée dans la bibliothèque.
+
+Elle avait également écrit :
+
+« Une bibliothèque n'est pas seulement un endroit où l'on garde des livres. C'est un endroit où les histoires des personnes se rencontrent. »
+
+Thomas a continué à lire.
+
+À la dernière page, il a découvert une nouvelle phrase :
+
+« Si quelqu'un trouve ce cahier un jour, qu'il ajoute sa propre histoire. »
+
+Thomas a refermé le cahier.
+
+Il a compris que Marianne avait probablement caché cette pièce pour conserver les souvenirs de la bibliothèque.
+
+Mais pourquoi lui avait-elle laissé la clé ?
+
+Il ne le savait pas.
+
+Le soir, Thomas a parlé de sa découverte au directeur.
+
+Le directeur a été très surpris.
+
+— Marianne ?
+
+Il a réfléchi quelques secondes.
+
+— Je crois qu'elle a travaillé ici pendant plus de trente ans. Elle est partie à la retraite avant mon arrivée.
+
+Le directeur a lu le cahier.
+
+Puis il a souri.
+
+— Je me souviens maintenant. Elle parlait souvent de cette petite pièce. Je pensais qu'elle avait été détruite pendant les travaux.
+
+Quelques jours plus tard, la bibliothèque a décidé d'ouvrir la petite salle au public.
+
+Les anciens documents ont été nettoyés.
+
+Les photographies ont été placées sur les murs.
+
+Le cahier de Marianne a été posé sur une table.
+
+À côté, le directeur a ajouté une feuille blanche.
+
+En haut de la feuille, il a écrit :
+
+« Quelle est votre histoire avec cette bibliothèque ? »
+
+Les visiteurs ont commencé à écrire.
+
+Une femme a raconté qu'elle avait rencontré son mari dans la bibliothèque.
+
+Un homme a expliqué qu'il y avait appris à lire lorsqu'il était enfant.
+
+Une ancienne étudiante a écrit qu'elle avait préparé ses examens dans la même salle pendant plusieurs années.
+
+Même Thomas a écrit quelques lignes.
+
+Il a raconté comment il avait trouvé le livre bleu et la petite clé.
+
+Quelques semaines plus tard, la salle était devenue l'un des endroits les plus populaires de la bibliothèque.
+
+Les habitants venaient lire les anciennes histoires et ajouter les leurs.
+
+Un matin, Thomas a retrouvé le petit livre bleu sur son bureau.
+
+Il l'a ouvert.
+
+Une nouvelle phrase était écrite sur la première page.
+
+« Une histoire n'est jamais vraiment terminée lorsqu'elle trouve quelqu'un pour la continuer. »
+
+Thomas a souri.
+
+Il a regardé autour de lui.
+
+Les visiteurs lisaient, travaillaient et discutaient doucement.
+
+Pour la première fois, il ne voyait plus seulement une bibliothèque.
+
+Il voyait toutes les histoires qui avaient commencé entre ses murs.
+
+Et il se demandait déjà quelle serait la prochaine histoire à découvrir.`,
+wordef: [
+{ mot: "habitué", definition: "A regular visitor or customer who often comes to the same place.", contextExample: "Il connaissait déjà quelques habitués.", synonyme: "client régulier" },
+
+{ mot: "étagère", definition: "A shelf or piece of furniture used for holding books or other objects.", contextExample: "Il rangeait des livres dans une vieille étagère.", synonyme: "rayon" },
+
+{ mot: "abîmé", definition: "Damaged or worn because of age or use.", contextExample: "La couverture était abîmée.", synonyme: "endommagé" },
+
+{ mot: "étiquette", definition: "A small piece of paper or material attached to something to give information about it.", contextExample: "Aucune étiquette n'indiquait son numéro.", synonyme: "label" },
+
+{ mot: "caché", definition: "Placed where it cannot easily be seen or found.", contextExample: "Une petite clé était cachée entre deux pages.", synonyme: "dissimulé" },
+
+{ mot: "rouillé", definition: "Covered with rust because of age or contact with water.", contextExample: "Elle était minuscule et légèrement rouillée.", synonyme: "oxydé" },
+
+{ mot: "tiroir", definition: "A sliding compartment in a piece of furniture used for storing things.", contextExample: "Thomas a rangé la clé dans un tiroir.", synonyme: "compartiment" },
+
+{ mot: "réserve", definition: "A room where extra objects or supplies are stored.", contextExample: "Il y avait plusieurs portes : les toilettes, les bureaux, la salle de réunion, la réserve.", synonyme: "stock" },
+
+{ mot: "poussiéreux", definition: "Covered with dust or containing a lot of dust.", contextExample: "La pièce était sombre et poussiéreuse.", synonyme: "plein de poussière" },
+
+{ mot: "carton", definition: "A box made of thick paper used for storing or transporting things.", contextExample: "Il y avait une vieille armoire, plusieurs chaises cassées et des dizaines de cartons.", synonyme: "boîte" },
+
+{ mot: "serrure", definition: "A device on a door or object that is opened with a key.", contextExample: "Sur le mur, il y avait une petite serrure.", synonyme: "mécanisme de fermeture" },
+
+{ mot: "résonner", definition: "To produce a sound that continues or spreads through a place.", contextExample: "Un petit clic a résonné dans la pièce.", synonyme: "retentir" },
+
+{ mot: "immobile", definition: "Not moving at all.", contextExample: "Thomas est resté immobile quelques secondes.", synonyme: "sans bouger" },
+
+{ mot: "cahier", definition: "A notebook with blank or lined pages for writing.", contextExample: "Sur une table, il y avait un cahier.", synonyme: "carnet" },
+
+{ mot: "fréquenter", definition: "To regularly visit or spend time in a place.", contextExample: "Elle y avait écrit des notes sur les personnes qui fréquentaient la bibliothèque.", synonyme: "aller régulièrement à" },
+
+{ mot: "emprunter", definition: "To borrow something, especially a book, and return it later.", contextExample: "Une mère qui empruntait des livres pour ses enfants.", synonyme: "prendre en prêt" },
+
+{ mot: "retraite", definition: "The period of life after someone stops working permanently.", contextExample: "Elle est partie à la retraite avant mon arrivée.", synonyme: "fin de carrière" },
+
+{ mot: "détruit", definition: "Completely damaged or removed so that it no longer exists.", contextExample: "Je pensais qu'elle avait été détruite pendant les travaux.", synonyme: "anéanti" },
+
+{ mot: "nettoyé", definition: "Made clean by removing dirt, dust, or other unwanted material.", contextExample: "Les anciens documents ont été nettoyés.", synonyme: "lavé" },
+
+{ mot: "découvrir", definition: "To find or learn something that was previously unknown.", contextExample: "Il se demandait déjà quelle serait la prochaine histoire à découvrir.", synonyme: "trouver" }
+]
      },{
       id: 2,
       date: 2,
@@ -7392,7 +7661,7 @@ wordef: [
   { mot: "laisser derrière soi", definition: "To leave something in a place when you go away.", contextExample: "Elle laissait parfois un message derrière elle.", synonyme: "laisser" },
 
   { mot: "désormais", definition: "From this time forward; from now on.", contextExample: "Elle ne passait désormais plus son chemin.", synonyme: "à partir de maintenant" },
-
+  
   { mot: "passer son chemin", definition: "To continue walking or moving without stopping to investigate something.", contextExample: "Elle ne passait plus immédiatement son chemin.", synonyme: "continuer sa route" },
 
   { mot: "avoir besoin de", definition: "To require or need someone or something.", contextExample: "Il avait besoin d'entendre que tout irait bien.", synonyme: "nécessiter" }
@@ -7409,7 +7678,7 @@ wordef: [
    
    
   
-   const name = localStorage.getItem('name') || '';
+   const nameNadirah = localStorage.getItem('name') || '';
    const progress = document.getElementById('progress');
    const start = document.getElementById('start');
    const reset = document.getElementById('reset');
@@ -7417,8 +7686,8 @@ wordef: [
    const second = document.getElementById('second');
    const nadirah= document.getElementById('nadirah');
 
-      
-
+   
+   
    
     reset.textContent = 'Reset';
     start.textContent = 'Start';
@@ -7430,18 +7699,17 @@ wordef: [
              prog = 900;
              progress.value = 900;
              second.textContent = String(seconds).padStart(2, 0);
-             min.textContent = mins;
-            start.textContent = 'Start';
+             start.textContent = 'Start';
              start.classList.remove('inProgress');
-            start.classList.add('start-button');
+             start.classList.add('start-button');
             
            
             if ( start.textContent === 'Start') {
-            main.classList.remove('main-after');
-            header.classList.remove('header-after');
-            header2.classList.remove('header2-after');
-
-            footer.classList.remove('footer-after');
+              main.classList.remove('main-after');
+              header.classList.remove('header-after');
+              header2.classList.remove('header2-after');
+              
+              footer.classList.remove('footer-after');
 
           }
           
@@ -7459,7 +7727,7 @@ wordef: [
      
      
      const  wordsCart = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')) || [];
-      
+     
        const defCart = JSON.parse(localStorage.getItem('defToReviewUniqueDef')) || [];
        
       const contextCart = JSON.parse(localStorage.getItem('contextToReviewUniqueContext')) || [];
@@ -7476,25 +7744,30 @@ wordef: [
        textes[indexDay].wordef.forEach((element, index) => {
          
          texto = texto.replace(element.mot, `<span id="word-${index}" onclick="meaning(${index})" class="saber js-saber-${index}">${textes[indexDay].wordef[index].mot}</span>`);
-          
+         
         })
         text.innerHTML = texto;
-
         
-       
         
+        
+        
+        function afficher() {
+        nadirah.textContent = nameNadirah.charAt(0).toUpperCase() + nameNadirah.slice(1).toLowerCase();
+        }
+        
+        afficher();
         
         document.getElementById('nadirah').addEventListener('click', ()=> {
           localStorage.clear();
         });
         
         const uniqueWord = [... new Set(wordsCart)];
-
-
+        
+        
         localStorage.setItem('vocabToReviewUniqueWord', JSON.stringify(uniqueWord));
         console.log(uniqueWord);
-
-         const uniqueDef = [... new Set(defCart)]
+        
+        const uniqueDef = [... new Set(defCart)]
         localStorage.setItem('defToReviewUniqueDef', JSON.stringify(uniqueDef));
         console.log(uniqueDef);
 
@@ -7643,15 +7916,16 @@ sessionStorage.setItem('prg2', start.className);
 
 let interval;
 
-min.textContent = sessionStorage.getItem('mn');
+min.textContent = Number(sessionStorage.getItem('mn')) || 0;
 second.textContent = sessionStorage.getItem('scn');
 progress.value = sessionStorage.getItem('prog') ;
 
-let prog = sessionStorage.getItem('prog') || 900;
-let mins = sessionStorage.getItem('mn') || 15;
-let seconds = sessionStorage.getItem('scn') || 0;
+let prog = Number(sessionStorage.getItem('prog')) || 900;
+let mins = Number(sessionStorage.getItem('mn')) || 15;
+console.log(mins);
+let seconds = Number(sessionStorage.getItem('scn')) || 0;
 second.textContent = String(seconds).padStart(2, 0);
-min.textContent = mins;
+min.textContent = String(mins).padStart(2, '0');
 progress.value = prog;
 
 
@@ -7682,11 +7956,9 @@ if (localStorage.getItem('start-text')) {
 start.addEventListener('click', () => {
 
       if (start.textContent === 'Stop' && croixDef.classList.contains('croixDef-after')) {
-        console.log('stop');
         croixDef.classList.remove('croixDef-after');
           croixDef.classList.add('croixDef');
-      } 
-     if (start.textContent === 'Start') {
+      } else if (start.textContent === 'Start') {
 
        main.classList.add('main-after');
        header.classList.add('header-after');
@@ -7741,25 +8013,25 @@ start.addEventListener('click', () => {
       interval = setInterval(function() {
         progress.value = prog--;
        if (mins === 0 && seconds === 0) {
-          clearInterval(interval);
-          const div = document.createElement('div');
-          const div2 = document.createElement('div');
-          const valid = document.createElement('button');
-          const session = document.createElement('p');
-          const todo= document.createElement('p');
-          const divCode = document.createElement('div');
-          const copier = document.createElement('button');
-          const relire = document.createElement('button');
-          const toSend = document.createElement('p');
-
+         clearInterval(interval);
+         const div = document.createElement('div');
+         const div2 = document.createElement('div');
+         const valid = document.createElement('button');
+         const session = document.createElement('p');
+         const todo= document.createElement('p');
+         const divCode = document.createElement('div');
+         const copier = document.createElement('button');
+         const relire = document.createElement('button');
+         const toSend = document.createElement('p');
+         
           valid.textContent = '✔';
           session.textContent = 'Session completed!';
           todo.textContent = 'Send this code to your teacher to confirm your reading session.';
           divCode.innerHTML = '';
           copier.innerHTML = 'Copy';
           relire.textContent = 'Re-read';
-          toSend.innerHTML = `<p>RSL-${nadirah.textContent[i].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}</p> <p class="completion">Confirmation code</p>`;
           console.log(nadirah.textContent);
+          toSend.innerHTML = `<p>RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}</p> <p class="completion">Confirmation code</p>`;
 
           div.className = 'all';
           div2.className = 'code';
@@ -7774,8 +8046,8 @@ start.addEventListener('click', () => {
           });
           relire.className = 'relire';
           relire.addEventListener('click', function() {
-            mins =  14;
-            seconds =  60;
+            mins =  15;
+            seconds =  0;
             prog = 900;
           div2.classList.remove('code');
           div2.textContent = '';
@@ -7810,26 +8082,14 @@ start.addEventListener('click', () => {
         min.textContent = String(mins).padStart(2, '0')
         second.textContent = String(seconds).padStart(2, '0')
         sessionStorage.setItem('prog', progress.value );
-        sessionStorage.setItem('mn', min.textContent);
-        sessionStorage.setItem('scn', second.textContent);
+        sessionStorage.setItem('mn',mins);
+        sessionStorage.setItem('scn', seconds);
       }
       }, 1000);
       
     }
   
-
-    function afficher() {
-    let prenom = name[0].toUpperCase();
-    let rest = '';
- 
-    for (let i = 1; i < name.length; i++) {
-        rest += name[i];
-    }
- 
-    nadirah.textContent = prenom + rest;
- }
- 
- afficher();
+    
 
 
  
