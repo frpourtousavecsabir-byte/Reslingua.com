@@ -7,7 +7,7 @@
      },{
       id: 1,
       date: 1,
-      txt: `La clé dans le livre
+      txt: `La clé dans le livre...
 
 Depuis quelques semaines, Thomas travaillait dans une petite bibliothèque au centre de la ville.
 
