@@ -7693,11 +7693,11 @@ wordef: [
     start.textContent = 'Start';
     reset.classList.add('reset');
     reset.addEventListener('click', () => {
-            second.textContent = String(0).padStart(2, '0');
-             mins = 3;
-             seconds = 0;
-             prog = 180;
-             progress.value = 180;
+      mins = 3;
+      seconds = 0;
+      prog = 180;
+      progress.value = 180;
+      min.textContent = String(mins).padStart(2, '0');
              second.textContent = String(seconds).padStart(2, '0');
              start.textContent = 'Start';
              start.classList.remove('inProgress');
@@ -8017,7 +8017,10 @@ start.addEventListener('click', () => {
     
     
     function apdate() {
-      if(interval)  clearInterval(interval);
+      if(interval) {
+       clearInterval(interval);
+       interval = null;
+      }
       interval = setInterval(function() {
 
          if (seconds===0) {
