@@ -7693,12 +7693,12 @@ wordef: [
     start.textContent = 'Start';
     reset.classList.add('reset');
     reset.addEventListener('click', () => {
-            second.textContent = String(0).padStart(2, 0);
+            second.textContent = String(0).padStart(2, '0');
              mins = 3;
              seconds = 0;
              prog = 180;
              progress.value = 180;
-             second.textContent = String(seconds).padStart(2, 0);
+             second.textContent = String(seconds).padStart(2, '0');
              start.textContent = 'Start';
              start.classList.remove('inProgress');
              start.classList.add('start-button');
@@ -7722,6 +7722,7 @@ wordef: [
      const conten = document.getElementById('conten');
      const text = document.getElementById('text');
      const deviceDate = new Date();
+     let indexDay = deviceDate.getDate() % textes.length;
      
      
      
@@ -7737,7 +7738,6 @@ wordef: [
      function showText() {
        let newWords = '';
        let wrdNum = 0;
-       let indexDay = deviceDate.getDate() % textes.length;
        text.textContent = textes[indexDay].txt;
        
        let texto = text.textContent;
@@ -7815,23 +7815,23 @@ wordef: [
     }
  defX.className = 'defX';
  
- wrd.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].mot}`;
+ wrd.innerHTML = `${textes[indexDay].wordef[ind].mot}`;
      wrd.className = 'wrd';
      audio.innerHTML = `<img class="parleur" src="svg/volume_up_24dp_RGB(86, 85, 85);_FILL0_wght400_GRAD0_opsz24.svg">`;
      
      croix.textContent = `𝘹`;
      croix.className = 'croix';
      
-     def.innerHTML = `${textes[deviceDate.getDate()].wordef[ind].definition}`;
+     def.innerHTML = `${textes[indexDay].wordef[ind].definition}`;
      def.className = 'def';
      
      context.textContent = 'CONTEXT';
      context.className = 'context';
      
-     contextExample.textContent = `${textes[deviceDate.getDate()].wordef[ind].contextExample}`;
+     contextExample.textContent = `${textes[indexDay].wordef[ind].contextExample}`;
      contextExample.className = 'contextExample';
      
-     synonyme.textContent = `Synonyme: ${textes[deviceDate.getDate()].wordef[ind].synonyme}`;
+     synonyme.textContent = `Synonyme: ${textes[indexDay].wordef[ind].synonyme}`;
      synonyme.className = 'synonyme';
      
      ajouter.textContent = '❤️ Add to my word list';
@@ -7844,10 +7844,10 @@ wordef: [
        saber.classList.add('saber-after');
        
        
-       wordsCart.push(`${textes[deviceDate.getDate()].wordef[ind].mot}`)
-       defCart.push(`${textes[deviceDate.getDate()].wordef[ind].definition}`)
-       contextCart.push(`${textes[deviceDate.getDate()].wordef[ind].contextExample}`)
-       synonymeCart.push(`${textes[deviceDate.getDate()].wordef[ind].synonyme}`)
+       wordsCart.push(`${textes[indexDay].wordef[ind].mot}`)
+       defCart.push(`${textes[indexDay].wordef[ind].definition}`)
+       contextCart.push(`${textes[indexDay].wordef[ind].contextExample}`)
+       synonymeCart.push(`${textes[indexDay].wordef[ind].synonyme}`)
 
       
        
@@ -7857,7 +7857,7 @@ wordef: [
         
        localStorage.setItem('wordsCart', JSON.stringify(wordsCart));
        
-       showText();
+       
        
       
       })
@@ -7913,7 +7913,7 @@ sessionStorage.setItem('prg', start.textContent);
 sessionStorage.setItem('prg2', start.className);
 
 
-let interval;
+let interval = null;
 
 min.textContent = Number(sessionStorage.getItem('mn')) || 0;
 second.textContent = sessionStorage.getItem('scn');
@@ -7924,7 +7924,7 @@ let prog = Number(sessionStorage.getItem('prog')) || 180;
 let mins = Number(sessionStorage.getItem('mn')) || 3;
 console.log(mins);
 let seconds = Number(sessionStorage.getItem('scn')) || 0;
-second.textContent = String(seconds).padStart(2, 0);
+second.textContent = String(seconds).padStart(2, '0');
 min.textContent = String(mins).padStart(2, '0');
 progress.value = prog;
 
@@ -7943,7 +7943,7 @@ if (localStorage.getItem('start-text')) {
   
   
 } else {
-  start.textContent === 'Start';
+  start.textContent = 'Start';
   start.classList.add('start-button');
   
   
@@ -7955,15 +7955,11 @@ if (localStorage.getItem('start-text')) {
 
 start.addEventListener('click', () => {
 
-      if (start.textContent === 'Stop' && croixDef.classList.contains('croixDef-after')) {
-        croixDef.classList.remove('croixDef-after');
-          croixDef.classList.add('croixDef');
-      } else if (start.textContent === 'Start') {
+       if (start.textContent === 'Start') {
 
        main.classList.add('main-after');
        header.classList.add('header-after');
        header2.classList.add('header2-after');
-
         footer.classList.add('footer-after');
 
         if(croixDef.classList.contains('croixDef')) {
@@ -7977,10 +7973,15 @@ start.addEventListener('click', () => {
        start.classList.add('inProgress');
        apdate();
       } else  {
+        if(croixDef.classList.contains('croixDef-after')) {
+         croixDef.classList.remove('croixDef-after');
+         croixDef.classList.add('croixDef')
+        }
+
+
        main.classList.remove('main-after');
        header.classList.remove('header-after');
        header2.classList.remove('header2-after');
-       
       footer.classList.remove('footer-after');
 
         
@@ -7988,8 +7989,14 @@ start.addEventListener('click', () => {
         start.textContent = 'Start';
         start.classList.remove('inProgress');
         start.classList.add('start-button');
-        clearInterval(interval);
+
+        if(interval) {
+          clearInterval(interval);
+           interval = null;
+        }
       } 
+
+
       localStorage.setItem('start', start.className);
       localStorage.setItem('start-text', start.textContent);
 
@@ -8010,10 +8017,28 @@ start.addEventListener('click', () => {
     
     
     function apdate() {
+      if(interval)  clearInterval(interval);
       interval = setInterval(function() {
-        progress.value = prog--;
-       if (mins === 0 && seconds === 0) {
-         clearInterval(interval);
+
+         if (seconds===0) {
+          mins--;
+          seconds = 59;
+        } else {
+          seconds--;
+        }
+        prog--;
+        progress.value = prog;
+      
+        min.textContent = String(mins).padStart(2, '0')
+        second.textContent = String(seconds).padStart(2, '0');
+
+        sessionStorage.setItem('prog', progress.value );
+        sessionStorage.setItem('mn',mins);
+        sessionStorage.setItem('scn', seconds);
+
+        if (mins === 0 && seconds === 0) {
+          clearInterval(interval);
+          interval = null;
          const div = document.createElement('div');
          const div2 = document.createElement('div');
          const valid = document.createElement('button');
@@ -8031,34 +8056,37 @@ start.addEventListener('click', () => {
           copier.innerHTML = 'Copy';
           relire.textContent = 'Re-read';
           console.log(nadirah.textContent);
+
           toSend.innerHTML = `<p>RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}</p> <p class="completion">Confirmation code</p>`;
 
           div.className = 'all';
           div2.className = 'code';
-
           valid.className = 'valid';
           session.className = 'session';
           todo.className = 'todo';
           divCode.className = 'divCode';
           copier.className = 'copier';
-          copier.addEventListener('click', function() {
+
+          copier.onclick = () => {
             navigator.clipboard.writeText(`🎉Mission accomplished! Here is my confirmation code: RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}`);
-          });
+          };
+
           relire.className = 'relire';
 
-          relire.addEventListener('click', function() {
+          relire.onclick = () => {
             clearInterval(interval);
             prog = 180;
-            mins = Number(sessionStorage.getItem('mn')) || 3;
-            seconds = Number(sessionStorage.getItem('scn')) || 0;
-            second.textContent = String(seconds).padStart(2, 0);
+            mins =3;
+            seconds =  0;
+
+            second.textContent = String(seconds).padStart(2, '0');
             min.textContent = String(mins).padStart(2, '0');
-            progress.value = prog;
+            progress.value = 180;
+
+            div.remove();
+            div2.remove();
             apdate();
-          div2.classList.remove('code');
-          div2.textContent = '';
-          div.classList.remove('all');
-          });
+          };
           
           toSend.className = 'toSend';
 
@@ -8073,20 +8101,11 @@ start.addEventListener('click', () => {
           div2.appendChild(relire);
           
           
-           
-        } else {
-         if (seconds===0) {
-         mins--;
-         seconds = 59;
-        } else {
-          seconds--;
-        }
-        min.textContent = String(mins).padStart(2, '0')
-        second.textContent = String(seconds).padStart(2, '0')
-        sessionStorage.setItem('prog', progress.value );
-        sessionStorage.setItem('mn',mins);
-        sessionStorage.setItem('scn', seconds);
-      }
+           return;
+        } 
+        
+       
+      
       }, 1000);
       
     }
