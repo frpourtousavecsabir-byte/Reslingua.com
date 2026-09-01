@@ -7755,10 +7755,11 @@ wordef: [
         nadirah.textContent = nameNadirah.charAt(0).toUpperCase() + nameNadirah.slice(1).toLowerCase();
         }
         afficher();
+        /** 
         document.getElementById('nadirah').addEventListener('click', ()=> {
           localStorage.clear();
         });
-        
+        **/
         const uniqueWord = [... new Set(wordsCart)];
         
         
