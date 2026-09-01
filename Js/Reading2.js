@@ -7694,10 +7694,10 @@ wordef: [
     reset.classList.add('reset');
     reset.addEventListener('click', () => {
             second.textContent = String(0).padStart(2, 0);
-             mins = 15;
+             mins = 3;
              seconds = 0;
-             prog = 900;
-             progress.value = 900;
+             prog = 180;
+             progress.value = 180;
              second.textContent = String(seconds).padStart(2, 0);
              start.textContent = 'Start';
              start.classList.remove('inProgress');
@@ -7754,15 +7754,10 @@ wordef: [
         function afficher() {
         nadirah.textContent = nameNadirah.charAt(0).toUpperCase() + nameNadirah.slice(1).toLowerCase();
         }
-        
         afficher();
-        /**
-         * document.getElementById('nadirah').addEventListener('click', ()=> {
+        document.getElementById('nadirah').addEventListener('click', ()=> {
           localStorage.clear();
         });
-         * 
-         */
-        
         
         const uniqueWord = [... new Set(wordsCart)];
         
@@ -7923,8 +7918,9 @@ min.textContent = Number(sessionStorage.getItem('mn')) || 0;
 second.textContent = sessionStorage.getItem('scn');
 progress.value = sessionStorage.getItem('prog') ;
 
-let prog = Number(sessionStorage.getItem('prog')) || 900;
-let mins = Number(sessionStorage.getItem('mn')) || 15;
+
+let prog = Number(sessionStorage.getItem('prog')) || 180;
+let mins = Number(sessionStorage.getItem('mn')) || 3;
 console.log(mins);
 let seconds = Number(sessionStorage.getItem('scn')) || 0;
 second.textContent = String(seconds).padStart(2, 0);
@@ -8048,19 +8044,21 @@ start.addEventListener('click', () => {
             navigator.clipboard.writeText(`🎉Mission accomplished! Here is my confirmation code: RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}`);
           });
           relire.className = 'relire';
+
           relire.addEventListener('click', function() {
-            mins =  15;
-            seconds =  0;
-            prog = 900;
+            clearInterval(interval);
+            prog = 180;
+            mins = Number(sessionStorage.getItem('mn')) || 3;
+            seconds = Number(sessionStorage.getItem('scn')) || 0;
+            second.textContent = String(seconds).padStart(2, 0);
+            min.textContent = String(mins).padStart(2, '0');
+            progress.value = prog;
+            apdate();
           div2.classList.remove('code');
           div2.textContent = '';
           div.classList.remove('all');
-          start.disabled = false;
-          if ( seconds > 0) {
-
-            apdate();
-          }
           });
+          
           toSend.className = 'toSend';
 
           conten.appendChild(div);
