@@ -8700,15 +8700,19 @@ sessionStorage.setItem('prg2', start.className);
 
 let interval = null;
 
-min.textContent = Number(sessionStorage.getItem('mn')) || 0;
-second.textContent = sessionStorage.getItem('scn');
-progress.value = sessionStorage.getItem('prog') ;
+const storeMn = sessionStorage.getItem('mn');
+const storeScn = sessionStorage.getItem('scn');
+const storeProg = sessionStorage.getItem('prog');
+
+min.textContent =storeMn;
+second.textContent = storeScn;
+progress.value = storeProg;
 
 
-let prog = Number(sessionStorage.getItem('prog')) || 180;
-let mins = Number(sessionStorage.getItem('mn')) || 3;
+let prog = storeProg !== null ? Number(storeProg) : 180;
+let mins= storeMn !== null ? Number(storeMn) : 3;
+let seconds = storeScn !== null ? Number(storeScn) : 0;
 console.log(mins);
-let seconds = Number(sessionStorage.getItem('scn')) || 0;
 second.textContent = String(seconds).padStart(2, '0');
 min.textContent = String(mins).padStart(2, '0');
 progress.value = prog;
@@ -8864,7 +8868,7 @@ start.addEventListener('click', () => {
           relire.onclick = () => {
             clearInterval(interval);
             prog = 180;
-            mins =3;
+            mins = 3;
             seconds =  0;
 
             second.textContent = String(seconds).padStart(2, '0');
