@@ -280,239 +280,1024 @@ wordef: [
      },{
       id: 2,
       date: 2,
-      txt: `. »`
+      txt: `Le billet dans la poche
+
+Depuis quelques jours, Nadia avait l'impression que quelque chose avait changé dans son quartier.
+
+Elle habitait dans une petite rue depuis presque deux ans.
+
+Elle connaissait les magasins, les cafés et les rues autour de chez elle.
+
+Chaque matin, elle passait devant le même fleuriste avant de prendre le bus.
+
+Elle saluait parfois le boulanger.
+
+Elle connaissait même le chien d'une vieille dame qui s'asseyait chaque après-midi devant son immeuble.
+
+Mais elle ne connaissait presque personne vraiment.
+
+Un vendredi matin, Nadia est sortie de chez elle comme d'habitude.
+
+Elle a marché jusqu'à l'arrêt de bus.
+
+En attendant, elle a mis les mains dans les poches de son manteau.
+
+C'est à ce moment-là qu'elle a trouvé quelque chose.
+
+Un petit morceau de papier.
+
+Elle l'a sorti de sa poche.
+
+C'était un billet de bus.
+
+Mais il était différent des billets habituels.
+
+Au dos, quelqu'un avait écrit :
+
+« Ne prenez pas le prochain bus. »
+
+Nadia a regardé autour d'elle.
+
+Personne ne semblait l'observer.
+
+Elle a pensé à une plaisanterie.
+
+Le bus est arrivé quelques secondes plus tard.
+
+Les portes se sont ouvertes.
+
+Plusieurs personnes sont montées.
+
+Nadia a hésité.
+
+Puis elle a décidé de rester sur le trottoir.
+
+Le bus est reparti.
+
+Elle a regardé le billet une nouvelle fois.
+
+Au dos, il n'y avait rien d'autre.
+
+Elle a finalement décidé de marcher jusqu'au café situé deux rues plus loin.
+
+Elle y commandait parfois un café avant d'aller travailler.
+
+Lorsqu'elle s'est assise, elle a remarqué un homme à la table voisine.
+
+Il regardait régulièrement sa montre.
+
+Puis il s'est levé et est parti.
+
+Quelques minutes plus tard, Nadia a trouvé un autre morceau de papier sur sa table.
+
+Elle l'a ouvert.
+
+« Vous avez fait le bon choix. »
+
+Cette fois, Nadia a commencé à avoir peur.
+
+Elle a regardé vers la porte.
+
+L'homme avait disparu.
+
+Elle a demandé au serveur :
+
+— Vous avez vu qui a posé ce papier ici ?
+
+Le serveur a réfléchi.
+
+— Non. Mais une dame était assise à cette table avant vous.
+
+— Vous savez qui c'était ?
+
+— Pas vraiment. Elle vient parfois le vendredi matin.
+
+Nadia a pris le papier et l'a rangé dans son sac.
+
+Elle ne savait pas quoi faire.
+
+Elle est finalement partie travailler.
+
+Toute la journée, elle a essayé d'oublier cette histoire.
+
+Mais le soir, en rentrant chez elle, elle a trouvé une troisième note sous sa porte.
+
+Cette fois, il n'y avait qu'une phrase :
+
+« Demain, à dix heures, allez au parc. Regardez le banc près de la fontaine. »
+
+Nadia a hésité.
+
+Elle savait qu'elle pouvait simplement jeter la note.
+
+Pourtant, sa curiosité était plus forte.
+
+Le lendemain matin, elle est allée au parc.
+
+À dix heures précises, elle s'est approchée du banc.
+
+Il était vide.
+
+Elle a regardé autour d'elle.
+
+Des enfants jouaient près de la fontaine.
+
+Un homme courait.
+
+Deux femmes discutaient sur un autre banc.
+
+Puis Nadia a remarqué une enveloppe coincée sous le banc.
+
+Elle l'a ouverte.
+
+À l'intérieur, il y avait une vieille photographie.
+
+On y voyait le même parc.
+
+Mais la photographie semblait avoir été prise il y a plusieurs années.
+
+Au premier plan, une jeune femme souriait devant la fontaine.
+
+Nadia a retourné la photographie.
+
+Elle a reconnu quelque chose.
+
+La jeune femme portait le même pendentif que celui que sa mère avait toujours porté.
+
+Nadia est restée immobile.
+
+Sa mère était morte quelques années auparavant.
+
+Elle ne lui avait jamais parlé de ce parc.
+
+Au dos de la photographie, quelqu'un avait écrit :
+
+« Ta mère venait souvent ici. Elle avait une amie qui ne l'a jamais oubliée. »
+
+Nadia a senti son cœur battre plus vite.
+
+Elle a immédiatement appelé sa tante.
+
+— Est-ce que maman avait une amie qui habitait dans ce quartier ?
+
+Sa tante est restée silencieuse.
+
+Puis elle a répondu :
+
+— Oui.
+
+— Qui ?
+
+— Elle s'appelait Claire. Elles étaient très proches quand elles étaient jeunes.
+
+Nadia a demandé si sa tante connaissait son adresse.
+
+Elle ne l'avait pas.
+
+Mais elle connaissait son prénom complet.
+
+Nadia a commencé à chercher.
+
+Après plusieurs heures, elle a trouvé une ancienne adresse dans un annuaire.
+
+Elle a hésité avant de s'y rendre.
+
+La maison était située à quelques kilomètres du parc.
+
+Une femme âgée a ouvert la porte.
+
+Nadia a montré la photographie.
+
+La femme a immédiatement reconnu son amie.
+
+— C'est ta mère ?
+
+Nadia a hoché la tête.
+
+La femme a souri avec émotion.
+
+— Je pensais que je ne reverrais jamais cette photo.
+
+Elle a invité Nadia à entrer.
+
+Pendant presque deux heures, Claire lui a raconté des histoires sur sa mère.
+
+Elle lui a parlé de leurs études, de leurs promenades et de leurs rêves lorsqu'elles étaient jeunes.
+
+Nadia a découvert une partie de la vie de sa mère qu'elle ne connaissait pas.
+
+Avant de partir, elle a demandé :
+
+— Mais pourquoi m'avoir laissé toutes ces notes ?
+
+Claire a souri.
+
+— Parce que je t'ai vue plusieurs fois dans le quartier.
+
+Nadia a été surprise.
+
+— Vous me connaissiez ?
+
+— Je ne te connaissais pas. Mais je savais que tu étais sa fille.
+
+Claire lui a expliqué qu'elle avait longtemps hésité à venir lui parler.
+
+Elle avait peur de déranger Nadia.
+
+Alors elle avait choisi une autre méthode.
+
+— Je voulais simplement que tu découvres quelque chose par toi-même.
+
+Nadia a regardé la photographie.
+
+— Pourquoi le premier billet disait de ne pas prendre le bus ?
+
+Claire a ri doucement.
+
+— Parce que je savais que ce bus passerait devant mon ancienne maison. Je voulais que tu commences à regarder autour de toi.
+
+Nadia a compris.
+
+Ce n'était pas le bus qui était important.
+
+Ni le café.
+
+Ni les notes.
+
+C'était le chemin.
+
+Claire voulait lui faire découvrir une histoire qu'elle ignorait.
+
+Avant de partir, Claire lui a donné une petite boîte.
+
+À l'intérieur, il y avait plusieurs photographies anciennes.
+
+— Garde-les, a-t-elle dit. Ta mère les avait oubliées chez moi il y a très longtemps.
+
+Nadia a regardé les photographies une dernière fois.
+
+Elle avait toujours pensé connaître sa mère.
+
+Pourtant, en une seule journée, elle avait découvert une partie de sa vie dont elle n'avait jamais entendu parler.
+
+Sur le chemin du retour, Nadia est repassée devant le petit café.
+
+Elle s'est arrêtée.
+
+Elle a regardé le parc, les magasins et les personnes qui marchaient dans la rue.
+
+Tout semblait identique.
+
+Mais quelque chose avait changé.
+
+Elle ne regardait plus son quartier de la même manière.
+
+Elle avait compris qu'un endroit pouvait garder des souvenirs pendant des années.
+
+Et parfois, une personne n'a pas besoin de voyager très loin pour découvrir une nouvelle histoire.
+
+Il suffit simplement de regarder un peu plus attentivement ce qui se trouve autour de soi.`,
+wordef: [
+  { mot: "quartier", definition: "A part of a city where people live and work.", contextExample: "Elle habitait dans une petite rue de son quartier.", synonyme: "secteur" },
+
+  { mot: "fleuriste", definition: "A person or shop that sells flowers.", contextExample: "Chaque matin, elle passait devant le même fleuriste.", synonyme: "vendeur de fleurs" },
+
+  { mot: "plaisanterie", definition: "Something said or done to make people laugh or have fun.", contextExample: "Elle a pensé à une plaisanterie.", synonyme: "blague" },
+
+  { mot: "hésiter", definition: "To be unsure about what decision to make.", contextExample: "Nadia a hésité avant de monter dans le bus.", synonyme: "douter" },
+
+  { mot: "trottoir", definition: "The part of a street where people walk.", contextExample: "Elle a décidé de rester sur le trottoir.", synonyme: "passage piéton" },
+
+  { mot: "observer", definition: "To look at someone or something carefully.", contextExample: "Elle a regardé autour d'elle pour observer les personnes présentes.", synonyme: "examiner" },
+
+  { mot: "curiosité", definition: "A strong desire to know or discover something.", contextExample: "Sa curiosité était plus forte que sa peur.", synonyme: "envie de savoir" },
+
+  { mot: "enveloppe", definition: "A paper container used for sending or keeping a letter or document.", contextExample: "Elle a trouvé une enveloppe sous sa porte.", synonyme: "pochette" },
+
+  { mot: "coincé", definition: "Stuck or placed tightly in a small space.", contextExample: "Elle a trouvé une enveloppe coincée sous le banc.", synonyme: "bloqué" },
+
+  { mot: "fontaine", definition: "A structure from which water flows, often found in a park or public place.", contextExample: "Elle s'est approchée du banc près de la fontaine.", synonyme: "point d'eau" },
+
+  { mot: "pendentif", definition: "A small decorative object worn around the neck on a chain.", contextExample: "La jeune femme portait le même pendentif que sa mère.", synonyme: "bijou" },
+
+  { mot: "annuaire", definition: "A book or document containing names and contact information.", contextExample: "Elle a trouvé une ancienne adresse dans un annuaire.", synonyme: "répertoire" },
+
+  { mot: "émotion", definition: "A strong feeling caused by a person, event, or memory.", contextExample: "La femme est restée silencieuse avec émotion.", synonyme: "sentiment" },
+
+  { mot: "souvenir", definition: "Something remembered from the past.", contextExample: "Le quartier gardait de nombreux souvenirs.", synonyme: "mémoire" },
+
+  { mot: "déranger", definition: "To disturb or bother someone.", contextExample: "Elle avait peur de déranger Nadia.", synonyme: "gêner" },
+
+  { mot: "rêve", definition: "A strong desire or hope that someone wants to achieve.", contextExample: "Elle lui a parlé de leurs rêves lorsqu'elles étaient jeunes.", synonyme: "ambition" },
+
+  { mot: "ancienne", definition: "Something that existed or happened a long time ago.", contextExample: "Claire lui a montré plusieurs photographies anciennes.", synonyme: "d'autrefois" },
+
+  { mot: "découvrir", definition: "To find or learn something that was previously unknown.", contextExample: "Nadia a découvert une partie de la vie de sa mère.", synonyme: "apprendre" },
+
+  { mot: "attentivement", definition: "In a careful way, giving all your attention to something.", contextExample: "Elle a regardé la photographie attentivement.", synonyme: "avec attention" },
+
+  { mot: "histoire", definition: "A series of events that happened to someone or that someone tells about.", contextExample: "Elle avait découvert une partie de l'histoire de sa mère.", synonyme: "récit" }
+]
 
      },{
       id: 3,
       date: 3,
-      txt: "8."
+      txt: `Le banc du dimanche
+
+Depuis quelques mois, Julien habitait dans une petite ville près de la mer.
+
+Il avait choisi cet endroit parce qu'il voulait une vie plus calme.
+
+Dans sa ville précédente, il travaillait beaucoup et passait presque tout son temps dans les transports.
+
+Ici, tout semblait différent.
+
+Les rues étaient moins bruyantes.
+
+Les gens prenaient le temps de discuter.
+
+Le soir, Julien aimait marcher jusqu'au bord de la mer avant de rentrer chez lui.
+
+Il avait pourtant un problème.
+
+Il ne connaissait presque personne.
+
+Au travail, ses collègues étaient sympathiques, mais ils avaient tous leur propre vie.
+
+Julien rentrait donc souvent seul.
+
+Un dimanche matin, il est allé se promener dans un petit parc situé près de chez lui.
+
+Il faisait beau, mais le parc était presque vide.
+
+Julien s'est installé sur un banc et a commencé à lire.
+
+Quelques minutes plus tard, un vieil homme s'est assis à l'autre bout du banc.
+
+Il tenait un petit sac dans une main et un journal dans l'autre.
+
+Il a salué Julien.
+
+— Bonjour.
+
+— Bonjour.
+
+Pendant quelques minutes, ils sont restés silencieux.
+
+Puis le vieil homme a regardé le livre de Julien.
+
+— Vous aimez lire ?
+
+Julien a souri.
+
+— Oui. Beaucoup.
+
+— Moi aussi, quand j'étais plus jeune.
+
+Julien a fermé son livre.
+
+— Et maintenant ?
+
+Le vieil homme a ri.
+
+— Maintenant, je préfère raconter des histoires.
+
+Julien a trouvé cette réponse amusante.
+
+Ils ont commencé à discuter.
+
+L'homme s'appelait André.
+
+Il habitait dans le quartier depuis plus de quarante ans.
+
+Il connaissait presque toutes les rues, tous les commerces et beaucoup de leurs habitants.
+
+Avant de partir, André a dit :
+
+— Je suis toujours ici le dimanche matin.
+
+Puis il s'est levé et a quitté le parc.
+
+Le dimanche suivant, Julien est revenu.
+
+André était déjà assis sur le même banc.
+
+— Vous êtes revenu !
+
+— Je vous avais dit que je serais là.
+
+Julien s'est assis à côté de lui.
+
+Cette fois, André lui a raconté l'histoire du quartier.
+
+Il lui a expliqué qu'un ancien cinéma se trouvait autrefois à quelques rues du parc.
+
+Il lui a parlé d'une boulangerie qui existait depuis plus de cinquante ans.
+
+Il lui a même montré une vieille photographie du quartier.
+
+Julien était surpris.
+
+Il passait tous les jours devant certains endroits sans connaître leur histoire.
+
+Les semaines suivantes, les deux hommes ont pris l'habitude de se retrouver chaque dimanche.
+
+Parfois, ils parlaient pendant une heure.
+
+Parfois, ils restaient simplement assis sur le banc.
+
+Un jour, Julien a remarqué qu'André semblait préoccupé.
+
+— Quelque chose ne va pas ?
+
+André a hésité.
+
+Puis il a sorti une vieille enveloppe de son sac.
+
+— Je cherche quelqu'un.
+
+— Qui ?
+
+André lui a montré une photographie.
+
+On y voyait deux jeunes hommes devant une voiture.
+
+— C'est mon frère, a-t-il expliqué. Nous nous sommes perdus de vue il y a plus de trente ans.
+
+Julien a regardé la photographie.
+
+— Vous ne savez pas où il habite ?
+
+André a secoué la tête.
+
+— Non. J'ai essayé plusieurs fois de le retrouver, mais je n'ai jamais réussi.
+
+Julien a proposé de l'aider.
+
+Ils ont commencé par chercher son nom sur Internet.
+
+Ils ont trouvé plusieurs personnes portant le même nom.
+
+Mais aucune ne semblait être le frère d'André.
+
+Ils ont ensuite demandé à quelques habitants plus âgés du quartier.
+
+Une ancienne commerçante se souvenait vaguement de lui.
+
+Un autre homme avait entendu parler de son départ.
+
+Mais personne ne savait où il était allé.
+
+Après plusieurs semaines, Julien commençait à perdre espoir.
+
+Un dimanche, alors qu'ils parlaient de cette recherche, une femme âgée s'est approchée du banc.
+
+Elle regardait la photographie qu'André tenait dans sa main.
+
+— Attendez...
+
+André a levé les yeux.
+
+La femme a pris la photographie.
+
+— Je connais cet homme.
+
+André est resté silencieux.
+
+— Vous êtes sûre ?
+
+— Oui. Il travaillait autrefois dans un garage près de la gare.
+
+La femme a réfléchi.
+
+— Je crois qu'il est parti vivre dans une autre ville. Mais je connais quelqu'un qui pourrait avoir son ancienne adresse.
+
+Le lendemain, Julien et André ont retrouvé cette personne.
+
+Elle avait conservé une vieille liste de clients du garage.
+
+Après plusieurs appels, ils ont finalement obtenu une nouvelle adresse.
+
+André n'a pas immédiatement appelé son frère.
+
+Il avait peur.
+
+Après trente ans, il ne savait pas comment commencer la conversation.
+
+Julien lui a simplement dit :
+
+— Vous n'avez rien à préparer. Dites-lui seulement que vous pensez à lui.
+
+André a pris son téléphone.
+
+Il a composé le numéro.
+
+Personne n'a répondu.
+
+Il a laissé un message.
+
+Les deux hommes sont restés silencieux.
+
+Puis, quelques heures plus tard, le téléphone d'André a sonné.
+
+Julien l'a regardé sourire.
+
+André a répondu.
+
+Il a parlé pendant près d'une heure.
+
+Après avoir raccroché, il avait les yeux brillants.
+
+— C'était lui.
+
+Julien a souri.
+
+— Vous allez le revoir ?
+
+— Oui. Il vient le mois prochain.
+
+Le dimanche suivant, Julien est arrivé au parc comme d'habitude.
+
+Mais cette fois, André n'était pas seul.
+
+Un autre homme était assis sur le banc.
+
+Ils se ressemblaient beaucoup malgré les années.
+
+André a présenté son frère à Julien.
+
+— C'est grâce à lui que nous nous sommes retrouvés.
+
+Julien a protesté.
+
+— Je n'ai presque rien fait.
+
+André a souri.
+
+— Parfois, il ne faut pas faire beaucoup. Il faut simplement être là.
+
+Julien s'est assis à côté d'eux.
+
+Ils ont commencé à parler.
+
+Pendant plusieurs heures, les trois hommes ont échangé des souvenirs.
+
+Julien les écoutait en silence.
+
+Il pensait à son arrivée dans cette ville quelques mois auparavant.
+
+Il avait choisi cet endroit parce qu'il voulait être tranquille.
+
+Mais il comprenait maintenant quelque chose.
+
+Une ville ne devient pas familière simplement parce qu'on y habite longtemps.
+
+Elle devient familière lorsqu'on commence à connaître les personnes, les histoires et les souvenirs qui l'habitent.
+
+Depuis ce jour, Julien n'est plus retourné seul sur le banc.
+
+Chaque dimanche, quelqu'un venait s'y asseoir.
+
+Parfois, c'était André.
+
+Parfois, son frère.
+
+Et parfois, un inconnu qui avait simplement envie de parler.
+
+Le banc était devenu un petit endroit où les histoires commençaient.
+
+Et Julien avait enfin cessé de se sentir étranger dans sa propre ville.`,
+wordef: [
+  { mot: "bord", definition: "The edge or area next to a sea, river, or lake.", contextExample: "Julien aimait marcher jusqu'au bord de la mer.", synonyme: "rive" },
+
+  { mot: "transports", definition: "Vehicles and services used to travel from one place to another.", contextExample: "Il passait presque tout son temps dans les transports.", synonyme: "moyens de transport" },
+
+  { mot: "quartier", definition: "A part of a town or city where people live.", contextExample: "Il habitait dans le quartier depuis plus de quarante ans.", synonyme: "secteur" },
+
+  { mot: "sympathique", definition: "Friendly, pleasant, and nice to be with.", contextExample: "Ses collègues étaient sympathiques.", synonyme: "agréable" },
+
+  { mot: "habitude", definition: "Something that a person regularly does or is accustomed to doing.", contextExample: "Les deux hommes ont pris l'habitude de se retrouver chaque dimanche.", synonyme: "coutume" },
+
+  { mot: "préoccupé", definition: "Worried or thinking a lot about a problem.", contextExample: "Julien a remarqué qu'André semblait préoccupé.", synonyme: "inquiet" },
+
+  { mot: "enveloppe", definition: "A paper container used to hold a letter or document.", contextExample: "André a sorti une vieille enveloppe de son sac.", synonyme: "pochette" },
+
+  { mot: "se perdre de vue", definition: "To stop seeing or communicating with someone over time.", contextExample: "Nous nous sommes perdus de vue il y a plus de trente ans.", synonyme: "ne plus avoir de contact" },
+
+  { mot: "vaguement", definition: "In a way that is not clear or precise.", contextExample: "Une ancienne commerçante se souvenait vaguement de lui.", synonyme: "de manière imprécise" },
+
+  { mot: "espoir", definition: "A feeling that something you want will happen.", contextExample: "Julien commençait à perdre espoir.", synonyme: "attente" },
+
+  { mot: "retrouver", definition: "To find someone again after not seeing them for a period of time.", contextExample: "Il avait essayé plusieurs fois de retrouver son frère.", synonyme: "revoir" },
+
+  { mot: "ancienne", definition: "Something that belongs to the past or has existed for a long time.", contextExample: "Elle avait conservé une vieille liste de clients.", synonyme: "d'autrefois" },
+
+  { mot: "client", definition: "A person who buys something or uses the services of a business.", contextExample: "Elle avait conservé une vieille liste de clients du garage.", synonyme: "acheteur" },
+
+  { mot: "adresse", definition: "Information that indicates where a person or place can be found.", contextExample: "Ils ont finalement obtenu une nouvelle adresse.", synonyme: "coordonnées" },
+
+  { mot: "hésiter", definition: "To be unsure about what to do or say.", contextExample: "André n'a pas immédiatement appelé son frère. Il avait peur et hésitait.", synonyme: "douter" },
+
+  { mot: "protester", definition: "To express disagreement with something that has been said or done.", contextExample: "Julien a protesté lorsqu'André lui a dit qu'il l'avait aidé.", synonyme: "s'opposer" },
+
+  { mot: "raccrocher", definition: "To end a telephone conversation by putting the phone down.", contextExample: "Après avoir raccroché, André avait les yeux brillants.", synonyme: "terminer l'appel" },
+
+  { mot: "échanger", definition: "To share or discuss ideas, information, or memories with another person.", contextExample: "Les trois hommes ont échangé des souvenirs.", synonyme: "partager" },
+
+  { mot: "familier", definition: "Known well because it has been seen or experienced many times.", contextExample: "Une ville devient familière lorsqu'on connaît les personnes qui y vivent.", synonyme: "connu" },
+
+  { mot: "étranger", definition: "A person who feels that they do not belong to a particular place or group.", contextExample: "Julien avait cessé de se sentir étranger dans sa propre ville.", synonyme: "inconnu" }
+]
      },{
       id: 4,
       date: 4,
-      txt: "9"
+      txt:`Le bruit derrière le mur
+
+Depuis quelques semaines, Clara entendait un bruit étrange dans son appartement.
+
+Tous les soirs, vers vingt-deux heures, quelqu’un semblait déplacer quelque chose derrière le mur de sa chambre. Parfois, elle entendait trois petits coups. Puis plus rien.
+
+Au début, Clara pensait que cela venait de ses voisins. Elle vivait dans un vieil immeuble où les murs étaient tellement fins qu’elle pouvait entendre les conversations de l’appartement voisin. Elle n’y prêtait donc pas beaucoup d’attention.
+
+Mais un soir, le bruit devint plus fort.
+
+Toc. Toc. Toc.
+
+Clara posa son livre et resta immobile.
+
+Quelques secondes plus tard :
+
+Toc. Toc.
+
+Elle s’approcha du mur et posa doucement son oreille contre la peinture froide.
+
+— Il y a quelqu’un ?
+
+Aucune réponse.
+
+Le lendemain, elle en parla à son voisin, Monsieur Bernard, qui habitait au même étage depuis plus de trente ans.
+
+— Derrière ce mur ? demanda-t-il, surpris. C’est impossible. Il n’y a pas d’appartement de l’autre côté.
+
+Cette phrase intrigua Clara.
+
+Elle demanda alors au propriétaire de lui montrer les plans de l’immeuble. En regardant le document, elle remarqua quelque chose d’étrange : entre sa chambre et l’appartement voisin, il y avait un petit espace qui n’apparaissait sur aucun plan récent.
+
+Le soir même, elle décida d’observer le mur plus attentivement.
+
+Elle remarqua une petite fissure près de la plinthe. En passant son doigt dessus, elle sentit un courant d’air.
+
+Clara retira quelques morceaux de peinture et découvrit une petite poignée métallique presque entièrement cachée dans le mur.
+
+Elle tira.
+
+Une partie du mur s’ouvrit lentement.
+
+Derrière se trouvait une minuscule pièce sombre.
+
+Clara alluma la lampe de son téléphone. Il y avait une vieille chaise, plusieurs cartons et une petite table couverte de poussière.
+
+Sur la table, elle trouva une boîte en bois.
+
+À l’intérieur, il y avait des dizaines de lettres.
+
+Elles avaient été écrites par différentes personnes, plusieurs décennies auparavant. Certaines parlaient d’amour, d’autres de disputes, de départs ou de rêves abandonnés.
+
+Au fond de la boîte, Clara trouva une dernière lettre.
+
+Elle était datée de 1978.
+
+> « Si quelqu’un trouve cette pièce un jour, qu’il sache qu’ici, des gens ont laissé une partie de leur vie. »
+
+
+
+Clara resta silencieuse.
+
+Le lendemain, elle apporta les lettres à Monsieur Bernard.
+
+Lorsqu’il vit la première enveloppe, son visage changea.
+
+— Cette écriture… Je la reconnais.
+
+Il prit la lettre entre ses mains.
+
+— C’est celle de ma sœur.
+
+Clara apprit alors que Monsieur Bernard avait perdu contact avec sa sœur lorsqu’ils étaient jeunes. Il ignorait complètement ce qu’elle était devenue.
+
+Pendant plusieurs semaines, ils cherchèrent ensemble des informations sur elle.
+
+Finalement, ils la retrouvèrent.
+
+Elle vivait dans une autre ville, à plusieurs centaines de kilomètres.
+
+Quelques jours plus tard, Monsieur Bernard reçut un appel.
+
+Sa sœur était toujours là.
+
+Et elle avait envie de le revoir.
+
+Clara ne s’attendait pas à ce qu'un simple bruit derrière un mur puisse réveiller un souvenir vieux de presque cinquante ans.
+
+Depuis ce jour, elle ne regarda plus jamais son appartement de la même manière.
+
+Elle avait compris qu’un immeuble n’était pas seulement fait de murs, de portes et de fenêtres.
+
+Il pouvait aussi cacher des histoires.`,
+wordef: [
+  {
+    mot: "étrange",
+    definition: "Something unusual or difficult to explain.",
+    contextExample: "Clara entendait un bruit étrange dans son appartement.",
+    synonyme: "bizarre"
+  },
+  {
+    mot: "déplacer",
+    definition: "To move something from one place to another.",
+    contextExample: "Quelqu’un semblait déplacer quelque chose derrière le mur.",
+    synonyme: "bouger"
+  },
+  {
+    mot: "prêter attention",
+    definition: "To pay attention to something.",
+    contextExample: "Elle n’y prêtait donc pas beaucoup d’attention.",
+    synonyme: "faire attention"
+  },
+  {
+    mot: "immobile",
+    definition: "Not moving at all.",
+    contextExample: "Clara posa son livre et resta immobile.",
+    synonyme: "sans bouger"
+  },
+  {
+    mot: "voisin",
+    definition: "A person who lives near or next to you.",
+    contextExample: "Elle en parla à son voisin, Monsieur Bernard.",
+    synonyme: "habitant du quartier"
+  },
+  {
+    mot: "intriguer",
+    definition: "To make someone curious because something is mysterious or unusual.",
+    contextExample: "Cette phrase intrigua Clara.",
+    synonyme: "éveiller la curiosité"
+  },
+  {
+    mot: "remarquer",
+    definition: "To notice or become aware of something.",
+    contextExample: "Elle remarqua une petite fissure près de la plinthe.",
+    synonyme: "constater"
+  },
+  {
+    mot: "fissure",
+    definition: "A thin crack or opening in a wall or surface.",
+    contextExample: "Elle remarqua une petite fissure près de la plinthe.",
+    synonyme: "craquelure"
+  },
+  {
+    mot: "plinthe",
+    definition: "A narrow piece of material fixed along the bottom of a wall.",
+    contextExample: "Elle remarqua une petite fissure près de la plinthe.",
+    synonyme: "bordure murale"
+  },
+  {
+    mot: "courant d’air",
+    definition: "A movement of air coming through a small opening.",
+    contextExample: "En passant son doigt dessus, elle sentit un courant d’air.",
+    synonyme: "souffle d’air"
+  },
+  {
+    mot: "poignée",
+    definition: "A part that you hold to open or close a door or object.",
+    contextExample: "Elle découvrit une petite poignée métallique.",
+    synonyme: "manche"
+  },
+  {
+    mot: "dissimulé",
+    definition: "Hidden so that it is difficult to see.",
+    contextExample: "La poignée était presque entièrement cachée dans le mur.",
+    synonyme: "caché"
+  },
+  {
+    mot: "poussière",
+    definition: "Very small pieces of dirt that collect on surfaces.",
+    contextExample: "Il y avait une petite table couverte de poussière.",
+    synonyme: "saleté"
+  },
+  {
+    mot: "lettre",
+    definition: "A written message sent or left for someone.",
+    contextExample: "À l’intérieur, il y avait des dizaines de lettres.",
+    synonyme: "message"
+  },
+  {
+    mot: "décennie",
+    definition: "A period of ten years.",
+    contextExample: "Elles avaient été écrites plusieurs décennies auparavant.",
+    synonyme: "période de dix ans"
+  },
+  {
+    mot: "abandonné",
+    definition: "Left behind or given up, often because something became impossible.",
+    contextExample: "Certaines parlaient d’amour, d’autres de disputes, de départs ou de rêves abandonnés.",
+    synonyme: "délaissé"
+  },
+  {
+    mot: "retrouver",
+    definition: "To find someone or something again after losing contact or losing it.",
+    contextExample: "Pendant plusieurs semaines, ils cherchèrent ensemble des informations sur elle.",
+    synonyme: "revoir"
+  },
+  {
+    mot: "perdre contact",
+    definition: "To stop communicating with someone over time.",
+    contextExample: "Monsieur Bernard avait perdu contact avec sa sœur lorsqu’ils étaient jeunes.",
+    synonyme: "ne plus avoir de nouvelles"
+  },
+  {
+    mot: "réveiller",
+    definition: "To bring a memory, feeling, or emotion back to someone's mind.",
+    contextExample: "Un simple bruit derrière un mur puisse réveiller un souvenir vieux de presque cinquante ans.",
+    synonyme: "faire resurgir"
+  },
+  {
+    mot: "cacher",
+    definition: "To keep something somewhere where it cannot easily be seen.",
+    contextExample: "Un immeuble pouvait aussi cacher des histoires.",
+    synonyme: "dissimuler"
+  }
+]
      },{
       id: 5,
       date: 5,
-      txt: `La lettre qui n'aurait jamais dû arriver
-
-Lorsque Julien ouvrit sa boîte aux lettres ce mardi matin, il ne s'attendait pas à y trouver autre chose que des factures et quelques publicités. Il habitait dans un petit immeuble depuis près de six ans et sa vie suivait une routine presque parfaite. Il se levait à sept heures, prenait un café noir sans sucre, lisait les titres de l'actualité pendant quelques minutes, puis partait travailler dans une bibliothèque municipale. Son travail lui plaisait. Il aimait le calme des rayonnages, l'odeur des livres anciens et les conversations discrètes avec les lecteurs.
-
-Ce matin-là, pourtant, une enveloppe attira immédiatement son attention.
-
-Elle était en papier épais, légèrement jaunie par le temps. L'écriture, tracée à l'encre bleue, semblait appartenir à une autre époque. Aucun timbre récent, seulement un cachet postal difficile à lire.
-
-Julien regarda plusieurs fois le nom inscrit sur l'enveloppe.
-
-C'était bien le sien.
-
-Il monta rapidement dans son appartement, posa son sac sur la table et ouvrit la lettre avec précaution.
-
-À l'intérieur se trouvait une seule feuille.
-
-> « Si cette lettre est arrivée jusqu'à toi, c'est que le hasard a encore fait son travail. Va samedi à dix heures devant la vieille gare de Saint-Clair. N'oublie pas ton appareil photo. Tu comprendras pourquoi. »
-
-
-
-Aucune signature.
-
-Julien relut plusieurs fois ces quelques lignes.
-
-Qui pouvait lui envoyer un message aussi étrange ? Et surtout, comment cette personne savait-elle qu'il possédait encore un vieil appareil photo argentique, rangé depuis des années dans une armoire ?
-
-Toute la journée, il pensa à cette mystérieuse lettre. Ses collègues remarquèrent rapidement qu'il semblait distrait.
-
-— Tout va bien ? demanda Sophie, une bibliothécaire avec qui il travaillait depuis longtemps.
-
-— Oui... enfin, je crois. J'ai reçu une lettre un peu étrange ce matin.
-
-— Une lettre ? En papier ?
-
-— Oui.
-
-— C'est déjà étrange en soi, répondit-elle en riant.
-
-Julien lui montra le message.
-
-Elle le regarda quelques secondes avant de hausser les épaules.
-
-— Si j'étais toi, j'irais. Au pire, tu perdras une heure. Au mieux, tu vivras une histoire que tu raconteras toute ta vie.
-
-Cette phrase resta dans son esprit.
-
-Le samedi arriva plus vite qu'il ne l'imaginait.
-
-À neuf heures quarante-cinq, Julien descendit du train à Saint-Clair avec son vieil appareil photo suspendu autour du cou.
-
-La gare semblait presque abandonnée. Quelques voyageurs traversaient rapidement le quai sans prêter attention au vieux bâtiment de pierre.
-
-À dix heures précises, rien ne se passa.
-
-Julien attendit.
-
-Cinq minutes.
-
-Puis dix.
-
-Il commençait à penser qu'il avait fait le voyage pour rien lorsqu'une vieille dame s'approcha de lui.
-
-— Vous êtes Julien ?
-
-Il hésita avant de répondre.
-
-— Oui.
-
-Elle sourit doucement.
-
-— Alors suivez-moi.
-
-Sans poser de question, Julien marcha derrière elle dans les petites rues de la ville.
-
-Après quelques minutes, ils arrivèrent devant une immense maison entourée d'un jardin envahi par les fleurs sauvages.
-
-Une dizaine de personnes étaient déjà présentes.
-
-Toutes semblaient attendre quelqu'un.
-
-La vieille dame prit la parole.
-
-— Merci d'être venu. Aujourd'hui, cela fait exactement cinquante ans que mon mari a pris cette photographie.
-
-Elle montra une grande photo en noir et blanc.
-
-On y voyait un groupe d'enfants riant devant la vieille gare de Saint-Clair.
-
-— Mon mari était photographe. Toute sa vie, il a photographié des inconnus dans les rues, les marchés, les gares et les villages. Avant de mourir, il m'a demandé une chose : retrouver certaines personnes présentes sur ses photos pour leur offrir un tirage qu'elles n'avaient jamais vu.
-
-Julien observait attentivement le cliché.
-
-Au premier rang se trouvait un petit garçon tenant un ballon rouge.
-
-Il lui ressemblait étrangement.
-
-— Ce n'est pas possible..., murmura-t-il.
-
-La vieille dame acquiesça.
-
-— C'est bien vous.
-
-Julien sentit un frisson parcourir son dos.
-
-Il n'avait aucun souvenir de cette journée.
-
-— Vos parents passaient leurs vacances ici. Mon mari vous a photographié par hasard. Il disait toujours que votre sourire représentait parfaitement l'insouciance de l'enfance.
-
-Elle lui tendit la photographie.
-
-Le papier avait traversé cinquante années sans perdre son éclat.
-
-Julien resta silencieux.
-
-Autour de lui, les autres invités recevaient eux aussi des images oubliées.
-
-Une femme découvrait une photo où elle tenait la main de son père, disparu depuis longtemps.
-
-Un homme retrouvait un portrait pris le jour où il avait obtenu son diplôme.
-
-Un autre reconnaissait sa grand-mère, assise devant sa maison.
-
-Très vite, les inconnus commencèrent à discuter entre eux.
-
-Chacun racontait l'histoire cachée derrière son image.
-
-Les souvenirs remplissaient peu à peu le jardin.
-
-Julien s'assit sur un vieux banc.
-
-Il contemplait encore la photographie lorsqu'un jeune garçon s'approcha.
-
-— Monsieur, vous aimez la photo ?
-
-— Oui... enfin, je l'aimais beaucoup avant.
-
-— Pourquoi avez-vous arrêté ?
-
-Julien réfléchit quelques secondes.
-
-Il n'avait jamais vraiment trouvé de réponse à cette question.
-
-Autrefois, il photographiait tout : les couchers de soleil, les rues, les visages, les voyages.
-
-Puis le travail, les responsabilités et les habitudes avaient lentement remplacé cette passion.
-
-— Je crois que je pensais manquer de temps.
-
-Le garçon sourit.
-
-— Mon grand-père disait toujours que le temps existe. C'est notre attention qui disparaît.
-
-Cette phrase frappa Julien comme une évidence.
-
-Il leva les yeux.
-
-Autour de lui, personne ne regardait son téléphone.
-
-Les gens parlaient.
-
-Ils riaient.
-
-Ils observaient les vieilles photos avec émotion.
-
-Julien prit instinctivement son appareil.
-
-Il photographia la vieille maison.
-
-Puis les fleurs.
-
-Puis le sourire d'un enfant courant dans le jardin.
-
-Pour la première fois depuis des années, il retrouvait le plaisir simple d'observer le monde.
-
-Avant de repartir, la vieille dame lui remit une seconde enveloppe.
-
-— Mon mari voulait que je vous donne ceci seulement si vous veniez aujourd'hui.
-
-Julien l'ouvrit dans le train du retour.
-
-À l'intérieur se trouvait une petite carte.
-
-Quelques mots seulement.
-
-> « Les appareils photo ne servent pas à arrêter le temps. Ils nous rappellent simplement qu'il mérite d'être regardé. Continue à voir ce que les autres oublient de regarder. »
-
-
-
-En arrivant chez lui, Julien ne rangea pas son appareil dans l'armoire.
-
-Le lendemain matin, il partit plus tôt pour le travail.
-
-Sur le chemin, il photographia un musicien jouant dans la rue, une vieille librairie, une femme lisant sur un banc, un chien impatient devant une boulangerie et les premiers rayons du soleil qui illuminaient les façades.
-
-Quelques semaines plus tard, il accrocha certaines de ses photographies dans la bibliothèque où il travaillait.
-
-Les visiteurs s'arrêtaient souvent pour les regarder.
-
-Un jour, une petite fille lui demanda :
-
-— C'est vous qui avez pris ces photos ?
-
-Julien répondit avec un sourire :
-
-— Oui.
-
-— Elles donnent envie de regarder les choses autrement.
-
-Il remercia la fillette.
-
-Sans le savoir, elle venait de lui offrir le plus beau compliment qu'il ait jamais reçu.
-
-En rentrant chez lui ce soir-là, Julien ouvrit une nouvelle page de son carnet et écrivit une phrase qu'il relisait encore plusieurs années plus tard :
-
-« Les plus belles surprises ne changent pas toujours notre destination. Elles changent notre façon de regarder le chemin. »`
+      txt: `La photo dans le portefeuille
+Depuis quelque temps, Sami travaillait dans un petit café près de la gare. Il commençait tôt le matin et terminait souvent après vingt heures. Il aimait son travail, surtout parce qu’il rencontrait chaque jour des personnes différentes.
+Un mardi après-midi, alors qu’il nettoyait une table, il a trouvé un vieux portefeuille noir sous une chaise.
+Il l’a ouvert pour chercher une pièce d’identité. À l’intérieur, il y avait quelques billets, une carte bancaire et une vieille photo.
+Sur la photo, un homme et une petite fille souriaient devant une maison.
+Sami a regardé la photo pendant quelques secondes. Il ne savait pas pourquoi, mais quelque chose dans cette image lui semblait familier.
+Il a ensuite trouvé une carte avec un nom et une adresse.
+Le lendemain, il a décidé de chercher le propriétaire du portefeuille.
+L’adresse se trouvait à seulement quinze minutes du café. Sami a marché jusqu’à une petite maison située dans une rue calme.
+Il a frappé à la porte.
+Un homme d’une soixantaine d’années a ouvert.
+— Bonjour. Est-ce que vous avez perdu quelque chose ?
+L’homme a regardé le portefeuille.
+Son visage a immédiatement changé.
+— Où est-ce que vous l’avez trouvé ?
+— Dans mon café.
+L’homme a pris le portefeuille sans parler. Puis il a sorti la vieille photo.
+— Cette photo est très importante pour moi.
+Sami lui a demandé pourquoi.
+L’homme a expliqué que la petite fille sur la photo était sa fille. Il ne l’avait pas vue depuis presque vingt ans.
+— Nous nous sommes disputés quand elle était jeune. Elle est partie vivre dans une autre ville et, avec le temps, nous avons perdu contact.
+Sami a regardé la photo une nouvelle fois.
+— Vous savez où elle habite maintenant ?
+L’homme a secoué la tête.
+— Non. Je sais seulement qu’elle travaille dans une école.
+Sami est retourné au café avec cette histoire dans la tête.
+Quelques jours plus tard, une nouvelle cliente est entrée.
+Elle a commandé un café, puis elle s’est installée près de la fenêtre.
+Sami a remarqué son visage.
+Il a regardé la photo qu’il avait prise avec lui.
+La ressemblance était incroyable.
+Il s’est approché doucement.
+— Excusez-moi… Est-ce que votre père s’appelle André ?
+La femme est devenue silencieuse.
+Elle a levé les yeux vers Sami.
+— Comment vous connaissez mon père ?
+Sami a souri.
+— Je crois que j’ai quelque chose qui pourrait vous intéresser.
+Une heure plus tard, la femme était devant la maison de son père.
+Sami n’a jamais su ce qu’ils se sont dit.
+Mais depuis ce jour, chaque fois qu’il voit quelqu’un oublier un objet dans le café, il vérifie toujours deux fois avant de le mettre de côté.
+Parce qu’un simple portefeuille peut parfois contenir bien plus que de l’argent.`,
+wordef: [
+  {
+    mot: "portefeuille",
+    definition: "A small case used to carry money, cards, and personal documents.",
+    contextExample: "Il a trouvé un vieux portefeuille noir sous une chaise.",
+    synonyme: "porte-monnaie"
+  },
+  {
+    mot: "pièce d’identité",
+    definition: "An official document that proves who a person is.",
+    contextExample: "Il l’a ouvert pour chercher une pièce d’identité.",
+    synonyme: "document d’identité"
+  },
+  {
+    mot: "familier",
+    definition: "Something that seems known because you have seen it before.",
+    contextExample: "Quelque chose dans cette image lui semblait familier.",
+    synonyme: "connu"
+  },
+  {
+    mot: "propriétaire",
+    definition: "The person who owns something.",
+    contextExample: "Le lendemain, il a décidé de chercher le propriétaire du portefeuille.",
+    synonyme: "possesseur"
+  },
+  {
+    mot: "se trouver",
+    definition: "To be located in a particular place.",
+    contextExample: "L’adresse se trouvait à seulement quinze minutes du café.",
+    synonyme: "être situé"
+  },
+  {
+    mot: "frapper",
+    definition: "To hit a door with your hand to get someone's attention.",
+    contextExample: "Il a frappé à la porte.",
+    synonyme: "taper"
+  },
+  {
+    mot: "immédiatement",
+    definition: "Right away, without waiting.",
+    contextExample: "Son visage a immédiatement changé.",
+    synonyme: "aussitôt"
+  },
+  {
+    mot: "dispute",
+    definition: "An argument or disagreement between people.",
+    contextExample: "Nous nous sommes disputés quand elle était jeune.",
+    synonyme: "conflit"
+  },
+  {
+    mot: "perdre contact",
+    definition: "To stop communicating with someone.",
+    contextExample: "Avec le temps, nous avons perdu contact.",
+    synonyme: "ne plus avoir de nouvelles"
+  },
+  {
+    mot: "secouer la tête",
+    definition: "To move your head from side to side to show disagreement or refusal.",
+    contextExample: "L’homme a secoué la tête.",
+    synonyme: "faire non de la tête"
+  },
+  {
+    mot: "ressembler",
+    definition: "To look similar to another person or thing.",
+    contextExample: "La ressemblance était incroyable.",
+    synonyme: "être similaire"
+  },
+  {
+    mot: "incroyable",
+    definition: "Very surprising or difficult to believe.",
+    contextExample: "La ressemblance était incroyable.",
+    synonyme: "étonnant"
+  },
+  {
+    mot: "ressemblance",
+    definition: "A similarity between two people or things.",
+    contextExample: "La ressemblance entre les deux personnes était incroyable.",
+    synonyme: "similarité"
+  },
+  {
+    mot: "silencieux",
+    definition: "Not speaking or making any sound.",
+    contextExample: "La femme est devenue silencieuse.",
+    synonyme: "muet"
+  },
+  {
+    mot: "intéresser",
+    definition: "To make someone curious or want to know more.",
+    contextExample: "Je crois que j’ai quelque chose qui pourrait vous intéresser.",
+    synonyme: "attirer l’attention"
+  },
+  {
+    mot: "retourner",
+    definition: "To go back to a place.",
+    contextExample: "Sami est retourné au café avec cette histoire dans la tête.",
+    synonyme: "revenir"
+  },
+  {
+    mot: "oublier",
+    definition: "To fail to remember something or leave something somewhere by accident.",
+    contextExample: "Chaque fois qu’il voit quelqu’un oublier un objet dans le café.",
+    synonyme: "laisser par mégarde"
+  },
+  {
+    mot: "mettre de côté",
+    definition: "To put something somewhere safe instead of using or throwing it away.",
+    contextExample: "Il vérifie toujours deux fois avant de le mettre de côté.",
+    synonyme: "conserver"
+  },
+  {
+    mot: "contenir",
+    definition: "To have something inside.",
+    contextExample: "Un simple portefeuille peut parfois contenir bien plus que de l’argent.",
+    synonyme: "renfermer"
+  },
+  {
+    mot: "se disputer",
+    definition: "To have an argument or disagreement with someone.",
+    contextExample: "Nous nous sommes disputés quand elle était jeune.",
+    synonyme: "se quereller"
+  }
+]
      },{
       id: 6,
       date: 6,
       wordef: [
-  { mot: "se ressemblaient", definition: "Were similar to each other." },
+  { mot: "sefghjjjjjjjjjjjjjjjjjjjj ressemblaient", definition: "Were similar to each other." },
   { mot: "au fond de lui", definition: "Deep inside himself." },
   { mot: "à travers", definition: "Through." },
   { mot: "retrouva", definition: "Found again." },
