@@ -162,7 +162,6 @@
      
      .toread {
        padding: 2rem 1rem;
-  margin-bottom: 4rem;
   width: 90%;
   max-width: 500px;
   height: auto;
@@ -195,7 +194,9 @@
       margin-top: 3.5rem;
      }
      
-     
+     .textButton {
+      display: grid;
+     }
      .student-button {
       background-color: var(--bg-main);
       border: none;
