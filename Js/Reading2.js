@@ -8658,8 +8658,8 @@ wordef: [
            clickFinish.textContent = '✔ Click to finish';
          }
 
-         console.log(String(deviceDate.getHours()).padStart(2, '0')+':'+String(deviceDate.getMinutes()).padStart(2, '0')+':'+String(deviceDate.getSeconds()).padStart(2, '0'));
-         if( String(deviceDate.getHours()).padStart(2, '0')+':'+String(deviceDate.getMinutes()).padStart(2, '0')+':'+String(deviceDate.getSeconds()).padStart(2, '0') === '00:00:00') {
+         
+         if( String(deviceDate.getHours()).padStart(2, '0')+':'+String(deviceDate.getMinutes()).padStart(2, '0') === '00:00') {
           localStorage.removeItem('finished');
           clickFinish.textContent = '✔ Click to finish';
          }
@@ -8682,10 +8682,11 @@ wordef: [
         nadirah.textContent = nameNadirah.charAt(0).toUpperCase() + nameNadirah.slice(1).toLowerCase();
         }
         afficher();
-        
+       /**  
         document.getElementById('nadirah').addEventListener('click', ()=> {
           localStorage.clear();
         });
+        **/
         
         const uniqueWord = [... new Set(wordsCart)];
         
@@ -8754,6 +8755,7 @@ wordef: [
      
      context.textContent = 'CONTEXT';
      context.className = 'context';
+     
      
      contextExample.textContent = `${textes[indexDay].wordef[ind].contextExample}`;
      contextExample.className = 'contextExample';
@@ -8885,9 +8887,9 @@ if (localStorage.getItem('start-text')) {
 
 
 start.addEventListener('click', () => {
-
-       if (start.textContent === 'Start') {
-
+  
+  if (start.textContent === 'Start') {
+    
        main.classList.add('main-after');
        header.classList.add('header-after');
        header2.classList.add('header2-after');
@@ -8938,20 +8940,33 @@ start.addEventListener('click', () => {
       localStorage.setItem('footer-after', footer.className);
 
       localStorage.setItem('croixDef-after', croixDef.className);
-
+      
     });
       
     if(start.textContent === 'Stop') {
-     apdate();
+      apdate();
     }
       
     
     console.log(document.hidden);
     let tempsLu = Number(localStorage.getItem('tempsLu')) || 0;
      let minLu = Number(localStorage.getItem('minLu')) || 0;
-     let hourLu = Number(localStorage.getItem('hourLu'))|| 0;
-     
+     let hourLu = Number(localStorage.getItem('hourLu')) || 0;
+     let minProgress = Number(localStorage.getItem('minProgress')) ||0;
+     let savedDate = localStorage.getItem('date');
+     let today = new Date().toLocaleDateString();
 
+     if(savedDate !== today) {
+     localStorage.removeItem('minProgress');
+     minProgress = 0;
+     savedDate = today;
+     
+     }
+     console.log(savedDate);
+     console.log(today);
+     console.log(minProgress + 'jjj');
+     
+     
     function apdate() {
       if(interval) {
         clearInterval(interval);
@@ -9059,25 +9074,32 @@ start.addEventListener('click', () => {
        }
 
        
-        function tempsGo() {
+       function tempsGo() {
           tempsLu++;
           console.log(localStorage.getItem('tempsLu'));
           localStorage.setItem('tempsLu', tempsLu);
-           
           if(localStorage.getItem('tempsLu') % 60 === 0) {
-           minLu++;
-           if(minLu === 60) {
-             minLu = 0;
-             hourLu++;
+            minLu++;
+              minProgress++;
+              if(minProgress >= 30) {
+               minProgress = 30
+              }
+            
+            if(minLu === 60) {
+              minLu = 0;
+              hourLu++;
             }
             console.log(minLu);
             localStorage.setItem('hourLu', hourLu);
             localStorage.setItem('minLu', minLu);
-            console.log(localStorage.getItem('minLu'));
+            localStorage.setItem('minProgress', minProgress);
+            console.log(localStorage.getItem('minProgress'));
+            localStorage.setItem('date', today);
+            console.log(localStorage.getItem('date'));
           }
-      }
-      tempsGo();
-      
+        }
+        tempsGo();
+        
        
         
            
@@ -9086,9 +9108,10 @@ start.addEventListener('click', () => {
        
 
       }, 1000);
-      
     }
     console.log(localStorage.getItem('minLu'));
+    
+    
     
     
 
