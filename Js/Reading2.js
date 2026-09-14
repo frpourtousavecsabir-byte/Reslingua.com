@@ -8639,7 +8639,6 @@ wordef: [
        let newWords = '';
        let wrdNum = 0;
        let texteLu = Number(localStorage.getItem('texteLu')) || 0;
-       console.log(texteLu);
        text.textContent = textes[indexDay].txt;
        
        let texto = text.textContent;
@@ -8652,8 +8651,6 @@ wordef: [
         
          if(localStorage.getItem('finished')) {
            clickFinish.textContent = localStorage.getItem('finished');
-           console.log('object');
-           console.log(localStorage.getItem('finished'));
          } else {
            clickFinish.textContent = '✔ Click to finish';
          }
@@ -8672,7 +8669,6 @@ wordef: [
               }
            clickFinish.textContent = '✔ Finished';
            localStorage.setItem('finished', clickFinish.textContent);
-           console.log(localStorage.getItem('finished'));
         };
     
         
@@ -8682,29 +8678,24 @@ wordef: [
         nadirah.textContent = nameNadirah.charAt(0).toUpperCase() + nameNadirah.slice(1).toLowerCase();
         }
         afficher();
-       /**  
-        document.getElementById('nadirah').addEventListener('click', ()=> {
-          localStorage.clear();
-        });
-        **/
+       
+        
         
         const uniqueWord = [... new Set(wordsCart)];
         
         
         localStorage.setItem('vocabToReviewUniqueWord', JSON.stringify(uniqueWord));
-        console.log(uniqueWord);
         
         const uniqueDef = [... new Set(defCart)]
         localStorage.setItem('defToReviewUniqueDef', JSON.stringify(uniqueDef));
-        console.log(uniqueDef);
 
          const uniqueContext = [... new Set(contextCart)];
         localStorage.setItem('contextToReviewUniqueContext', JSON.stringify(uniqueContext));
 
-        console.log(uniqueContext);
+       
          const uniqueSynonyme = [... new Set(synonymeCart)]
         localStorage.setItem('synonymeToReviewUniqueSynonyme', JSON.stringify(uniqueSynonyme));
-        console.log(uniqueSynonyme);
+       
 
         
          
@@ -8856,7 +8847,7 @@ progress.value = storeProg;
 let prog = storeProg !== null ? Number(storeProg) : 180;
 let mins= storeMn !== null ? Number(storeMn) : 3;
 let seconds = storeScn !== null ? Number(storeScn) : 0;
-console.log(mins);
+
 second.textContent = String(seconds).padStart(2, '0');
 min.textContent = String(mins).padStart(2, '0');
 progress.value = prog;
@@ -8948,24 +8939,71 @@ start.addEventListener('click', () => {
     }
       
     
-    console.log(document.hidden);
+   
     let tempsLu = Number(localStorage.getItem('tempsLu')) || 0;
      let minLu = Number(localStorage.getItem('minLu')) || 0;
      let hourLu = Number(localStorage.getItem('hourLu')) || 0;
      let minProgress = Number(localStorage.getItem('minProgress')) ||0;
-     let savedDate = localStorage.getItem('date');
-     let today = new Date().toLocaleDateString();
+     let lastCompleteDate = new Date(localStorage.getItem('lastCompleteDate')) ;
+     let savedDate = new Date(localStorage.getItem('date')) ;
+     let today = new Date();
+     let serie = Number(localStorage.getItem('serie')) || 0;
+     
+     
+     let dates = JSON.parse(localStorage.getItem('dates')) || [];
+     console.log(dates);
+     let weekMin = {};
+     
+     for(let i =0; i<7; i++) {
+       if(dates.length <7 ) {
+        weekMin = {};
+       let day = new Date(today);
+       day.setDate(day.getDate() - i);
+       
+ 
+       weekMin.date = day.toLocaleDateString();
+       weekMin.minutos = 0;
+       
+       dates.push(weekMin);
+      }  
+    }
+    
+    let aujour = dates.find(element => element.date === today.toLocaleDateString());
+     if(!aujour) {
+         dates.unshift({
+          date:  today.toLocaleDateString(),
+          minutos :  0
+        })
+        dates.pop();
+        aujour = dates.find(element => element.date === today.toLocaleDateString());
+      };
+   
 
-     if(savedDate !== today) {
-     localStorage.removeItem('minProgress');
-     minProgress = 0;
-     savedDate = today;
      
-     }
-     console.log(savedDate);
-     console.log(today);
-     console.log(minProgress + 'jjj');
+      
+
      
+     
+     
+     
+     let ecart = Math.floor((today.getTime() - lastCompleteDate.getTime()) / (1000 * 60 * 60 * 24));
+     if(ecart > 1) {
+       localStorage.removeItem('serie');
+       serie = 0;
+      }
+
+      
+      if(savedDate !== today) {
+       localStorage.removeItem('minProgress');
+       minProgress = 0;
+       savedDate = today;
+      }
+      
+      
+      console.log(lastCompleteDate + 'hier');
+      console.log(today);
+      console.log(minProgress + 'jjj');
+      
      
     function apdate() {
       if(interval) {
@@ -8990,6 +9028,10 @@ start.addEventListener('click', () => {
         if (mins === 0 && seconds === 0) {
           clearInterval(interval);
           interval = null;
+
+        
+
+
          const div = document.createElement('div');
          const div2 = document.createElement('div');
          const valid = document.createElement('button');
@@ -9075,12 +9117,34 @@ start.addEventListener('click', () => {
 
        
        function tempsGo() {
-          tempsLu++;
-          console.log(localStorage.getItem('tempsLu'));
-          localStorage.setItem('tempsLu', tempsLu);
-          if(localStorage.getItem('tempsLu') % 60 === 0) {
-            minLu++;
-              minProgress++;
+         tempsLu++;
+        
+         
+         
+         console.log(localStorage.getItem('tempsLu'));
+         localStorage.setItem('tempsLu', tempsLu);
+         if(localStorage.getItem('tempsLu') % 60 === 0) {
+           minLu++;
+           minProgress++;
+           aujour.minutos++;
+           console.log(aujour);
+  
+            localStorage.setItem('dates', JSON.stringify(dates));
+  
+            let total = dates.reduce((total, element)=> total + element.minutos, 0);
+       console.log(`total : ${total}`);
+        
+       let weekHour = Math.floor(total / 60);
+       console.log(weekHour + 'hour');
+       let weekMinutes = total % 60;
+       console.log(weekMinutes + 'minutes');
+       localStorage.setItem('weekHour', weekHour);
+       localStorage.setItem('weekMinutes', weekMinutes);
+              if(minProgress === 3) {
+                serie++
+                localStorage.setItem('serie', serie);
+                localStorage.setItem('lastCompleteDate', new Date().toISOString());
+              }
               if(minProgress >= 30) {
                minProgress = 30
               }
@@ -9093,25 +9157,24 @@ start.addEventListener('click', () => {
             localStorage.setItem('hourLu', hourLu);
             localStorage.setItem('minLu', minLu);
             localStorage.setItem('minProgress', minProgress);
+            localStorage.setItem('date', new Date().toISOString());
             console.log(localStorage.getItem('minProgress'));
-            localStorage.setItem('date', today);
-            console.log(localStorage.getItem('date'));
+            
+            
           }
         }
         tempsGo();
         
-       
         
-           
-     
-           
-       
-
+        
+        
+        
+        
+        
+        
       }, 1000);
     }
     console.log(localStorage.getItem('minLu'));
-    
-    
     
     
 
