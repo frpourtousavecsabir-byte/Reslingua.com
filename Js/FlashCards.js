@@ -234,6 +234,10 @@ if(Number(numeroMot.textContent) > Number(total.textContent)) {
   reviewAgain.innerHTML = 'Review again';
   reviewAgain.className = 'reviewAgain';
   reviewAgain.addEventListener('click', () => {
+    if(JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length === 0) {
+      alert('Add new words');
+      window.location.href = 'Practice.html'
+    }
     removeIndex();
   });
   
@@ -244,6 +248,8 @@ if(Number(numeroMot.textContent) > Number(total.textContent)) {
     window.location.href='Reading2.html';
     removeIndex();
   })
+
+  
 
   contDef.append(fete);
   contDef.append(sessionTermine);
