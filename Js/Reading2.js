@@ -8943,12 +8943,20 @@ start.addEventListener('click', () => {
     let tempsLu = Number(localStorage.getItem('tempsLu')) || 0;
      let minLu = Number(localStorage.getItem('minLu')) || 0;
      let hourLu = Number(localStorage.getItem('hourLu')) || 0;
-     let minProgress = Number(localStorage.getItem('minProgress')) ||0;
+     let minProgress = Number(localStorage.getItem('minProgress')) || 0;
+     console.log(minProgress + 'kk');
      let lastCompleteDate = new Date(localStorage.getItem('lastCompleteDate')) ;
-     let savedDate = new Date(localStorage.getItem('date')) ;
+     let savedDate = localStorage.getItem('date') ;
+     console.log(savedDate + 'saved');
      let today = new Date();
+     console.log(today.toLocaleDateString()+ 'today');
      let serie = Number(localStorage.getItem('serie')) || 0;
-     
+
+     if(savedDate !== today.toLocaleDateString()) {
+       localStorage.removeItem('minProgress');
+       minProgress = 0;
+       savedDate = today;
+      }
      
      let dates = JSON.parse(localStorage.getItem('dates')) || [];
      console.log(dates);
@@ -8957,7 +8965,7 @@ start.addEventListener('click', () => {
      for(let i =0; i<7; i++) {
        if(dates.length <7 ) {
         weekMin = {};
-       let day = new Date(today);
+        let day = new Date(today);
        day.setDate(day.getDate() - i);
        
  
@@ -8978,31 +8986,24 @@ start.addEventListener('click', () => {
         aujour = dates.find(element => element.date === today.toLocaleDateString());
       };
    
-
-     
       
-
-     
-     
-     
-     
-     let ecart = Math.floor((today.getTime() - lastCompleteDate.getTime()) / (1000 * 60 * 60 * 24));
-     if(ecart > 1) {
-       localStorage.removeItem('serie');
-       serie = 0;
-      }
-
       
-      if(savedDate !== today) {
-       localStorage.removeItem('minProgress');
-       minProgress = 0;
-       savedDate = today;
+      
+      
+      
+      
+     
+     
+      let ecart = Math.floor((today.getTime() - lastCompleteDate.getTime()) / (1000 * 60 * 60 * 24));
+      if(ecart > 1) {
+        localStorage.removeItem('serie');
+        serie = 0;
       }
       
       
-      console.log(lastCompleteDate + 'hier');
-      console.log(today);
-      console.log(minProgress + 'jjj');
+      
+      
+      
       
      
     function apdate() {
@@ -9126,14 +9127,16 @@ start.addEventListener('click', () => {
          if(localStorage.getItem('tempsLu') % 60 === 0) {
            minLu++;
            minProgress++;
+           localStorage.setItem('minProgress', minProgress);
+           
            aujour.minutos++;
            console.log(aujour);
-  
-            localStorage.setItem('dates', JSON.stringify(dates));
-  
-            let total = dates.reduce((total, element)=> total + element.minutos, 0);
-       console.log(`total : ${total}`);
-        
+           
+           localStorage.setItem('dates', JSON.stringify(dates));
+           
+           let total = dates.reduce((total, element)=> total + element.minutos, 0);
+           console.log(`total : ${total}`);
+           
        let weekHour = Math.floor(total / 60);
        console.log(weekHour + 'hour');
        let weekMinutes = total % 60;
@@ -9148,20 +9151,17 @@ start.addEventListener('click', () => {
               if(minProgress >= 30) {
                minProgress = 30
               }
-            
-            if(minLu === 60) {
-              minLu = 0;
-              hourLu++;
+              
+              if(minLu === 60) {
+                minLu = 0;
+                hourLu++;
             }
             console.log(minLu);
             localStorage.setItem('hourLu', hourLu);
             localStorage.setItem('minLu', minLu);
-            localStorage.setItem('minProgress', minProgress);
-            localStorage.setItem('date', new Date().toISOString());
-            console.log(localStorage.getItem('minProgress'));
-            
             
           }
+          localStorage.setItem('date', today.toLocaleDateString());
         }
         tempsGo();
         
