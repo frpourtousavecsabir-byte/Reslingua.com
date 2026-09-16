@@ -1,0 +1,96 @@
+ main {
+        padding: 1rem;
+        margin-top: 4rem;
+      }
+      h1 {
+        color: #a8872f;
+        font-family: 'Inter';
+        font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+      }
+      .counter {
+        background-color: var(--bg-card);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #b99a46;
+        height: fit-content;
+        margin-right: 0.3rem;
+        border-radius: 12px;
+        padding: 0.2rem 0;
+      }
+      .progg {appearance: none;
+        width: 60%;
+        margin-right: 1rem;
+        height: 0.5rem;
+        border-radius: 15px;
+      }
+      .progg::-webkit-progress-value{
+        background: #967416;
+        border-radius: 15px;
+      }
+      .progg::-webkit-progress-bar{
+       border-radius: 15px;
+       background: #d4bd7c;
+      }
+      .minPoucent {
+        font-family:  monospace;
+        font-size: 0.9rem;
+        font-weight: 700;
+         margin-right: 1rem;
+         color: #57430d;
+      }
+      .texteLu {
+        display: block;
+              color: #2b2004;
+              font-family: 'Inter';
+              font-size: 1rem;
+      }
+      .tempsLu {
+         display: block;
+              color: #2b2004;
+              font-family: 'Inter';
+              font-size: 1rem;
+      }
+      .recentAll {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-top: 1.2rem;
+      }
+      .recent {
+         color: #6a5417;
+         font-family: 'Inter';
+         font-weight: 500;
+         font-size: 1.2rem;
+         margin-top: 1rem;
+        }
+        .recent-svg {
+          font-weight: 600;
+         height: 1.2;
+         margin-top: 1rem;
+      }
+      .divActiAll {
+        border-radius: 15px;
+        border: #ceb46d 1px solid;
+        margin-top: 1rem;
+        background-color: var(--bg-card);
+      }
+      .div-activity {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ceb46d;
+        height: fit-content;
+        min-height: 2rem;
+        padding: 0.2rem 1rem;
+      }
+      .actiDate {
+        color: #57430d;
+              font-family: 'Inter';
+              font-weight: 500;
+              font-size: 1.1rem;
+      }
+      

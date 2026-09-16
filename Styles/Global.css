@@ -112,6 +112,10 @@ opacity: 0;
 
 }
 .profile-button {
+   display: flex;
+        justify-content: center;
+        align-items: center;
+           height: fit-content;
   background-color: #ffffff;
   margin-right: 0.5rem;
   color: #2B241C;
@@ -123,7 +127,6 @@ opacity: 0;
   border: solid 2px var(--gold);
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 0.9rem;
-  height: fit-content;
   font-weight: 700;
 
 }

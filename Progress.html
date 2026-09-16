@@ -19,72 +19,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>READING</title>
     <link rel="stylesheet" href="Styles/Global.css">
+    <link rel="stylesheet" href="Styles/Progress.css">
     <link rel="icon" type="image/svg+xml" href="Pictures/logo.svg">
     <style>
-      main {
-        padding: 1rem;
-        margin-top: 4rem;
-      }
-      h1 {
-        color: #a8872f;
-        font-family: 'Inter';
-        font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: 0.4rem;
-      }
-      .daily {
-        color: #6a5417;
-         font-family: 'Inter';
-         font-weight: 500;
-         font-size: 1rem;
-      }
-      .counter {
-        background-color: var(--bg-card);
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #b99a46;
-        height: fit-content;
-        margin-right: 0.3rem;
-        border-radius: 12px;
-        padding: 0.2rem 0;
-      }
-      .progg {appearance: none;
-        width: 60%;
-        margin-right: 1rem;
-        height: 0.5rem;
-        border-radius: 15px;
-      }
-      .progg::-webkit-progress-value{
-        background: #967416;
-        border-radius: 15px;
-      }
-      .progg::-webkit-progress-bar{
-       border-radius: 15px;
-       background: #d4bd7c;
-      }
-      .minPoucent {
-        font-family:  monospace;
-        font-size: 0.9rem;
-        font-weight: 700;
-         margin-right: 1rem;
-         color: #57430d;
-      }
-      .texteLu {
-        display: block;
-              color: #2b2004;
-              font-family: 'Inter';
-              font-size: 1rem;
-      }
-      .tempsLu {
-         display: block;
-              color: #2b2004;
-              font-family: 'Inter';
-              font-size: 1rem;
-      }
-
     </style>
   </head>
   <body>
@@ -128,7 +65,7 @@
     </header>
     <main>
       <h1>Reading progress</h1>
-      <p class="daily">Daily goal</p>
+      <p class="recentAll"><svg class="recent-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="M480-390Zm-132-53 55 37 77-39 77 39 53-35-40-79H386l-38 77ZM209-160h541L646-369l-83 55-83-41-83 41-85-56-103 210ZM80-80l234-475q10-20 29.5-32.5T386-600h54v-280h280l-40 80 40 80H520v120h50q23 0 42 12t30 32L880-80H80Z"/></svg>&nbsp;<span class="recent">Daily Goal</span></p>
       <div style="display: flex;
       margin-top: 1rem;
       justify-content: center;
@@ -139,12 +76,10 @@
          <span class="minPoucent"><span id="pourcentage">0</span>%</span>
       </div>
 
-      <div style="
-      margin-top: 1rem;
-      ">
+      <p class="recentAll"><svg class="recent-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="m787-145 28-28-75-75v-112h-40v128l87 87Zm-587 25q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v268q-19-9-39-15.5t-41-9.5v-243H200v560h242q3 22 9.5 42t15.5 38H200Zm0-120v40-560 243-3 280Zm80-40h163q3-21 9.5-41t14.5-39H280v80Zm0-160h244q32-30 71.5-50t84.5-27v-3H280v80Zm0-160h400v-80H280v80ZM720-40q-83 0-141.5-58.5T520-240q0-83 58.5-141.5T720-440q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40Z"/></svg>&nbsp;<span class="recent">Overview</span></p>
+      <div>
         <div style="display: grid;
           grid-template-columns: 1fr 1fr;
-          margin-top: 1.3rem;
           
         ">
           <div class="counter" >
@@ -185,12 +120,10 @@
         </div>
 
 
-      <div style="
-      margin-top: 1rem;
-      ">
+      <div>
         <div style="display: grid;
           grid-template-columns: 1fr 1fr;
-          margin-top: 1.3rem;
+          margin-top: 0.7rem;
           
         ">
           <div class="counter" >
@@ -230,9 +163,26 @@
           </div>
         </div>
       
+        <p class="recentAll"><svg class="recent-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="M80-600v-160q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v160h-80v-160H160v160H80Zm80 360q-33 0-56.5-23.5T80-320v-200h80v200h640v-200h80v200q0 33-23.5 56.5T800-240H160ZM40-120v-80h880v80H40Zm440-420ZM80-520v-80h240q11 0 21 6t15 16l47 93 123-215q5-9 14-14.5t20-5.5q11 0 21 5.5t15 16.5l49 98h235v80H620q-11 0-21-5.5T584-542l-26-53-123 215q-5 10-15 15t-21 5q-11 0-20.5-6T364-382l-69-138H80Z"/></svg>&nbsp;<span class="recent">Recent Activities</span></p>
+        <div class="divActiAll">
+          <div class="div-activity">
+            <span class="actiDate">Today</span>
+            <span id="todayActi">00 min</span>
+          </div>
+          <div class="div-activity">
+            <span class="actiDate">Yesterday</span>
+            <span id="yesterdayActi">00 min</span>
+          </div>
+          <div class="div-activity">
+            <span id="dayBefore" class="actiDate">2sept</span>
+            <span id="dayBeforeActi">00 min</span>
+          </div>
+        </div>
+
+
+
       </div>
 
-      
     </main>
      <footer class="js-footer">
       <a href="Reading2.html" class="footer-button" >
@@ -258,66 +208,7 @@
     </footer>
 
 
-    <script>
-      const storeminLu = Number(localStorage.getItem('minLu'));
-      const storehourLu = Number(localStorage.getItem('hourLu'));
-      const storeTexteLu = Number(localStorage.getItem('texteLu'));
-      const storeMinProgress = Number(localStorage.getItem('minProgress'));
-      const storeSerieLu = Number(localStorage.getItem('serie'));
-      const storeWeekHour = Number(localStorage.getItem('weekHour'));
-      const storeWeekMinutes = Number(localStorage.getItem('weekMinutes'));
-
-      const tempsLu = document.getElementById('tempsLu');
-      const texteLu = document.getElementById('texteLu');
-      const progressBarre = document.getElementById('prog');
-      const minProg = document.getElementById('minProg');
-      const pourcentage = document.getElementById('pourcentage');
-      const serieLu = document.getElementById('serieLu');
-      const weekLu = document.getElementById('weekLu');
-
-      tempsLu.textContent =`00 h 00 min`;
-      weekLu.textContent =`00 h 00 min`;
-      tempsLu.classList.add('tempsLu');
-      texteLu.textContent =`0 texts`;
-      texteLu.classList.add('texteLu');
-      progressBarre.value =`0`;
-      serieLu.textContent = `0 days`
-      
-
-
-
-      if(storeminLu ) {
-        tempsLu.innerHTML =`${String(storehourLu).padStart(2, '0')} h ${String(storeminLu).padStart(2, '0')} min`;
-      }
-      if(storeTexteLu) {
-        texteLu.textContent =`${storeTexteLu} texts`;
-       
-      }
-      
-      if(storeMinProgress) {
-        progressBarre.max = 30;
-       progressBarre.value = storeMinProgress;
-       minProg.textContent = storeMinProgress;
-       pourcentage.textContent = `${Math.floor((storeMinProgress * 100) /30) }`
-       console.log(progressBarre.value);
-      }
-      
-      if(storeSerieLu) {
-      console.log(storeSerieLu === 1);
-        if(storeSerieLu === 1) {
-          serieLu.textContent = `${storeSerieLu} day`
-        }else {
-          serieLu.textContent = `${storeSerieLu} days`
-        }
-      }
-     
-      if(storeWeekMinutes || storeWeekHour) {
-        weekLu.textContent = `${String(storeWeekHour).padStart(2, '0')} h ${String(storeWeekMinutes).padStart(2, '0')} min`
-      }
-      
-
-      
-      
+    <script src="Js/Progress.js">
     </script>
   </body>
 </html>
