@@ -1953,7 +1953,7 @@ wordef: [
       id: 9,
       date: 9,
         
-      txt: `Le téléphone sur le banc
+      txt: `Le téléphone sur le banc...
 
 Chaque samedi matin, Adam allait courir dans un grand parc près de chez lui. Il aimait cet endroit parce qu’il était calme et qu’il y avait beaucoup d’arbres.
 
