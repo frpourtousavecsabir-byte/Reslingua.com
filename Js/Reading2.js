@@ -9037,37 +9037,53 @@ start.addEventListener('click', () => {
          const div2 = document.createElement('div');
          const valid = document.createElement('button');
          const session = document.createElement('p');
-         const todo= document.createElement('p');
+         const minReaded= document.createElement('p');
+         const minRemaining= document.createElement('p');
          const divCode = document.createElement('div');
-         const copier = document.createElement('button');
-         const relire = document.createElement('button');
+         const viewProgress = document.createElement('button');
+         const continuelire = document.createElement('button');
          const toSend = document.createElement('p');
          
           valid.textContent = '✔';
-          session.textContent = 'Session completed!';
-          todo.textContent = 'Send this code to your teacher to confirm your reading session.';
+          session.innerHTML = `Session completed!`;
+          minReaded.innerHTML = `<svg style="height:1.1rem"  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="M360-840v-80h240v80H360Zm80 440h80v-240h-80v240Zm-99.5 291.5Q275-137 226-186t-77.5-114.5Q120-366 120-440t28.5-139.5Q177-645 226-694t114.5-77.5Q406-800 480-800q62 0 119 20t107 58l56-56 56 56-56 56q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80q-74 0-139.5-28.5ZM678-242q82-82 82-198t-82-198q-82-82-198-82t-198 82q-82 82-82 198t82 198q82 82 198 82t198-82ZM480-440Z"/></svg> <span>You read for ${minProgress} mins</span>`;
+          minRemaining.innerHTML = `<svg style="height:1.1rem;"  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="M360-840v-80h240v80H360Zm80 440h80v-240h-80v240Zm-99.5 291.5Q275-137 226-186t-77.5-114.5Q120-366 120-440t28.5-139.5Q177-645 226-694t114.5-77.5Q406-800 480-800q62 0 119 20t107 58l56-56 56 56-56 56q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80q-74 0-139.5-28.5ZM678-242q82-82 82-198t-82-198q-82-82-198-82t-198 82q-82 82-82 198t82 198q82 82 198 82t198-82ZM480-440Z"/></svg><p> <span style="font-weight: 600;font-size:1.2rem">${30 - minProgress}</span> mins left to reach your daily goal.</p>`;
+
+          if(minProgress === 30) {
+
+              session.innerHTML = `<span class="sessionGoal">Daily goal completed!</span><svg style="height:1.25rem;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m80-80 200-560 360 360L80-80Zm132-132 282-100-182-182-100 282Zm370-246-42-42 224-224q32-32 77-32t77 32l24 24-42 42-24-24q-14-14-35-14t-35 14L582-458ZM422-618l-42-42 24-24q14-14 14-34t-14-34l-26-26 42-42 26 26q32 32 32 76t-32 76l-24 24Zm80 80-42-42 144-144q14-14 14-35t-14-35l-64-64 42-42 64 64q32 32 32 77t-32 77L502-538Zm160 160-42-42 64-64q32-32 77-32t77 32l64 64-42 42-64-64q-14-14-35-14t-35 14l-64 64ZM212-212Z"/></svg>`;
+
+              minReaded.innerHTML =`<p style="font-size:1.1rem; font-weight:500">You read for <span style="font-size:1.25rem; font-weight:700">&nbsp;30 minutes&nbsp;</span> today</p>`;
+
+              minRemaining.innerHTML = `<p style="display:flex; justify-content: center; align-items: center; margin-top: 1rem; font-weight: 600"><span style="font-size:1.5rem; font-weight:500;">Goal reached!</span> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#947f46"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm457-560 21-89-71-59 94-8 36-84 36 84 94 8-71 59 21 89-80-47-80 47ZM480-481Z"/></svg></p> `
+
+          }
           divCode.innerHTML = '';
-          copier.innerHTML = 'Copy';
-          relire.textContent = 'Re-read';
+          viewProgress.innerHTML = 'View my progress';
+          continuelire.textContent = 'Continue reading';
           console.log(nadirah.textContent);
-
+/**
           toSend.innerHTML = `<p>RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}</p> <p class="completion">Confirmation code</p>`;
-
+      **/
           div.className = 'all';
           div2.className = 'code';
           valid.className = 'valid';
           session.className = 'session';
-          todo.className = 'todo';
-          divCode.className = 'divCode';
-          copier.className = 'copier';
+          minReaded.className = 'minReaded';
+          minRemaining.className = 'minRemaining';
+         // divCode.className = 'divCode';
+          viewProgress.className = 'copier';
 
-          copier.onclick = () => {
+        /**   copier.onclick = () => {
             navigator.clipboard.writeText(`🎉Mission accomplished! Here is my confirmation code: RSL-${nadirah.textContent[0].toUpperCase() + nadirah.textContent[1].toUpperCase() + deviceDate.getDay()}-S3A${ deviceDate.getHours()}-YWM${ deviceDate.getDate()}`);
           };
+   **/
+         viewProgress.onclick = () => {
+          window.location.href = 'Progress.html'
+         };
+          continuelire.className = 'relire';
 
-          relire.className = 'relire';
-
-          relire.onclick = () => {
+          continuelire.onclick = () => {
             clearInterval(interval);
             prog = 180;
             mins = 3;
@@ -9088,11 +9104,12 @@ start.addEventListener('click', () => {
           conten.appendChild(div2);
           div2.appendChild(valid);
           div2.appendChild(session);
-          div2.appendChild(todo);
+          div2.appendChild(minReaded);
+          div2.appendChild(minRemaining);
           div2.appendChild(divCode);
           divCode.appendChild(toSend);
-          div2.appendChild(copier);
-          div2.appendChild(relire);
+          div2.appendChild(viewProgress);
+          div2.appendChild(continuelire);
           
           
           return;

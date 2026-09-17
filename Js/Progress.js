@@ -49,7 +49,11 @@ const storeminLu = Number(localStorage.getItem('minLu'));
         tempsLu.innerHTML =`${String(storehourLu).padStart(2, '0')} h ${String(storeminLu).padStart(2, '0')} min`;
       }
       if(storeTexteLu) {
-        texteLu.textContent =`${storeTexteLu} texts`;
+        if(storeTexteLu === 1) {
+          texteLu.textContent =`${storeTexteLu} text`;
+        } else {
+          texteLu.textContent =`${storeTexteLu} texts`;
+        }
        
       }
       

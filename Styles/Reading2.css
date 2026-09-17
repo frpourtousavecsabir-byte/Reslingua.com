@@ -70,16 +70,39 @@
       .session {
         font-family: 'Poppins', serif;
       font-weight: 600;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       line-height: 1.2;
       letter-spacing: -0.01em;
       margin-top: 0.7rem;
       margin-bottom: 0.5rem;
       }
-      .todo {
+      .sessionGoal {
+        font-family: 'Poppins', serif;
+      font-weight: 600;
+      font-size: 1.3rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      }
+      .minReaded {
         color: var(--text-muted);
+      font-weight: 600;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      color: #b08a4a;
+      margin-top: 0.5rem;
+      }
+      .minRemaining {
+         color: var(--text-muted);
       font-weight: 500;
       font-size: 1rem;
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #b08a4a;
       }
       .divCode {
         height: 7rem;
@@ -110,10 +133,11 @@
       .copier {
         background-color: #A9841E;
         border: none;
-        margin-top: 0.3rem;
         border-radius: 15px;
-        width: 5rem;
+        width: auto;
+        padding: 0 1.3rem;
         height: 2rem;
+        margin-top: 2rem;
         font-size: 1.2rem;
         font-family: 'Inter', sans-serif;
         color: #E7EFE7;
@@ -121,7 +145,7 @@
       .relire {
          background-color: #fffefa;
         border: var(--line) 2px solid;
-        margin-top: 1rem;
+        margin-top: 0.75rem;
         width: 10rem;
         border-radius: 15px;
         height: 2rem;
@@ -546,7 +570,7 @@
         border: none;
         margin-top: 0.3rem;
         border-radius: 15px;
-        width: 5rem;
+        width: 100%;
         height: 2rem;
         font-size: 1.2rem;
         font-family: 'Inter', sans-serif;
