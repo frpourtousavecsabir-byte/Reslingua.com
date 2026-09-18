@@ -9,8 +9,9 @@ main {
 }
 .div {
   background-color: #fffdf8;
-  padding: 0.7rem;
+  padding: 0.7rem 0.7rem;
   border-radius: 15px ;
+  
 }
 .vocab {
   color: #a8872f;
@@ -144,15 +145,17 @@ main {
   position: fixed;
   right: 1rem;
   left: 1rem;
-  top: 1rem;
+  top: 20rem;
   bottom: 0;
-  border-radius: 15px;
 }
+
 .doneCancel {
   display: flex;
   justify-content: space-between;
   background-color: #ddcfa7;
   height: 2rem;
+  margin-bottom: 1rem;
+
 }
 .done {
   padding: 0.15rem 0.5rem;
@@ -169,4 +172,58 @@ main {
   border: #9c8468 1px solid;
   color:#9c8468 ;
   border-radius: 6px;
+}
+.contBlurr {
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.vocaName{
+  margin-inline: auto;
+  display: flex;
+  margin-top: 1rem;
+  width: 70%;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 1.2rem;
+  border: #9e7e28 1px ;
+}
+.allWordNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 1rem;
+  background-color: rgb(241, 240, 240);
+  padding:0.1rem 0.3rem;
+  border-radius: 1rem;
+
+}
+.commencerPersonal {
+  background-color: rgb(166, 125, 21);
+ color: #fff9e9;
+ border: none;
+ font-size: 1.2rem;
+ display: flex;
+ justify-content: center;
+ text-decoration: none;
+ font-weight: 500;
+ font-family: sans-serif;
+ padding: 0.25rem 1.3rem;
+ width: auto;
+ max-width: 80%;
+ border-radius: 15px;
+}
+.parcticeAdd {
+  display: flex;
+  justify-content: space-between;
+}
+.threePointSet {
+  position: static;
+  background-color: #9c8468;
+  right: 4rem;
+  top: 0;
 }
