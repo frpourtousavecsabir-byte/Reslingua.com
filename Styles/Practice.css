@@ -181,7 +181,27 @@ main {
   left: 0;
   right: 0;
 }
-.vocaName{
+.vocaNameInput1{
+  margin-inline: auto;
+  display: flex;
+  margin-top: 1rem;
+  width: 70%;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 1.2rem;
+  border: #9e7e28 1px ;
+}
+.vocaNameInput2{
+  margin-inline: auto;
+  display: flex;
+  margin-top: 1rem;
+  width: 70%;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 1.2rem;
+  border: #9e7e28 1px ;
+}
+.vocaNameAfter1 {
   margin-inline: auto;
   display: flex;
   margin-top: 1rem;

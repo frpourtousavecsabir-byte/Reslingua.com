@@ -4,14 +4,10 @@ const wordsNum = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).len
 let cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
 console.log(cartes);
 
-function afficherCartes() {
-   cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
-}
-
 const cartesToAdd = document.getElementById('cartesToAdd');
 
 
-  cartes.forEach((element, index) => {
+cartes.forEach((element, index) => {
 
       const allCart = document.createElement('div');
       allCart.className = 'allCart'
@@ -34,20 +30,19 @@ const cartesToAdd = document.getElementById('cartesToAdd');
               <span class="word2" >To review</span>
               </div>
               <div class="word-number">
-                 <button class="num3" >0</button>
-                  <span class="word3" >Mastered</span>
+              <button class="num3" >0</button>
+              <span class="word3" >Mastered</span>
               </div>
               </div>
               <a class="parcticeAdd" id="start"><button class="commencerPersonal"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff9e9"><path d="m480-336 128-184H494l80-280H360v320h120v144ZM400-80v-320H280v-480h400l-80 280h160L400-80Zm80-400H360h120Z"/></svg> Practice</button ><button class="commencerPersonal"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff9e9"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg><span>add word</button></span></a>
-         </div>`
-      
-      cartesToAdd.appendChild(allCart);
-      const threePoint = document.getElementById('threePoint');
+              </div>`
+              
+              cartesToAdd.appendChild(allCart);
+              const threePoint = document.getElementById('threePoint');
       threePoint.onclick = () => {
-          cartes.splice(0, 1);
-          console.log(cartes);
-          localStorage.setItem('cartes', JSON.stringify(cartes));
-          afficherCartes();
+        cartes.splice(0, 1);
+        localStorage.setItem('cartes', JSON.stringify(cartes));
+        location.reload();
       };
     });
     
@@ -109,10 +104,10 @@ commencer.addEventListener('click', ()=> {
         cancel.innerHTML = '✘'
         
         
-        vocaName.innerHTML= `<input id="vocaNameInput" class="vocaName" placeHolder="Name">`;
+        vocaName.innerHTML= `<input id="vocaNameInput" class="vocaNameInput1" placeHolder="Name">`;
         const vocaNameInput = document.getElementById('vocaNameInput');
 
-        vocaDescription.innerHTML= `<input id="vocaDescriptionInput" class="vocaName" placeHolder="Description">`;
+        vocaDescription.innerHTML= `<input id="vocaDescriptionInput" class="vocaNameInput2" placeHolder="Description">`;
         const vocaDescriptionInput = document.getElementById('vocaDescriptionInput');
         
         
@@ -135,21 +130,26 @@ commencer.addEventListener('click', ()=> {
           add.className = 'add';
           add.textContent = '+'
        };
+
+       
        done.onclick = ()=> {
-         localStorage.removeItem('add')
-         contBlurr.remove();
-          contCart.remove();
-          add.className = 'add';
-       add.textContent = '+'
-       let cartObject = {};
-       cartObject.cartName = `${vocaNameInput.value}`;
-       cartObject.Description = `${vocaDescriptionInput.value}`;
-       console.log(cartObject);
-       cartes.push(cartObject);
-       console.log(cartes);
-       localStorage.setItem('cartes', JSON.stringify(cartes));
+           localStorage.removeItem('add')
+           contBlurr.remove();
+            contCart.remove();
+            add.className = 'add';
+         add.textContent = '+'
+         let cartObject = {};
+         cartObject.cartName = `${vocaNameInput.value}`;
+         cartObject.Description = `${vocaDescriptionInput.value}`;
+         console.log(cartObject);
+         cartes.push(cartObject);
+         console.log(cartes);
+         localStorage.setItem('cartes', JSON.stringify(cartes));
+         location.reload();
+
+         }
       };
-    }
+    
     add.addEventListener('click', () => {
        cartes = JSON.parse(localStorage.getItem('cartes'));
        addFunc();
