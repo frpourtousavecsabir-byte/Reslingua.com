@@ -2160,7 +2160,7 @@ wordef: [
       id: 10,
       date: 10,
       
-      txt: `La montre de son père
+      txt: `La montre de son père...
 
 Depuis plusieurs années, Mehdi travaillait dans un petit magasin de vêtements. Il connaissait bien les clients et aimait parler avec eux pendant les moments calmes.
 

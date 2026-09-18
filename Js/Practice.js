@@ -133,6 +133,7 @@ commencer.addEventListener('click', ()=> {
 
        
        done.onclick = ()=> {
+        cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
            localStorage.removeItem('add')
            contBlurr.remove();
             contCart.remove();
@@ -141,7 +142,6 @@ commencer.addEventListener('click', ()=> {
          let cartObject = {};
          cartObject.cartName = `${vocaNameInput.value}`;
          cartObject.Description = `${vocaDescriptionInput.value}`;
-         console.log(cartObject);
          cartes.push(cartObject);
          console.log(cartes);
          localStorage.setItem('cartes', JSON.stringify(cartes));
