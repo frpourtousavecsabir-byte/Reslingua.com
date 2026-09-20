@@ -2386,3302 +2386,3702 @@ wordef: [
       date: 11,
      wordef: [
   {
-    mot: "écaillée",
-    definition: "With small pieces of paint coming off.",
-    synonyme: "abîmée",
-    contextExample: "La peinture du mur est écaillée."
+    mot: "boulangerie",
+    definition: "A shop where people buy bread, pastries, and other baked foods.",
+    contextExample: "Karim travaillait dans une petite boulangerie près de chez lui.",
+    synonyme: "commerce"
   },
   {
-    mot: "au hasard",
-    definition: "Without choosing something specific.",
-    synonyme: "sans choisir",
-    contextExample: "J'ai choisi un livre au hasard."
+    mot: "client",
+    definition: "A person who buys something from a shop or uses a service.",
+    contextExample: "Karim connaissait presque tous les clients.",
+    synonyme: "acheteur"
   },
   {
-    mot: "défiler",
-    definition: "To pass by one after another.",
-    synonyme: "passer",
-    contextExample: "Les voitures défilent dans la rue."
+    mot: "pressé",
+    definition: "In a hurry and needing to do something quickly.",
+    contextExample: "Elle semblait pressée.",
+    synonyme: "hâtif"
   },
   {
-    mot: "cahiers",
-    definition: "Notebooks used for writing.",
-    synonyme: "carnets",
-    contextExample: "J'ai trois cahiers dans mon sac."
+    mot: "commande",
+    definition: "The food or products that someone asks for in a shop or restaurant.",
+    contextExample: "Karim lui a préparé sa commande.",
+    synonyme: "demande"
   },
   {
-    mot: "ému",
-    definition: "Feeling a strong emotion.",
-    synonyme: "touché",
-    contextExample: "Il est ému par cette histoire."
+    mot: "répondre",
+    definition: "To speak or react when someone calls or asks you something.",
+    contextExample: "Personne ne répondait.",
+    synonyme: "réagir"
   },
   {
-    mot: "souvenirs",
-    definition: "Things that you remember from the past.",
-    synonyme: "mémoire",
-    contextExample: "J'ai de bons souvenirs de mon enfance."
+    mot: "appareil",
+    definition: "An object or machine made for a particular purpose.",
+    contextExample: "Karim a regardé le téléphone dans sa main.",
+    synonyme: "dispositif"
   },
   {
-    mot: "reprendre confiance",
-    definition: "To start believing in yourself again.",
-    synonyme: "croire en soi",
-    contextExample: "Après son succès, il reprend confiance."
+    mot: "fissure",
+    definition: "A thin crack or line on the surface of something.",
+    contextExample: "Mon téléphone est noir et il a une petite fissure sur l’écran.",
+    synonyme: "craquelure"
   },
   {
-    mot: "nostalgique",
-    definition: "Feeling emotional when thinking about the past.",
-    synonyme: "triste du passé",
-    contextExample: "Je suis nostalgique quand je regarde ces photos."
+    mot: "écran",
+    definition: "The flat part of a phone, computer, or television where you see images and information.",
+    contextExample: "Il a une petite fissure sur l’écran.",
+    synonyme: "affichage"
   },
   {
-    mot: "faire attention",
-    definition: "To be careful or to notice something.",
-    synonyme: "être prudent",
-    contextExample: "Fais attention en traversant la rue."
+    mot: "éclater de rire",
+    definition: "To suddenly start laughing a lot.",
+    contextExample: "Karim a éclaté de rire.",
+    synonyme: "rire"
   },
   {
-    mot: "faire une erreur",
-    definition: "To do something wrong or make a mistake.",
-    synonyme: "se tromper",
-    contextExample: "J'ai fait une erreur dans mon exercice."
+    mot: "fouiller",
+    definition: "To look carefully inside something to find an object.",
+    contextExample: "Elle a fouillé dans son sac.",
+    synonyme: "chercher"
   },
   {
-    mot: "économiser",
-    definition: "To save money instead of spending it.",
-    synonyme: "mettre de côté",
-    contextExample: "J'économise pour acheter un vélo."
+    mot: "poche",
+    definition: "A small part of clothing or a bag used to carry things.",
+    contextExample: "Il était dans une petite poche de mon sac.",
+    synonyme: "compartiment"
   },
   {
-    mot: "déménager",
-    definition: "To move to a different home.",
-    synonyme: "changer de maison",
-    contextExample: "Nous allons déménager le mois prochain."
+    mot: "inquiet",
+    definition: "Worried because something may be wrong or missing.",
+    contextExample: "Elle a commencé à devenir inquiète.",
+    synonyme: "préoccupé"
   },
   {
-    mot: "à distance",
-    definition: "From another place, without being physically present.",
-    synonyme: "de loin",
-    contextExample: "Je travaille à distance aujourd'hui."
+    mot: "réfléchir",
+    definition: "To think carefully before answering or making a decision.",
+    contextExample: "La femme a réfléchi.",
+    synonyme: "penser"
   },
   {
-    mot: "transmettre",
-    definition: "To pass an idea, message, or knowledge to someone.",
-    synonyme: "donner",
-    contextExample: "Le professeur transmet ses connaissances aux élèves."
+    mot: "organiser",
+    definition: "To arrange things in a clear and practical way.",
+    contextExample: "Je crois que je dois mieux organiser mon sac.",
+    synonyme: "arranger"
   },
   {
-    mot: "laisser quelques mots",
-    definition: "To write a short message before leaving.",
-    synonyme: "écrire un petit message",
-    contextExample: "Il a laissé quelques mots sur la table."
+    mot: "enquête",
+    definition: "A search or investigation to discover what happened or find something.",
+    contextExample: "Au moins, aujourd’hui, j’ai vendu des croissants et j’ai fait une enquête.",
+    synonyme: "investigation"
   },
   {
-    mot: "ralentir",
-    definition: "To become slower or make something slower.",
-    synonyme: "aller moins vite",
-    contextExample: "La voiture doit ralentir."
+    mot: "oublier",
+    definition: "To leave something somewhere because you do not remember to take it.",
+    contextExample: "Quand un client oublie quelque chose dans la boulangerie, Karim regarde toujours autour de lui.",
+    synonyme: "négliger"
   },
   {
-    mot: "avoir besoin de",
-    definition: "To need something.",
-    synonyme: "nécessiter",
-    contextExample: "J'ai besoin d'un stylo."
+    mot: "retrouver",
+    definition: "To find someone or something again after losing it.",
+    contextExample: "Je l’ai retrouvé !",
+    synonyme: "récupérer"
   },
   {
-    mot: "reprendre",
-    definition: "To start doing something again.",
-    synonyme: "recommencer",
-    contextExample: "Je vais reprendre le travail demain."
+    mot: "vérifier",
+    definition: "To look at something carefully to make sure that it is correct or present.",
+    contextExample: "Mais surtout, il vérifie les sacs.",
+    synonyme: "contrôler"
   },
   {
-    mot: "faire partie de",
-    definition: "To be included in something.",
-    synonyme: "être dans",
-    contextExample: "Je fais partie de cette équipe."
+    mot: "valeur",
+    definition: "The importance or worth that something has.",
+    contextExample: "Parce qu’après cette histoire, il a compris une chose.",
+    synonyme: "importance"
   },
   {
-    mot: "au loin",
-    definition: "Far away, at a distance.",
-    synonyme: "loin",
-    contextExample: "Je vois une montagne au loin."
+    mot: "devant",
+    definition: "In a position that is directly in front of someone or something.",
+    contextExample: "Parfois, ce qu’on cherche est juste devant nous.",
+    synonyme: "en face"
   }
 ],
-      txt: `La petite maison près de la mer
+      txt: `Le mauvais téléphone
 
-Depuis trois ans, Martin vivait dans une grande ville où tout allait très vite. Chaque matin, il se levait à sept heures, prenait un café et partait travailler. Il passait presque une heure dans les transports avant d'arriver au bureau.
+Depuis quelques mois, Karim travaillait dans une petite boulangerie près de chez lui. Il commençait tôt le matin et connaissait presque tous les clients.
 
-Son travail était correct, mais il ne l'aimait pas vraiment. Il passait ses journées devant un ordinateur et avait rarement le temps de parler avec ses collègues. Le soir, il rentrait chez lui fatigué. Il mangeait quelque chose de simple, regardait une série et allait dormir.
+Il aimait particulièrement les moments où les clients racontaient leurs petites histoires pendant qu’ils attendaient leur pain.
 
-Il avait souvent l'impression que les semaines passaient sans qu'il fasse vraiment attention à elles.
+Un mardi matin, une femme est entrée rapidement dans la boulangerie.
 
-Un vendredi soir, alors qu'il rentrait du travail, son téléphone a sonné. C'était sa tante Claire.
+Elle semblait pressée.
 
-Elle lui a annoncé une nouvelle surprenante : elle voulait vendre une petite maison qu'elle possédait près de la mer. Elle n'y allait presque plus et elle pensait que Martin pourrait être intéressé.
+— Bonjour ! Un café, s’il vous plaît. Et deux croissants.
 
-Martin a immédiatement pensé que ce n'était pas pour lui.
+Karim lui a préparé sa commande.
 
-Il ne connaissait presque rien à la vie dans une petite ville. Il avait toujours vécu dans des endroits où les magasins étaient ouverts tard, où les bus passaient toutes les dix minutes et où il y avait toujours du monde dans les rues.
+La femme a payé, a pris son sac et est partie sans dire un mot.
 
-Mais sa tante lui a proposé de passer quelques jours dans la maison avant de prendre une décision.
+Quelques minutes plus tard, Karim a entendu un téléphone sonner.
 
-Le week-end suivant, Martin a pris un train.
+Il a regardé autour de lui.
 
-Après trois heures de voyage, il est arrivé dans une petite ville située près de la mer. Il y avait beaucoup moins de voitures que dans sa ville et les rues étaient presque vides.
+Personne ne répondait.
 
-La maison se trouvait à quinze minutes à pied de la gare.
+Le téléphone était posé sur une petite table près de la porte.
 
-Elle était petite, avec des murs blancs et des fenêtres bleues. Un vieux jardin entourait la maison. Au fond, il y avait un petit arbre qui semblait avoir poussé là depuis très longtemps.
+Karim l’a pris.
 
-Martin a ouvert la porte avec la clé que sa tante lui avait donnée.
+— Bonjour ? a-t-il dit.
 
-À l'intérieur, tout était simple.
+Personne n’a répondu.
 
-Il y avait une cuisine, un salon, deux chambres et une petite salle de bain. Les meubles étaient anciens, mais la maison était propre.
+Il a attendu quelques secondes.
 
-Sur une étagère, Martin a trouvé plusieurs livres.
+Puis il a entendu une voix.
 
-Il en a pris un au hasard.
+— Allô ?!
 
-C'était un vieux livre sur la région. Il expliquait comment le village avait changé au cours des cinquante dernières années.
+— Bonjour, vous avez oublié votre téléphone dans la boulangerie.
 
-Martin a passé une partie de l'après-midi à lire.
+— Mon téléphone ?!
 
-Puis il est sorti se promener.
+— Oui.
 
-À quelques mètres de la maison, il a découvert un petit chemin qui descendait vers la mer.
+Un long silence.
 
-Le soleil commençait à disparaître derrière les nuages.
+— Ah… ce n’est pas mon téléphone.
 
-Martin a marché jusqu'à la plage.
+Karim a regardé l’appareil.
 
-Il n'y avait presque personne.
+— Comment ça ?
 
-Un homme âgé était assis sur un banc et regardait la mer.
+— Mon téléphone est noir.
 
-Martin s'est installé un peu plus loin.
+Karim a regardé le téléphone dans sa main.
 
-Pendant plusieurs minutes, aucun des deux hommes n'a parlé.
+Il était noir.
 
-Puis l'homme lui a demandé s'il était nouveau dans le quartier.
+— Vous êtes sûre ?
 
-Martin lui a expliqué qu'il était là pour quelques jours.
+— Oui. Et il a une petite fissure sur l’écran.
 
-L'homme s'appelait André. Il habitait dans le village depuis plus de quarante ans.
+Karim a regardé l’écran.
 
-Ils ont commencé à parler.
+Il n’y avait aucune fissure.
 
-André connaissait presque toutes les maisons de la rue. Il connaissait aussi l'histoire de plusieurs familles du village.
+— Alors… ce n’est peut-être pas votre téléphone.
 
-Quand Martin lui a parlé de la maison de sa tante, le visage d'André a changé.
+La femme a commencé à rire.
 
-Il lui a expliqué qu'une femme y avait vécu pendant très longtemps. Elle s'appelait Louise et elle travaillait autrefois dans une petite école du village.
+— Je crois que je vous ai appelé avec le téléphone de mon mari !
 
-Martin ne connaissait pas cette histoire.
+Karim a éclaté de rire.
 
-André lui a raconté que Louise aimait beaucoup écrire. Elle gardait des cahiers dans lesquels elle notait les choses importantes de sa vie.
+— Mais alors, où est votre téléphone ?
 
-Après sa mort, les cahiers avaient disparu.
+— Je ne sais pas !
 
-Martin a pensé aux livres qu'il avait trouvés dans la maison.
+La femme est revenue quelques minutes plus tard.
 
-Il a demandé à André s'il savait où se trouvaient les cahiers.
+Elle a regardé le téléphone sur la table.
 
-André a répondu qu'il n'en savait rien.
+— Oui, c’est bien celui de mon mari.
 
-Le lendemain matin, Martin a commencé à chercher.
+— Et le vôtre ?
 
-Il a ouvert les placards, déplacé quelques cartons et regardé dans les tiroirs.
+Elle a fouillé dans son sac.
 
-Au fond d'une vieille armoire, il a découvert une petite boîte en bois.
+Puis dans ses poches.
 
-Elle était couverte de poussière.
+Puis encore dans son sac.
 
-Martin l'a ouverte.
+Elle a commencé à devenir inquiète.
 
-À l'intérieur, il y avait six cahiers.
+— Je ne le trouve pas…
 
-Sur la première page du premier cahier, il y avait écrit :
+Karim lui a demandé :
 
-« Pour celui qui trouvera ces pages un jour. »
+— Vous étiez où avant de venir ici ?
 
-Martin s'est assis sur le sol et a commencé à lire.
+La femme a réfléchi.
 
-Louise racontait sa vie dans le village.
+— Dans le bus.
 
-Elle parlait de ses élèves, de ses amis, de ses parents et de ses voyages.
+Karim a souri.
 
-Mais elle écrivait surtout sur les petits moments de la vie.
+— Alors votre téléphone est peut-être encore dans le bus.
 
-Un matin où elle avait vu un enfant aider une vieille dame.
+La femme a pris son sac et est sortie rapidement.
 
-Une promenade sous la pluie.
+Une heure plus tard, elle est revenue dans la boulangerie.
 
-Un repas avec des amis.
+Cette fois, elle souriait.
 
-Une journée difficile à l'école.
+— Je l’ai retrouvé !
 
-Une conversation avec son frère.
+— Dans le bus ?
 
-Martin a continué à lire pendant plusieurs heures.
+— Non.
 
-Il a été ému par certaines pages.
+Elle a sorti son téléphone de son sac.
 
-Louise écrivait avec des mots simples, mais ses souvenirs semblaient très vivants.
+— Il était dans une petite poche de mon sac.
 
-Dans un des cahiers, elle parlait de la maison.
+Karim a regardé la femme.
 
-Elle expliquait qu'elle avait acheté cette maison lorsqu'elle avait trente ans. À cette époque, elle avait beaucoup de projets, mais elle avait aussi peur de faire des erreurs.
+— Vous avez cherché partout sauf là où il était.
 
-Elle avait écrit une phrase que Martin a relue plusieurs fois :
+Elle a commencé à rire.
 
-« On attend souvent le bon moment pour commencer une nouvelle vie. Mais le bon moment n'arrive pas toujours. Parfois, il faut simplement commencer. »
+— Oui… Je crois que je dois mieux organiser mon sac.
 
-Martin a fermé le cahier.
+Karim lui a donné le téléphone de son mari.
 
-Cette phrase lui faisait penser à sa propre vie.
+Avant de partir, elle lui a dit :
 
-Depuis plusieurs années, il disait qu'il voulait changer de travail.
+— Merci pour votre aide. Et désolée pour toute cette histoire.
 
-Il voulait voyager davantage.
+Karim a souri.
 
-Il voulait apprendre à jouer de la guitare.
+— Ce n’est pas grave. Au moins, aujourd’hui, j’ai vendu des croissants et j’ai fait une enquête.
 
-Il voulait passer plus de temps avec sa famille.
+La femme a ri.
 
-Mais il avait toujours une raison pour attendre.
+— Une enquête ?
 
-Il travaillait trop.
+— Oui. Une enquête très importante : « Où est le téléphone ? »
 
-Il n'avait pas assez d'argent.
+Depuis ce jour, quand un client oublie quelque chose dans la boulangerie, Karim regarde toujours autour de lui.
 
-Il n'avait pas assez de temps.
+Mais surtout, il vérifie les sacs.
 
-Ce soir-là, il a préparé un repas simple et s'est installé devant la fenêtre.
+Parce qu’après cette histoire, il a compris une chose :
 
-Il pouvait entendre la mer au loin.
-
-Pour la première fois depuis longtemps, il n'avait aucune envie de regarder son téléphone.
-
-Le lendemain, il est retourné voir André.
-
-Il lui a parlé des cahiers.
-
-André a souri.
-
-Il semblait nostalgique en entendant le prénom de Louise.
-
-Il lui a expliqué qu'elle avait été une personne importante pour beaucoup d'habitants. Elle aidait souvent les enfants qui avaient des difficultés à l'école et elle organisait parfois des repas pour les personnes seules.
-
-Martin a compris que les cahiers ne racontaient qu'une partie de son histoire.
-
-Les autres parties vivaient encore dans les souvenirs des habitants.
-
-Il a alors eu une idée.
-
-Pendant les jours suivants, il a rencontré plusieurs personnes qui avaient connu Louise.
-
-Une ancienne élève lui a raconté comment Louise l'avait aidée à reprendre confiance en elle.
-
-Un boulanger lui a raconté qu'elle venait acheter du pain chaque samedi matin.
-
-Une autre femme lui a expliqué que Louise lui avait donné le courage de quitter un travail qu'elle détestait.
-
-Chaque personne possédait un petit morceau de son histoire.
-
-Martin a commencé à prendre des notes.
-
-Il a compris que la maison n'était pas seulement une maison.
-
-Elle était devenue un lieu rempli de souvenirs.
-
-Le dernier jour de son séjour, Martin a appelé sa tante.
-
-Il lui a dit qu'il voulait acheter la maison.
-
-Sa tante a été surprise.
-
-Elle pensait qu'il allait simplement passer quelques jours avant de retourner en ville.
-
-Martin lui a expliqué qu'il ne savait pas encore exactement ce qu'il allait faire de sa vie.
-
-Mais il savait une chose : il ne voulait plus attendre que sa vie change toute seule.
-
-Quelques semaines plus tard, Martin a quitté son travail.
-
-Il n'a pas immédiatement déménagé dans la petite maison.
-
-Il a pris quelques mois pour réfléchir, économiser de l'argent et préparer son nouveau projet.
-
-Puis il est revenu près de la mer.
-
-Il a commencé à travailler à distance et a transformé une petite pièce de la maison en bureau.
-
-Il a aussi réparé le jardin.
-
-Et surtout, il a continué à lire les cahiers de Louise.
-
-Un jour, il a eu une nouvelle idée.
-
-Il a installé une petite bibliothèque devant la maison.
-
-Les habitants pouvaient prendre un livre et en laisser un autre.
-
-À côté des livres, Martin a placé un carnet.
-
-Sur la première page, il a écrit :
-
-« Écrivez quelque chose que vous aimeriez transmettre à une autre personne. »
-
-Au début, personne n'a vraiment fait attention au carnet.
-
-Puis quelqu'un a écrit quelques lignes.
-
-Une autre personne a ajouté un message.
-
-Puis une troisième.
-
-Avec le temps, le carnet s'est rempli.
-
-Des habitants racontaient leurs souvenirs.
-
-Des enfants écrivaient leurs rêves.
-
-Des voyageurs laissaient quelques mots avant de repartir.
-
-Martin lisait parfois ces messages le soir.
-
-Il pensait alors à Louise.
-
-Elle avait écrit ses souvenirs sans savoir qui les lirait un jour.
-
-Et maintenant, des dizaines de personnes faisaient la même chose.
-
-Une histoire en avait commencé une autre.
-
-Un souvenir en avait créé un nouveau.
-
-Martin avait longtemps pensé qu'il devait trouver une grande raison de changer sa vie.
-
-Finalement, il avait simplement eu besoin de ralentir, de regarder autour de lui et de comprendre ce qu'il voulait vraiment.
-
-La petite maison près de la mer n'avait pas changé sa vie en une seule journée.
-
-Elle lui avait seulement donné le temps de l'écouter.
-
-Et parfois, c'est tout ce dont une personne a besoin pour trouver une nouvelle direction.`
+parfois, ce qu’on cherche est juste devant nous.`
      },{
       id: 12,
       date: 12,
       wordef: [
   {
-    mot: "froissée",
-    definition: "Bent and marked because it has been pressed or folded.",
-    synonyme: "plissée",
-    contextExample: "La feuille est froissée."
+    mot: "station",
+    definition: "A place where a bus stops so passengers can get on or off.",
+    contextExample: "Il montait toujours à la même station.",
+    synonyme: "arrêt"
   },
   {
-    mot: "par cœur",
-    definition: "Knowing something completely from memory.",
-    synonyme: "de mémoire",
-    contextExample: "Je connais cette chanson par cœur."
+    mot: "passager",
+    definition: "A person who travels in a bus, train, plane, or other vehicle.",
+    contextExample: "Il connaissait même certains passagers.",
+    synonyme: "voyageur"
   },
   {
-    mot: "touchante",
-    definition: "Causing a strong feeling of emotion.",
-    synonyme: "émouvante",
-    contextExample: "Cette histoire est très touchante."
+    mot: "trajet",
+    definition: "The journey from one place to another.",
+    contextExample: "Il a presque dormi pendant tout le trajet.",
+    synonyme: "voyage"
   },
   {
-    mot: "au dos",
-    definition: "On the back side of something.",
-    synonyme: "derrière",
-    contextExample: "Il y a une photo au dos de la feuille."
+    mot: "fatigué",
+    definition: "Having little energy and needing to rest or sleep.",
+    contextExample: "Yassine était particulièrement fatigué.",
+    synonyme: "épuisé"
   },
   {
-    mot: "voisine",
-    definition: "A woman who lives near someone.",
-    synonyme: "femme d'à côté",
-    contextExample: "Ma voisine habite à côté de chez moi."
+    mot: "habituel",
+    definition: "Something that happens regularly or is done in the usual way.",
+    contextExample: "Il s’est assis à sa place habituelle.",
+    synonyme: "ordinaire"
   },
   {
-    mot: "audacieuse",
-    definition: "Brave and willing to take risks.",
-    synonyme: "courageuse",
-    contextExample: "Elle est audacieuse et n'a pas peur."
+    mot: "rapidement",
+    definition: "In a quick way, without taking much time.",
+    contextExample: "Il a pris le sac qui était à côté de lui et est descendu rapidement.",
+    synonyme: "vite"
   },
   {
-    mot: "hésité",
-    definition: "Taken time before making a choice because you were unsure.",
-    synonyme: "douté",
-    contextExample: "J'ai hésité avant de répondre."
+    mot: "immédiatement",
+    definition: "At once, without waiting.",
+    contextExample: "Il a immédiatement compris qu’il y avait un problème.",
+    synonyme: "aussitôt"
   },
   {
-    mot: "dépense",
-    definition: "Money that you use to buy something.",
-    synonyme: "achat",
-    contextExample: "Cette dépense coûte cher."
+    mot: "affaire",
+    definition: "An object or personal thing that belongs to someone.",
+    contextExample: "Son ordinateur était là et tout était à sa place.",
+    synonyme: "objet"
   },
   {
-    mot: "ingrédients",
-    definition: "The foods or products used to prepare a dish.",
-    synonyme: "produits",
-    contextExample: "Il faut cinq ingrédients pour faire ce gâteau."
+    mot: "trousse",
+    definition: "A small bag used to keep things such as pens or personal objects.",
+    contextExample: "Il y avait des vêtements, un livre, une petite trousse et un sandwich.",
+    synonyme: "pochette"
   },
   {
-    mot: "transmettre",
-    definition: "To pass something, such as knowledge or memories, to another person.",
-    synonyme: "donner",
-    contextExample: "Le professeur transmet ses connaissances aux élèves."
+    mot: "hésiter",
+    definition: "To be unsure about what to say or do.",
+    contextExample: "Yassine a hésité.",
+    synonyme: "douter"
   },
   {
-    mot: "recopier",
-    definition: "To write something again exactly or almost exactly.",
-    synonyme: "réécrire",
-    contextExample: "Je dois recopier le texte."
+    mot: "voler",
+    definition: "To take something that belongs to another person without permission.",
+    contextExample: "Tu as volé un sac maintenant ?",
+    synonyme: "dérober"
   },
   {
-    mot: "arrière-grand-mère",
-    definition: "The mother of your grandparent.",
-    synonyme: "ancêtre",
-    contextExample: "Mon arrière-grand-mère a 90 ans."
+    mot: "erreur",
+    definition: "Something that is incorrect or something done by mistake.",
+    contextExample: "C’était une erreur !",
+    synonyme: "faute"
   },
   {
-    mot: "précaution",
-    definition: "Care taken to avoid damage or danger.",
-    synonyme: "attention",
-    contextExample: "Par précaution, je ferme la porte."
+    mot: "terminus",
+    definition: "The final stop of a bus, train, or other transport service.",
+    contextExample: "Le bus précédent est déjà arrivé au terminus ?",
+    synonyme: "destination"
   },
   {
-    mot: "humides",
-    definition: "Slightly wet.",
-    synonyme: "mouillés",
-    contextExample: "Mes vêtements sont encore humides."
+    mot: "soupirer",
+    definition: "To breathe out slowly, often because of tiredness, worry, or disappointment.",
+    contextExample: "Il a soupiré.",
+    synonyme: "souffler"
   },
   {
     mot: "disparaître",
-    definition: "To stop being visible or to no longer exist.",
-    synonyme: "ne plus être là",
-    contextExample: "Le soleil va disparaître derrière les nuages."
+    definition: "To stop being visible or to no longer be somewhere.",
+    contextExample: "Si la dame a vu que son sac avait disparu.",
+    synonyme: "s’évanouir"
   },
   {
-    mot: "tiroir",
-    definition: "A part of a piece of furniture that slides out and is used to store things.",
-    synonyme: "rangement",
-    contextExample: "Les clés sont dans le tiroir."
+    mot: "retrouver",
+    definition: "To find someone or something again after losing it.",
+    contextExample: "Je ne vais jamais la retrouver.",
+    synonyme: "récupérer"
   },
   {
-    mot: "appartenir",
-    definition: "To be someone's property or to be connected to someone.",
-    synonyme: "être à",
-    contextExample: "Ce livre appartient à Paul."
+    mot: "objet trouvé",
+    definition: "An object that someone has lost and another person has found.",
+    contextExample: "Il pouvait déposer le sac au bureau des objets trouvés.",
+    synonyme: "objet perdu"
   },
   {
-    mot: "partager",
-    definition: "To give part of something to someone else or use it together.",
-    synonyme: "donner une partie",
-    contextExample: "Je partage mon gâteau avec mon frère."
+    mot: "portefeuille",
+    definition: "A small case used for carrying money and cards.",
+    contextExample: "Il a trouvé un petit portefeuille avec une carte.",
+    synonyme: "porte-monnaie"
   },
   {
-    mot: "gestes",
-    definition: "Movements made with the hands or body.",
-    synonyme: "mouvements",
-    contextExample: "Il fait des gestes avec ses mains."
+    mot: "tenté",
+    definition: "Having the desire to do something, especially something you should not do.",
+    contextExample: "Non, mais j’ai été tenté.",
+    synonyme: "attiré"
   },
   {
-    mot: "se remplir",
-    definition: "To become full.",
-    synonyme: "devenir plein",
-    contextExample: "Le verre se remplit d'eau."
+    mot: "habitude",
+    definition: "Something that a person does regularly and almost automatically.",
+    contextExample: "C’est une bonne habitude.",
+    synonyme: "coutume"
   }
 ],
-      txt: `Le carnet de recettes
+      txt: `Le sac qui n’était pas à lui
 
-Quand Nora est rentrée chez sa grand-mère pour les vacances, elle ne pensait pas que quelques vieux papiers allaient changer sa façon de voir sa famille.
+Depuis quelques semaines, Yassine prenait le même bus chaque matin pour aller travailler. Il montait toujours à la même station, s’asseyait près de la fenêtre et mettait ses écouteurs.
 
-Elle avait vingt-deux ans et vivait depuis plusieurs années dans une grande ville. Elle étudiait à l'université et travaillait quelques heures par semaine dans un café. Sa vie était assez chargée, mais elle aimait cette activité.
+Il connaissait même certains passagers.
 
-Pendant les vacances d'été, elle avait décidé de passer deux semaines chez sa grand-mère, dans une petite ville à la campagne.
+Il y avait une vieille dame qui lisait toujours un journal, un étudiant qui dormait presque pendant tout le trajet et un homme qui regardait son téléphone sans arrêt.
 
-Sa grand-mère, Jeanne, vivait dans la même maison depuis presque cinquante ans.
+Un lundi matin, Yassine était particulièrement fatigué.
 
-La maison était grande, avec un jardin rempli de fleurs. Derrière la maison, il y avait même un petit potager où Jeanne faisait pousser des tomates, des courgettes et des herbes.
+La veille, il avait regardé un film jusqu’à deux heures du matin.
 
-Nora connaissait bien cette maison.
+Quand le bus est arrivé, il est monté rapidement et s’est assis à sa place habituelle.
 
-Elle y venait souvent quand elle était enfant.
+Il a posé son sac à côté de lui et a fermé les yeux.
 
-Pourtant, elle avait l'impression de la redécouvrir maintenant qu'elle était adulte.
+Quelques minutes plus tard, une femme est montée dans le bus.
 
-Le premier matin, Jeanne lui a proposé de préparer le déjeuner ensemble.
+Elle portait un grand sac noir et cherchait une place.
 
-— Tu veux m'aider ?
+Elle s’est assise juste devant Yassine.
 
-— Bien sûr.
+Le bus a continué son chemin.
 
-Elles sont entrées dans la cuisine.
+Yassine a presque dormi pendant tout le trajet.
 
-Jeanne a ouvert un vieux meuble et a sorti une grande boîte en carton.
+Quand le bus est arrivé près de son travail, il s’est levé rapidement.
 
-— Tu peux prendre ça ?
+Il a pris le sac qui était à côté de lui et est descendu.
 
-Nora a posé la boîte sur la table.
+Une fois dans la rue, il a marché pendant quelques minutes.
 
-Elle était pleine de feuilles, de petites cartes et de morceaux de papier.
-
-— Qu'est-ce que c'est ?
-
-Jeanne a souri.
-
-— Mes recettes.
-
-Nora a commencé à regarder les papiers.
-
-Il y avait des recettes de gâteaux, de soupes, de plats avec des légumes et même quelques recettes écrites dans une autre langue.
-
-Certaines feuilles étaient très anciennes.
-
-L'écriture était parfois difficile à lire.
-
-Nora a trouvé cela amusant.
-
-— Tu as vraiment gardé tout ça ?
-
-— Bien sûr. Certaines recettes sont plus importantes que les plats eux-mêmes.
-
-Nora n'a pas vraiment compris.
-
-Jeanne a choisi une petite feuille.
-
-Elle était presque complètement froissée.
-
-— Celle-ci vient de mon père.
-
-Nora a regardé sa grand-mère avec surprise.
-
-— Ton père cuisinait ?
-
-— Très peu. Mais il faisait un gâteau que toute la famille adorait.
-
-Jeanne lui a raconté que son père préparait ce gâteau seulement quelques fois par an.
-
-Il n'utilisait jamais de recette complète.
-
-Il connaissait les ingrédients par cœur.
-
-Après sa mort, Jeanne avait essayé de refaire le gâteau plusieurs fois.
-
-Mais elle n'arrivait jamais à retrouver exactement le même goût.
-
-Nora a trouvé cette histoire touchante.
-
-Elle a demandé si elle pouvait essayer.
-
-Jeanne a accepté.
-
-Elles ont passé une partie de l'après-midi dans la cuisine.
-
-Nora suivait les instructions pendant que Jeanne essayait de se souvenir des détails.
-
-— Un peu plus de farine.
-
-— Comme ça ?
-
-— Non, moins.
-
-— Tu es sûre ?
-
-— Absolument pas ! a répondu Jeanne en riant.
-
-Le gâteau était finalement prêt.
-
-Elles l'ont goûté ensemble.
-
-Il était bon, mais différent du souvenir de Jeanne.
-
-— Ce n'est pas exactement le même, a-t-elle dit.
-
-Nora a souri.
-
-— Peut-être que ce n'est pas grave.
-
-Jeanne a réfléchi.
-
-— Peut-être.
-
-Le soir, Nora a continué à regarder les anciennes recettes.
-
-Elle a remarqué quelque chose.
-
-Sur plusieurs feuilles, il y avait des noms écrits au dos.
-
-Paul — 1978.
-
-Marie — 1986.
-
-Lucie — 1992.
-
-Nathalie — 2001.
-
-Nora a demandé à sa grand-mère qui étaient ces personnes.
-
-Jeanne lui a expliqué que certaines recettes venaient de membres de la famille, mais que d'autres avaient été données par des amis.
-
-Chaque recette avait donc une histoire.
-
-Une soupe appartenait à une voisine qui venait souvent prendre le café.
-
-Une recette de pain venait d'un ancien collègue.
-
-Un gâteau avait été préparé pour le mariage d'une cousine.
-
-Une recette de confiture venait d'une femme que Jeanne avait rencontrée pendant un voyage.
-
-Nora a commencé à comprendre ce que sa grand-mère voulait dire.
-
-Ce n'était pas seulement une collection de recettes.
-
-C'était une collection de souvenirs.
-
-Le lendemain, Nora a proposé une idée.
-
-— Et si on faisait toutes les recettes ?
-
-Jeanne a ri.
-
-— Toutes ?
-
-— Oui. Une par jour.
-
-— Il y en a plus de cinquante.
-
-— Alors il nous faudra plus de vacances.
-
-Elles ont commencé par une soupe.
-
-Puis un gâteau.
-
-Puis un plat de légumes.
-
-Chaque fois qu'elles préparaient quelque chose, Jeanne racontait une histoire.
-
-Nora apprenait ainsi des choses qu'elle n'avait jamais entendues auparavant.
-
-Elle a découvert que sa grand-mère avait travaillé dans un hôtel lorsqu'elle était jeune.
-
-Elle a appris qu'elle avait voyagé seule dans un autre pays à vingt-cinq ans.
-
-Elle a découvert aussi que Jeanne avait autrefois voulu ouvrir son propre restaurant.
-
-— Pourquoi tu ne l'as pas fait ?
-
-Jeanne a regardé la fenêtre.
-
-— Parce que j'ai eu peur.
-
-— Peur de quoi ?
-
-— De ne pas réussir.
-
-Nora est restée silencieuse.
-
-Elle ne s'attendait pas à cette réponse.
-
-Sa grand-mère lui semblait toujours très audacieuse.
-
-Elle avait toujours donné l'impression de savoir exactement ce qu'elle voulait.
-
-Mais Nora comprenait maintenant que les adultes avaient aussi leurs peurs.
-
-Quelques jours plus tard, elles ont trouvé une recette sans nom.
-
-Le papier était très ancien.
-
-Il n'y avait qu'une liste d'ingrédients et quelques instructions.
-
-En bas de la page, quelqu'un avait écrit :
-
-« Pour les jours où tout semble difficile. »
-
-Nora a regardé sa grand-mère.
-
-— Tu sais qui a écrit ça ?
-
-Jeanne a secoué la tête.
-
-— Non.
-
-Elles ont décidé de préparer cette recette.
-
-Il s'agissait d'une simple soupe avec des légumes et des herbes.
-
-Pendant qu'elles cuisinaient, Nora a demandé à Jeanne si elle avait déjà eu une période vraiment difficile.
-
-Jeanne a hésité.
-
-Puis elle a raconté une partie de sa vie dont Nora n'avait jamais entendu parler.
-
-Quelques années après son mariage, son mari avait perdu son travail.
-
-Pendant plusieurs mois, leur famille avait eu très peu d'argent.
-
-Ils avaient dû faire attention à chaque dépense.
-
-Jeanne avait alors commencé à préparer cette soupe.
-
-Elle était simple et peu chère.
-
-Mais toute la famille l'aimait.
-
-— C'est pour ça que cette recette est importante, a expliqué Jeanne.
-
-Nora a compris.
-
-La soupe n'était pas spéciale à cause de ses ingrédients.
-
-Elle était spéciale parce qu'elle représentait une période de leur vie.
-
-Le lendemain, Nora a eu une idée.
-
-Elle voulait créer un nouveau carnet.
-
-Elle a acheté un grand cahier et a écrit sur la première page :
-
-« Les recettes de notre famille. »
-
-Elle a commencé à recopier les anciennes recettes.
-
-Mais elle a aussi ajouté une petite partie sous chacune d'elles.
-
-Elle écrivait l'histoire de la personne qui avait donné la recette.
-
-Elle ajoutait parfois une photographie.
-
-Elle notait également les souvenirs de sa grand-mère.
-
-Jeanne l'a aidée.
-
-Elles ont passé plusieurs jours à chercher des informations.
-
-Elles ont appelé des membres de la famille.
-
-Elles ont retrouvé de vieilles photographies.
-
-Elles ont même contacté certaines personnes qui avaient donné des recettes plusieurs années auparavant.
-
-Une femme a répondu au téléphone après quelques minutes de silence.
-
-Quand Nora lui a parlé de la recette, elle a commencé à rire.
-
-Elle se souvenait parfaitement du jour où elle l'avait donnée à Jeanne.
-
-Elle a raconté qu'à cette époque, elle travaillait dans une petite boulangerie.
-
-Elle avait préparé ce gâteau pour l'anniversaire de sa fille.
-
-Nora a écrit toute l'histoire dans le carnet.
-
-Plus les pages se remplissaient, plus le projet devenait important.
-
-À la fin des vacances, le carnet était presque terminé.
-
-Il contenait des recettes, des photographies, des dates et des histoires.
-
-Nora l'a posé devant sa grand-mère.
-
-— Voilà.
-
-Jeanne a ouvert le carnet.
-
-Elle a tourné les pages lentement.
-
-Puis elle s'est arrêtée devant une photographie de ses parents.
-
-Elle n'a rien dit pendant quelques secondes.
-
-Ses yeux étaient humides.
-
-— Tu as gardé toutes ces histoires, a-t-elle dit.
-
-— Non, a répondu Nora. C'est toi qui les as gardées.
-
-Jeanne a souri.
-
-— Alors maintenant, c'est à toi.
-
-Nora a compris ce qu'elle voulait dire.
-
-Pendant longtemps, elle avait pensé que les souvenirs appartenaient au passé.
-
-Elle comprenait maintenant qu'on pouvait les transmettre.
-
-Quelques semaines après son retour en ville, Nora a commencé à écrire régulièrement à sa famille.
-
-Elle demandait des recettes.
-
-Mais surtout, elle demandait les histoires qui se trouvaient derrière.
-
-Son oncle lui a envoyé la recette d'un plat qu'il préparait lorsqu'il était étudiant.
-
-Sa cousine lui a envoyé une recette de biscuits que leur arrière-grand-mère préparait pendant les fêtes.
-
-Même sa mère, qui disait ne jamais avoir le temps de cuisiner, a retrouvé une vieille recette dans un tiroir.
-
-Petit à petit, le carnet est devenu beaucoup plus grand.
-
-Un an plus tard, Nora est retournée chez sa grand-mère.
-
-Elle avait apporté le nouveau carnet.
-
-Il était maintenant rempli de centaines de pages.
-
-Jeanne l'a ouvert avec précaution.
-
-— Tu sais, a-t-elle dit, je pensais que tu venais simplement passer les vacances.
-
-Nora a ri.
-
-— Moi aussi.
-
-Elles sont restées dans la cuisine pendant un long moment.
-
-Puis Jeanne a sorti une nouvelle feuille.
-
-— J'ai trouvé ça hier.
-
-Nora l'a prise.
-
-C'était une recette écrite par son arrière-grand-mère.
-
-En bas de la page, il y avait une phrase :
-
-« Une recette est meilleure quand elle est partagée. »
-
-Nora a souri.
-
-Elle a ajouté la feuille au carnet.
-
-Puis elle a compris que certaines choses ne disparaissaient pas vraiment.
-
-Une voix pouvait rester dans une histoire.
-
-Un souvenir pouvait rester dans une photographie.
-
-Et une personne pouvait continuer à vivre un peu dans les gestes de ceux qui venaient après elle.
-
-Ce jour-là, Nora a décidé de continuer le carnet.
-
-Elle ne savait pas combien de pages il aurait un jour.
-
-Elle savait seulement qu'il y aurait toujours une nouvelle recette, une nouvelle histoire et quelqu'un pour la raconter.`
-     },{
-      id: 13,
-      date: 13,
-      txt: `La dernière place
-
-Chaque matin, Lina prenait le même train pour aller travailler.
-
-Elle habitait dans une petite ville située à une quarantaine de minutes de la grande ville où elle travaillait. Le trajet était devenu une habitude. Elle montait dans le train à sept heures vingt, cherchait une place près de la fenêtre et passait le voyage à écouter de la musique ou à regarder les personnes autour d'elle.
-
-Elle connaissait certains voyageurs sans connaître leur nom.
-
-Il y avait un homme qui lisait toujours le journal, une femme qui travaillait sur son ordinateur et deux étudiants qui discutaient presque chaque matin.
-
-Lina ne leur parlait jamais.
-
-Elle aimait cette distance.
-
-Après une longue journée de travail, elle préférait rester tranquille.
-
-Un mardi matin, pourtant, quelque chose a changé.
-
-Le train était presque plein.
-
-Lina est montée dans le dernier wagon et a regardé autour d'elle.
-
-Il restait une seule place.
-
-Elle s'est approchée, mais au moment où elle allait s'asseoir, un homme âgé est arrivé.
-
-Il tenait une petite valise et semblait chercher une place.
-
-Lina s'est levée.
-
-— Vous pouvez vous asseoir ici.
-
-L'homme a souri.
-
-— Merci. C'est gentil.
-
-Lina est restée debout.
-
-Quelques minutes plus tard, une autre place s'est libérée.
-
-Elle s'est assise en face de lui.
-
-L'homme regardait régulièrement sa montre.
-
-Il semblait un peu inquiet.
-
-Après quelques minutes, il lui a demandé :
-
-— Excusez-moi, vous savez à quelle heure nous arrivons à Saint-Charles ?
-
-Lina lui a répondu.
-
-Ils ont ensuite commencé à parler.
-
-L'homme s'appelait Marcel.
-
-Il avait soixante-dix ans et venait dans la grande ville pour la première fois depuis très longtemps.
-
-— Je n'aime pas beaucoup les grandes villes, a-t-il expliqué.
-
-— Moi non plus, a répondu Lina.
-
-Marcel a ri.
-
-— Alors pourquoi vous y allez tous les jours ?
-
-Lina lui a expliqué qu'elle y travaillait.
-
-Elle lui a aussi raconté qu'elle rêvait depuis quelque temps de changer de métier, mais qu'elle ne savait pas vraiment quoi faire.
-
-Marcel l'a écoutée sans l'interrompre.
-
-Puis il lui a demandé :
-
-— Vous aimez votre travail ?
-
-Lina a réfléchi.
-
-— Pas vraiment.
-
-— Alors pourquoi vous continuez ?
-
-Lina a souri.
-
-— C'est compliqué.
-
-Marcel a regardé par la fenêtre.
-
-— On dit souvent que c'est compliqué quand on a peur de changer quelque chose.
-
-Cette phrase a surpris Lina.
-
-Elle a voulu lui demander ce qu'il voulait dire, mais le train arrivait déjà à la prochaine station.
-
-Marcel a pris sa valise.
-
-Avant de descendre, il lui a donné une petite carte.
-
-— Tenez.
-
-Lina a regardé la carte.
-
-Il y avait seulement un prénom et un numéro de téléphone.
-
-— Pourquoi ?
-
-— Parce que vous m'avez donné votre place. Je vous dois quelque chose.
-
-Puis il est descendu.
-
-Lina a gardé la carte dans son sac.
-
-Elle n'y a plus pensé pendant plusieurs jours.
-
-Une semaine plus tard, elle a reçu un appel.
-
-C'était Marcel.
-
-Il lui a demandé si elle pouvait l'aider.
-
-Il avait oublié un petit sac dans le train et pensait qu'il était peut-être encore dans le wagon.
-
-Lina a promis de regarder.
-
-Le lendemain matin, elle a demandé au personnel de la gare.
-
-Le sac avait été retrouvé.
-
-Elle l'a récupéré et a appelé Marcel.
-
-Ils se sont donné rendez-vous dans un petit café près de la gare.
-
-Marcel était très heureux de retrouver son sac.
-
-— Il n'y avait rien de précieux dedans, a-t-il expliqué. Mais il y avait quelque chose d'important.
+Puis il a voulu prendre son téléphone dans son sac.
 
 Il a ouvert le sac.
 
-À l'intérieur, il y avait plusieurs photographies.
+Il a regardé à l’intérieur.
 
-Lina les a regardées.
+Et il a immédiatement compris qu’il y avait un problème.
 
-Elles montraient une petite maison, un jardin et plusieurs personnes.
+Son ordinateur n’était pas là.
 
-— C'est ma famille, a expliqué Marcel.
+Sa bouteille d’eau non plus.
 
-Il a pris une photographie plus ancienne.
+Il y avait des vêtements, un livre, une petite trousse et… un sandwich.
 
-On y voyait une jeune femme devant la maison.
+Yassine a regardé le sac avec surprise.
 
-— C'est ma sœur.
+— Mais ce n’est pas mon sac !
 
-Lina a remarqué que son visage était triste.
+Il a commencé à réfléchir.
 
-— Elle habite encore ici ?
+Puis il s’est souvenu de la femme assise devant lui.
 
-Marcel a secoué la tête.
+Son sac était exactement comme celui de Yassine.
 
-— Non.
+Même couleur.
 
-Il lui a expliqué qu'ils ne s'étaient pas parlé depuis plus de vingt ans.
+Même taille.
 
-Ils avaient eu une dispute après la mort de leurs parents.
+Même forme.
 
-Au début, ils pensaient qu'ils allaient rapidement se réconcilier.
+— Oh non…
 
-Mais les années sont passées.
+Yassine a regardé l’heure.
 
-Chacun attendait que l'autre fasse le premier pas.
+Le bus était déjà loin.
 
-Et personne ne l'a fait.
+Il ne savait pas quoi faire.
 
-Marcel était venu dans cette ville pour essayer de la retrouver.
+Il a appelé son collègue.
 
-— Vous pensez qu'elle acceptera de vous voir ?
+— Je vais arriver un peu en retard.
 
-Il a pris quelques secondes avant de répondre.
+— Pourquoi ?
 
-— Je ne sais pas.
+Yassine a hésité.
 
-Lina lui a demandé pourquoi il avait attendu aussi longtemps.
+— J’ai pris le sac d’une femme dans le bus.
 
-Marcel a regardé les photographies.
+Son collègue a commencé à rire.
 
-— Parce que je pensais avoir encore beaucoup de temps.
+— Tu as volé un sac maintenant ?
 
-Cette phrase est restée dans la tête de Lina pendant toute la journée.
+— Mais non ! C’était une erreur !
 
-Elle pensait à son propre travail.
+— Alors tu as intérêt à retrouver cette femme.
 
-À toutes les choses qu'elle voulait faire.
+Yassine a raccroché.
 
-À toutes les décisions qu'elle repoussait.
+Il est retourné rapidement vers l’arrêt de bus.
 
-Le soir, elle est rentrée chez elle et a ouvert son ordinateur.
+Il a attendu le bus suivant.
 
-Elle a commencé à chercher des formations dans un domaine qui l'intéressait depuis plusieurs années.
+Quand il est arrivé, Yassine est monté et a demandé au chauffeur :
 
-Elle avait peur.
+— Excusez-moi, le bus précédent est déjà arrivé au terminus ?
 
-Elle ne savait pas si elle réussirait.
+Le chauffeur a regardé Yassine.
 
-Mais pour la première fois, elle a fait quelque chose au lieu de simplement y penser.
+— Oui. Pourquoi ?
 
-Quelques jours plus tard, Marcel l'a appelée.
+— J’ai pris le mauvais sac.
 
-Il avait retrouvé sa sœur.
+Le chauffeur a souri.
 
-Elle vivait dans une petite ville à deux heures de là.
+— Ça arrive.
 
-Ils avaient parlé au téléphone pendant presque une heure.
+Yassine est monté dans le bus et a expliqué la situation.
 
-Puis ils avaient décidé de se rencontrer.
+Le chauffeur lui a dit :
 
-Lina était heureuse pour lui.
+— Si la dame a vu que son sac avait disparu, elle est peut-être encore dans le bus.
 
-— Vous voyez ? a-t-elle dit. Vous avez réussi.
+Yassine a regardé tous les passagers.
 
-— Oui, mais j'ai attendu beaucoup trop longtemps.
+Mais la femme n’était pas là.
 
-Lina a souri.
+Il a soupiré.
 
-— Peut-être. Mais vous avez quand même commencé.
+— Je ne vais jamais la retrouver…
 
-Après cet appel, Lina a continué ses recherches.
+Puis il a entendu une voix derrière lui.
 
-Elle a finalement envoyé une candidature pour une formation.
+— Vous cherchez peut-être ça ?
 
-Elle ne savait pas encore si elle serait acceptée.
+Yassine s’est retourné.
 
-Mais cette fois, elle ne voulait pas attendre.
+Un jeune homme tenait son sac.
 
-Quelques semaines plus tard, elle a reçu une réponse positive.
+— Je l’ai trouvé sur le siège du bus précédent.
 
-Elle allait pouvoir commencer sa formation quelques mois plus tard.
+Yassine a ouvert de grands yeux.
 
-Le même jour, elle a reçu un message de Marcel.
+— Mon sac !
 
-Il lui disait qu'il avait enfin revu sa sœur.
+Il a rapidement vérifié ses affaires.
 
-Ils avaient parlé pendant plusieurs heures.
+Son ordinateur était là.
 
-Ils avaient même ri de certaines vieilles histoires de famille.
+Sa bouteille aussi.
 
-À la fin du message, Marcel avait écrit :
+Tout était à sa place.
 
-« Parfois, la vie nous donne une dernière place. Il faut simplement avoir le courage de s'y asseoir. »
+— Merci beaucoup !
 
-Lina a relu le message.
+Le jeune homme lui a donné le sac.
 
-Puis elle a regardé son billet de train.
+— Mais vous avez un autre problème.
 
-Elle a souri.
+— Lequel ?
 
-Le lendemain matin, elle est montée dans le même train.
+— Vous avez toujours le sac de la dame.
 
-Elle a trouvé sa place habituelle près de la fenêtre.
+Yassine a regardé le sac noir dans sa main.
 
-Mais cette fois, elle n'a pas mis ses écouteurs.
+Il avait complètement oublié.
 
-Elle regardait les personnes autour d'elle.
+— Ah oui…
 
-Elle se demandait combien d'entre elles avaient une décision qu'elles repoussaient depuis longtemps.
+Le chauffeur a commencé à rire.
 
-À la station suivante, une jeune femme est montée.
+— Aujourd’hui, vous êtes vraiment spécialisé dans les sacs.
 
-Elle cherchait une place.
+Yassine a souri.
 
-Lina a déplacé son sac.
+— Je vais faire attention maintenant.
 
-— Vous pouvez vous asseoir ici.
+Le chauffeur lui a expliqué qu’il pouvait déposer le sac au bureau des objets trouvés.
 
-La jeune femme l'a remerciée.
+Yassine a accepté.
 
-Lina a regardé par la fenêtre.
+Avant de partir, il a regardé une dernière fois dans le sac.
 
-Le train a commencé à avancer.
+Il a trouvé un petit portefeuille avec une carte portant le nom de la femme.
 
-Et pour la première fois depuis longtemps, elle avait l'impression d'aller quelque part, même si elle ne savait pas encore exactement où.`,
+Grâce à cette information, il a pu laisser son nom et son numéro au bureau des objets trouvés.
+
+Quelques heures plus tard, son téléphone a sonné.
+
+— Bonjour, je pense que vous avez mon sac.
+
+— Oui ! Et je suis vraiment désolé.
+
+La femme a commencé à rire.
+
+— Moi aussi, j’ai fait une erreur.
+
+— Comment ça ?
+
+— J’ai pris votre sac aussi.
+
+Yassine a ouvert de grands yeux.
+
+— Vous avez mon sac ?
+
+— Oui. Je suis rentrée chez moi avec et je viens seulement de comprendre.
+
+Yassine s’est mis à rire.
+
+— Donc nous avons tous les deux pris le mauvais sac !
+
+— Exactement.
+
+Ils ont décidé de se retrouver le soir à la même station de bus.
+
+Quand la femme est arrivée, elle avait le sac de Yassine à la main.
+
+Yassine lui a donné son sac.
+
+Ils ont vérifié rapidement que tout était là.
+
+La femme a trouvé son sandwich dans son sac.
+
+Elle a regardé Yassine.
+
+— Au moins, vous n’avez pas mangé mon sandwich.
+
+— Non, mais j’ai été tenté.
+
+La femme a éclaté de rire.
+
+— La prochaine fois, regardez mieux votre sac avant de partir !
+
+— Promis.
+
+Ils se sont serré la main avant de partir chacun de son côté.
+
+Le lendemain matin, Yassine est monté dans le même bus.
+
+Il s’est assis près de la fenêtre.
+
+Puis il a regardé son sac.
+
+Une fois.
+
+Deux fois.
+
+Et même trois fois.
+
+Le chauffeur l’a reconnu.
+
+— Vous avez peur de prendre encore le mauvais sac ?
+
+Yassine a souri.
+
+— Maintenant, je vérifie toujours.
+
+Le chauffeur a ri.
+
+— C’est une bonne habitude.
+
+Depuis ce jour, Yassine regarde toujours son sac avant de descendre du bus.
+
+Parce qu’il a compris qu’une petite erreur peut facilement créer une grande histoire.
+
+Et surtout, il a appris une chose importante :
+
+quand deux sacs se ressemblent, il vaut mieux vérifier avant de partir.`
+     },{
+      id: 13,
+      date: 13,
 wordef: [
   {
-    mot: "wagon",
-    definition: "A section of a train where passengers sit.",
-    contextExample: "Nous sommes dans le même wagon.",
-    synonyme: "voiture"
+    mot: "anniversaire",
+    definition: "The day when someone celebrates the date they were born.",
+    contextExample: "Samir voulait préparer un gâteau pour l’anniversaire de sa sœur.",
+    synonyme: "fête"
   },
   {
-    mot: "se libérer",
-    definition: "To become available because someone is no longer using a place.",
-    contextExample: "Une place vient de se libérer.",
-    synonyme: "devenir disponible"
+    mot: "doué",
+    definition: "Naturally good at doing something.",
+    contextExample: "Il n’était pas vraiment doué en cuisine.",
+    synonyme: "talentueux"
   },
   {
-    mot: "se mêler",
-    definition: "To get involved in someone else's situation or business.",
-    contextExample: "Ne te mêle pas de cette histoire.",
-    synonyme: "intervenir"
+    mot: "supermarché",
+    definition: "A large shop where people buy food and other everyday products.",
+    contextExample: "Il est allé au supermarché et a acheté tout ce dont il avait besoin.",
+    synonyme: "grande surface"
   },
   {
-    mot: "valise",
-    definition: "A case used for carrying clothes and personal things when travelling.",
-    contextExample: "Ma valise est très lourde.",
-    synonyme: "bagage"
+    mot: "ingrédient",
+    definition: "One of the foods used to prepare a dish or recipe.",
+    contextExample: "Il a posé tous les ingrédients sur la table.",
+    synonyme: "composant"
   },
   {
-    mot: "récupérer",
-    definition: "To get something back after losing or leaving it somewhere.",
-    contextExample: "Je vais récupérer ma valise.",
-    synonyme: "reprendre"
+    mot: "farine",
+    definition: "A white powder made from grains and used to make bread, cakes, and other foods.",
+    contextExample: "Il a ajouté le sucre, la farine et le beurre.",
+    synonyme: "poudre de blé"
   },
   {
-    mot: "sac",
-    definition: "A container used to carry personal things.",
-    contextExample: "Mon sac est sur la table.",
-    synonyme: "bagage"
+    mot: "recette",
+    definition: "Instructions that explain how to prepare a particular dish.",
+    contextExample: "Il a regardé une recette sur son téléphone.",
+    synonyme: "préparation"
   },
   {
-    mot: "se réconcilier",
-    definition: "To become friends again after an argument.",
-    contextExample: "Ils se sont réconciliés hier.",
-    synonyme: "faire la paix"
+    mot: "casser",
+    definition: "To break something into pieces or open it by breaking its shell.",
+    contextExample: "Il a commencé par casser les œufs.",
+    synonyme: "briser"
   },
   {
-    mot: "dispute",
-    definition: "A serious argument between people.",
-    contextExample: "Ils ont eu une dispute.",
-    synonyme: "querelle"
+    mot: "quantité",
+    definition: "The amount of something that you need or have.",
+    contextExample: "Il vérifie toujours les quantités.",
+    synonyme: "dose"
   },
   {
-    mot: "repousser",
-    definition: "To delay doing something until later.",
-    contextExample: "Je ne veux pas repousser le rendez-vous.",
-    synonyme: "reporter"
+    mot: "pâte",
+    definition: "A soft mixture used to make bread, cakes, or other foods.",
+    contextExample: "Après quelques minutes, la pâte était prête.",
+    synonyme: "mélange"
   },
   {
-    mot: "s'asseoir",
-    definition: "To sit down.",
-    contextExample: "Tu peux t'asseoir ici.",
-    synonyme: "prendre place"
+    mot: "moule",
+    definition: "A container with a particular shape used for cooking or baking food.",
+    contextExample: "Il a versé la pâte dans un moule.",
+    synonyme: "récipient"
   },
   {
-    mot: "faire le premier pas",
-    definition: "To be the first person to take action.",
-    contextExample: "Je vais faire le premier pas.",
-    synonyme: "agir en premier"
+    mot: "four",
+    definition: "A kitchen appliance used to cook or bake food.",
+    contextExample: "Samir a mis le gâteau dans le four.",
+    synonyme: "appareil de cuisson"
   },
   {
-    mot: "avoir peur de",
-    definition: "To feel afraid of something.",
-    contextExample: "J'ai peur de parler devant les autres.",
-    synonyme: "craindre"
+    mot: "odeur",
+    definition: "The quality of something that you can notice with your nose.",
+    contextExample: "Il a senti une odeur étrange.",
+    synonyme: "parfum"
   },
   {
-    mot: "se débrouiller",
-    definition: "To manage to do something, even when it is difficult.",
-    contextExample: "Ne t'inquiète pas, je vais me débrouiller.",
-    synonyme: "s'en sortir"
+    mot: "fumée",
+    definition: "The grey or white substance that comes from something burning.",
+    contextExample: "Une petite fumée sortait du four.",
+    synonyme: "vapeur"
   },
   {
-    mot: "rater",
-    definition: "To fail to catch, reach, or do something.",
-    contextExample: "J'ai raté le train.",
-    synonyme: "manquer"
+    mot: "complètement",
+    definition: "In a total or complete way.",
+    contextExample: "Le gâteau était complètement noir.",
+    synonyme: "entièrement"
   },
   {
-    mot: "se rendre compte",
-    definition: "To suddenly understand or notice something.",
-    contextExample: "Je me suis rendu compte de mon erreur.",
-    synonyme: "comprendre"
+    mot: "hésiter",
+    definition: "To pause because you are not sure what to say or do.",
+    contextExample: "Karim a hésité.",
+    synonyme: "douter"
   },
   {
-    mot: "longtemps",
-    definition: "For a long period of time.",
-    contextExample: "Je l'ai attendu longtemps.",
-    synonyme: "durant une longue période"
-  },
-  {
-    mot: "auparavant",
-    definition: "Before the time being discussed.",
-    contextExample: "Je l'avais vu auparavant.",
-    synonyme: "avant"
-  },
-  {
-    mot: "désormais",
-    definition: "From now on; starting from this moment.",
-    contextExample: "Désormais, je ferai attention.",
-    synonyme: "à partir de maintenant"
-  },
-  {
-    mot: "remarquer",
-    definition: "To notice something.",
-    contextExample: "J'ai remarqué son absence.",
+    mot: "surveiller",
+    definition: "To watch something carefully for a period of time.",
+    contextExample: "Ils sont restés dans la cuisine pour surveiller la cuisson.",
     synonyme: "observer"
   },
   {
-    mot: "pourtant",
-    definition: "However; despite what was just said.",
-    contextExample: "Il est fatigué, pourtant il continue.",
-    synonyme: "cependant"
+    mot: "doré",
+    definition: "Having a light brown or golden color, especially after cooking.",
+    contextExample: "Le gâteau était doré et sentait très bon.",
+    synonyme: "bruni"
+  },
+  {
+    mot: "délicieux",
+    definition: "Having a very pleasant and enjoyable taste.",
+    contextExample: "Ils ont goûté le gâteau. Il était délicieux.",
+    synonyme: "savoureux"
+  },
+  {
+    mot: "magnifique",
+    definition: "Very beautiful or impressive.",
+    contextExample: "Elle a regardé le gâteau et a dit : « Il est magnifique ! »",
+    synonyme: "superbe"
+  },
+  {
+    mot: "expérience",
+    definition: "Something that you do in order to learn, test, or discover something.",
+    contextExample: "C’est le premier gâteau. Une expérience scientifique.",
+    synonyme: "essai"
   }
-]
+],
+      txt: `Le voisin et le gâteau
+
+Depuis quelques jours, Samir voulait préparer un gâteau pour l’anniversaire de sa sœur.
+
+Il n’était pas vraiment doué en cuisine, mais il avait décidé de faire un effort.
+
+Le samedi matin, il est allé au supermarché et a acheté tout ce dont il avait besoin : de la farine, des œufs, du sucre, du chocolat et du beurre.
+
+En rentrant chez lui, il a posé tous les ingrédients sur la table.
+
+Il a regardé une recette sur son téléphone.
+
+— Bon… ça ne devrait pas être trop difficile.
+
+Il a commencé par casser les œufs.
+
+Tout allait bien.
+
+Ensuite, il a ajouté le sucre, la farine et le beurre.
+
+Puis il a lu la recette une deuxième fois.
+
+Il fallait ajouter 200 grammes de chocolat.
+
+Samir a regardé le paquet.
+
+Il ne savait pas exactement combien de chocolat il devait utiliser.
+
+— 200 grammes… c’est beaucoup ou pas beaucoup ?
+
+Il a décidé de mettre tout le paquet.
+
+Après quelques minutes, la pâte était prête.
+
+Samir l’a versée dans un moule et a mis le gâteau dans le four.
+
+Il était très fier de lui.
+
+— Cette fois, je vais réussir.
+
+Il s’est installé dans le salon pour regarder une série.
+
+Vingt minutes plus tard, il a senti une odeur étrange.
+
+Il s’est levé rapidement et est allé dans la cuisine.
+
+Une petite fumée sortait du four.
+
+— Oh non !
+
+Il a ouvert le four.
+
+Le gâteau était complètement noir.
+
+Samir a regardé le gâteau en silence.
+
+— Bon… au moins, il est bien cuit.
+
+Il a sorti le gâteau et l’a posé sur la table.
+
+À ce moment-là, quelqu’un a frappé à la porte.
+
+C’était son voisin, Karim.
+
+— Salut Samir ! Ça sent le chocolat dans tout l’immeuble.
+
+Samir a regardé son gâteau.
+
+— Oui… enfin, ça devait sentir le chocolat.
+
+Karim est entré dans la cuisine.
+
+Il a regardé le gâteau.
+
+Puis il a regardé Samir.
+
+— Qu’est-ce que c’est ?
+
+— Un gâteau.
+
+Karim a hésité.
+
+— Tu es sûr ?
+
+Samir a commencé à rire.
+
+— Non.
+
+Les deux hommes ont éclaté de rire.
+
+Karim a proposé de l’aider à préparer un deuxième gâteau.
+
+— Mais cette fois, on suit la recette correctement.
+
+Samir a accepté.
+
+Ils ont préparé une nouvelle pâte.
+
+Karim a vérifié chaque étape.
+
+— Combien de chocolat ?
+
+— 200 grammes.
+
+— Et tu ne mets pas tout le paquet ?
+
+— Non. J’ai compris la leçon.
+
+Cette fois, le gâteau est entré dans le four.
+
+Ils sont restés dans la cuisine pour surveiller la cuisson.
+
+Après trente minutes, Karim a ouvert le four.
+
+Le gâteau était doré et sentait très bon.
+
+Samir a souri.
+
+— Je crois qu’on a réussi.
+
+Karim a pris une assiette.
+
+— On doit quand même le goûter.
+
+Samir a coupé deux morceaux.
+
+Ils ont goûté le gâteau.
+
+Il était délicieux.
+
+— Incroyable ! a dit Samir.
+
+— Tu vois ? Avec un peu d’aide, tout est possible.
+
+Samir a pris une photo du gâteau et l’a envoyée à sa sœur.
+
+Il lui a écrit :
+
+« J’ai préparé ton gâteau moi-même ! »
+
+Quelques secondes plus tard, sa sœur a répondu :
+
+« Vraiment ? Tu l’as acheté où ? »
+
+Samir a regardé Karim.
+
+Ils ont commencé à rire.
+
+— Elle ne croit même pas que je peux faire un gâteau.
+
+Le soir, Samir a donné le gâteau à sa sœur.
+
+Elle était très contente.
+
+— Il est magnifique !
+
+Samir a souri fièrement.
+
+Puis Karim est arrivé avec une petite boîte.
+
+— J’ai apporté quelque chose.
+
+Il a ouvert la boîte.
+
+À l’intérieur, il y avait un morceau du premier gâteau complètement noir.
+
+La sœur de Samir a regardé le morceau.
+
+— C’est quoi ?
+
+Karim a répondu très sérieusement :
+
+— C’est le premier gâteau. Une expérience scientifique.
+
+Tout le monde a éclaté de rire.
+
+Samir a regardé son premier gâteau.
+
+Il était horrible, mais il avait quand même réussi à faire rire toute la famille.
+
+Depuis ce jour, Samir cuisine beaucoup plus souvent.
+
+Mais avant de commencer une recette, il vérifie toujours les quantités.
+
+Et surtout, il ne met plus jamais tout le paquet de chocolat dans un gâteau.
+
+Parce qu’en cuisine, quelques grammes peuvent faire une grande différence.`,
+      
       
      },{
       id: 14,
       date: 14,
-      txt: `La lumière de la fenêtre
+      txt: `Le téléphone dans le frigo
 
-Chaque soir, après son travail, Camille rentrait chez elle par la même rue.
+Depuis quelques jours, Nadia était très occupée au travail. Elle avait beaucoup de choses à faire et pensait souvent à plusieurs problèmes en même temps.
 
-Elle habitait dans un petit appartement au quatrième étage d'un immeuble assez ancien. Son quartier était calme et elle aimait particulièrement le moment où les magasins fermaient et où les rues devenaient plus tranquilles.
+Un mercredi soir, elle est rentrée chez elle avec deux sacs de courses.
 
-Sur le chemin, elle passait toujours devant une grande maison blanche.
+Elle était fatiguée.
 
-La maison était vide depuis plusieurs années.
+Elle a posé ses clés sur la table, a enlevé son manteau et est allée directement dans la cuisine.
 
-Les fenêtres étaient fermées, le jardin n'était plus entretenu et la peinture commençait à partir sur certains murs. Pourtant, une chose attirait toujours l'attention de Camille.
+Elle avait acheté du lait, du fromage, des légumes, des yaourts et une bouteille de jus.
 
-Chaque soir, une petite lumière était allumée derrière une fenêtre du deuxième étage.
+Elle a commencé à ranger les courses.
 
-Au début, elle pensait que quelqu'un vivait encore dans la maison.
+Le fromage dans le réfrigérateur.
 
-Mais un jour, elle a demandé à son voisin.
+Les légumes dans un tiroir.
 
-— Tu sais qui habite dans la maison blanche ?
+Le pain sur la table.
 
-Il a réfléchi.
+Les yaourts dans le réfrigérateur.
 
-— Personne, je crois. Elle est vide depuis longtemps.
+Puis elle a pris son téléphone pour regarder un message.
 
-Camille a trouvé cela étrange.
+Mais son téléphone n’était plus dans sa main.
 
-Le lendemain soir, la lumière était encore là.
+— Où est mon téléphone ?
 
-Puis le soir suivant.
+Elle a regardé sur la table.
 
-Et encore le lendemain.
+Rien.
 
-Elle a commencé à remarquer cette lumière sans même le vouloir.
+Sur le canapé.
 
-Quand elle rentrait chez elle, elle levait les yeux vers la fenêtre.
+Rien.
 
-La lumière était toujours allumée.
+Dans son sac.
 
-Un soir de novembre, il pleuvait beaucoup.
+Rien.
 
-Camille marchait rapidement quand elle a vu quelque chose près de la porte de la maison.
+Elle a commencé à chercher partout.
 
-Une petite enveloppe était posée sur les marches.
+Elle a regardé sous les coussins du canapé, dans sa chambre et même dans la salle de bain.
 
-Elle s'est arrêtée.
+— Je l’avais encore dans ma main il y a deux minutes !
 
-Son nom était écrit dessus.
+Elle a essayé de se souvenir de ce qu’elle avait fait depuis son arrivée.
 
-Camille.
+Elle avait ouvert la porte.
 
-Elle a regardé autour d'elle.
+Elle avait posé ses clés.
 
-Personne.
+Elle avait pris les courses.
 
-Elle a pris l'enveloppe et l'a ouverte.
+Elle avait rangé le fromage.
 
-À l'intérieur, il y avait une petite feuille.
+Puis les légumes.
 
-Une seule phrase était écrite :
+Puis les yaourts.
 
-« Si vous voyez cette lumière, revenez demain à la même heure. »
+Elle s’est arrêtée.
 
-Camille a pensé à une plaisanterie.
+— Attends…
 
-Elle a presque jeté la feuille.
+Elle a ouvert le réfrigérateur.
 
-Mais quelque chose l'a empêchée de le faire.
+Elle a regardé à l’intérieur.
 
-Le lendemain, elle est revenue.
+Il y avait le lait.
 
-À dix-neuf heures précises, elle se trouvait devant la maison.
+Le fromage.
 
-La petite lumière était allumée.
+Les légumes.
 
-Cette fois, une autre enveloppe était posée sur les marches.
+Les yaourts.
 
-Elle portait encore son prénom.
+Et au milieu de tout ça…
 
-Camille l'a ouverte.
+Son téléphone.
 
-Le message était plus long.
+Nadia est restée silencieuse pendant quelques secondes.
 
-La personne expliquait qu'elle avait besoin de parler à quelqu'un, mais qu'elle n'arrivait pas à le faire directement.
+Puis elle a éclaté de rire.
 
-Elle demandait simplement à Camille de revenir le lendemain.
+— Mais pourquoi j’ai mis mon téléphone dans le frigo ?
 
-Camille était perplexe.
+Elle a pris le téléphone.
 
-Elle ne comprenait pas pourquoi une personne qu'elle ne connaissait pas lui écrivait.
+Heureusement, il fonctionnait encore.
 
-Pourtant, elle est revenue le jour suivant.
+Elle a voulu raconter cette histoire à sa sœur.
 
-Puis le suivant.
+Elle a cherché son numéro dans son téléphone.
 
-Chaque soir, une nouvelle lettre l'attendait.
+Mais avant de l’appeler, elle a entendu son téléphone sonner.
 
-Au début, les messages étaient très courts.
+C’était sa sœur.
 
-La personne racontait qu'elle vivait une période difficile.
+— Allô ?
 
-Elle expliquait qu'elle avait perdu son travail et qu'elle avait aussi quitté sa ville après une séparation.
+— Nadia, tu vas bien ?
 
-Elle disait qu'elle ne connaissait presque personne dans le quartier.
+— Oui, pourquoi ?
 
-Camille a commencé à reconnaître certains détails.
+— Je t’appelle depuis dix minutes !
 
-La personne écrivait qu'elle passait beaucoup de temps près de la fenêtre.
+Nadia a regardé son téléphone.
 
-Elle regardait les gens rentrer chez eux.
+Elle avait effectivement dix appels manqués.
 
-Elle voyait les familles sortir du restaurant.
+— Désolée, je ne l’entendais pas.
 
-Elle voyait les enfants rentrer de l'école.
+— Mais où étais-tu ?
 
-Elle avait l'impression que tout le monde avait une vie normale pendant qu'elle ne savait plus quoi faire de la sienne.
+Nadia a regardé le réfrigérateur.
 
-Camille a ressenti quelque chose d'étrange.
+Elle a commencé à rire.
 
-Elle comprenait cette sensation.
+— Mon téléphone était dans le frigo.
 
-Quelques années auparavant, elle aussi avait vécu une période où elle avait eu l'impression d'être seule.
+Un silence.
 
-Elle a donc commencé à répondre.
+Puis sa sœur a répondu :
 
-Elle ne savait pas qui allait lire ses lettres.
+— Quoi ?
 
-Elle écrivait simplement ce qu'elle pensait.
+— Je l’ai mis avec les yaourts.
 
-Elle disait que les mauvaises périodes pouvaient être longues, mais qu'elles ne duraient pas toujours.
+Sa sœur a commencé à rire tellement fort que Nadia a dû éloigner le téléphone de son oreille.
 
-Elle expliquait qu'on pouvait recommencer même après avoir fait des erreurs.
+— Tu es vraiment fatiguée !
 
-Elle racontait aussi de petites choses de sa propre vie.
+— Je crois aussi.
 
-Un jour, elle a écrit :
+Le lendemain matin, Nadia a raconté l’histoire à ses collègues.
 
-« Vous n'avez pas besoin de résoudre toute votre vie aujourd'hui. Commencez seulement par demain. »
+Tout le monde a ri.
 
-Le lendemain, la personne lui a répondu.
+Un collègue lui a demandé :
 
-Elle disait que cette phrase lui avait fait du bien.
+— Et pourquoi tu n’as pas mis ton téléphone dans le placard ?
 
-Puis elle a ajouté quelque chose d'étrange :
+— Parce que je voulais probablement le garder au frais.
 
-« Je vous connais mieux que vous ne le pensez. »
+Tout le monde a encore ri.
 
-Camille a commencé à avoir peur.
+Pendant toute la journée, ses collègues lui ont envoyé des messages avec des photos de téléphones dans des réfrigérateurs.
 
-Elle a demandé comment cette personne connaissait son prénom.
+Nadia recevait une nouvelle photo presque toutes les heures.
 
-Aucune réponse.
+À midi, elle a reçu un message :
 
-Le soir suivant, une nouvelle lettre l'attendait.
+« Attention, Nadia. N’oublie pas ton dessert dans ton téléphone ! »
 
-Cette fois, la personne expliquait qu'elle connaissait Camille parce qu'elle la voyait passer chaque soir devant la maison.
+Elle a répondu :
 
-Elle savait qu'elle rentrait toujours vers la même heure.
+« Très drôle. »
 
-Elle savait aussi qu'elle regardait parfois la fenêtre.
+Le soir, elle est rentrée chez elle.
 
-Camille a trouvé cela inquiétant.
+Elle a posé son téléphone sur la table.
 
-Elle a décidé de ne plus revenir.
+Elle a regardé le réfrigérateur.
 
-Pendant deux jours, elle a pris une autre rue pour rentrer chez elle.
+Puis elle a regardé son téléphone.
 
-Elle ne voulait plus voir la maison.
+— Non. Aujourd’hui, tu restes ici.
 
-Mais le troisième soir, elle a trouvé une enveloppe devant son appartement.
+Elle a commencé à préparer le dîner.
 
-Son cœur s'est mis à battre rapidement.
+Quelques minutes plus tard, elle a ouvert le réfrigérateur pour prendre du fromage.
 
-Elle l'a ouverte.
+Elle a trouvé une petite boîte à l’intérieur.
 
-La personne lui expliquait qu'elle était désolée de lui avoir fait peur.
+Elle l’a prise.
 
-Elle ne voulait pas lui faire de mal.
+Puis elle a refermé la porte.
 
-Elle voulait seulement remercier Camille parce que ses lettres l'avaient aidée.
+Elle a regardé la boîte.
 
-Puis elle lui demandait de venir une dernière fois devant la maison.
+C’était une boîte de biscuits.
 
-Camille a hésité longtemps.
+Nadia a réfléchi.
 
-Finalement, elle y est allée.
+— Pourquoi j’ai mis les biscuits dans le frigo ?
 
-La porte de la maison était ouverte.
+Elle a commencé à rire toute seule.
 
-Elle est entrée.
+Puis elle a compris.
 
-À l'intérieur, tout était sombre.
+La veille, elle avait laissé la boîte sur la table.
 
-Sur les murs, il y avait de vieilles photographies.
+Son téléphone était dans sa main.
 
-Camille avançait lentement.
+Elle avait simplement inversé les deux objets.
 
-Elle a monté les escaliers.
+Elle a posé les biscuits sur la table.
 
-La lumière était toujours allumée au deuxième étage.
+Puis elle a regardé son téléphone.
 
-Elle a ouvert la porte.
+— Bon… demain, je vais essayer de ne rien mettre dans le frigo.
 
-Une femme était assise près de la fenêtre.
+Elle a réfléchi quelques secondes.
 
-Camille l'avait déjà vue.
+— Enfin… sauf les aliments.
 
-C'était la femme qui travaillait dans la petite boulangerie du quartier.
+Depuis cette histoire, Nadia fait toujours attention quand elle rentre chez elle.
 
-Camille achetait parfois son pain chez elle.
+Elle pose d’abord son téléphone sur la table.
 
-La femme s'est levée.
+Ensuite, elle range les courses.
 
-— Je suis désolée, a-t-elle dit.
+Et surtout, elle vérifie toujours le réfrigérateur avant de fermer la porte.
 
-Camille ne savait pas quoi répondre.
+Parce qu’avec la fatigue, même les choses les plus simples peuvent devenir très compliquées.
 
-La femme lui a expliqué que la maison appartenait à sa famille.
-
-Elle y avait vécu lorsqu'elle était enfant.
-
-Après la mort de ses parents, elle avait quitté la maison.
-
-Mais après avoir perdu son travail et s'être séparée de son compagnon, elle était revenue ici.
-
-Elle avait passé plusieurs semaines seule dans la maison.
-
-Elle ne voulait parler à personne.
-
-Puis elle avait commencé à voir Camille passer chaque soir.
-
-Elle avait remarqué que Camille s'arrêtait parfois devant les magasins, regardait les lumières des appartements et continuait son chemin.
-
-Elle avait alors eu une idée.
-
-Elle voulait simplement savoir si quelqu'un accepterait de lui parler sans la connaître.
-
-Camille a compris pourquoi elle avait utilisé les lettres.
-
-Elle avait peur de parler directement.
-
-— Pourquoi moi ? a demandé Camille.
-
-La femme a souri.
-
-— Parce que vous aviez l'air de regarder autour de vous.
-
-Camille a ri.
-
-— C'est une drôle de raison.
-
-— Peut-être. Mais parfois, une petite chose suffit.
-
-Elles ont parlé pendant longtemps.
-
-La femme s'appelait Sarah.
-
-Elle avait trente-deux ans.
-
-Elle a expliqué qu'elle voulait retrouver un travail, mais qu'elle ne savait pas par où commencer.
-
-Camille lui a parlé d'une entreprise qui cherchait des employés.
-
-Elle ne savait pas si Sarah serait acceptée, mais elle lui a proposé de l'aider à préparer son dossier.
-
-Les semaines suivantes, elles se sont revues régulièrement.
-
-Sarah a trouvé un travail dans une petite entreprise du quartier.
-
-Elle a commencé à sortir davantage.
-
-Elle a même repris contact avec une amie qu'elle n'avait pas vue depuis plusieurs années.
-
-La maison blanche a aussi changé.
-
-Les fenêtres ont été nettoyées.
-
-Le jardin a retrouvé des fleurs.
-
-La peinture a été réparée.
-
-Et chaque soir, la petite lumière était toujours allumée.
-
-Mais maintenant, Camille savait pourquoi.
-
-Un soir, plusieurs mois plus tard, elle est passée devant la maison.
-
-Sarah était à la fenêtre.
-
-Elle lui a fait un signe de la main.
-
-Camille a souri et a continué son chemin.
-
-Elle a pensé à toutes les personnes qu'elle croisait chaque jour sans vraiment les connaître.
-
-Dans un immeuble, une lumière pouvait être allumée parce qu'une personne travaillait tard.
-
-Dans un autre, quelqu'un pouvait être en train de préparer un dîner pour sa famille.
-
-Et derrière une autre fenêtre, une personne pouvait simplement attendre que quelqu'un lui parle.
-
-Camille a compris qu'on ne savait jamais ce que les autres vivaient.
-
-Une personne pouvait sourire dans la rue et se sentir très seule quelques minutes plus tard.
-
-Une autre pouvait sembler heureuse alors qu'elle avait besoin d'aide.
-
-Depuis ce jour, Camille a commencé à faire plus attention aux personnes autour d'elle.
-
-Elle disait bonjour au voisin qu'elle ne connaissait presque pas.
-
-Elle parlait quelques minutes avec la dame de la boulangerie.
-
-Elle demandait parfois à ses collègues comment ils allaient vraiment.
-
-Ce n'était pas grand-chose.
-
-Mais elle avait compris une chose :
-
-parfois, une petite lumière suffit pour montrer à quelqu'un qu'il n'est pas complètement seul.`,
+Et parfois, il suffit d’un petit moment d’inattention pour mettre son téléphone à côté des yaourts.`,
 wordef: [
-  { mot: "écaillée", definition: "With small pieces of paint coming off.", contextExample: "La peinture de la porte est écaillée.", synonyme: "abîmée" },
-  { mot: "entourait", definition: "Was around something.", contextExample: "Un petit jardin entourait la maison.", synonyme: "encerclait" },
-  { mot: "enveloppe", definition: "A paper cover used for a letter.", contextExample: "J'ai mis la lettre dans une enveloppe.", synonyme: "pochette" },
-  { mot: "marches", definition: "The steps leading up to a door or building.", contextExample: "Elle s'est assise sur les marches.", synonyme: "escaliers" },
-  { mot: "plaisanterie", definition: "Something said or done to make people laugh or to joke.", contextExample: "Ce n'était qu'une plaisanterie.", synonyme: "blague" },
-  { mot: "empêchée", definition: "Stopped someone from doing something.", contextExample: "La pluie l'a empêchée de sortir.", synonyme: "bloquée" },
-  { mot: "perplexe", definition: "Confused because you do not understand something.", contextExample: "Il était perplexe devant cette situation.", synonyme: "confus" },
-  { mot: "sensation", definition: "A feeling that you experience.", contextExample: "J'ai eu une étrange sensation.", synonyme: "impression" },
-  { mot: "durée", definition: "The amount of time that something continues.", contextExample: "La durée du film est de deux heures.", synonyme: "longueur" },
-  { mot: "résoudre", definition: "To find a solution to a problem.", contextExample: "Nous devons résoudre ce problème.", synonyme: "régler" },
-  { mot: "inquiétant", definition: "Making you feel worried or afraid.", contextExample: "Ce bruit est vraiment inquiétant.", synonyme: "préoccupant" },
-  { mot: "désolée", definition: "Sorry; feeling bad about something you have done.", contextExample: "Je suis désolée pour mon retard.", synonyme: "navrée" },
-  { mot: "appartenait", definition: "Was owned by someone.", contextExample: "Cette maison appartenait à mon grand-père.", synonyme: "était à" },
-  { mot: "compagnon", definition: "A person with whom someone has a romantic relationship.", contextExample: "Elle est venue avec son compagnon.", synonyme: "partenaire" },
-  { mot: "dossier", definition: "A collection of documents prepared for a particular purpose.", contextExample: "J'ai préparé mon dossier pour l'inscription.", synonyme: "document" },
-  { mot: "reprendre contact", definition: "To start communicating with someone again.", contextExample: "Je voudrais reprendre contact avec elle.", synonyme: "recontacter" },
-  { mot: "croiser", definition: "To meet or pass someone while going somewhere.", contextExample: "J'ai croisé Paul dans la rue.", synonyme: "rencontrer" },
-  { mot: "se sentir seul", definition: "To feel that you have nobody close to you.", contextExample: "Il se sent seul dans cette nouvelle ville.", synonyme: "se sentir isolé" },
-  { mot: "faire attention", definition: "To notice something or be careful about it.", contextExample: "Il faut faire attention aux voitures.", synonyme: "être prudent" },
-  { mot: "complètement", definition: "Totally; entirely.", contextExample: "J'ai complètement oublié son nom.", synonyme: "entièrement" }
+  {
+    mot: "occupé",
+    definition: "Having a lot of things to do and not having much free time.",
+    contextExample: "Depuis quelques jours, Nadia était très occupée au travail.",
+    synonyme: "débordé"
+  },
+  {
+    mot: "course",
+    definition: "Food or other products bought from a shop or supermarket.",
+    contextExample: "Elle est rentrée chez elle avec deux sacs de courses.",
+    synonyme: "achat"
+  },
+  {
+    mot: "réfrigérateur",
+    definition: "An electrical appliance used to keep food and drinks cold.",
+    contextExample: "Les yaourts dans le réfrigérateur.",
+    synonyme: "frigo"
+  },
+  {
+    mot: "tiroir",
+    definition: "A part of a piece of furniture that you can pull out to put things inside.",
+    contextExample: "Les légumes dans un tiroir.",
+    synonyme: "compartiment"
+  },
+  {
+    mot: "message",
+    definition: "A short piece of information sent to someone by phone or another way.",
+    contextExample: "Puis elle a pris son téléphone pour regarder un message.",
+    synonyme: "note"
+  },
+  {
+    mot: "coussin",
+    definition: "A soft object used on a sofa or chair to make it more comfortable.",
+    contextExample: "Elle a regardé sous les coussins du canapé.",
+    synonyme: "oreiller"
+  },
+  {
+    mot: "se souvenir",
+    definition: "To remember something that happened before.",
+    contextExample: "Elle a essayé de se souvenir de ce qu’elle avait fait depuis son arrivée.",
+    synonyme: "rappeler"
+  },
+  {
+    mot: "arrivée",
+    definition: "The moment when someone reaches a place.",
+    contextExample: "Elle avait posé ses clés depuis son arrivée.",
+    synonyme: "venue"
+  },
+  {
+    mot: "s’arrêter",
+    definition: "To stop moving or stop doing something.",
+    contextExample: "Elle s’est arrêtée.",
+    synonyme: "cesser"
+  },
+  {
+    mot: "éclater de rire",
+    definition: "To suddenly start laughing a lot.",
+    contextExample: "Puis elle a éclaté de rire.",
+    synonyme: "rire"
+  },
+  {
+    mot: "fonctionner",
+    definition: "To work correctly as expected.",
+    contextExample: "Heureusement, il fonctionnait encore.",
+    synonyme: "marcher"
+  },
+  {
+    mot: "effectivement",
+    definition: "In fact; used to confirm that something is true.",
+    contextExample: "Elle avait effectivement dix appels manqués.",
+    synonyme: "réellement"
+  },
+  {
+    mot: "appel manqué",
+    definition: "A phone call that you did not answer.",
+    contextExample: "Elle avait effectivement dix appels manqués.",
+    synonyme: "appel absent"
+  },
+  {
+    mot: "tellement",
+    definition: "To such a great degree or amount.",
+    contextExample: "Sa sœur a commencé à rire tellement fort.",
+    synonyme: "beaucoup"
+  },
+  {
+    mot: "éloigner",
+    definition: "To move something or someone farther away.",
+    contextExample: "Nadia a dû éloigner le téléphone de son oreille.",
+    synonyme: "écarter"
+  },
+  {
+    mot: "collègue",
+    definition: "A person who works with you.",
+    contextExample: "Nadia a raconté l’histoire à ses collègues.",
+    synonyme: "compagnon de travail"
+  },
+  {
+    mot: "inverser",
+    definition: "To put two things in the opposite order or position.",
+    contextExample: "Elle avait simplement inversé les deux objets.",
+    synonyme: "échanger"
+  },
+  {
+    mot: "inattention",
+    definition: "A moment when you are not paying enough attention.",
+    contextExample: "Il suffit d’un petit moment d’inattention.",
+    synonyme: "distraction"
+  },
+  {
+    mot: "fatigue",
+    definition: "A feeling of having little energy and needing to rest.",
+    contextExample: "Avec la fatigue, même les choses les plus simples peuvent devenir compliquées.",
+    synonyme: "épuisement"
+  },
+  {
+    mot: "compliqué",
+    definition: "Difficult to understand, do, or manage.",
+    contextExample: "Avec la fatigue, même les choses les plus simples peuvent devenir très compliquées.",
+    synonyme: "difficile"
+  }
 ]
      },{
       id: 15,
       date: 15,
-      txt: `Le café du matin
+      txt: `Le mauvais rendez-vous
 
-Chaque matin, avant d'aller travailler, Julien s'arrêtait dans un petit café près de la gare.
+Depuis plusieurs jours, Thomas attendait avec impatience le samedi.
 
-Il commandait toujours la même chose : un café et un croissant.
+Il avait prévu de rencontrer une ancienne amie qu’il n’avait pas vue depuis longtemps. Ils avaient décidé de prendre un café dans un petit restaurant du centre-ville.
 
-Le café était petit, mais agréable. Il y avait six tables, quelques plantes près des fenêtres et une vieille horloge au-dessus du comptoir. Le propriétaire connaissait presque tous ses clients.
+Le samedi après-midi, Thomas s’est préparé tranquillement.
 
-Julien, lui, ne parlait pas beaucoup.
+Il a mis une chemise, s’est coiffé et a vérifié son téléphone.
 
-Il travaillait dans un bureau à quelques rues de là. Il venait au café pour être tranquille avant de commencer sa journée.
+Il avait reçu un message :
 
-Un matin, alors qu'il attendait son café, il a remarqué une femme assise seule près de la fenêtre.
+« Je serai au Café Central à 16 heures. Je porterai une veste rouge. »
 
-Elle avait devant elle un carnet ouvert, mais elle n'écrivait rien.
+Thomas a répondu :
 
-Elle regardait simplement les personnes qui entraient et sortaient du café.
+« D’accord, à tout à l’heure ! »
 
-Julien ne lui avait jamais parlé.
+À 15 h 50, il est arrivé devant le café.
 
-Pourtant, pendant plusieurs jours, il l'a revue à la même table.
+Il y avait beaucoup de monde.
 
-Toujours à huit heures.
+Thomas est entré et a regardé autour de lui.
 
-Toujours avec le même carnet.
+Puis il a aperçu une femme avec une veste rouge.
 
-Un vendredi matin, le serveur lui a apporté son café.
+Elle était assise seule près de la fenêtre.
 
-— Vous connaissez la dame près de la fenêtre ?
+Thomas a souri.
 
-Julien a regardé la femme.
+— Ça doit être elle.
 
-— Non. Pourquoi ?
+Il s’est approché.
 
-Le serveur a souri.
+— Bonjour !
 
-— Parce qu'elle vient ici depuis trois semaines et qu'elle ne commande jamais rien.
+La femme a levé les yeux.
 
-Julien a été surpris.
+— Bonjour…
 
-— Jamais ?
+Thomas s’est assis en face d’elle.
 
-— Elle demande seulement un verre d'eau.
+— Ça fait vraiment longtemps !
 
-Julien a trouvé cela étrange, mais il n'a rien dit.
+La femme semblait un peu confuse.
 
-Le lundi suivant, la femme était encore là.
+— Oui… très longtemps.
 
-Cette fois, son carnet était fermé.
+Thomas a commencé à parler.
 
-Elle regardait la pluie tomber derrière la fenêtre.
+— Alors, comment va ta famille ?
 
-Julien s'est assis à la table voisine.
+La femme a hésité.
 
-Après quelques minutes, il lui a demandé :
+— Ma famille ?
 
-— Vous attendez quelqu'un ?
+— Oui.
 
-Elle a levé les yeux.
+Elle a regardé Thomas avec un air étrange.
 
-— Non.
+— Excuse-moi, mais… on se connaît ?
 
-Puis elle a souri.
+Thomas a arrêté de sourire.
 
-— Je cherche simplement une idée.
+— Bien sûr !
 
-Julien a ri.
+La femme a regardé autour d’elle.
 
-— Une idée pour quoi ?
+— Je suis désolée, mais je ne pense pas.
 
-Elle lui a expliqué qu'elle voulait écrire un livre.
+Thomas a pris son téléphone.
 
-Elle avait commencé plusieurs fois, mais elle ne savait jamais comment continuer.
+Il a regardé le message.
 
-— Alors vous venez ici pour chercher l'inspiration ?
+Puis il a regardé la femme.
+
+Elle portait bien une veste rouge.
+
+— Tu es Sophie, non ?
+
+La femme a commencé à rire.
+
+— Non. Je m’appelle Claire.
+
+Thomas est devenu tout rouge.
+
+— Ah…
+
+Claire a souri.
+
+— Mais alors, qui attendez-vous ?
+
+Thomas lui a montré son téléphone.
+
+— Une amie. Elle s’appelle Sophie. Elle m’a dit qu’elle porterait une veste rouge.
+
+Claire a regardé sa propre veste.
+
+— Apparemment, je ne suis pas la seule femme avec une veste rouge aujourd’hui.
+
+Thomas a commencé à rire.
+
+— Je suis vraiment désolé.
+
+— Ce n’est pas grave. Vous avez l’air gentil.
+
+Thomas s’est levé.
+
+— Je vais chercher Sophie.
+
+Il a regardé dans tout le café.
+
+Une femme avec une veste rouge était assise au fond de la salle.
+
+Thomas s’est approché.
+
+— Sophie ?
+
+La femme s’est retournée.
+
+— Thomas !
+
+— Enfin !
+
+Ils ont commencé à rire.
+
+Thomas lui a raconté son erreur.
+
+Sophie a regardé Claire, qui était toujours près de la fenêtre.
+
+— Tu as vraiment parlé à cette femme pendant cinq minutes ?
+
+— Oui.
+
+— Et tu lui as demandé comment allait sa famille ?
+
+Thomas a baissé la tête.
+
+— Oui.
+
+Sophie a éclaté de rire.
+
+— Je suis désolée, mais c’est incroyable !
+
+Ils se sont installés à une table.
+
+Quelques minutes plus tard, Claire est passée devant eux pour partir.
+
+Elle a souri à Thomas.
+
+— J’espère que votre vrai rendez-vous se passe mieux.
+
+Thomas a répondu :
+
+— Merci. Et cette fois, je suis sûr d’avoir la bonne personne.
+
+Claire a continué son chemin.
+
+Mais après quelques secondes, elle est revenue.
+
+— Excusez-moi…
+
+Thomas a levé les yeux.
+
+— Oui ?
+
+Claire a montré sa chaise.
+
+— J’ai oublié mon téléphone.
+
+Thomas a regardé la chaise.
+
+Il y avait effectivement un téléphone dessus.
+
+Il le lui a donné.
+
+— Voilà.
+
+Claire a souri.
+
+— Merci. Décidément, aujourd’hui, nous n’arrêtons pas de nous rencontrer.
+
+Thomas a ri.
+
+— Oui, mais maintenant, je vais vérifier votre nom avant de vous parler.
+
+Claire a répondu :
+
+— Bonne idée.
+
+Elle est partie.
+
+Sophie regardait Thomas en souriant.
+
+— Tu sais quoi ?
+
+— Quoi ?
+
+— Je pense que tu viens de te faire une nouvelle amie.
+
+Thomas a réfléchi.
 
 — Peut-être.
 
-Julien a trouvé cette réponse amusante.
+Puis il a regardé la porte du café.
 
-— Et ça marche ?
+— Mais demain, je vais acheter une veste d’une autre couleur.
 
-Elle a secoué la tête.
+Sophie a éclaté de rire.
 
-— Pas vraiment.
+— Pourquoi ?
 
-Ils ont commencé à parler.
+— Pour être sûr que personne ne me confonde avec quelqu’un d’autre.
 
-La femme s'appelait Émilie.
+Ils ont passé l’après-midi à discuter et à rire de cette histoire.
 
-Elle avait travaillé comme journaliste pendant plusieurs années, mais elle avait arrêté son travail pour écrire son propre livre.
+Quelques jours plus tard, Thomas a reçu un message de Sophie.
 
-Le problème était qu'elle avait beaucoup d'idées, mais aucune histoire complète.
+« Devine quoi ? »
 
-Julien lui a demandé ce qu'elle voulait raconter.
+Thomas a répondu :
 
-Émilie a réfléchi.
+« Quoi ? »
 
-— Une histoire sur les personnes que l'on voit tous les jours sans vraiment les connaître.
+« Claire travaille dans le même immeuble que moi. »
 
-Julien a regardé autour de lui.
+Thomas a répondu :
 
-Il y avait un homme qui lisait son journal.
+« Non… tu plaisantes ! »
 
-Une mère préparait le petit déjeuner de son fils.
+Sophie :
 
-Un étudiant regardait son téléphone.
+« Non. Elle m’a raconté toute l’histoire. »
 
-Le serveur courait d'une table à l'autre.
+Thomas a posé son téléphone et a commencé à rire.
 
-— Alors vous avez choisi le bon endroit, a dit Julien.
+Depuis ce jour, il fait toujours très attention avant de reconnaître quelqu’un dans un endroit public.
 
-Émilie a souri.
+Parce qu’une veste rouge peut sembler être un détail sans importance.
 
-À partir de ce jour, ils ont commencé à parler régulièrement.
-
-Julien lui racontait parfois des choses sur les clients du café.
-
-Il connaissait certaines de leurs habitudes.
-
-L'homme au journal venait toujours à la même heure.
-
-La mère du petit garçon travaillait dans un hôtel.
-
-L'étudiant préparait un examen depuis plusieurs mois.
-
-Le serveur rêvait d'ouvrir son propre restaurant.
-
-Émilie notait tout dans son carnet.
-
-Elle ne notait pas les noms.
-
-Elle écrivait seulement quelques détails.
-
-Un jour, Julien lui a demandé pourquoi elle faisait cela.
-
-— Parce qu'une personne peut sembler ordinaire, mais avoir une vie très intéressante.
-
-Cette phrase lui est restée dans la tête.
-
-Quelques jours plus tard, Julien est arrivé au café plus tôt que d'habitude.
-
-Il a remarqué que l'homme au journal était assis seul.
-
-Il avait l'air triste.
-
-Julien lui a demandé si tout allait bien.
-
-L'homme a répondu qu'il venait de perdre son frère.
-
-Julien ne savait pas quoi dire.
-
-Il s'est simplement assis quelques minutes avec lui.
-
-Plus tard, il a raconté cette rencontre à Émilie.
-
-Elle n'a rien écrit.
-
-Elle a seulement fermé son carnet.
-
-— Tu vois ? a-t-elle dit. C'est exactement ce que je cherche.
-
-Julien a compris.
-
-Ce n'était pas seulement une histoire qu'elle voulait écrire.
-
-Elle voulait comprendre les gens.
-
-Elle voulait savoir ce qui se cachait derrière les habitudes, les sourires et les silences.
-
-Les semaines ont passé.
-
-Émilie venait toujours au café.
-
-Mais maintenant, elle écrivait beaucoup.
-
-Elle avait enfin trouvé son histoire.
-
-Un matin, elle n'était pas là.
-
-Le lendemain non plus.
-
-Julien a commencé à se demander si elle avait abandonné son projet.
-
-Après une semaine, le serveur lui a donné une enveloppe.
-
-— C'est pour toi.
-
-Julien l'a ouverte.
-
-À l'intérieur, il y avait une lettre.
-
-Émilie expliquait qu'elle avait terminé son premier chapitre.
-
-Elle avait décidé de partir quelques jours dans une autre ville pour écrire tranquillement.
-
-Avant de partir, elle voulait remercier Julien.
-
-Elle disait qu'au début, elle pensait avoir besoin d'un endroit spécial pour trouver une bonne histoire.
-
-Finalement, elle avait compris que les histoires étaient partout.
-
-Il suffisait de regarder.
-
-Quelques mois plus tard, Julien a reçu une nouvelle lettre.
-
-Émilie avait terminé son livre.
-
-Elle lui envoyait un exemplaire.
-
-Sur la première page, elle avait écrit :
-
-« À Julien, qui m'a appris qu'une conversation ordinaire peut parfois changer une histoire. »
-
-Julien a souri.
-
-Il a rangé le livre dans son sac et est allé travailler.
-
-Le lendemain matin, il est retourné au café comme toujours.
-
-Mais quelque chose avait changé.
-
-Il regardait maintenant les personnes autour de lui avec plus d'attention.
-
-Il se demandait ce que vivait l'homme assis près de la porte.
-
-Il se demandait pourquoi la femme au manteau bleu souriait toute seule.
-
-Il se demandait quelle histoire se cachait derrière le silence de l'étudiant.
-
-Puis il a compris quelque chose.
-
-Nous passons chaque jour devant des dizaines de personnes.
-
-Nous connaissons leurs visages.
-
-Nous reconnaissons leurs habitudes.
-
-Mais nous ne savons presque jamais ce qu'elles vivent vraiment.
-
-Et parfois, il suffit d'un simple « bonjour » pour découvrir une histoire que personne ne connaissait.`,
+Mais parfois, un petit détail peut complètement changer une rencontre.`,
 wordef: [
-  { mot: "comptoir", definition: "The long surface in a café where food and drinks are served.", contextExample: "Il est assis au comptoir.", synonyme: "bar" },
-  { mot: "serveur", definition: "A person who brings food and drinks to customers.", contextExample: "Le serveur apporte le café.", synonyme: "garçon de café" },
-  { mot: "habitudes", definition: "Things that someone does regularly.", contextExample: "J'ai de bonnes habitudes.", synonyme: "routines" },
-  { mot: "rêver de", definition: "To strongly want to do or have something.", contextExample: "Je rêve de voyager.", synonyme: "désirer" },
-  { mot: "se cacher", definition: "To be somewhere where you cannot easily be seen.", contextExample: "Le chat se cache sous le lit.", synonyme: "se dissimuler" },
-  { mot: "abandonner", definition: "To stop doing something that you started.", contextExample: "Il ne faut pas abandonner.", synonyme: "renoncer" },
-  { mot: "se rendre compte", definition: "To suddenly understand or realize something.", contextExample: "Je me rends compte de mon erreur.", synonyme: "réaliser" },
-  { mot: "remarquer", definition: "To notice something.", contextExample: "J'ai remarqué un changement.", synonyme: "observer" },
-  { mot: "se demander", definition: "To wonder about something.", contextExample: "Je me demande où il est.", synonyme: "s'interroger" },
-  { mot: "derrière", definition: "At the back of something or on the other side of it.", contextExample: "Le sac est derrière la porte.", synonyme: "à l'arrière de" },
-  { mot: "silence", definition: "A period when nobody is speaking.", contextExample: "Il y a un grand silence.", synonyme: "calme" },
-  { mot: "s'arrêter", definition: "To stop moving or stop doing something.", contextExample: "La voiture s'arrête.", synonyme: "cesser" },
-  { mot: "faire attention", definition: "To watch carefully or notice something.", contextExample: "Fais attention à la voiture.", synonyme: "être prudent" },
-  { mot: "se cacher derrière", definition: "To be hidden behind something.", contextExample: "Il se cache derrière la porte.", synonyme: "se dissimuler derrière" },
-  { mot: "pourtant", definition: "Used to say that something is surprising or different from what was expected.", contextExample: "Il est fatigué, pourtant il travaille.", synonyme: "cependant" },
-  { mot: "au début", definition: "At the beginning.", contextExample: "Au début, j'étais inquiet.", synonyme: "au commencement" },
-  { mot: "finalement", definition: "After everything has happened; in the end.", contextExample: "Finalement, il est venu.", synonyme: "en fin de compte" },
-  { mot: "partout", definition: "In every place or in many places.", contextExample: "J'ai cherché partout.", synonyme: "en tous lieux" },
-  { mot: "se retrouver", definition: "To meet or find yourself in a particular situation or place.", contextExample: "Nous nous retrouvons au café.", synonyme: "se réunir" },
-  { mot: "ce qui se cache", definition: "Something that is hidden or not immediately visible.", contextExample: "Je veux savoir ce qui se cache derrière la porte.", synonyme: "ce qui est caché" }
+  {
+    mot: "impatience",
+    definition: "A strong feeling of wanting something to happen soon.",
+    contextExample: "Depuis plusieurs jours, Thomas attendait avec impatience le samedi.",
+    synonyme: "hâte"
+  },
+  {
+    mot: "prévoir",
+    definition: "To decide or plan to do something in the future.",
+    contextExample: "Il avait prévu de rencontrer une ancienne amie.",
+    synonyme: "planifier"
+  },
+  {
+    mot: "ancienne",
+    definition: "Someone or something that existed or was known a long time ago.",
+    contextExample: "Il avait prévu de rencontrer une ancienne amie.",
+    synonyme: "d’autrefois"
+  },
+  {
+    mot: "rendez-vous",
+    definition: "An arranged meeting with someone at a particular time and place.",
+    contextExample: "Ils avaient décidé de prendre un café dans un petit restaurant du centre-ville.",
+    synonyme: "rencontre"
+  },
+  {
+    mot: "tranquillement",
+    definition: "In a calm and relaxed way, without rushing.",
+    contextExample: "Le samedi après-midi, Thomas s’est préparé tranquillement.",
+    synonyme: "calmement"
+  },
+  {
+    mot: "apercevoir",
+    definition: "To see someone or something for a short moment or from a distance.",
+    contextExample: "Puis il a aperçu une femme avec une veste rouge.",
+    synonyme: "voir"
+  },
+  {
+    mot: "confus",
+    definition: "Unable to understand clearly what is happening.",
+    contextExample: "La femme semblait un peu confuse.",
+    synonyme: "perdu"
+  },
+  {
+    mot: "hésiter",
+    definition: "To pause because you are not sure what to say or do.",
+    contextExample: "La femme a hésité.",
+    synonyme: "douter"
+  },
+  {
+    mot: "étrange",
+    definition: "Unusual or different in a way that seems surprising.",
+    contextExample: "Elle a regardé Thomas avec un air étrange.",
+    synonyme: "bizarre"
+  },
+  {
+    mot: "apparemment",
+    definition: "According to what you can see or understand.",
+    contextExample: "Apparemment, je ne suis pas la seule femme avec une veste rouge aujourd’hui.",
+    synonyme: "visiblement"
+  },
+  {
+    mot: "apercevoir",
+    definition: "To notice or see someone or something briefly.",
+    contextExample: "Il a aperçu une femme avec une veste rouge.",
+    synonyme: "remarquer"
+  },
+  {
+    mot: "s’approcher",
+    definition: "To move closer to someone or something.",
+    contextExample: "Thomas s’est approché.",
+    synonyme: "avancer"
+  },
+  {
+    mot: "confondre",
+    definition: "To think that one person or thing is another because they look similar.",
+    contextExample: "Pour être sûr que personne ne me confonde avec quelqu’un d’autre.",
+    synonyme: "mélanger"
+  },
+  {
+    mot: "continuer",
+    definition: "To keep doing something or keep moving without stopping.",
+    contextExample: "Claire a continué son chemin.",
+    synonyme: "poursuivre"
+  },
+  {
+    mot: "décidément",
+    definition: "Used to express surprise about something that keeps happening.",
+    contextExample: "Décidément, aujourd’hui, nous n’arrêtons pas de nous rencontrer.",
+    synonyme: "vraiment"
+  },
+  {
+    mot: "reconnaître",
+    definition: "To know who someone is because you have seen or met them before.",
+    contextExample: "Il fait toujours très attention avant de reconnaître quelqu’un.",
+    synonyme: "identifier"
+  },
+  {
+    mot: "rencontre",
+    definition: "A situation in which you meet someone, often unexpectedly.",
+    contextExample: "Un petit détail peut complètement changer une rencontre.",
+    synonyme: "réunion"
+  },
+  {
+    mot: "détail",
+    definition: "A small part or piece of information about something.",
+    contextExample: "Une veste rouge peut sembler être un détail sans importance.",
+    synonyme: "élément"
+  },
+  {
+    mot: "importance",
+    definition: "The quality of being important or having a significant effect.",
+    contextExample: "Une veste rouge peut sembler être un détail sans importance.",
+    synonyme: "valeur"
+  },
+  {
+    mot: "complètement",
+    definition: "In a total or complete way.",
+    contextExample: "Un petit détail peut complètement changer une rencontre.",
+    synonyme: "entièrement"
+  }
 ]
 
      },{
       id: 16,
       date: 16,
-      txt: `Le dernier bus
+      txt: `Le chien qui prenait le bus
 
-Tous les soirs, après son travail, Mehdi prenait le même bus pour rentrer chez lui.
+Depuis plusieurs semaines, les habitants d’un petit quartier remarquaient quelque chose d’étrange.
 
-Le trajet durait environ trente minutes. Il connaissait presque chaque arrêt et reconnaissait certains passagers qu'il voyait régulièrement.
+Chaque matin, vers huit heures, un chien noir et blanc arrivait seul à l’arrêt de bus.
 
-Il y avait une femme qui montait toujours avec un grand sac de courses, un étudiant qui lisait pendant tout le trajet et un homme âgé qui s'installait près de la porte.
+Il s’asseyait près du panneau et attendait tranquillement.
 
-Mehdi ne parlait presque jamais avec eux.
+Au début, personne ne faisait vraiment attention à lui.
 
-Il travaillait dans une petite librairie du centre-ville. Il aimait son travail, mais les journées étaient longues. Quand il montait dans le bus, il avait surtout envie de rentrer chez lui.
+Les gens pensaient simplement qu’il attendait son propriétaire.
 
-Un jeudi soir, il pleuvait beaucoup.
+Mais un jour, une femme a remarqué quelque chose.
 
-Mehdi est monté dans le bus comme d'habitude.
+Quand le bus est arrivé, le chien s’est levé et a attendu que les passagers montent.
 
-Il restait seulement quelques places.
+Puis il est monté lui aussi.
 
-Il s'est assis près de la fenêtre et a regardé la pluie.
+La femme a ouvert de grands yeux.
 
-Au bout de quelques minutes, il a remarqué une petite fille assise seule deux rangées devant lui.
+— Mais… il prend vraiment le bus ?
 
-Elle avait un manteau jaune et tenait un sac à dos contre elle.
+Le chauffeur connaissait déjà le chien.
 
-Elle regardait régulièrement par la fenêtre.
+— Oui, il vient presque tous les jours.
 
-Quand le bus est arrivé à son arrêt, elle n'est pas descendue.
+— Et il va où ?
 
-Le bus a continué.
+Le chauffeur a souri.
 
-Mehdi a commencé à trouver cela étrange.
+— C’est justement le problème. Je ne sais pas.
 
-Quelques minutes plus tard, la petite fille a demandé au conducteur :
+Le chien s’est installé au fond du bus et a regardé tranquillement par la fenêtre.
 
-— Monsieur, vous allez où maintenant ?
+Il ne faisait aucun bruit.
 
-Le conducteur a répondu :
+Il ne dérangeait personne.
 
-— Jusqu'au dernier arrêt.
+Après quelques arrêts, il est descendu.
 
-La petite fille est devenue silencieuse.
+Puis il a marché dans une rue et a disparu.
 
-Mehdi a compris qu'elle ne savait probablement pas où descendre.
+Le lendemain, il a fait exactement la même chose.
 
-Il s'est approché doucement.
+Le chien est arrivé à huit heures.
 
-— Tu cherches quelqu'un ?
+Il a pris le même bus.
 
-La petite fille a hoché la tête.
+Il s’est assis à la même place.
 
-— Ma mère.
+Et il est descendu au même endroit.
 
-— Elle est dans le bus ?
+Petit à petit, les habitants ont commencé à connaître son histoire.
+
+Certains l’appelaient « Monsieur Bus ».
+
+D’autres lui donnaient même des biscuits.
+
+Un matin, un étudiant a décidé de suivre le chien.
+
+Il est descendu du bus avec lui.
+
+Le chien a traversé la rue, a marché quelques minutes et s’est arrêté devant une petite boulangerie.
+
+L’étudiant a regardé le chien.
+
+— C’est ici que tu vas ?
+
+Le chien a remué la queue.
+
+La porte de la boulangerie s’est ouverte.
+
+Une femme est sortie.
+
+Quand elle a vu le chien, elle a souri.
+
+— Ah, tu es déjà là !
+
+Le chien est entré dans la boulangerie comme s’il connaissait parfaitement l’endroit.
+
+L’étudiant était surpris.
+
+Il a demandé :
+
+— C’est votre chien ?
+
+La femme a ri.
 
 — Non.
 
-Elle lui a expliqué qu'elle était montée dans le mauvais bus après l'école.
+— Non ?
 
-Elle voulait rentrer chez elle, mais elle ne connaissait pas le chemin.
+— Il appartient à une famille qui habite à plusieurs rues d’ici.
 
-Elle avait un téléphone, mais sa batterie était presque vide.
+L’étudiant a regardé le chien.
 
-Mehdi lui a demandé son prénom.
+— Alors pourquoi vient-il ici tous les jours ?
 
-— Inès.
+La femme lui a montré une petite assiette.
 
-Il lui a demandé où elle habitait.
+Il y avait deux biscuits à l’intérieur.
 
-Elle connaissait seulement le nom de son quartier.
+— Parce qu’il adore mes biscuits.
 
-Mehdi a essayé de rester calme.
+L’étudiant a commencé à rire.
 
-Il a demandé au conducteur de s'arrêter quelques minutes à la prochaine station afin qu'ils puissent chercher une solution.
+— Donc il prend le bus juste pour manger des biscuits ?
 
-Le conducteur a accepté.
+— Apparemment.
 
-Mehdi a utilisé son téléphone pour chercher le quartier d'Inès.
+La femme lui a expliqué que le chien avait découvert la boulangerie quelques mois plus tôt.
 
-Il a trouvé plusieurs rues portant des noms similaires.
+Un jour, son propriétaire était passé devant le magasin avec lui.
 
-Il ne savait pas laquelle était la bonne.
+La femme lui avait donné un petit morceau de pain.
 
-Inès a alors sorti une feuille de son sac.
+Depuis ce jour, le chien avait pris une nouvelle habitude.
 
-C'était un dessin de son école et de sa maison.
+Il venait régulièrement devant la boulangerie.
 
-Sur le dessin, il y avait une boulangerie avec une grande enseigne rouge.
+Mais il y avait un problème.
 
-Mehdi a reconnu le nom.
+La boulangerie était assez loin de sa maison.
 
-Il connaissait cette boulangerie.
+Alors, un matin, le chien avait suivi un groupe de personnes jusqu’à l’arrêt de bus.
 
-Elle se trouvait à seulement quelques rues de chez lui.
+Il était monté dans le bus avec eux.
 
-Il a montré l'adresse au conducteur.
+Et il avait découvert qu’il pouvait aller directement à la boulangerie.
 
-Le bus allait dans la bonne direction.
+Depuis, il faisait le trajet tout seul.
 
-Quelques minutes plus tard, ils sont descendus.
+L’étudiant n’arrivait pas à le croire.
 
-Mehdi a accompagné Inès jusqu'à la boulangerie.
+— Mais son propriétaire sait qu’il prend le bus ?
 
-Une femme attendait devant.
+La boulangère a secoué la tête.
 
-Quand elle a vu sa fille, elle a couru vers elle.
+— Je ne pense pas.
 
-Elle était très inquiète.
+À ce moment-là, le chien a commencé à aboyer.
 
-Elle a serré Inès dans ses bras et a remercié Mehdi plusieurs fois.
+Puis il s’est dirigé vers la porte.
 
-— Je ne sais pas comment vous remercier.
+— Il veut déjà repartir, a dit la boulangère.
 
-Mehdi a souri.
+L’étudiant a décidé de prendre une photo du chien et de la publier sur le groupe du quartier.
 
-— Ce n'est rien.
+Il a écrit :
 
-Il a ensuite repris le chemin de son appartement.
+« Est-ce que quelqu’un connaît ce chien ? Il prend le bus tous les matins pour venir à la boulangerie. »
 
-Il était tard lorsqu'il est rentré.
+Quelques minutes plus tard, il a reçu une réponse.
 
-Mais cette soirée lui avait laissé une impression étrange.
+« C’est mon chien ! Il s’appelle Rocky ! »
 
-Il pensait souvent aux personnes qu'il croisait chaque jour sans vraiment les connaître.
+L’étudiant a immédiatement répondu :
 
-Le lendemain, il est monté dans le même bus.
+« Vous savez qu’il prend le bus tout seul ? »
 
-L'homme âgé était là.
+Le propriétaire a répondu :
 
-La femme avec son grand sac aussi.
+« Quoi ?! »
 
-L'étudiant lisait toujours son livre.
+Il est arrivé à la boulangerie moins d’une heure plus tard.
 
-Mais cette fois, Mehdi leur a dit bonjour.
+Quand il a vu Rocky, il est resté sans voix.
 
-L'homme âgé lui a répondu avec un sourire.
+— Rocky ! Qu’est-ce que tu fais ici ?
 
-La femme lui a demandé comment il allait.
+Le chien a remué la queue.
 
-L'étudiant a levé les yeux de son livre.
+Le propriétaire a regardé la boulangère.
 
-Une petite conversation a commencé.
+— Je suis vraiment désolé. Je ne savais pas qu’il faisait ça.
 
-Elle n'a duré que quelques minutes.
+La boulangère a souri.
 
-Mais quelque chose avait changé.
+— Ne vous inquiétez pas. Il est très calme.
 
-Le bus semblait moins silencieux.
+Le propriétaire a regardé son chien.
 
-Les jours suivants, Mehdi a commencé à parler régulièrement avec les autres passagers.
+— Mais tu prends le bus maintenant ?
 
-Il a appris que l'homme âgé s'appelait Robert et qu'il allait chaque matin voir sa femme à l'hôpital.
+Rocky a simplement regardé son maître.
 
-La femme avec le grand sac s'appelait Nadia. Elle préparait des repas pour ses enfants et travaillait le soir dans un hôtel.
+Puis il a regardé la petite assiette de biscuits.
 
-L'étudiant s'appelait Lucas. Il préparait un examen important et lisait dans le bus parce qu'il n'avait pas beaucoup de temps chez lui.
+Tout le monde a compris.
 
-Mehdi avait pris ce bus pendant des mois sans savoir quoi que ce soit sur eux.
+Le propriétaire a éclaté de rire.
 
-Un soir, Robert n'était pas dans le bus.
+— Je vois. Tu ne prends pas le bus pour voyager. Tu prends le bus pour manger.
 
-Le lendemain non plus.
+Depuis ce jour, Rocky ne prend plus le bus tout seul.
 
-Mehdi a demandé au conducteur s'il savait pourquoi.
+Son propriétaire l’accompagne parfois jusqu’à la boulangerie.
 
-Le conducteur lui a expliqué que Robert avait changé son trajet.
+Et la boulangère lui donne toujours un petit biscuit.
 
-Sa femme était sortie de l'hôpital et il n'avait plus besoin de prendre ce bus tous les jours.
+Quant aux habitants du quartier, ils parlent encore de cette histoire.
 
-Mehdi était heureux pour lui.
+Parce qu’ils ont découvert quelque chose d’assez incroyable :
 
-Mais il a aussi ressenti un petit manque.
-
-Il avait compris que les personnes que l'on voit chaque jour peuvent devenir importantes sans qu'on s'en rende compte.
-
-Quelques semaines plus tard, une nouvelle passagère est montée dans le bus.
-
-Elle semblait perdue.
-
-Elle regardait plusieurs fois son billet et les panneaux dans la rue.
-
-Mehdi lui a demandé :
-
-— Vous cherchez quelque chose ?
-
-Elle a expliqué qu'elle devait aller à un rendez-vous mais qu'elle ne connaissait pas le quartier.
-
-Mehdi lui a montré où descendre.
-
-Puis il lui a expliqué comment continuer à pied.
-
-La femme l'a remercié.
-
-— Vous travaillez ici ?
-
-Mehdi a ri.
-
-— Non. Je prends simplement ce bus tous les jours.
-
-Elle est descendue.
-
-Mehdi a regardé par la fenêtre.
-
-Il a pensé à Inès.
-
-Il a pensé à Robert, Nadia et Lucas.
-
-Et il a compris qu'un trajet ordinaire pouvait être rempli de petites histoires.
-
-On pouvait monter dans un bus en pensant seulement à sa journée et en descendre avec le sentiment d'avoir rencontré quelqu'un.
-
-Depuis, Mehdi continuait à prendre le même bus.
-
-Il ne connaissait toujours pas le nom de tous les passagers.
-
-Mais il faisait davantage attention à eux.
-
-Il savait maintenant qu'une personne assise en silence pouvait avoir beaucoup de choses dans la tête.
-
-Quelqu'un pouvait être fatigué.
-
-Quelqu'un pouvait être inquiet.
-
-Quelqu'un pouvait attendre une bonne nouvelle.
-
-Et parfois, un simple bonjour pouvait rendre une longue journée un peu plus facile.
-
-Le bus continuait son trajet, arrêt après arrêt.
-
-Les passagers montaient.
-
-Les passagers descendaient.
-
-Certains restaient seulement quelques minutes.
-
-D'autres faisaient tout le trajet.
-
-Mais pour Mehdi, le bus n'était plus seulement un moyen de rentrer chez lui.
-
-C'était devenu un petit endroit où les chemins de plusieurs personnes se rencontraient chaque soir.`,
+même un chien peut avoir ses petites habitudes… surtout quand il y a des biscuits à la fin du trajet.`,
 wordef: [
-  { mot: "passagers", definition: "People who are travelling in a bus, train, plane, etc.", contextExample: "Les passagers attendent le train.", synonyme: "voyageurs" },
-  { mot: "arrêt", definition: "A place where a bus or train stops.", contextExample: "Je descends au prochain arrêt.", synonyme: "station" },
-  { mot: "hocher la tête", definition: "To move your head up and down to say yes.", contextExample: "Elle a hoché la tête.", synonyme: "faire oui de la tête" },
-  { mot: "inquiet", definition: "Worried or nervous because something may be wrong.", contextExample: "Il est inquiet pour son ami.", synonyme: "préoccupé" },
-  { mot: "batterie", definition: "The part of a phone that provides it with power.", contextExample: "Mon téléphone n'a plus de batterie.", synonyme: "pile" },
-  { mot: "se rendre", definition: "To go to a particular place.", contextExample: "Je dois me rendre au travail.", synonyme: "aller" },
-  { mot: "feuille", definition: "A single piece of paper.", contextExample: "Donne-moi une feuille, s'il te plaît.", synonyme: "papier" },
-  { mot: "enseigne", definition: "A sign outside a shop showing its name.", contextExample: "Je regarde l'enseigne du magasin.", synonyme: "panneau" },
-  { mot: "serrer dans ses bras", definition: "To hold someone closely with your arms.", contextExample: "Elle serre son frère dans ses bras.", synonyme: "enlacer" },
-  { mot: "impression", definition: "A feeling or idea that you have about something.", contextExample: "J'ai une bonne impression.", synonyme: "sentiment" },
-  { mot: "croiser", definition: "To meet or pass someone while going somewhere.", contextExample: "J'ai croisé mon voisin dans la rue.", synonyme: "rencontrer" },
-  { mot: "s'en rendre compte", definition: "To realize or understand something.", contextExample: "Je m'en suis rendu compte trop tard.", synonyme: "réaliser" },
-  { mot: "manque", definition: "A feeling caused by someone or something no longer being there.", contextExample: "Son absence me crée un manque.", synonyme: "absence" },
-  { mot: "trajet", definition: "The journey from one place to another.", contextExample: "Le trajet dure une heure.", synonyme: "parcours" },
-  { mot: "perdu", definition: "Not knowing where you are or where to go.", contextExample: "Je suis perdu dans cette ville.", synonyme: "désorienté" },
-  { mot: "rendez-vous", definition: "A planned meeting at a particular time and place.", contextExample: "J'ai un rendez-vous à 15 heures.", synonyme: "rencontre" },
-  { mot: "davantage", definition: "More; to a greater degree.", contextExample: "Je voudrais en savoir davantage.", synonyme: "plus" },
-  { mot: "fatigué", definition: "Needing rest because you have little energy.", contextExample: "Je suis très fatigué aujourd'hui.", synonyme: "épuisé" },
-  { mot: "inquiet", definition: "Feeling worried about someone or something.", contextExample: "Elle est inquiète pour sa mère.", synonyme: "préoccupé" },
-  { mot: "se rencontrer", definition: "To meet each other.", contextExample: "Nous nous rencontrons demain.", synonyme: "se voir" }
+  {
+    mot: "habitants",
+    definition: "People who live in a particular place.",
+    contextExample: "Les habitants d’un petit quartier remarquaient quelque chose d’étrange.",
+    synonyme: "résidents"
+  },
+  {
+    mot: "remarquer",
+    definition: "To notice or see something that attracts your attention.",
+    contextExample: "Les habitants remarquaient quelque chose d’étrange.",
+    synonyme: "observer"
+  },
+  {
+    mot: "étrange",
+    definition: "Unusual or surprising because it is different from what is normal.",
+    contextExample: "Les habitants remarquaient quelque chose d’étrange.",
+    synonyme: "bizarre"
+  },
+  {
+    mot: "propriétaire",
+    definition: "A person who owns something or an animal.",
+    contextExample: "Les gens pensaient simplement qu’il attendait son propriétaire.",
+    synonyme: "maître"
+  },
+  {
+    mot: "panneau",
+    definition: "A sign that gives information or shows something in a public place.",
+    contextExample: "Le chien s’asseyait près du panneau et attendait tranquillement.",
+    synonyme: "signal"
+  },
+  {
+    mot: "passager",
+    definition: "A person who travels in a bus, train, plane, or other vehicle.",
+    contextExample: "Le chien a attendu que les passagers montent.",
+    synonyme: "voyageur"
+  },
+  {
+    mot: "déranger",
+    definition: "To disturb someone or cause a problem for them.",
+    contextExample: "Il ne faisait aucun bruit et ne dérangeait personne.",
+    synonyme: "gêner"
+  },
+  {
+    mot: "disparaître",
+    definition: "To go away or stop being visible.",
+    contextExample: "Puis il a marché dans une rue et a disparu.",
+    synonyme: "partir"
+  },
+  {
+    mot: "quartier",
+    definition: "A part of a town or city where people live.",
+    contextExample: "Les habitants d’un petit quartier remarquaient quelque chose d’étrange.",
+    synonyme: "secteur"
+  },
+  {
+    mot: "remuer",
+    definition: "To move something, especially a part of the body.",
+    contextExample: "Le chien a remué la queue.",
+    synonyme: "bouger"
+  },
+  {
+    mot: "traverser",
+    definition: "To go from one side of a place to the other.",
+    contextExample: "Le chien a traversé la rue.",
+    synonyme: "passer"
+  },
+  {
+    mot: "boulangerie",
+    definition: "A shop where people buy bread, pastries, and other baked foods.",
+    contextExample: "Le chien s’est arrêté devant une petite boulangerie.",
+    synonyme: "commerce"
+  },
+  {
+    mot: "régulièrement",
+    definition: "In a repeated or usual way, at regular times.",
+    contextExample: "Depuis ce jour, le chien venait régulièrement devant le magasin.",
+    synonyme: "souvent"
+  },
+  {
+    mot: "habitude",
+    definition: "Something that a person or animal does regularly.",
+    contextExample: "Le chien avait découvert une nouvelle habitude.",
+    synonyme: "routine"
+  },
+  {
+    mot: "assiette",
+    definition: "A flat dish used for serving or eating food.",
+    contextExample: "La femme lui a montré une petite assiette.",
+    synonyme: "plat"
+  },
+  {
+    mot: "aboyer",
+    definition: "To make the typical sound of a dog.",
+    contextExample: "À ce moment-là, le chien a commencé à aboyer.",
+    synonyme: "japper"
+  },
+  {
+    mot: "boulangère",
+    definition: "A woman who works in or owns a bakery.",
+    contextExample: "La boulangère lui donnait toujours un petit biscuit.",
+    synonyme: "vendeuse"
+  },
+  {
+    mot: "secouer",
+    definition: "To move something from one side to another, often quickly.",
+    contextExample: "La boulangère a secoué la tête.",
+    synonyme: "agiter"
+  },
+  {
+    mot: "s’inquiéter",
+    definition: "To feel worried about someone or something.",
+    contextExample: "Ne vous inquiétez pas. Il est très calme.",
+    synonyme: "se préoccuper"
+  },
+  {
+    mot: "incroyable",
+    definition: "Very surprising or difficult to believe.",
+    contextExample: "L’étudiant n’arrivait pas à le croire. C’était incroyable.",
+    synonyme: "étonnant"
+  }
 ]
      },{
       id: 17,
       date: 17,
-      txt: `La clé dans la boîte aux lettres
+      txt: `La valise qui n’était pas la sienne
 
-Depuis quelques mois, Hugo vivait dans un petit appartement au troisième étage d'un immeuble ancien.
+Un vendredi soir, Lina devait prendre le train pour aller passer quelques jours chez sa tante.
 
-Il avait choisi cet endroit parce qu'il était proche de son travail et assez calme. Chaque matin, il descendait les escaliers, traversait la rue et prenait le métro. Le soir, il rentrait souvent tard.
+Elle avait préparé sa valise la veille.
 
-Il connaissait peu ses voisins.
+Elle avait mis plusieurs vêtements, une paire de chaussures, une trousse de toilette, un livre et son chargeur de téléphone.
 
-Il croisait parfois une jeune femme au deuxième étage, un homme qui habitait au quatrième et une vieille dame qui sortait chaque matin avec son petit chien.
+Le matin du départ, elle a vérifié sa valise une dernière fois.
 
-Un lundi matin, alors qu'il allait partir travailler, Hugo a trouvé une petite enveloppe dans sa boîte aux lettres.
+— Tout est là.
 
-Il n'y avait pas de nom.
+Elle est partie tranquillement à la gare.
 
-À l'intérieur, il y avait une clé.
+Il y avait beaucoup de monde.
 
-Hugo a regardé la clé avec étonnement.
+Des familles attendaient avec leurs enfants, des étudiants cherchaient leur train et plusieurs personnes regardaient les panneaux.
 
-Un petit morceau de papier l'accompagnait :
+Lina a trouvé son quai et s’est assise sur un banc.
 
-« Elle ouvre quelque chose qui vous appartient peut-être. »
+Quelques minutes plus tard, son train est arrivé.
 
-Hugo n'a rien compris.
+Elle est montée et a trouvé une place près de la fenêtre.
 
-Il a pensé à une erreur.
+Elle a placé sa valise dans l’espace prévu pour les bagages, au-dessus des sièges.
 
-Peut-être que la clé était destinée à un autre appartement.
+Puis elle a sorti son téléphone et a commencé à regarder une vidéo.
 
-Il l'a donc gardée dans sa poche et est parti travailler.
+Le voyage se passait tranquillement.
 
-Le soir, il a demandé au gardien s'il savait quelque chose.
+Après environ une heure, le train s’est arrêté dans une petite ville.
 
-Le gardien a regardé la clé.
+Plusieurs passagers sont descendus.
 
-— Non. Je ne reconnais pas cette clé.
+D’autres sont montés.
 
-— Vous êtes sûr ?
+Lina a continué à regarder son téléphone.
 
-— Oui. Mais je vais regarder si quelqu'un a laissé un message.
+Une vingtaine de minutes plus tard, elle a décidé de prendre son chargeur dans sa valise.
 
-Ils ont vérifié les boîtes aux lettres.
+Elle s’est levée et a pris une valise noire dans l’espace des bagages.
 
-Rien.
+Elle est retournée à sa place.
 
-Hugo a décidé d'attendre.
+Elle a ouvert la valise.
 
-Le lendemain matin, une deuxième enveloppe était dans sa boîte.
+Et elle a immédiatement compris qu’il y avait un problème.
 
-Cette fois, il y avait une phrase :
+— Ce ne sont pas mes vêtements…
 
-« Regardez ce que vous ne regardez jamais. »
+Elle a regardé à l’intérieur.
 
-Hugo a trouvé cela encore plus étrange.
+Il y avait une chemise blanche, deux pantalons, une veste, une paire de chaussures et plusieurs livres.
 
-Il a réfléchi pendant quelques minutes.
+Lina a fermé la valise rapidement.
 
-Puis il a pensé aux endroits qu'il ne regardait jamais dans son immeuble.
+Elle a regardé autour d’elle.
 
-Il est descendu au sous-sol.
+Une autre valise noire était toujours dans l’espace des bagages.
 
-Il y avait plusieurs petites portes que les habitants utilisaient rarement.
+— Oh non…
 
-L'une d'elles n'avait pas de serrure normale.
+Elle venait de prendre la mauvaise valise.
 
-Elle avait une serrure qui ressemblait exactement à celle de la clé.
+Elle a remis la valise à sa place et a pris l’autre.
 
-Hugo a essayé.
+Mais avant de l’ouvrir, elle a regardé l’étiquette.
 
-La porte s'est ouverte.
+Son nom était écrit dessus.
 
-Derrière, il y avait une petite pièce remplie de vieux cartons.
+— Heureusement !
 
-Il y avait des meubles cassés, des lampes, des livres et plusieurs objets dont personne ne semblait avoir besoin.
+Elle a ouvert la valise.
 
-Sur une table, Hugo a trouvé une boîte en bois.
+Cette fois, elle a trouvé ses vêtements.
 
-Elle était fermée.
+Elle a pris son chargeur et s’est rassise.
 
-La clé ouvrait la boîte.
+Mais quelques minutes plus tard, un homme est venu vers elle.
 
-À l'intérieur, il y avait des photographies.
+Il semblait très inquiet.
 
-Hugo a commencé à les regarder.
+— Excusez-moi…
 
-Elles représentaient l'immeuble.
+Lina a levé les yeux.
 
-Mais les photographies étaient très anciennes.
+— Oui ?
 
-Sur certaines images, la rue était presque vide.
+L’homme a regardé l’espace des bagages.
 
-Sur d'autres, on voyait des enfants jouer devant l'entrée.
+— Je cherche ma valise noire.
 
-Hugo a continué à chercher.
+Lina a senti son cœur accélérer.
 
-Au fond de la boîte, il a trouvé une lettre.
+— Votre valise… elle ressemble à celle-ci ?
 
-Elle était adressée à une personne appelée Paul.
+L’homme a regardé la valise de Lina.
 
-La lettre expliquait que Paul avait vécu dans l'immeuble lorsqu'il était enfant.
+— Oui !
 
-Il avait quitté la ville plusieurs années auparavant.
+Lina a commencé à rire.
 
-Avant de partir, il avait caché cette boîte parce qu'elle contenait les souvenirs de sa famille.
+— Alors je crois que nous avons eu le même problème.
 
-Il avait écrit qu'il reviendrait un jour la chercher.
+L’homme a regardé Lina avec surprise.
 
-Mais il ne l'avait jamais fait.
+— Vous avez pris ma valise ?
 
-Hugo a trouvé cela triste.
+— Pendant quelques secondes seulement ! Je pensais que c’était la mienne.
 
-Il s'est demandé pourquoi quelqu'un lui avait donné la clé.
+L’homme a ouvert la valise qu’il avait dans les mains.
 
-Le soir, il a montré les photographies au gardien.
+Puis il a regardé Lina.
 
-Le gardien les a reconnues.
+— Mais celle-ci n’est pas la mienne non plus.
 
-— Cette femme, je la connais.
+Lina a regardé la valise.
 
-Il a montré une photographie.
+— Quoi ?
 
-— C'est ma mère.
+L’homme a vérifié l’étiquette.
 
-Hugo a été surpris.
+Ce n’était pas son nom.
 
-Le gardien lui a expliqué que sa mère avait vécu dans l'immeuble lorsqu'elle était jeune.
+Ils se sont regardés.
 
-Elle parlait souvent de cette période.
+Puis ils ont commencé à rire.
 
-Elle avait gardé beaucoup de souvenirs, mais elle avait perdu presque toutes ses photographies lors d'un déménagement.
+— Attendez… combien de valises noires sont dans ce train ?
 
-Le gardien a regardé les images pendant plusieurs minutes.
+Lina a regardé autour d’elle.
 
-Il semblait très ému.
+Il y en avait au moins cinq.
 
-— Je pensais ne jamais revoir ça.
+L’homme a commencé à vérifier les étiquettes une par une.
 
-Hugo lui a donné les photographies.
+— Celle-ci n’est pas à moi.
 
-Mais le gardien a refusé.
+Il a regardé une deuxième.
 
-— Non. Gardez-les. Je crois qu'elles doivent rester ici.
+— Pas celle-là non plus.
 
-Hugo ne comprenait pas.
+Puis une troisième.
+
+— Non.
+
+Lina a commencé à rire.
+
+— Vous avez choisi la mauvaise valise trois fois !
+
+— Je crois que je ne suis pas très doué aujourd’hui.
+
+Finalement, ils ont trouvé la bonne valise.
+
+Elle était cachée derrière deux autres bagages.
+
+L’homme a vérifié son nom.
+
+Cette fois, c’était bien le sien.
+
+— Enfin !
+
+Lina a souri.
+
+— Vous devriez mettre une étiquette plus grande.
+
+L’homme a regardé sa petite étiquette.
+
+— Vous avez raison.
+
+Puis il a regardé la valise de Lina.
+
+— Et vous aussi.
 
 — Pourquoi ?
 
-Le gardien a expliqué qu'il avait une idée.
+— Parce que votre étiquette est presque invisible.
 
-Il voulait créer un petit espace dans l'entrée de l'immeuble avec des photographies anciennes.
+Lina a regardé son étiquette.
 
-Chaque habitant pourrait apporter une image ou une histoire.
+Elle avait écrit son nom avec un petit stylo noir sur un morceau de papier noir.
 
-Hugo a trouvé l'idée intéressante.
+— Ah oui…
 
-Le week-end suivant, ils ont commencé.
+Ils ont éclaté de rire.
 
-Ils ont nettoyé un vieux mur près des boîtes aux lettres.
+Avant de retourner à sa place, l’homme a dit :
 
-Puis ils ont installé les premières photographies.
+— Je vais acheter une étiquette demain.
 
-Au début, personne ne faisait vraiment attention.
+Lina a répondu :
 
-Mais quelques jours plus tard, une voisine a apporté une vieille photo de son mariage.
+— Moi aussi.
 
-Un autre habitant a apporté une image de l'immeuble prise trente ans auparavant.
+Le train a continué son chemin.
 
-Puis une famille a apporté une photographie de ses enfants lorsqu'ils étaient petits.
+Une heure plus tard, une dame âgée s’est approchée de Lina.
 
-Petit à petit, le mur s'est rempli.
+— Excusez-moi, cette valise est à vous ?
 
-Les habitants ont commencé à parler entre eux.
+Lina a regardé la valise.
 
-Certains vivaient dans l'immeuble depuis vingt ans mais ne s'étaient jamais vraiment parlé.
+C’était encore une valise noire.
 
-Une femme a découvert qu'elle avait été dans la même école que son voisin.
+Elle a immédiatement regardé l’étiquette.
 
-Un homme a appris que son appartement avait autrefois appartenu à la famille d'un autre habitant.
+— Oui, celle-ci est bien à moi.
 
-Les photographies faisaient naître des conversations.
+La dame a souri.
 
-Un soir, Hugo a trouvé une nouvelle enveloppe dans sa boîte aux lettres.
+— Tant mieux. Je voulais être sûre.
 
-Cette fois, il y avait un message plus long.
+Lina a ri.
 
-La personne expliquait qu'elle était la petite-fille de Paul.
+— Après ce qui vient de se passer, je comprends.
 
-Elle avait découvert que son grand-père avait autrefois caché la boîte dans l'immeuble.
+La dame a continué son chemin.
 
-Elle avait retrouvé l'adresse mais ne savait pas comment récupérer les souvenirs.
+Lina a regardé sa valise.
 
-Elle avait donc décidé de laisser la clé dans la boîte aux lettres de quelqu'un choisi au hasard.
+Puis elle a regardé les autres bagages.
 
-Elle ne savait pas qui la trouverait.
+Elle a décidé de prendre une photo de sa valise avec son téléphone.
 
-Elle espérait seulement que cette personne ouvrirait la porte.
+— Comme ça, je ne pourrai plus me tromper.
 
-Hugo a souri.
+Quand le train est arrivé à destination, Lina est descendue.
 
-Il a compris que la clé n'était pas vraiment destinée à lui.
+Elle a récupéré sa valise et a vérifié son nom une dernière fois.
 
-Elle était destinée à quelqu'un qui prendrait le temps de chercher.
+Tout était correct.
 
-Quelques semaines plus tard, la petite-fille de Paul est venue dans l'immeuble.
+Elle a retrouvé sa tante devant la gare.
 
-Elle a regardé le mur rempli de photographies.
+Sa tante lui a demandé :
 
-Puis elle a reconnu plusieurs images de son grand-père.
+— Alors, le voyage s’est bien passé ?
 
-Elle a remercié Hugo.
+Lina a souri.
 
-— Je pensais seulement récupérer une boîte.
+— Oui. Mais j’ai une histoire à te raconter.
 
-Hugo a souri.
+Elle lui a expliqué toute l’histoire.
 
-— Vous avez retrouvé beaucoup plus que ça.
+Sa tante a regardé la valise.
 
-Elle a regardé autour d'elle.
+— Et tu as vraiment pris la mauvaise valise ?
 
-Les habitants discutaient dans l'entrée.
+— Oui.
 
-Deux enfants regardaient les anciennes photographies.
+— Et l’homme aussi ?
 
-Le gardien racontait une histoire à une voisine.
+— Oui.
 
-Elle a compris.
+Sa tante a commencé à rire.
 
-La boîte avait gardé des souvenirs.
+— Heureusement que vous n’êtes pas partis avec les affaires de quelqu’un d’autre !
 
-Mais la clé avait permis de créer quelque chose de nouveau.
+Lina a ouvert sa valise.
 
-Depuis ce jour, les habitants ont continué à ajouter des photographies.
+Elle a regardé ses vêtements.
 
-Le mur a changé plusieurs fois.
+Puis elle a souri.
 
-De nouvelles histoires sont apparues.
+— Heureusement.
 
-Certaines personnes ont même commencé à se retrouver dans l'entrée le dimanche après-midi pour boire un café ensemble.
+Depuis ce jour, Lina a toujours une grande étiquette colorée avec son nom sur sa valise.
 
-Hugo, lui, continuait à passer devant le mur chaque matin.
+Et avant de prendre un bagage dans un train ou dans un aéroport, elle vérifie toujours deux choses :
 
-Il regardait parfois les photographies avant de partir travailler.
+la couleur de la valise et surtout le nom sur l’étiquette.
 
-Il pensait à la petite clé.
+Parce qu’une valise peut ressembler exactement à une autre.
 
-Au début, il avait cru qu'elle ouvrait seulement une vieille boîte.
-
-Il avait finalement compris qu'elle avait ouvert quelque chose de beaucoup plus important :
-
-la possibilité pour des inconnus de devenir un peu moins étrangers les uns aux autres.`,
+Mais à l’intérieur, l’histoire est souvent complètement différente.`,
 wordef: [
-  { mot: "boîte aux lettres", definition: "A box where letters and other mail are delivered.", contextExample: "La lettre est dans la boîte aux lettres.", synonyme: "boîte à courrier" },
-  { mot: "enveloppe", definition: "A paper cover used to send a letter.", contextExample: "Je mets la lettre dans une enveloppe.", synonyme: "pochette" },
-  { mot: "destinée à", definition: "Meant for a particular person or purpose.", contextExample: "Cette lettre est destinée à Paul.", synonyme: "prévue pour" },
-  { mot: "gardien", definition: "A person who takes care of a building.", contextExample: "Le gardien ouvre la porte.", synonyme: "concierge" },
-  { mot: "sous-sol", definition: "A part of a building below the ground floor.", contextExample: "La voiture est au sous-sol.", synonyme: "niveau inférieur" },
-  { mot: "serrure", definition: "A mechanism used to close and secure a door.", contextExample: "La serrure de la porte est cassée.", synonyme: "système de fermeture" },
-  { mot: "cartons", definition: "Containers made of thick paper, often used to store things.", contextExample: "Les cartons sont dans la chambre.", synonyme: "boîtes" },
-  { mot: "caché", definition: "Put somewhere so that it cannot easily be seen.", contextExample: "Le cadeau est caché sous le lit.", synonyme: "dissimulé" },
-  { mot: "souvenirs", definition: "Things that help you remember people or moments from the past.", contextExample: "J'ai gardé des souvenirs de mon enfance.", synonyme: "mémoires" },
-  { mot: "déménagement", definition: "The act of leaving one home and moving to another.", contextExample: "Le déménagement est prévu samedi.", synonyme: "changement de logement" },
-  { mot: "émue", definition: "Strongly affected by a feeling, often making you want to cry.", contextExample: "Elle était très émue par la lettre.", synonyme: "touchée" },
-  { mot: "faire attention", definition: "To notice something carefully.", contextExample: "Fais attention à cette lettre.", synonyme: "être attentif" },
-  { mot: "faire naître", definition: "To cause something to begin or appear.", contextExample: "Cette histoire fait naître un sourire.", synonyme: "provoquer" },
-  { mot: "au hasard", definition: "Without choosing according to a particular plan.", contextExample: "J'ai choisi un livre au hasard.", synonyme: "sans choisir" },
-  { mot: "récupérer", definition: "To get something back.", contextExample: "Je vais récupérer mes affaires.", synonyme: "reprendre" },
-  { mot: "reconnaître", definition: "To know who or what something is because you have seen it before.", contextExample: "Je reconnais cette personne.", synonyme: "identifier" },
-  { mot: "étranger", definition: "Someone who is not known or familiar to you.", contextExample: "Un étranger était devant la maison.", synonyme: "inconnu" },
-  { mot: "appartenir", definition: "To be owned by someone.", contextExample: "Ce livre appartient à Marie.", synonyme: "être à" },
-  { mot: "autrefois", definition: "A long time ago; in the past.", contextExample: "Autrefois, cette rue était très calme.", synonyme: "dans le passé" },
-  { mot: "pourtant", definition: "Used when something is different from what you might expect.", contextExample: "Il pleut, pourtant il sort.", synonyme: "cependant" }
+  {
+    mot: "valise",
+    definition: "A large bag used to carry clothes and personal things when traveling.",
+    contextExample: "Elle avait préparé sa valise la veille.",
+    synonyme: "bagage"
+  },
+  {
+    mot: "trousse",
+    definition: "A small bag used to keep personal objects or other small things.",
+    contextExample: "Elle avait mis une paire de chaussures, une trousse de toilette et son chargeur.",
+    synonyme: "pochette"
+  },
+  {
+    mot: "gare",
+    definition: "A place where trains arrive and leave and where passengers can get on or off.",
+    contextExample: "Elle est partie tranquillement à la gare.",
+    synonyme: "station"
+  },
+  {
+    mot: "quai",
+    definition: "The area next to a railway track where passengers wait for a train.",
+    contextExample: "Lina a trouvé son quai et s’est assise sur un banc.",
+    synonyme: "plateforme"
+  },
+  {
+    mot: "bagage",
+    definition: "A bag or other object that you take with you when traveling.",
+    contextExample: "Elle a placé sa valise dans l’espace prévu pour les bagages.",
+    synonyme: "valise"
+  },
+  {
+    mot: "espace",
+    definition: "An available area where something can be placed or used.",
+    contextExample: "Elle a placé sa valise dans l’espace prévu pour les bagages.",
+    synonyme: "zone"
+  },
+  {
+    mot: "prévu",
+    definition: "Planned or arranged for a particular purpose.",
+    contextExample: "Elle a placé sa valise dans l’espace prévu pour les bagages.",
+    synonyme: "destiné"
+  },
+  {
+    mot: "s’arrêter",
+    definition: "To stop moving or to stop at a particular place.",
+    contextExample: "Le train s’est arrêté dans une petite ville.",
+    synonyme: "stopper"
+  },
+  {
+    mot: "passager",
+    definition: "A person who travels in a bus, train, plane, or other vehicle.",
+    contextExample: "Plusieurs passagers sont descendus.",
+    synonyme: "voyageur"
+  },
+  {
+    mot: "étiquette",
+    definition: "A small piece of paper or material with information written on it.",
+    contextExample: "Mais avant de l’ouvrir, elle a regardé l’étiquette.",
+    synonyme: "label"
+  },
+  {
+    mot: "immédiatement",
+    definition: "At once, without waiting.",
+    contextExample: "Elle a immédiatement compris qu’il y avait un problème.",
+    synonyme: "aussitôt"
+  },
+  {
+    mot: "inquiet",
+    definition: "Worried because something may be wrong or missing.",
+    contextExample: "L’homme semblait très inquiet.",
+    synonyme: "préoccupé"
+  },
+  {
+    mot: "accélérer",
+    definition: "To become faster or make something happen faster.",
+    contextExample: "Lina a senti son cœur accélérer.",
+    synonyme: "hâter"
+  },
+  {
+    mot: "ressembler",
+    definition: "To look similar to someone or something.",
+    contextExample: "Votre valise ressemble à celle-ci ?",
+    synonyme: "être similaire"
+  },
+  {
+    mot: "vérifier",
+    definition: "To look at something carefully to make sure it is correct.",
+    contextExample: "L’homme a commencé à vérifier les étiquettes une par une.",
+    synonyme: "contrôler"
+  },
+  {
+    mot: "caché",
+    definition: "Placed somewhere where it cannot easily be seen.",
+    contextExample: "Elle était cachée derrière deux autres bagages.",
+    synonyme: "dissimulé"
+  },
+  {
+    mot: "destination",
+    definition: "The place where someone is going to arrive.",
+    contextExample: "Quand le train est arrivé à destination, Lina est descendue.",
+    synonyme: "arrivée"
+  },
+  {
+    mot: "récupérer",
+    definition: "To get something back after leaving it or losing it.",
+    contextExample: "Elle a récupéré sa valise et a vérifié son nom.",
+    synonyme: "retrouver"
+  },
+  {
+    mot: "confondre",
+    definition: "To mistake one person or thing for another because they look similar.",
+    contextExample: "Comme ça, je ne pourrai plus me confondre avec une autre valise.",
+    synonyme: "mélanger"
+  },
+  {
+    mot: "affaires",
+    definition: "Personal objects and things that belong to someone.",
+    contextExample: "Heureusement que vous n’êtes pas partis avec les affaires de quelqu’un d’autre !",
+    synonyme: "objets"
+  }
 ]
      },{
       id: 18,
       date: 18,
-      txt: `La lettre sous la porte
+      txt: `Le client qui avait oublié son nom
 
-Depuis quelque temps, Clara vivait dans une petite ville où elle ne connaissait presque personne.
+Depuis plusieurs années, Karim travaillait dans une petite agence de location de voitures.
 
-Elle avait déménagé là quelques mois auparavant pour commencer un nouveau travail. Son appartement était simple, mais il lui plaisait. Il donnait sur une rue tranquille, avec une boulangerie au coin et un petit parc quelques mètres plus loin.
+Il aimait son travail parce qu’il rencontrait des personnes très différentes chaque jour.
 
-Chaque matin, Clara partait tôt.
+Un lundi matin, un homme est entré dans l’agence avec une grande valise.
 
-Elle achetait parfois un café avant de prendre le bus, puis elle passait toute la journée dans un bureau situé au centre-ville.
+Il avait l’air pressé.
 
-Le soir, elle rentrait souvent fatiguée.
+— Bonjour, je voudrais louer une voiture pour trois jours.
 
-Elle avait remarqué que les habitants de son immeuble se connaissaient assez bien. Ils se saluaient dans l'escalier, discutaient devant l'entrée ou se retrouvaient parfois dans le parc.
+Karim lui a souri.
 
-Clara, elle, restait souvent à l'écart.
+— Bien sûr. Vous avez une réservation ?
 
-Un mercredi soir, en rentrant chez elle, elle a remarqué une enveloppe blanche devant sa porte.
+L’homme a sorti son téléphone.
 
-Elle a regardé autour d'elle.
+— Oui, normalement.
 
-Personne.
+Il a regardé son écran.
 
-Sur l'enveloppe, il n'y avait ni nom ni adresse.
+Puis il a froncé les sourcils.
 
-Clara l'a ramassée et est entrée dans son appartement.
+— Je ne trouve pas le message.
 
-À l'intérieur, il y avait seulement une courte phrase :
+Karim a attendu tranquillement.
 
-« Vous avez oublié quelque chose ici. »
+L’homme a cherché dans ses messages, dans ses e-mails et même dans ses photos.
 
-Clara a relu la phrase plusieurs fois.
+Après quelques minutes, il a enfin trouvé une capture d’écran.
 
-Elle ne comprenait pas.
+— Voilà !
 
-Elle a vérifié son sac, ses poches et son appartement.
+Karim a regardé l’écran.
 
-Rien ne semblait manquer.
+— Très bien. Quel est votre nom ?
 
-Elle a pensé à une plaisanterie.
+L’homme est resté silencieux.
 
-Elle a donc posé la lettre sur la table et n'y a plus pensé.
+Karim a attendu.
 
-Le lendemain matin, une autre enveloppe se trouvait devant sa porte.
+— Votre nom, s’il vous plaît ?
 
-Cette fois, le message disait :
+L’homme a regardé Karim.
 
-« Cherchez là où les gens attendent sans jamais rester. »
+— Mon nom ?
 
-Clara a trouvé cette phrase étrange.
+— Oui.
 
-Elle a essayé de réfléchir.
+L’homme a commencé à rire nerveusement.
 
-Où les gens attendaient-ils sans rester ?
+— Je connais mon nom, bien sûr.
 
-L'arrêt de bus ?
+— Je n’en doute pas.
 
-La gare ?
+— Mais… là, je ne me souviens plus.
 
-La boulangerie ?
+Karim a pensé qu’il plaisantait.
 
-Après quelques minutes, elle a pensé à un endroit qu'elle voyait tous les jours sans vraiment y faire attention : le banc situé devant son immeuble.
+— Vous ne vous souvenez plus de votre nom ?
 
-Elle est descendue.
+— Pas maintenant.
 
-Le banc était vide.
+Karim a essayé de rester sérieux.
 
-Clara a regardé sous le banc, derrière et autour.
+— D’accord. Regardons la réservation.
 
-Rien.
+Mais le nom n’était pas visible sur la capture d’écran.
 
-Elle allait repartir lorsqu'elle a remarqué une petite boîte métallique fixée sous le siège.
+L’homme a fouillé encore une fois dans son téléphone.
 
-Elle l'a ouverte.
+— Peut-être que j’ai une photo de ma carte d’identité.
 
-À l'intérieur, il y avait une vieille photographie.
+Il a ouvert sa galerie.
 
-On y voyait le même immeuble.
+Il y avait des centaines de photos.
 
-Mais la photographie semblait avoir été prise plusieurs décennies auparavant.
+Des photos de vacances.
 
-Clara a regardé attentivement.
+Des photos de nourriture.
 
-La rue était différente.
+Des photos de son chien.
 
-Il y avait moins de voitures, les magasins n'étaient pas les mêmes et plusieurs arbres occupaient l'endroit où se trouvait aujourd'hui un parking.
+Des photos de son café du matin.
 
-Au dos de la photographie, quelqu'un avait écrit :
+Mais aucune photo de sa carte d’identité.
 
-« Tout change, mais certaines choses restent. »
+— Vous avez vraiment beaucoup de photos, a dit Karim.
 
-Clara ne savait toujours pas pourquoi on lui avait donné cette photographie.
+— Oui, mais apparemment pas la bonne.
 
-Elle est retournée chez elle avec l'image.
+Karim a commencé à sourire.
 
-Le soir, elle est descendue dans le hall et a montré la photographie au gardien.
+— Vous souvenez-vous au moins de votre prénom ?
 
-Il l'a regardée longuement.
+L’homme a réfléchi.
 
-Puis son visage a changé.
+— Oui.
 
-— Où avez-vous trouvé ça ?
+— C’est quoi ?
 
-— Sous le banc.
+— Marc.
 
-Le gardien a pris la photographie avec précaution.
+— Très bien. Et votre nom de famille ?
 
-— Je connais cet endroit. Mais je n'avais jamais vu cette image.
+Marc a réfléchi encore plus longtemps.
 
-Il a retourné la photographie.
+— Ça commence par un B.
 
-— Regardez la date.
+Karim a ouvert le système de réservation.
 
-Clara a regardé.
+— Il y a beaucoup de personnes dont le nom commence par B.
 
-La photographie avait été prise trente-cinq ans auparavant.
+Marc a commencé à paniquer.
 
-Le gardien a réfléchi.
+— Je sais !
 
-— À cette époque, je n'habitais pas encore ici. Mais je crois que je connais quelqu'un qui pourrait vous aider.
+Karim a essayé de l’aider.
 
-Le lendemain, il a demandé à une vieille habitante de l'immeuble de venir.
+— Votre adresse ?
 
-Elle s'appelait Jeanne.
+— Je la connais.
 
-Lorsqu'elle a vu la photographie, elle est restée silencieuse pendant quelques secondes.
+— Votre numéro de téléphone ?
 
-Puis elle a souri.
+Marc lui a donné son numéro.
 
-— C'est impossible.
+Karim l’a entré dans le système.
 
-— Pourquoi ? a demandé Clara.
+Une réservation est apparue.
 
-Jeanne a pointé du doigt une petite fille visible au fond de la photographie.
+Karim a regardé l’écran.
 
-— C'est moi.
+Puis il a regardé Marc.
 
-Clara a été surprise.
+— Monsieur Bernard ?
 
-Jeanne lui a raconté qu'elle avait grandi dans cet immeuble. À cette époque, presque toutes les familles se connaissaient.
+Marc a ouvert de grands yeux.
 
-Les enfants jouaient dans la rue.
+— Oui !
 
-Les voisins se rendaient visite.
+Il a poussé un grand soupir.
 
-Les dimanches, plusieurs familles se retrouvaient dans le parc.
+— Bernard ! C’est ça !
 
-Mais avec les années, les habitants étaient partis.
+Karim a éclaté de rire.
 
-De nouveaux voisins étaient arrivés.
+— Vous venez de retrouver votre propre nom.
 
-Les habitudes avaient changé.
+Marc a ri lui aussi.
 
-Jeanne avait gardé quelques photographies, mais beaucoup avaient disparu après le décès de ses parents.
+— Je suis désolé. Je suis parti de chez moi très tôt ce matin. Je suis complètement fatigué.
 
-— Cette photo faisait partie d'un album, a-t-elle expliqué. Je pensais l'avoir perdu.
+Karim a préparé le contrat.
 
-Clara lui a donné la photographie.
+— Pas de problème. Mais j’ai une question.
 
-Mais Jeanne a secoué la tête.
+— Oui ?
 
-— Gardez-la.
+— Vous savez où vous habitez ?
 
-— Pourquoi ?
+Marc a commencé à rire.
 
-— Parce que quelqu'un voulait probablement que vous la trouviez.
+— Oui, heureusement !
 
-Clara ne savait pas quoi répondre.
+Après avoir signé les documents, Karim lui a donné les clés de la voiture.
 
-Le soir même, une troisième enveloppe était posée devant sa porte.
+Marc a pris sa valise et s’est dirigé vers la porte.
 
-Cette fois, le message était plus long.
+Mais il s’est arrêté.
 
-« Vous avez maintenant une photographie. Mais une photographie seule ne raconte jamais toute une histoire. Demandez à quelqu'un ce qu'il se rappelle. »
+— Excusez-moi.
 
-Clara a compris.
+— Oui ?
 
-Elle est descendue dans le hall.
+— Vous avez dit que la voiture était dans quel parking ?
 
-Jeanne était assise près de la fenêtre.
+Karim lui a indiqué le parking.
 
-Clara s'est installée à côté d'elle.
+Marc est sorti.
 
-— Racontez-moi cette journée.
+Deux minutes plus tard, il est revenu.
 
-Jeanne a commencé à parler.
+— J’ai oublié où était le parking.
 
-Elle a raconté son enfance, ses amis, les jeux dans la rue et les voisins qu'elle connaissait autrefois.
+Karim n’a pas pu s’empêcher de rire.
 
-Elle a parlé pendant presque une heure.
+— Vous êtes vraiment fatigué aujourd’hui !
 
-Pour la première fois depuis son arrivée dans la ville, Clara a vraiment discuté avec quelqu'un de son immeuble.
+Il lui a montré le chemin.
 
-Le lendemain, elle a raconté cette histoire à une collègue.
+Marc a enfin trouvé la voiture.
 
-Puis à une autre personne.
+Il a ouvert le coffre et a posé sa valise à l’intérieur.
 
-Quelques jours plus tard, le gardien a proposé une idée.
+Puis il a fermé le coffre.
 
-Il voulait accrocher la vieille photographie dans le hall et ajouter une petite phrase :
+Il a ouvert la porte du conducteur.
 
-« Qui se souvient de cette époque ? »
+Mais avant de monter, il a entendu quelqu’un crier :
 
-Les habitants ont commencé à s'arrêter devant l'image.
+— Monsieur !
 
-Un homme a reconnu son ancien voisin.
+Marc s’est retourné.
 
-Une femme a découvert que sa mère avait travaillé dans la boulangerie qui se trouvait autrefois au coin de la rue.
+Karim courait vers lui.
 
-Un autre habitant a apporté une photographie de la même rue prise vingt ans plus tôt.
+— Vous avez oublié votre téléphone !
 
-Puis quelqu'un a apporté une vieille carte du quartier.
+Marc a regardé sa main.
 
-Peu à peu, le hall est devenu un endroit où les habitants échangeaient leurs souvenirs.
+Elle était vide.
 
-Certains apportaient des photographies.
+— Ah oui !
 
-D'autres racontaient des anecdotes.
+Il a récupéré son téléphone et a commencé à rire.
 
-Clara, qui avait toujours eu l'impression d'être étrangère dans cette ville, commençait à connaître les personnes qui vivaient autour d'elle.
+— Heureusement que vous êtes là.
 
-Un dimanche après-midi, elle a trouvé une dernière enveloppe.
+Karim lui a donné le téléphone.
 
-Elle était différente des autres.
+— Maintenant, vous avez votre téléphone, votre voiture, votre valise et votre nom.
 
-Cette fois, il y avait un nom.
+Marc a souri.
 
-« Pour Clara. »
+— Il ne me manque plus rien !
 
-À l'intérieur, elle a trouvé une seule phrase :
+Il est finalement parti.
 
-« Il ne fallait rien retrouver. Il fallait simplement commencer à regarder. »
+Une heure plus tard, Karim a reçu un appel.
 
-Clara a compris.
+C’était Marc.
 
-Les enveloppes n'avaient jamais eu pour objectif de lui faire découvrir un objet précis.
+— Bonjour, c’est encore moi.
 
-Elles avaient attiré son attention sur des choses qu'elle ignorait chaque jour.
+Karim a commencé à rire.
 
-Un banc.
+— Bonjour, Monsieur Bernard. Vous avez oublié quelque chose ?
 
-Une photographie.
+— Non, tout va bien.
 
-Un voisin.
+— Alors pourquoi vous m’appelez ?
 
-Une histoire.
+— Je voulais simplement vérifier quelque chose.
 
-Elle est descendue dans le hall.
+— Quoi donc ?
 
-Plusieurs habitants discutaient autour d'une vieille table.
+— Je voulais être sûr que je m’appelle bien Bernard.
 
-Jeanne racontait quelque chose à deux enfants.
+Karim a éclaté de rire.
 
-Le gardien accrochait une nouvelle photographie au mur.
+— Oui, Monsieur Bernard. Je vous le confirme.
 
-Clara s'est approchée.
+Marc a raccroché en riant.
 
-— Je peux vous aider ?
+Quelques jours plus tard, il est revenu rendre la voiture.
 
-Le gardien lui a souri.
+Cette fois, il est entré dans l’agence avec un grand sourire.
 
-— Bien sûr.
+— Bonjour !
 
-Depuis ce jour, Clara n'a plus seulement vécu dans cet immeuble.
+Karim l’a reconnu immédiatement.
 
-Elle y a trouvé sa place.
+— Bonjour, Monsieur Bernard !
 
-Elle avait pensé que sa nouvelle ville ne lui appartenait pas encore.
+Marc a posé les clés sur le comptoir.
 
-Elle avait finalement compris qu'un endroit devient familier lorsqu'on commence à connaître les histoires de ceux qui y vivent.
+— Vous voyez ? Je n’ai pas oublié mon nom cette fois.
 
-Et parfois, il suffit d'une simple lettre pour nous apprendre à regarder ce que nous avions toujours devant les yeux.`,
+Karim a souri.
+
+— Et votre téléphone ?
+
+Marc a vérifié sa poche.
+
+— Ici.
+
+— Votre valise ?
+
+— Dans la voiture.
+
+— Et où est votre voiture ?
+
+Marc a regardé par la fenêtre.
+
+— Devant l’agence.
+
+Karim a hoché la tête.
+
+— Parfait. Vous avez fait beaucoup de progrès.
+
+Ils ont tous les deux éclaté de rire.
+
+Avant de partir, Marc a sorti un petit carnet de sa poche.
+
+— J’ai commencé à écrire les choses importantes dedans.
+
+Karim a regardé la première page.
+
+Il y avait écrit :
+
+« Mon nom : Marc Bernard.
+Mon numéro : …
+Mon adresse : …
+Ne pas oublier le téléphone. »
+
+Karim a souri.
+
+— Très bonne idée.
+
+Marc a rangé son carnet.
+
+— Oui. Mais j’ai encore un problème.
+
+— Lequel ?
+
+Marc a regardé son carnet.
+
+— Je ne sais plus où j’ai mis mes clés de maison.
+
+Karim a regardé ses mains.
+
+Les clés étaient dans sa main droite.
+
+Marc les a regardées.
+
+Puis il a commencé à rire.
+
+— Bon… finalement, je vais vraiment avoir besoin de ce carnet.
+
+Depuis ce jour, Karim raconte souvent cette histoire à ses collègues.
+
+Et quand un client cherche quelque chose dans son sac pendant plusieurs minutes, il lui dit toujours en plaisantant :
+
+— Prenez votre temps. Au moins, vous n’avez pas encore oublié votre nom.`,
 wordef: [
-  { mot: "à l'écart", definition: "Away from other people or separated from a group.", contextExample: "Elle restait souvent à l'écart des autres habitants.", synonyme: "isolé" },
-  { mot: "plaisanterie", definition: "Something said or done to make people laugh or as a joke.", contextExample: "Elle a pensé que cette lettre était une plaisanterie.", synonyme: "blague" },
-  { mot: "ramasser", definition: "To pick something up from the ground or from a low place.", contextExample: "Elle a ramassé l'enveloppe devant sa porte.", synonyme: "prendre" },
-  { mot: "étrange", definition: "Unusual or difficult to understand.", contextExample: "Elle a trouvé cette situation étrange.", synonyme: "bizarre" },
-  { mot: "fixé", definition: "Attached firmly to something so that it does not move easily.", contextExample: "Une petite boîte était fixée sous le siège.", synonyme: "attaché" },
-  { mot: "attentivement", definition: "With a lot of attention and care.", contextExample: "Clara a regardé attentivement la photographie.", synonyme: "avec attention" },
-  { mot: "précaution", definition: "Care taken to avoid a problem, mistake, or danger.", contextExample: "Jeanne a pris la photographie avec précaution.", synonyme: "prudence" },
-  { mot: "décès", definition: "The death of a person, usually used in a formal way.", contextExample: "Après le décès de ses parents, elle a quitté la ville.", synonyme: "mort" },
-  { mot: "disparaître", definition: "To stop being visible or to stop being present.", contextExample: "Plusieurs photographies avaient disparu.", synonyme: "ne plus être là" },
-  { mot: "se rendre compte", definition: "To suddenly understand or realize something.", contextExample: "Elle s'est rendu compte qu'elle connaissait très peu ses voisins.", synonyme: "comprendre" },
-  { mot: "se rappeler", definition: "To remember a person, thing, or event from the past.", contextExample: "Jeanne se rappelait parfaitement cette journée.", synonyme: "se souvenir" },
-  { mot: "raconter", definition: "To tell someone about an event, experience, or story.", contextExample: "Jeanne a raconté son enfance à Clara.", synonyme: "relater" },
-  { mot: "anecdote", definition: "A short and interesting or amusing story about a real event or person.", contextExample: "Les habitants racontaient des anecdotes sur le quartier.", synonyme: "petite histoire" },
-  { mot: "habitude", definition: "Something that a person regularly does or normally does.", contextExample: "Les habitants avaient changé leurs habitudes.", synonyme: "routine" },
-  { mot: "se retrouver", definition: "To meet or be together in the same place.", contextExample: "Les habitants se retrouvaient parfois dans le parc.", synonyme: "se réunir" },
-  { mot: "familier", definition: "Known well enough to feel comfortable and no longer strange.", contextExample: "Peu à peu, le quartier lui est devenu familier.", synonyme: "connu" },
-  { mot: "appartenir", definition: "To be owned by someone or to be connected to someone or something.", contextExample: "Elle pensait que cette histoire appartenait au passé.", synonyme: "être à" },
-  { mot: "inconnu", definition: "Not known or not familiar to someone.", contextExample: "Au début, tous les habitants lui étaient inconnus.", synonyme: "étranger" },
-  { mot: "accueillir", definition: "To receive someone in a friendly or welcoming way.", contextExample: "Les habitants ont commencé à accueillir Clara dans leurs discussions.", synonyme: "recevoir" },
-  { mot: "à l'époque", definition: "At that time in the past.", contextExample: "À l'époque, presque toutes les familles se connaissaient.", synonyme: "autrefois" }
+  {
+    mot: "agence",
+    definition: "A business or office that provides a particular service.",
+    contextExample: "Karim travaillait dans une petite agence de location de voitures.",
+    synonyme: "bureau"
+  },
+  {
+    mot: "location",
+    definition: "The act of paying to use something, such as a car, for a period of time.",
+    contextExample: "Karim travaillait dans une petite agence de location de voitures.",
+    synonyme: "loyer"
+  },
+  {
+    mot: "réservation",
+    definition: "An arrangement made in advance to have something available at a certain time.",
+    contextExample: "Vous avez une réservation ?",
+    synonyme: "réserve"
+  },
+  {
+    mot: "froncer les sourcils",
+    definition: "To move your eyebrows together, often because you are confused or worried.",
+    contextExample: "Il a regardé son écran puis il a froncé les sourcils.",
+    synonyme: "se concentrer"
+  },
+  {
+    mot: "capture d’écran",
+    definition: "A picture taken of what is shown on a phone or computer screen.",
+    contextExample: "Il a enfin trouvé une capture d’écran.",
+    synonyme: "image d’écran"
+  },
+  {
+    mot: "silencieux",
+    definition: "Not speaking or making any sound.",
+    contextExample: "L’homme est resté silencieux.",
+    synonyme: "muet"
+  },
+  {
+    mot: "douter",
+    definition: "To feel unsure about whether something is true or correct.",
+    contextExample: "Je n’en doute pas.",
+    synonyme: "hésiter"
+  },
+  {
+    mot: "fouiller",
+    definition: "To look carefully through a place or group of things to find something.",
+    contextExample: "L’homme a fouillé encore une fois dans son téléphone.",
+    synonyme: "chercher"
+  },
+  {
+    mot: "galerie",
+    definition: "The part of a phone where saved photos and videos can be viewed.",
+    contextExample: "Il a ouvert sa galerie.",
+    synonyme: "album"
+  },
+  {
+    mot: "panique",
+    definition: "A sudden feeling of strong fear or worry that makes it difficult to think calmly.",
+    contextExample: "Marc a commencé à paniquer.",
+    synonyme: "angoisse"
+  },
+  {
+    mot: "adresse",
+    definition: "The information that tells where a person lives or where a place is located.",
+    contextExample: "Votre adresse ?",
+    synonyme: "domicile"
+  },
+  {
+    mot: "soupir",
+    definition: "A long breath that you make when you feel relief, tiredness, or worry.",
+    contextExample: "Il a poussé un grand soupir.",
+    synonyme: "respiration"
+  },
+  {
+    mot: "contrat",
+    definition: "An official written agreement between two or more people or organizations.",
+    contextExample: "Karim a préparé le contrat.",
+    synonyme: "accord"
+  },
+  {
+    mot: "document",
+    definition: "An official paper or file that contains information.",
+    contextExample: "Après avoir signé les documents, Karim lui a donné les clés.",
+    synonyme: "papier"
+  },
+  {
+    mot: "coffre",
+    definition: "The closed storage space at the back of a car where you can put bags and other objects.",
+    contextExample: "Il a ouvert le coffre et a posé sa valise à l’intérieur.",
+    synonyme: "compartiment"
+  },
+  {
+    mot: "récupérer",
+    definition: "To get something back after leaving it somewhere or losing it.",
+    contextExample: "Il a récupéré son téléphone.",
+    synonyme: "retrouver"
+  },
+  {
+    mot: "confirmer",
+    definition: "To say or show that something is correct or true.",
+    contextExample: "Je voulais être sûr que je m’appelle bien Bernard.",
+    synonyme: "valider"
+  },
+  {
+    mot: "rendre",
+    definition: "To give something back to the person or place it belongs to.",
+    contextExample: "Quelques jours plus tard, il est revenu rendre la voiture.",
+    synonyme: "restituer"
+  },
+  {
+    mot: "progrès",
+    definition: "An improvement or a change that shows that someone is doing better.",
+    contextExample: "Vous avez fait beaucoup de progrès.",
+    synonyme: "amélioration"
+  },
+  {
+    mot: "finalement",
+    definition: "In the end, after everything has happened.",
+    contextExample: "Finalement, je vais vraiment avoir besoin de ce carnet.",
+    synonyme: "enfin"
+  }
 ]
     },{
       id: 19,
       date: 19,
-      txt: `Le carnet oublié
+      txt: `Le colis du voisin
 
-Chaque matin, Thomas prenait le même train pour aller travailler.
+Depuis quelques semaines, Amine recevait beaucoup de colis parce qu’il avait commencé à acheter plusieurs choses sur Internet.
 
-Il connaissait presque par cœur le trajet. Il montait toujours dans le deuxième wagon, s'asseyait près de la fenêtre et regardait les maisons défiler pendant quelques minutes.
+Un mardi après-midi, alors qu’il rentrait du travail, il a trouvé un petit colis devant sa porte.
 
-Il ne parlait presque jamais aux autres voyageurs.
+Il a regardé l’étiquette.
 
-Un mardi matin, alors que le train venait de partir, Thomas a remarqué un petit carnet posé sur le siège en face de lui.
+Son nom était écrit dessus.
 
-Il l'a pris.
+— Parfait. Mon colis est arrivé.
 
-C'était un carnet noir, assez ancien. La couverture était abîmée et plusieurs pages étaient légèrement froissées.
+Il est entré chez lui, a posé le colis sur la table et a commencé à préparer le dîner.
 
-Thomas a regardé autour de lui.
+Après avoir mangé, il s’est installé sur le canapé.
 
-Personne ne semblait chercher le carnet.
+Il avait presque oublié le colis.
 
-Il l'a ouvert.
+Une heure plus tard, il l’a ouvert.
 
-La première page était vide.
+À l’intérieur, il y avait une paire de chaussures.
 
-Sur la deuxième, une phrase avait été écrite à la main :
+Amine a regardé les chaussures avec surprise.
 
-« Si vous trouvez ce carnet, écrivez quelque chose que vous n'avez jamais dit à personne. »
+— Mais… je n’ai jamais commandé ça.
 
-Thomas a souri.
+Il a regardé l’étiquette une deuxième fois.
 
-Il a trouvé cela bizarre.
+Son nom était bien écrit.
 
-Il a pensé à refermer le carnet, mais sa curiosité l'a poussé à continuer.
+Son adresse aussi.
 
-Sur les pages suivantes, plusieurs personnes avaient écrit.
+Il a commencé à réfléchir.
 
-Une femme expliquait qu'elle regrettait de ne pas avoir parlé à sa sœur avant qu'elle parte vivre à l'étranger.
+Peut-être que le magasin avait fait une erreur.
 
-Un homme racontait qu'il avait toujours voulu apprendre à jouer du piano, mais qu'il n'avait jamais osé commencer.
+Il a pris son téléphone et a vérifié ses commandes.
 
-Une autre personne écrivait simplement :
+Il avait commandé une lampe, un livre et une petite enceinte.
 
-« J'ai peur de rester seul. »
+Mais aucune chaussure.
 
-Thomas a continué à lire.
+— C’est bizarre.
 
-Chaque page contenait quelques lignes.
+Il a pris les chaussures et les a essayées.
 
-Certaines histoires étaient légères.
+Elles étaient exactement à sa taille.
 
-D'autres étaient beaucoup plus personnelles.
+Amine a souri.
 
-Il a alors compris que le carnet circulait probablement dans le train.
+— Bon… ce n’est peut-être pas une erreur si grave.
 
-Quelqu'un l'avait commencé et d'autres voyageurs avaient continué à écrire.
+Il a marché quelques minutes dans son salon avec les chaussures.
 
-Thomas a hésité.
+Elles étaient très confortables.
 
-Il ne savait pas quoi écrire.
+Mais il ne voulait pas garder quelque chose qui ne lui appartenait pas.
 
-Après quelques minutes, il a pris un stylo dans son sac.
+Le lendemain matin, il est allé voir le facteur.
 
-Il a écrit :
+— Bonjour. J’ai reçu un colis, mais je pense qu’il y a un problème.
 
-« J'aimerais parfois avoir le courage de changer de vie. »
+Le facteur a regardé l’étiquette.
 
-Il a relu sa phrase.
+— Quel est le problème ?
 
-Puis il a refermé le carnet.
+— Je n’ai jamais commandé ces chaussures.
 
-Avant de descendre du train, il l'a laissé sur le même siège.
+Le facteur a vérifié son appareil.
 
-Le lendemain, il est retourné dans le deuxième wagon.
+Puis il a regardé Amine.
 
-Le carnet était là.
+— Le colis est bien enregistré à votre adresse.
 
-Thomas l'a ouvert.
+— Oui, mais ce n’est pas ma commande.
 
-Sous son message, quelqu'un avait écrit :
+Le facteur a réfléchi.
 
-« Alors, qu'est-ce qui vous empêche de le faire ? »
+— Vous habitez dans quel appartement ?
 
-Thomas a été surpris.
+— Le numéro 14.
 
-Il ne s'attendait pas à une réponse.
+Le facteur a regardé son appareil une nouvelle fois.
 
-Il a regardé autour de lui.
+Puis il a commencé à rire.
 
-Les voyageurs étaient silencieux.
+— Ah !
 
-Il ne savait pas qui avait écrit cette phrase.
+— Quoi ?
 
-Il a pris le carnet.
+— Le colis est pour l’appartement 41.
 
-« La peur de faire une erreur », a-t-il répondu.
+Amine a ouvert de grands yeux.
 
-Le lendemain, une nouvelle phrase était apparue :
+— Mais mon appartement est le 14 !
 
-« Une erreur peut parfois être moins grave qu'un regret. »
+Le facteur a souri.
 
-Thomas a pensé à cette phrase toute la journée.
+— Je sais. Mais regardez l’étiquette.
 
-Depuis plusieurs années, il rêvait de quitter son travail pour ouvrir une petite librairie.
+Amine a regardé.
 
-Il avait fait quelques recherches.
+Le numéro était bien écrit 41.
 
-Il avait même économisé de l'argent.
+Il avait simplement lu l’adresse trop rapidement.
 
-Mais chaque fois qu'il pensait sérieusement à son projet, il trouvait une raison de l'abandonner.
+— Oh…
 
-Il avait peur de perdre son salaire.
+Le facteur a commencé à rire.
 
-Peur de ne pas avoir assez de clients.
+— Ça arrive.
 
-Peur de décevoir sa famille.
+Amine est retourné chez lui avec le colis.
 
-Le carnet ne lui donnait aucune solution.
+Il a regardé les chaussures.
 
-Pourtant, il l'obligeait à réfléchir.
+— Donc elles sont pour mon voisin.
 
-Quelques jours plus tard, Thomas a écrit une nouvelle phrase :
+Il connaissait son voisin, mais ils ne parlaient presque jamais.
 
-« Je crois que j'attends depuis trop longtemps. »
+Il est allé à l’appartement 41 et a sonné.
 
-Cette fois, aucune réponse n'est apparue le lendemain.
+Personne n’a répondu.
 
-Ni le jour suivant.
+Il a sonné une deuxième fois.
 
-Thomas a commencé à se demander si quelqu'un continuait réellement à lire ses messages.
+Toujours personne.
 
-Puis, un vendredi matin, il a trouvé une enveloppe glissée entre les pages.
+Il a décidé de laisser un petit mot sur la porte.
 
-À l'intérieur, il y avait une adresse.
+« Bonjour, votre colis est chez moi. Passez le récupérer quand vous êtes disponible. Appartement 14. »
 
-Et un petit mot :
+Quelques heures plus tard, quelqu’un a frappé à sa porte.
 
-« Si vous voulez vraiment changer quelque chose, venez ici samedi. »
+C’était son voisin.
 
-Thomas a hésité pendant toute la journée.
+— Bonjour. Je crois que vous avez mon colis.
 
-Le samedi matin, il s'est rendu à l'adresse.
+Amine lui a donné la boîte.
 
-Il s'agissait d'une petite librairie située dans une rue calme.
+Le voisin l’a ouverte immédiatement.
 
-Il est entré.
+Il a regardé les chaussures.
 
-Une femme âgée était derrière le comptoir.
+Puis il a regardé Amine.
 
-— Vous êtes Thomas ?
+— Vous les avez essayées ?
 
-Il a été surpris.
+Amine est devenu un peu gêné.
+
+— Euh… oui.
+
+Le voisin a commencé à rire.
+
+— Elles vous vont bien ?
+
+— Très bien.
+
+— Alors gardez-les !
+
+Amine a refusé.
+
+— Non, non. Ce sont les vôtres.
+
+Le voisin a souri.
+
+— J’en ai commandé deux paires.
+
+— Deux paires ?
+
+— Oui. Une noire et une blanche.
+
+Il a sorti une deuxième boîte de derrière lui.
+
+— Celle-ci est la noire.
+
+Amine a regardé les chaussures qu’il avait reçues.
+
+Elles étaient blanches.
+
+— Donc vous avez deux paires ?
 
 — Oui.
 
-Elle lui a montré une chaise.
+Le voisin a réfléchi quelques secondes.
 
-— Asseyez-vous.
+— En fait, j’ai commandé la mauvaise taille pour la paire blanche.
 
-Elle lui a expliqué que le carnet appartenait autrefois à son mari.
+Amine a regardé les chaussures.
 
-Avant de mourir, il l'avait commencé dans le train parce qu'il voulait que les gens puissent écrire librement ce qu'ils n'osaient pas dire.
+— Quelle taille ?
 
-Après sa mort, elle avait continué à faire circuler le carnet.
+— Du 42.
 
-— Et pourquoi m'avoir donné cette adresse ?
+Amine a regardé ses pieds.
 
-La femme a souri.
+Il portait du 42.
 
-— Parce que cette librairie est à vendre.
+Le voisin a commencé à rire.
 
-Thomas est resté silencieux.
+— C’est incroyable !
 
-Il a regardé autour de lui.
+Amine a ri lui aussi.
 
-Les étagères étaient anciennes.
+— Vous voulez dire que je peux les garder ?
 
-Certaines étaient couvertes de poussière.
+— Oui. Je ne peux pas les porter et elles vous vont parfaitement.
 
-Mais il y avait quelque chose de chaleureux dans cet endroit.
+Amine a hésité.
 
-— Vous pensez que je pourrais la reprendre ?
+— Vous êtes sûr ?
 
-— Je pense que vous devez décider vous-même.
+— Oui. Mais j’ai une condition.
 
-Thomas est sorti de la librairie avec beaucoup de questions.
+— Laquelle ?
 
-Pendant plusieurs semaines, il a étudié les comptes, parlé à des commerçants et réfléchi à son projet.
+Le voisin a montré la deuxième boîte.
 
-Pour la première fois, il ne rêvait plus simplement de changer de vie.
+— Si vous gardez les chaussures, vous devez m’aider à monter cette boîte.
 
-Il préparait réellement ce changement.
+Amine a regardé la boîte.
 
-Trois mois plus tard, Thomas a quitté son travail.
+Elle était énorme.
 
-Il a repris la librairie.
+— Qu’est-ce qu’il y a dedans ?
 
-Les premiers mois ont été difficiles.
+— Une petite table.
 
-Il n'y avait pas beaucoup de clients.
+Amine a commencé à rire.
 
-Parfois, il regrettait presque sa décision.
+— D’accord. Marché conclu.
 
-Mais peu à peu, les habitants du quartier ont découvert la librairie.
+Ils ont monté la table ensemble.
 
-Une vieille dame venait chaque mardi.
+Pendant qu’ils travaillaient, ils ont commencé à discuter.
 
-Un étudiant passait après ses cours.
+Ils ont découvert qu’ils travaillaient dans des domaines différents, mais qu’ils avaient plusieurs passions en commun.
 
-Des parents venaient avec leurs enfants le samedi.
+Ils aimaient tous les deux le football, les films et les promenades le week-end.
 
-La librairie est devenue un petit lieu de rencontre.
+Après avoir terminé la table, le voisin a proposé :
 
-Un jour, Thomas a retrouvé le vieux carnet dans un tiroir.
+— Un café ?
 
-Il l'a ouvert.
+Amine a accepté.
 
-La dernière page était vide.
+Ils sont allés dans un petit café près de l’immeuble.
 
-Il a pris un stylo.
+Ils ont parlé pendant presque deux heures.
 
-Puis il a écrit :
+En rentrant, Amine a regardé ses nouvelles chaussures.
 
-« J'avais peur de changer de vie. Maintenant, j'ai surtout peur de ne jamais avoir essayé. »
+Puis il a regardé son voisin.
 
-Il a refermé le carnet et l'a posé près de la caisse.
+— Finalement, ce colis était peut-être une bonne chose.
 
-Quelques minutes plus tard, une jeune femme est entrée dans la librairie.
+Son voisin a souri.
 
-Elle a remarqué le carnet.
+— Oui. Tu as reçu une paire de chaussures et tu as trouvé un ami.
 
-Elle l'a ouvert.
+Amine a ri.
 
-Elle a lu quelques pages.
+— Et toi, tu as trouvé quelqu’un pour monter ta table gratuitement.
 
-Puis elle a pris le stylo.
+— C’est vrai. J’ai fait une très bonne affaire.
 
-Thomas l'a regardée écrire.
+Depuis ce jour, Amine et son voisin se voient régulièrement.
 
-Il n'a pas essayé de lire son message.
+Ils prennent parfois un café ensemble et s’entraident quand ils ont besoin de quelque chose.
 
-Il savait que certaines choses devaient rester secrètes.
+Et chaque fois qu’Amine reçoit un colis, il regarde l’adresse deux fois avant de l’ouvrir.
 
-Quand elle est partie, elle a laissé le carnet sur le comptoir.
+Parce qu’un simple numéro mal lu peut parfois créer une drôle d’histoire.
 
-Thomas l'a ouvert.
-
-Une seule phrase était écrite :
-
-« Merci de m'avoir donné envie d'essayer. »
-
-Thomas a souri.
-
-Il a compris que le carnet n'avait jamais été là pour donner des réponses.
-
-Il servait simplement à faire naître une question :
-
-« Et si j'essayais ? »`,
+Et parfois, un colis qui n’est pas vraiment le vôtre peut vous apporter quelque chose de beaucoup plus important qu’une paire de chaussures : une nouvelle amitié.`,
 wordef: [
-  { mot: "défiler", definition: "To move past someone or something continuously, especially when viewed from a fixed place.", contextExample: "Thomas regardait les maisons défiler pendant le trajet.", synonyme: "passer" },
-
-  { mot: "abîmé", definition: "Damaged or no longer in good condition because of use or age.", contextExample: "La couverture du carnet était abîmée.", synonyme: "endommagé" },
-
-  { mot: "froissé", definition: "Wrinkled or marked with lines because it has been folded or pressed.", contextExample: "Plusieurs pages étaient légèrement froissées.", synonyme: "plissé" },
-
-  { mot: "curiosité", definition: "A strong desire to know or discover something.", contextExample: "Sa curiosité l'a poussé à continuer à lire.", synonyme: "intérêt" },
-
-  { mot: "regretter", definition: "To feel sad or sorry about something that happened or something you did not do.", contextExample: "Elle regrettait de ne pas avoir parlé à sa sœur.", synonyme: "déplorer" },
-
-  { mot: "oser", definition: "To have enough courage to do something that may seem difficult or frightening.", contextExample: "Il n'avait jamais osé commencer le piano.", synonyme: "se risquer à" },
-
-  { mot: "hésiter", definition: "To be unsure about what to do or decide.", contextExample: "Thomas a hésité avant d'écrire dans le carnet.", synonyme: "douter" },
-
-  { mot: "pousser", definition: "To encourage or cause someone to do something.", contextExample: "Sa curiosité l'a poussé à continuer.", synonyme: "inciter" },
-
-  { mot: "circuler", definition: "To pass from one person or place to another.", contextExample: "Le carnet circulait probablement dans le train.", synonyme: "passer" },
-
-  { mot: "se contenter", definition: "To accept or do only what is available instead of wanting more.", contextExample: "Il ne voulait plus se contenter de rêver.", synonyme: "se satisfaire de" },
-
-  { mot: "un regret", definition: "A feeling of sadness about something you did or did not do.", contextExample: "Une erreur peut être moins grave qu'un regret.", synonyme: "remords" },
-
-  { mot: "abandonner", definition: "To stop doing something or to give up an activity, plan, or goal.", contextExample: "Il trouvait toujours une raison d'abandonner son projet.", synonyme: "renoncer à" },
-
-  { mot: "glisser", definition: "To put or place something gently into a narrow space or between other things.", contextExample: "Une enveloppe était glissée entre les pages.", synonyme: "insérer" },
-
-  { mot: "reprendre", definition: "To take control of or continue something that belonged to or was done by someone else.", contextExample: "Thomas voulait reprendre la librairie.", synonyme: "racheter" },
-
-  { mot: "chaleureux", definition: "Friendly, pleasant, and making people feel welcome and comfortable.", contextExample: "Il y avait quelque chose de chaleureux dans cet endroit.", synonyme: "accueillant" },
-
-  { mot: "commerçant", definition: "A person who owns or works in a business that sells goods or services.", contextExample: "Thomas a parlé à plusieurs commerçants du quartier.", synonyme: "vendeur" },
-
-  { mot: "se rendre", definition: "To go to a particular place, especially for a specific reason.", contextExample: "Thomas s'est rendu à l'adresse indiquée.", synonyme: "aller" },
-
-  { mot: "réellement", definition: "In a real or genuine way; actually.", contextExample: "Il ne rêvait plus simplement de changer de vie, il préparait réellement ce changement.", synonyme: "vraiment" },
-
-  { mot: "naître", definition: "To begin to exist or develop, especially an idea, feeling, or relationship.", contextExample: "Le carnet servait à faire naître une question.", synonyme: "apparaître" },
-
-  { mot: "oser essayer", definition: "To find enough courage to attempt something despite fear or uncertainty.", contextExample: "Le carnet lui avait donné envie d'oser essayer.", synonyme: "se lancer" }
+  {
+    mot: "colis",
+    definition: "A package containing something that is sent or delivered to someone.",
+    contextExample: "Il a trouvé un petit colis devant sa porte.",
+    synonyme: "paquet"
+  },
+  {
+    mot: "étiquette",
+    definition: "A piece of paper or material attached to something that gives information about it.",
+    contextExample: "Il a regardé l’étiquette.",
+    synonyme: "label"
+  },
+  {
+    mot: "enceinte",
+    definition: "A device that produces sound from a phone, computer, or other audio source.",
+    contextExample: "Il avait commandé une lampe, un livre et une petite enceinte.",
+    synonyme: "haut-parleur"
+  },
+  {
+    mot: "commander",
+    definition: "To ask a shop or website to send you something that you want to buy.",
+    contextExample: "Je n’ai jamais commandé ça.",
+    synonyme: "acheter"
+  },
+  {
+    mot: "erreur",
+    definition: "Something that is incorrect or happens because of a mistake.",
+    contextExample: "Peut-être que le magasin avait fait une erreur.",
+    synonyme: "faute"
+  },
+  {
+    mot: "confortable",
+    definition: "Pleasant to wear, sit on, or use because it feels good.",
+    contextExample: "Elles étaient très confortables.",
+    synonyme: "agréable"
+  },
+  {
+    mot: "appartenir",
+    definition: "To be owned by someone.",
+    contextExample: "Je ne veux pas garder quelque chose qui ne m’appartient pas.",
+    synonyme: "être à"
+  },
+  {
+    mot: "facteur",
+    definition: "A person whose job is to deliver letters and packages.",
+    contextExample: "Le lendemain matin, il est allé voir le facteur.",
+    synonyme: "postier"
+  },
+  {
+    mot: "enregistrer",
+    definition: "To put information into a computer or system so that it is saved.",
+    contextExample: "Le colis est bien enregistré à votre adresse.",
+    synonyme: "inscrire"
+  },
+  {
+    mot: "adresse",
+    definition: "The information that shows where a person lives or where something should be delivered.",
+    contextExample: "Son adresse aussi.",
+    synonyme: "domicile"
+  },
+  {
+    mot: "récupérer",
+    definition: "To get something back after it has been left somewhere or delivered somewhere else.",
+    contextExample: "Passez le récupérer quand vous êtes disponible.",
+    synonyme: "reprendre"
+  },
+  {
+    mot: "disponible",
+    definition: "Free and able to do something at a particular time.",
+    contextExample: "Passez le récupérer quand vous êtes disponible.",
+    synonyme: "libre"
+  },
+  {
+    mot: "gêné",
+    definition: "Feeling uncomfortable or embarrassed because of a situation.",
+    contextExample: "Amine est devenu un peu gêné.",
+    synonyme: "embarrassé"
+  },
+  {
+    mot: "condition",
+    definition: "Something that must happen or be accepted before an agreement is made.",
+    contextExample: "Mais j’ai une condition.",
+    synonyme: "exigence"
+  },
+  {
+    mot: "hésiter",
+    definition: "To pause because you are not sure what to say or do.",
+    contextExample: "Amine a hésité.",
+    synonyme: "douter"
+  },
+  {
+    mot: "marché conclu",
+    definition: "An expression used when two people agree to a deal or proposal.",
+    contextExample: "D’accord. Marché conclu.",
+    synonyme: "accord"
+  },
+  {
+    mot: "passion",
+    definition: "A strong interest or love for an activity or subject.",
+    contextExample: "Ils avaient plusieurs passions en commun.",
+    synonyme: "intérêt"
+  },
+  {
+    mot: "s’entraider",
+    definition: "To help each other when someone needs help.",
+    contextExample: "Ils s’entraident quand ils ont besoin de quelque chose.",
+    synonyme: "se soutenir"
+  },
+  {
+    mot: "affaire",
+    definition: "A situation, agreement, or deal between people.",
+    contextExample: "J’ai fait une très bonne affaire.",
+    synonyme: "marché"
+  },
+  {
+    mot: "amitié",
+    definition: "A relationship between people who like and care about each other.",
+    contextExample: "Une nouvelle amitié.",
+    synonyme: "relation"
+  }
 ]
      },{
       id: 20,
       date: 20,
-      txt: `Le banc au bout du parc
+      txt: `Le billet dans la poche
 
-Tous les soirs, après son travail, Karim traversait le même parc pour rentrer chez lui.
+Depuis plusieurs années, Rachid avait l’habitude de prendre un café dans le même petit café près de son travail.
 
-Le parc n'était pas très grand. Il y avait quelques arbres, une petite fontaine et un chemin qui faisait le tour des jardins.
+Le serveur le connaissait bien.
 
-Au bout du parc, presque personne ne passait.
+Chaque matin, Rachid entrait, saluait le serveur et disait :
 
-Il y avait seulement un vieux banc sous un grand arbre.
+— Comme d’habitude.
 
-Karim avait remarqué ce banc depuis longtemps, mais il ne s'y était jamais assis.
+Le serveur préparait alors un café et un petit croissant.
 
-Un jeudi soir, il pleuvait légèrement.
+Un matin, Rachid est entré comme toujours.
 
-Karim avançait rapidement lorsqu'il a aperçu une petite veste posée sur le banc.
+Il s’est assis à sa table préférée.
 
-Il s'est arrêté.
+Le serveur lui a apporté son café.
 
-La veste semblait appartenir à un enfant.
+Rachid a bu tranquillement son café, puis il a regardé l’heure.
 
-Il a regardé autour de lui.
+Il était déjà en retard.
 
-Personne.
+Il s’est levé rapidement, a pris sa veste et s’est dirigé vers la porte.
 
-Il a pris la veste et l'a apportée à l'accueil du parc.
+Mais le serveur l’a appelé.
 
-— Quelqu'un est peut-être en train de la chercher, a-t-il expliqué.
+— Monsieur Rachid !
 
-L'employé a pris la veste.
+Rachid s’est retourné.
 
-— Nous allons la garder ici.
+— Oui ?
 
-Karim est reparti.
+— Vous n’avez pas payé.
 
-Le lendemain, lorsqu'il est passé devant le banc, il a vu une petite fille assise seule sous l'arbre.
+Rachid a mis la main dans sa poche.
 
-Elle regardait le sol.
+Il a cherché son portefeuille.
 
-Karim s'est approché.
+Rien.
 
-— Tu attends quelqu'un ?
+Il a vérifié l’autre poche.
 
-La fille a levé les yeux.
+Toujours rien.
 
-— Mon père.
+Il a regardé dans son sac.
 
-— Il sait où tu es ?
+Son portefeuille n’était pas là.
 
-Elle a hoché la tête.
+— Oh non…
 
-— Il m'a dit de l'attendre ici.
+Le serveur a souri.
 
-Karim a regardé autour de lui.
+— Vous l’avez peut-être oublié chez vous ?
 
-Le parc était presque vide.
+Rachid a réfléchi.
 
-— Depuis combien de temps ?
+— C’est possible.
 
-— Je ne sais pas.
+Il a commencé à vérifier toutes ses poches.
 
-Karim a commencé à s'inquiéter.
+Une poche de sa veste.
 
-Il s'est assis à quelques mètres d'elle.
+Une autre.
 
-— Tu veux que je reste avec toi ?
+La poche de son pantalon.
 
-La petite fille a simplement hoché la tête.
+Rien.
 
-Quelques minutes plus tard, un homme est arrivé en courant.
+— Je suis vraiment désolé. Je vais revenir tout à l’heure pour payer.
 
-— Lina !
+Le serveur a accepté.
 
-La petite fille s'est levée immédiatement.
+— Pas de problème.
 
-Son père l'a serrée dans ses bras.
+Rachid est sorti du café et est parti travailler.
 
-— Je suis désolé. Je pensais que tu étais avec ta grand-mère.
+Pendant toute la matinée, il a essayé de se souvenir de l’endroit où il avait laissé son portefeuille.
 
-Puis il s'est tourné vers Karim.
+Il a pensé à sa maison.
 
-— Merci d'être resté avec elle.
+À sa voiture.
 
-Karim a souri.
+À son bureau.
 
-— Ce n'est rien.
+Il ne trouvait aucune réponse.
 
-L'homme lui a expliqué qu'il venait souvent dans ce parc avec sa fille. Ce jour-là, ils s'étaient séparés par erreur.
+À midi, il a appelé sa femme.
 
-Karim est rentré chez lui.
+— Est-ce que tu as vu mon portefeuille ?
 
-L'histoire aurait pu s'arrêter là.
+— Non. Pourquoi ?
 
-Mais le lendemain, il a trouvé quelque chose sur le vieux banc.
+— Je ne le trouve pas.
 
-Une petite enveloppe.
+— Tu as regardé dans tes poches ?
 
-À l'intérieur, il y avait un dessin.
+Rachid a soupiré.
 
-On y voyait un homme assis sous un arbre avec une petite fille.
+— Oui, plusieurs fois.
 
-En dessous, quelques mots étaient écrits :
+— Alors regarde encore.
 
-« Merci d'avoir attendu avec moi. »
+— Je viens de regarder !
 
-Karim a souri.
+Sa femme a commencé à rire.
 
-Il a gardé le dessin.
+— Avec toi, on ne sait jamais.
 
-À partir de ce jour, il a commencé à s'asseoir régulièrement sur ce banc.
+Rachid a raccroché.
 
-Il y restait parfois dix minutes avant de rentrer chez lui.
+Il a ouvert son sac une nouvelle fois.
 
-Il regardait les gens passer.
+Il a vérifié son bureau.
 
-Une femme promenait son chien.
+Puis il a regardé sous sa chaise.
 
-Des étudiants traversaient le parc en discutant.
+Toujours rien.
 
-Des enfants couraient près de la fontaine.
+À la fin de la journée, il est retourné au café.
 
-Karim s'est rendu compte qu'il avait toujours traversé le parc sans vraiment regarder ce qui se passait autour de lui.
+Le serveur l’attendait.
 
-Quelques semaines plus tard, il a remarqué un homme âgé assis sur le même banc.
+— Alors ? Vous avez retrouvé votre portefeuille ?
 
-Karim l'a salué.
+Rachid a secoué la tête.
 
-L'homme lui a répondu.
+— Non.
 
-Puis ils ont commencé à parler.
+— Vous avez payé votre café ce matin ?
 
-L'homme s'appelait André.
+— Non plus.
 
-Il venait chaque soir au parc depuis la mort de sa femme.
+Le serveur a commencé à rire.
 
-Au début, Karim ne savait pas quoi lui dire.
+— Au moins, vous n’avez pas oublié votre café.
 
-Mais André avait beaucoup d'histoires à raconter.
+Rachid a souri.
 
-Il parlait de son ancien travail, de ses voyages et de sa famille.
+— Très drôle.
 
-Karim a commencé à le retrouver régulièrement.
+Il a sorti son téléphone.
 
-Un soir, André n'était pas là.
+— Je peux vous payer avec ça ?
 
-Karim a attendu.
+Le serveur a accepté.
 
-Le lendemain non plus.
+Rachid a payé son café et son croissant.
 
-Il a demandé à l'accueil du parc si quelqu'un savait ce qui lui était arrivé.
+Puis il a pris son manteau.
 
-L'employé lui a expliqué qu'André était tombé malade et qu'il était à l'hôpital.
+Au moment de partir, le serveur lui a demandé :
 
-Karim a noté l'adresse.
+— Vous êtes sûr que vous n’avez rien dans vos poches ?
 
-Après son travail, il est allé lui rendre visite.
+Rachid a répondu :
 
-André était surpris.
+— J’ai vérifié au moins dix fois.
 
-— Vous êtes venu jusqu'ici ?
+Le serveur a souri.
 
-— Oui. Vous m'aviez habitué à nos conversations.
+— D’accord.
 
-André a souri.
+Rachid est sorti.
 
-— Je ne pensais pas que quelqu'un remarquerait mon absence.
+Il a marché jusqu’à sa voiture.
 
-Karim est resté quelques minutes avec lui.
+Il a ouvert la portière et s’est assis.
 
-Ils ont parlé comme d'habitude.
+Puis il a mis la main dans la poche intérieure de sa veste pour prendre ses clés.
 
-Avant de partir, Karim lui a promis de revenir.
+Et là…
 
-Les semaines suivantes, plusieurs personnes du parc ont appris qu'André était malade.
+Il a senti quelque chose.
 
-La petite Lina et son père ont également appris son histoire.
+Rachid s’est arrêté.
 
-Un jour, ils sont venus lui rendre visite.
+Il a sorti un petit objet noir.
 
-Puis une autre personne est venue.
+Son portefeuille.
 
-Et une autre.
+Il est resté silencieux pendant quelques secondes.
 
-André a été touché de voir autant de monde penser à lui.
+Puis il a éclaté de rire.
 
-Lorsqu'il est finalement revenu au parc, il a découvert quelque chose sur le vieux banc.
+— Mais non !
 
-Une petite plaque avait été installée sur le dossier.
+Il a regardé son portefeuille.
 
-Elle disait :
+Il était dans sa veste depuis le matin.
 
-« Prenez le temps de vous arrêter. Vous ne savez jamais qui vous rencontrerez. »
+Il avait simplement oublié qu’il avait une petite poche intérieure.
 
-André a lu la phrase en silence.
+Rachid a immédiatement appelé sa femme.
 
-Puis il s'est assis.
+— Tu avais raison.
 
-Karim est arrivé quelques minutes plus tard.
+— Tu as retrouvé ton portefeuille ?
 
-Ils se sont regardés.
+— Oui.
 
-— Alors, vous êtes revenu ?
+— Où était-il ?
 
-— Oui, a répondu André. Je crois que j'ai encore quelques histoires à vous raconter.
+Rachid a hésité.
 
-Karim a souri.
+— Dans ma poche.
 
-Ils sont restés là jusqu'à la tombée de la nuit.
+Sa femme a commencé à rire.
 
-Depuis ce jour, le banc n'était plus seulement un vieux banc au bout du parc.
+— Quelle poche ?
 
-C'était devenu un endroit où les gens s'arrêtaient.
+— La poche intérieure de ma veste.
 
-Certains pour parler.
+Elle a ri encore plus fort.
 
-D'autres pour écouter.
+— Et tu l’as cherchée combien de fois ?
 
-Et parfois, simplement pour ne plus traverser le monde trop vite.`,
+Rachid a réfléchi.
+
+— Je préfère ne pas répondre.
+
+Le lendemain matin, Rachid est retourné au café.
+
+Le serveur l’a vu entrer.
+
+— Bonjour, Monsieur Rachid.
+
+— Bonjour.
+
+— Vous avez votre portefeuille ?
+
+Rachid a tapoté sa poche.
+
+— Oui.
+
+— Vous êtes sûr ?
+
+— Absolument.
+
+Le serveur lui a apporté son café.
+
+Rachid a souri.
+
+Puis il a sorti son portefeuille et l’a posé bien au milieu de la table.
+
+— Comme ça, je ne pourrai pas le perdre.
+
+Le serveur a ri.
+
+— Bonne idée.
+
+Rachid a bu son café tranquillement.
+
+Quelques minutes plus tard, il s’est levé.
+
+Il a pris sa veste.
+
+Puis il est parti.
+
+Le serveur a regardé la table.
+
+Le portefeuille était toujours là.
+
+— Monsieur Rachid !
+
+Rachid est revenu en courant.
+
+Il a regardé la table.
+
+Puis son portefeuille.
+
+— J’avais oublié mon portefeuille.
+
+Le serveur a éclaté de rire.
+
+Rachid a pris son portefeuille et a secoué la tête.
+
+— Je crois que cette histoire va durer longtemps.
+
+Le serveur a souri.
+
+— Au moins, maintenant, je sais quoi vous offrir pour votre anniversaire.
+
+— Quoi ?
+
+— Une veste avec une poche encore plus grande.
+
+Rachid a ri.
+
+Depuis ce jour, il vérifie toujours ses poches avant de quitter un endroit.
+
+Et quand quelqu’un lui dit :
+
+— Je ne trouve pas mes clés !
+
+Rachid répond toujours :
+
+— Vérifie tes poches. Mais toutes tes poches.
+
+Parce qu’il a appris une chose simple :
+
+parfois, on cherche quelque chose partout alors que cette chose est juste à quelques centimètres de nous.`,
 wordef: [
-  { mot: "apercevoir", definition: "To notice or see someone or something, usually briefly or from a distance.", contextExample: "Karim a aperçu une petite veste posée sur le banc.", synonyme: "voir" },
-
-  { mot: "accueil", definition: "The place or desk where visitors are received and given information.", contextExample: "Il a apporté la veste à l'accueil du parc.", synonyme: "réception" },
-
-  { mot: "hocher la tête", definition: "To move your head up and down to show agreement or to say yes.", contextExample: "La fille a hoché la tête.", synonyme: "faire oui de la tête" },
-
-  { mot: "s'inquiéter", definition: "To feel worried because you think something may be wrong.", contextExample: "Karim a commencé à s'inquiéter.", synonyme: "se faire du souci" },
-
-  { mot: "serrer dans ses bras", definition: "To hold someone closely with your arms to show affection or comfort.", contextExample: "Son père l'a serrée dans ses bras.", synonyme: "prendre dans ses bras" },
-
-  { mot: "s'arrêter", definition: "To stop moving or to stop doing something for a moment.", contextExample: "Karim s'est arrêté devant le banc.", synonyme: "stopper" },
-
-  { mot: "appartenir", definition: "To be owned by someone or to be connected to someone.", contextExample: "La veste semblait appartenir à un enfant.", synonyme: "être à" },
-
-  { mot: "régulièrement", definition: "Often and according to a repeated pattern or schedule.", contextExample: "Karim venait régulièrement s'asseoir sur ce banc.", synonyme: "souvent" },
-
-  { mot: "se rendre compte", definition: "To realize or become aware of something.", contextExample: "Karim s'est rendu compte qu'il ne regardait jamais vraiment le parc.", synonyme: "réaliser" },
-
-  { mot: "promener", definition: "To take someone or an animal outside for a walk.", contextExample: "Une femme promenait son chien.", synonyme: "faire marcher" },
-
-  { mot: "ancien", definition: "Relating to a previous period of someone's life or to something from the past.", contextExample: "Il parlait de son ancien travail.", synonyme: "précédent" },
-
-  { mot: "absence", definition: "The state of not being present in a place where someone is normally expected.", contextExample: "Karim a remarqué son absence.", synonyme: "manque" },
-
-  { mot: "tomber malade", definition: "To become ill or sick.", contextExample: "André était tombé malade.", synonyme: "être malade" },
-
-  { mot: "rendre visite", definition: "To go to see someone, usually at their home or in another place where they are staying.", contextExample: "Karim est allé lui rendre visite à l'hôpital.", synonyme: "aller voir" },
-
-  { mot: "habituer", definition: "To make someone become accustomed to something through repeated experience.", contextExample: "André avait habitué Karim à leurs conversations.", synonyme: "accoutumer" },
-
-  { mot: "remarquer", definition: "To notice or become aware of something.", contextExample: "Karim a remarqué qu'André n'était pas là.", synonyme: "constater" },
-
-  { mot: "être touché", definition: "To feel deeply moved by someone's action, words, or attention.", contextExample: "André a été touché de voir autant de monde penser à lui.", synonyme: "être ému" },
-
-  { mot: "tomber", definition: "To move accidentally from a higher position to a lower one.", contextExample: "André était tombé malade.", synonyme: "chuter" },
-
-  { mot: "tombée de la nuit", definition: "The moment when evening arrives and daylight begins to disappear.", contextExample: "Ils sont restés là jusqu'à la tombée de la nuit.", synonyme: "crépuscule" },
-
-  { mot: "s'arrêter", definition: "To pause or stop moving in order to remain somewhere for a while.", contextExample: "C'était devenu un endroit où les gens s'arrêtaient.", synonyme: "faire une pause" }
+  {
+    mot: "habitude",
+    definition: "Something that a person does regularly or often.",
+    contextExample: "Depuis plusieurs années, Rachid avait l’habitude de prendre un café dans le même petit café.",
+    synonyme: "routine"
+  },
+  {
+    mot: "serveur",
+    definition: "A person whose job is to serve food and drinks in a restaurant or café.",
+    contextExample: "Le serveur le connaissait bien.",
+    synonyme: "garçon"
+  },
+  {
+    mot: "préféré",
+    definition: "The one that you like more than the others.",
+    contextExample: "Il s’est assis à sa table préférée.",
+    synonyme: "favori"
+  },
+  {
+    mot: "retard",
+    definition: "A situation where someone arrives later than planned.",
+    contextExample: "Il était déjà en retard.",
+    synonyme: "délai"
+  },
+  {
+    mot: "portefeuille",
+    definition: "A small case used for carrying money, cards, and personal documents.",
+    contextExample: "Il a cherché son portefeuille.",
+    synonyme: "porte-monnaie"
+  },
+  {
+    mot: "poche",
+    definition: "A small part of clothing or a bag used to carry things.",
+    contextExample: "Il a vérifié l’autre poche.",
+    synonyme: "compartiment"
+  },
+  {
+    mot: "vérifier",
+    definition: "To look at something carefully to make sure it is correct or present.",
+    contextExample: "Il a commencé à vérifier toutes ses poches.",
+    synonyme: "contrôler"
+  },
+  {
+    mot: "désolé",
+    definition: "Feeling sorry because something has gone wrong or because you have caused a problem.",
+    contextExample: "Je suis vraiment désolé.",
+    synonyme: "navré"
+  },
+  {
+    mot: "réfléchir",
+    definition: "To think carefully about something.",
+    contextExample: "Rachid a réfléchi.",
+    synonyme: "penser"
+  },
+  {
+    mot: "réponse",
+    definition: "Something that you say or write after someone asks you a question.",
+    contextExample: "Il ne trouvait aucune réponse.",
+    synonyme: "solution"
+  },
+  {
+    mot: "raccrocher",
+    definition: "To end a telephone conversation by putting down or closing the phone.",
+    contextExample: "Rachid a raccroché.",
+    synonyme: "terminer l’appel"
+  },
+  {
+    mot: "soupirer",
+    definition: "To breathe out slowly, often because you are tired, worried, or disappointed.",
+    contextExample: "Rachid a soupiré.",
+    synonyme: "souffler"
+  },
+  {
+    mot: "intérieur",
+    definition: "The part that is inside something.",
+    contextExample: "Il a mis la main dans la poche intérieure de sa veste.",
+    synonyme: "dedans"
+  },
+  {
+    mot: "sentir",
+    definition: "To notice something through your senses, especially by touching or smelling.",
+    contextExample: "Il a senti quelque chose dans sa poche.",
+    synonyme: "percevoir"
+  },
+  {
+    mot: "silencieux",
+    definition: "Not speaking or making any sound.",
+    contextExample: "Il est resté silencieux pendant quelques secondes.",
+    synonyme: "muet"
+  },
+  {
+    mot: "éclater de rire",
+    definition: "To suddenly start laughing loudly.",
+    contextExample: "Puis il a éclaté de rire.",
+    synonyme: "rire"
+  },
+  {
+    mot: "absolument",
+    definition: "Completely or certainly; used to strongly confirm something.",
+    contextExample: "— Vous êtes sûr ? — Absolument.",
+    synonyme: "certainement"
+  },
+  {
+    mot: "tapoter",
+    definition: "To touch or hit something lightly several times.",
+    contextExample: "Rachid a tapoté sa poche.",
+    synonyme: "toucher"
+  },
+  {
+    mot: "offrir",
+    definition: "To give something to someone as a gift or present.",
+    contextExample: "Je sais quoi vous offrir pour votre anniversaire.",
+    synonyme: "donner"
+  },
+  {
+    mot: "centimètre",
+    definition: "A small unit used to measure length; there are 100 centimeters in one meter.",
+    contextExample: "Cette chose est juste à quelques centimètres de nous.",
+    synonyme: "mesure"
+  }
 ]
      },{
        id: 21,

@@ -4,96 +4,113 @@
 
   </head>
   <body>
+    <p>total d'eleves : <span id="total">00</span></p>
+    <p>Aujourd'hui : <span id="today">00</span></p>
+    <p>Hier : <span id="yesterday">00</span></p>
+    <p>avant hier : <span id="avanthier">00</span></p>
+
+    <p>----------------------------------------</p>
+    <p>INSCRITS AUJOUDHUI</p>
+    <p>
+      <div id="conten">
+      </div>
 
 
+   <button id="signUp">s'isncrire</button>
     <script>
-      let minutes = [30, 0, 40, 10, 35, 20, 15];
-      let today = new Date();
-      console.log(today.toLocaleDateString());
+      const signUp = document.getElementById("signUp"); 
+      const total = document.getElementById("total"); 
+      const toda = document.getElementById("today"); 
+      const yesterday= document.getElementById("yesterday"); 
+      const avanthier= document.getElementById("avanthier"); 
 
-      let yesterday = new Date(today);
-      console.log(yesterday);
-      yesterday.setDate(yesterday.getDate() -1);
-      console.log(yesterday.toLocaleDateString());
+      const conten = document.getElementById("conten"); 
+     
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    console.log(users);
+    const objet1 = {};
 
-      let day2 = new Date(today);
-      day2.setDate(day2.getDate() -2);
-      console.log(day2.toLocaleDateString());
+  
+    total.textContent = users.length;
+    
+    const name = 'Sara'
+    const hour = new Date();
+    
+    console.log(`${String(hour.getHours() -1).padStart(2,'0') }:${String(hour.getMinutes()).padStart(2,'0')}`);
+    let exactHour = `${String(hour.getHours() -1).padStart(2,'0') }:${String(hour.getMinutes()).padStart(2,'0')}`;
+    const id = Date.now();
+    let dateInscription = new Date();
+    
+   let datee =  dateInscription.toLocaleDateString('en-US', {
+       month: 'long',
+       day: 'numeric',
+   });
+    console.log(datee);
 
-      let day3 = new Date(today);
-       day3.setDate(day3.getDate() -3);
-       console.log(day3.toLocaleDateString());
+   let yesterdayDatee = new Date(dateInscription);
+   yesterdayDatee.setDate(yesterdayDatee.getDate() - 1);
+    let yestter  =  yesterdayDatee.toLocaleDateString('en-US', {
+       month: 'long',
+       day: 'numeric',
+   });
+    console.log(yestter);
+    
+   let avant = new Date(dateInscription);
+   avant.setDate(avant.getDate() - 2);
+    let av  =  avant.toLocaleDateString('en-US', {
+       month: 'long',
+       day: 'numeric',
+   });
+    console.log(av);
+    
+    
+    
+    
+    let theSame = users.find(element => element.ID === '124' );
+    let theSameDay= users.filter(element => element.DATE === datee);
+    let theSameDayYesterday = users.filter(element => element.DATE === yestter);
+    let thesameavant = users.filter(element => element.DATE === av);
 
-      let day4 = new Date(today);
-      day4.setDate(day4.getDate() -4);
-      console.log(day4.toLocaleDateString());
+    theSameDay.forEach(element => {
+       const span = document.createElement('p');
 
-      let day5 = new Date(today);
-      day5.setDate(day5.getDate() - 5);
+       span.innerHTML =`<span>${element.NAME}</span>     <span>${element.HOUR}</span>`;
 
-      let day6 = new Date(today);
-      day6.setDate(day6.getDate() - 6);
-      console.log(day6.toLocaleDateString());
+       conten.appendChild(span);
+    });
 
-     console.log(JSON.parse(localStorage.getItem('date')));
-     console.log(JSON.parse(localStorage.getItem('min')));
+    console.log(theSameDay);
+    console.log(users.DATE);
+    console.log(datee);
+    console.log(av);
+    
+    const exist = users.some(existee => existee.ID === id);
+    console.log(exist);
+    
+    
+    toda.textContent = theSameDay.length;
+    yesterday.textContent = theSameDayYesterday.length;
+    avanthier.textContent = thesameavant.length;
 
-
-
-      let dates = [];
-      minAll = []
-      for(let i=0; i<=6; i++) {
-         day = new Date(today);
-         day.setDate(day.getDate()- i);
-         dates.push(day.toLocaleDateString());
-
-         min = minutes[i];
-         if(min === null) {
-           min = 0
-          }
-          minAll.push(min);
-          
-        }
-        console.log(day.toLocaleDateString() + 'day');
-        console.log(dates);
-        localStorage.setItem('date', JSON.stringify(dates));
-     console.log(minAll);
-      localStorage.setItem('min', JSON.stringify(minAll));
-
-
-       let total = 0;
-      for(let i = 0; i< minutes.length; i++){
-        total += minutes[i];
+    
+    signUp.addEventListener('click', () => {
+      objet1.NAME = name;
+      objet1.ID = id;
+      objet1.DATE = datee;
+      objet1.HOUR = exactHour;
+    
+      if(exist) {
+        console.log('exxxist');
+       return users;
+      } else {
+        users.push(objet1);
+        localStorage.setItem('users', JSON.stringify(users));
       }
-      console.log(`total: ${total} min`);
+      location.reload();
+    });
 
-      
-      
-      
+     
 
-      if(minutes >= 25) {
-        console.log('eleve a lu 25 minutes aujougui');
-      }
-
-      
-      
-      let mino = 30;
-      let tod = new Date();
-      
-      let data = {
-        date : tod,
-        weekmin : mino
-      }
-
-      let tableau = [];
-      tableau.push(data);
-      console.log(tableau);
-      console.log(data);
-
-      localStorage.setItem('mino', mino);
-      localStorage.setItem('tod', tod.toLocaleDateString());
-      console.log(localStorage.getItem('mino'));
-      console.log(localStorage.getItem('tod'));
 
 
       

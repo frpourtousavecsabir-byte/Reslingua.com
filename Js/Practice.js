@@ -131,23 +131,26 @@ commencer.addEventListener('click', ()=> {
           add.textContent = '+'
        };
 
+     
+       done.addEventListener('click', ()=> {
        
-       done.onclick = ()=> {
-        cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
-           localStorage.removeItem('add')
-           contBlurr.remove();
-            contCart.remove();
-            add.className = 'add';
-         add.textContent = '+'
-         let cartObject = {};
-         cartObject.cartName = `${vocaNameInput.value}`;
-         cartObject.Description = `${vocaDescriptionInput.value}`;
-         cartes.push(cartObject);
-         console.log(cartes);
-         localStorage.setItem('cartes', JSON.stringify(cartes));
-         location.reload();
+          cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
+             localStorage.removeItem('add')
+             contBlurr.remove();
+              contCart.remove();
+              add.className = 'add';
+           add.textContent = '+';
+           let cartObject = {};
+           cartObject.cartName = `${vocaNameInput.value}`;
+           cartObject.Description = `${vocaDescriptionInput.value}`;
+           cartes.push(cartObject);
+           console.log(cartes);
+           localStorage.setItem('cartes', JSON.stringify(cartes));
+           location.reload();
 
-         }
+        }
+
+         )
       };
     
     add.addEventListener('click', () => {
