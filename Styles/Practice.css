@@ -7,6 +7,33 @@ main {
   height: auto;
   min-height: fit-content;
 }
+.page-title {
+      font-family: 'Poppins', serif;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+  margin-top: 1rem;
+     }
+     .instruction {
+      color: var(--text-muted);
+      font-weight: 500;
+      padding-right: 2rem;
+      font-size: 0.85rem;
+      margin-left: 1.5rem;
+  max-width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: fit-content;
+  margin-top: 0.4rem;
+  margin-bottom: 1.25rem;
+     }
 .div {
   background-color: #fffdf8;
   padding: 0.7rem 0.7rem;
@@ -28,12 +55,13 @@ main {
 .auto {
   color: #9e7e28;
   background-color: #f2e8cc;
+  font-size: 0.75rem;
   padding: 0.2rem 0.5rem;
   border-radius: 15px;
 }
 .myWords {
   color: #4a3b32;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
@@ -48,7 +76,7 @@ main {
 .num {
   background: none;
   border: none;
-  font-size: 1.4rem;
+  font-size: 01rem;
   color: #9c8468;
   font-family: 'Space Mono', monospace;
   margin-bottom: 0.5rem;
@@ -56,7 +84,7 @@ main {
 .num2 {
   background: none;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #B4863C;
   font-family: 'Space Mono', monospace;
   margin-bottom: 0.5rem;
@@ -64,7 +92,7 @@ main {
 .num3 {
   background: none;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color:  #4B7A5C;
   font-family: 'Space Mono', monospace;
   margin-bottom: 0.5rem;
@@ -72,19 +100,19 @@ main {
 .word {
   color: #9c8468;
   font-family: sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
   font-weight: 400;
 }
 .word2 {
   color: #B4863C;
   font-family: sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
   font-weight: 400;
 }
 .word3 {
   color: #4B7A5C;
   font-family: sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
   font-weight: 400;
 }
 .all-word-number {
@@ -93,8 +121,8 @@ main {
   align-items: center;
   margin-bottom: 1rem;
   background-color: rgb(241, 240, 240);
-  padding:0.3rem;
   border-radius: 1rem;
+  padding:0 1rem;
 
 }
 .word-number {
@@ -105,18 +133,17 @@ main {
  background-color: rgb(166, 125, 21);
  color: #fff9e9;
  border: none;
- font-size: 1.3rem;
+ font-size: 1.1rem;
  text-decoration: none;
- font-weight: 600;
- font-family: sans-serif;
- padding: 0.5rem 0.6rem;
+ font-weight: 400;
+ font-family:'Poppins', serif;
+ padding: 0.2rem 0.6rem;
  width: auto;
- max-width: 80%;
  margin-inline: auto;
  display: flex;
  justify-content: center;
  align-items: center;
- border-radius: 15px;
+ border-radius: 20px;
 }
 .start-svg {
   fill: #fff9e9;
@@ -181,6 +208,8 @@ main {
   left: 0;
   right: 0;
 }
+
+
 .vocaNameInput1{
   margin-inline: auto;
   display: flex;
@@ -191,10 +220,22 @@ main {
   padding-left: 1.2rem;
   border: #9e7e28 1px ;
 }
+.vide {
+  margin-inline: auto;
+  margin-top: 0.1rem;
+  width: 70%;
+  padding-left: 1.2rem;
+  border: #9e7e28 1px ;
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: 'Inter';
+  justify-content: center;
+  color:  rgb(112, 5, 5);
+}
 .vocaNameInput2{
   margin-inline: auto;
   display: flex;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   width: 70%;
   height: 2rem;
   border-radius: 10px;
@@ -207,9 +248,14 @@ main {
   margin-top: 1rem;
   width: 70%;
   height: 2rem;
+  
   border-radius: 10px;
   padding-left: 1.2rem;
-  border: #9e7e28 1px ;
+  border: rgb(112, 5, 5) solid ;
+}
+.vocaNameAfter1::placeholder {
+color: rgb(112, 5, 5);
+font-size: 1rem;
 }
 .allWordNumber {
   display: flex;
