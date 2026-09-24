@@ -262,7 +262,7 @@
        delet.addEventListener('click', ()=> {
          console.log(cartes[index].wordMeaningCarts);
          wrd.innerHTML = `${cartes[index].wordMeaningCarts[i].word}`;
-         def.innerHTML = `${cartes[index].wordMeaningCarts[i].word}`;
+         def.innerHTML = `${cartes[index].wordMeaningCarts[i].meaning}`;
          total.textContent = `${cartes[index].wordMeaningCarts[i].word.length - 1}` ;
          cartes[index].wordMeaningCarts.splice(i, 1);
          console.log(i + 'index');

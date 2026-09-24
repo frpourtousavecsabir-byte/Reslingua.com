@@ -8963,6 +8963,29 @@ wordef: [
 ]
       } 
    ]
+
+   const menu = document.querySelector('.menu');
+   const menuList = document.getElementById('menuList');
+   menuList.classList.remove('menuList');
+  //const  document 
+   menu.addEventListener('click', ()=> {
+    document.classList.add('document');
+    menuList.innerHTML = `
+       <li class="X menu">X</li>
+       <li class='menuElement'>My profile</li>
+       <li class='menuElement'><a href="Reading2.html">Reading</a></li>
+       <li class='menuElement'>Listening</li>
+       <li class='menuElement'><a href="Practice.html">Practice</a></li>
+       <li class='menuElement'><a href="Progress.html">Progress</a></li>
+       <li class='menuElement'>Teacher Profile</li>
+       <li class='menuElement'>Settings</li>
+       <li class='menuElement'>Help</li>
+       <li class='menuElement'>Log out</li>
+        `
+       menuList.classList.toggle('menuList');
+     
+    });
+
    
    const header = document.querySelector('.js-header');
    const header2 = document.querySelector('.js-header2');

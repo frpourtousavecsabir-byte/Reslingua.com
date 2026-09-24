@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+ 
+    <style>
+      .menu {
+        display: none;
+        list-style: none;
+         list-style-type: none;
+      }
+    </style>
   </head>
   <body>
-    <button id="pron">Prononcer</button>
+    <button id="humberger" class="menu-btn">hum</button>
+    <ul id="list" class="menu">
+      <li classs="re">reading</li>
+      <li></li>
+      <li></li>
+    </ul>
     <script>
-        
+        const humberger = document.getElementById('humberger');
+        const list = document.getElementById('list');
+        humberger.addEventListener('click', () => {
+          console.log('menu');
+          list.classList.toggle('menu');
+        });
         
 
 
