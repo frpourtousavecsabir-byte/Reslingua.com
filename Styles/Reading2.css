@@ -33,17 +33,6 @@
       display: none;
       }
       
-      .document {
-         position:fixed;
-        background-color: rgba(0, 0, 0, 0.25);
-        backdrop-filter: blur(6px);
-        -webkit-backdrop-filter: (6px);
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        z-index: 0;
-      }
       .all {
         position:fixed;
         background-color: rgba(0, 0, 0, 0.25);
@@ -783,6 +772,17 @@
         left: 30vw;
         right: 30vh;
       }
+      .documentAll {
+           position:fixed;
+          background-color: rgba(0, 0, 0, 0.25);
+          backdrop-filter: blur(6px);
+          -webkit-backdrop-filter: (6px);
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          z-index:1;
+        }
        .menuButton {
         background-color: transparent;
         border: none;
@@ -794,7 +794,7 @@
         list-style: none;
         background-color: var(--bg-card);
         position: fixed;
-        z-index: 1;
+        z-index: 2;
         right: 0;
         top: 0;
         left: 30%;
@@ -810,6 +810,13 @@
         display: flex;
         padding: 1rem 0;
         border-top: 1px solid;
+        color: #531607;
+        align-items: center;
+        text-decoration: none;
+      }
+      .listElementName{
+        margin-left: 0.3rem;
+        font-family: Georgia, sans-serif;
       }
       
       
