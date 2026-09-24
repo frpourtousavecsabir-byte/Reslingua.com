@@ -308,33 +308,38 @@ font-size: 1rem;
   top: 0;
 }
 .documentAll {
-         position:fixed;
-        background-color: rgba(0, 0, 0, 0.25);
-        backdrop-filter: blur(6px);
-        -webkit-backdrop-filter: (6px);
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        z-index:1;
-      }
+  position:fixed;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: (6px);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index:1;
+}
 .menuButton {
         background-color: transparent;
         border: none;
         font-weight: 700;
        }
-      .menuList {
-        padding-top: 1.1rem;
-        padding-left: 1rem;
+       .menuList {
+       padding-top: 1.1rem;
+       padding-left: 1rem;
         list-style: none;
-        background-color: var(--bg-card);
+        background-color:#f3e8d0;
         position: fixed;
         z-index: 2;
         right: 0;
         top: 0;
         left: 30%;
         bottom: 0;
+        transform: translateX(100%);
       }
+      .menuList-ouvert {
+              transform: translateX(0);
+              transition: 0.7s;
+            }
       .X {
         display: flex;
         justify-content: end;

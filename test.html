@@ -3,30 +3,33 @@
   <head>
  
     <style>
-      .menu {
-        display: none;
-        list-style: none;
-         list-style-type: none;
+      .cart {
+        position: fixed;
+        background-color: aqua;
+        top: 0;
+        height: 20rem;
+        width: 11rem;
+        right: 0;
+        transform: translateX(11rem);
+      }
+      .menu-openn {
+        transform: translateX(0);
+        transition: 0.7s;
       }
     </style>
   </head>
   <body>
-    <button id="humberger" class="menu-btn">hum</button>
-    <ul id="list" class="menu">
-      <li classs="re">reading</li>
-      <li></li>
-      <li></li>
-    </ul>
+    <button id="hey">hey</button>
+    <div  id="openn"></div>
     <script>
-        const humberger = document.getElementById('humberger');
-        const list = document.getElementById('list');
-        humberger.addEventListener('click', () => {
-          console.log('menu');
-          list.classList.toggle('menu');
-        });
-        
+     const hey = document.getElementById('hey');
+     const openn = document.getElementById('openn');
 
-
+     openn.classList.add('cart');
+     hey.addEventListener('click', () => {
+      openn.classList.toggle('menu-openn');
+      console.log('hh');
+     });
 
 
       
