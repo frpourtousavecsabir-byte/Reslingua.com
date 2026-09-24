@@ -80,7 +80,7 @@ cartes.forEach((element, index) => {
                   localStorage.setItem('index', index);
                   
                   console.log(index);
-                  window.location.href = 'addWordsToCart.html';
+                  window.location.href = 'AddWordsToCart.html';
                 }) 
             });
     const practice =  document.querySelectorAll('.PracticeWordMean');
