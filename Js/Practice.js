@@ -4,7 +4,7 @@
 const wordsNum = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord')).length;
 
 
-let cartes = JSON.parse(localStorage.getItem('cartes')).reverse() ||  [];
+let cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
 console.log(cartes);
 
 
@@ -23,13 +23,13 @@ cartes.forEach((element, index) => {
       <div id="threePointCart"></div>
       <div class="word-auto">
       <span class="myWords">${element.cartName}</span>
-      <p class="word-auto"><span class="auto">Personal</span><svg class='js-threePoint' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></p>
+      <p class="word-auto"><span class="auto">Personal</span><svg class='js-threePoint' xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#6a5417"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></p>
       </div>
       <p class="sub">${element.Description}</p>
            </div>
            <div class="allWordNumber">
            <div class="word-number">
-           <button class="num" id="wordsNum">0</button>
+           <button class="num" id="wordsNum">${element.wordMeaningCarts.length}</button>
            <span class="word" >Words</span>
               </div>
               <div class="word-number">
@@ -44,14 +44,15 @@ cartes.forEach((element, index) => {
               
               <div class="parcticeAdd" id="start">
 
-              <a class="commencerPersonal">
-              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff9e9"><path d="m480-336 128-184H494l80-280H360v320h120v144ZM400-80v-320H280v-480h400l-80 280h160L400-80Zm80-400H360h120Z"/></svg>
-               <span>Practice</span>
-              </a>
+              <button class="commencerPersonal1 PracticeWordMean">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#9e7e28"><path d="m480-336 128-184H494l80-280H360v320h120v144ZM400-80v-320H280v-480h400l-80 280h160L400-80Zm80-400H360h120Z"/></svg>
+               <span>&nbsp;Practice &nbsp;</span>
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#9e7e28"><path d="M80-240v-480h80v480H80Zm560 0-57-56 144-144H240v-80h487L584-664l56-56 240 240-240 240Z"/></svg>
+              </button>
               
-              <button class="commencerPersonal js-commencerPersonal">
-               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff9e9"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
-              <span>add word</span>
+              <button class="commencerPersonal2 js-commencerPersonal">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#9e7e28"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+              <span>&nbsp;Add word</span>
               </button>
               </div>`
               
@@ -68,7 +69,7 @@ cartes.forEach((element, index) => {
                   console.log(cartes);
                   localStorage.setItem('cartes', JSON.stringify(cartes));
                    
-                  //location.reload();
+                  location.reload();
 
                 }) 
             });
@@ -82,6 +83,19 @@ cartes.forEach((element, index) => {
                   window.location.href = 'addWordsToCart.html';
                 }) 
             });
+    const practice =  document.querySelectorAll('.PracticeWordMean');
+    practice.forEach((element, index) => {
+                 element.addEventListener('click', () => {
+                   localStorage.setItem('index', index);
+                   console.log(index);
+                  if(cartes[index].wordMeaningCarts.length <1) {
+                    alert('Add some words first!');
+                  } else {
+                    window.location.href = 'PracticeWordMean.html';
+                  }
+                 
+      });
+    })
      
 
 
@@ -95,7 +109,7 @@ wordsNumId.textContent = wordsNum;
 
 commencer.addEventListener('click', ()=> {
   if(wordsNum === 0) {
-       alert('Add new words');
+       alert('Add some words first!');
       } else {
         window.location.href = 'FlashCards.html'
       }
@@ -109,8 +123,10 @@ commencer.addEventListener('click', ()=> {
      const done = document.createElement('button');
      const cancel = document.createElement('button');
      const groupVocab = document.createElement('div');
+     const vocaNameSvg = document.createElement('div');
      const vocaName = document.createElement('div');
      const vide = document.createElement('div');
+     const vocaDescriptionSvg = document.createElement('div');
      const vocaDescription = document.createElement('div');
      
      
@@ -143,9 +159,12 @@ commencer.addEventListener('click', ()=> {
         groupVocab.className = 'groupVocab'
         
         
-        vocaName.innerHTML= `<input id="vocaNameInput" class="vocaNameInput1" placeHolder="Name">`;
+        vocaNameSvg.innerHTML= `<p style="margin-left:3rem; display:flex; align-items:center;"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#531607"><path d="M280-160v-520H80v-120h520v120H400v520H280Zm360 0v-320H520v-120h360v120H760v320H640Z"/></svg> <span>Name</span>`;
+
+        vocaName.innerHTML= `<input id="vocaNameInput" class="vocaNameInput1" placeHolder="Ex: Vocabulaire, Grammaire...">`;
         
-        vocaDescription.innerHTML= `<input id="vocaDescriptionInput" class="vocaNameInput2" placeHolder="Description">`;
+        vocaDescriptionSvg.innerHTML= `<p style="margin-left:3rem; display:flex; align-items:center;" ><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#531607"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg> <span>Description</span></p>`;
+        vocaDescription.innerHTML= `<input id="vocaDescriptionInput" class="vocaNameInput2" placeHolder="Add a small description(optional)">`;
         
         contCart.appendChild(page);
         mainBlurr.appendChild(contBlurr);
@@ -154,8 +173,10 @@ commencer.addEventListener('click', ()=> {
         doneCancel.appendChild(cancel);
         doneCancel.appendChild(done);
         page.appendChild(groupVocab);
+        groupVocab.appendChild(vocaNameSvg);
         groupVocab.appendChild(vocaName);
         groupVocab.appendChild(vide);
+        groupVocab.appendChild(vocaDescriptionSvg);
         groupVocab.appendChild(vocaDescription);
         
         const vocaNameInput = document.getElementById('vocaNameInput');
@@ -184,11 +205,12 @@ commencer.addEventListener('click', ()=> {
           contCart.remove();
           add.className = 'add';
          add.textContent = '+';
+         cartes = JSON.parse(localStorage.getItem('cartes')) ||  [];
          let cartObject = {};
           cartObject.cartName = `${vocaNameInput.value}`;
            cartObject.Description = `${vocaDescriptionInput.value}`;
            cartObject.wordMeaningCarts = [];
-           cartes.push(cartObject);
+           cartes.unshift(cartObject);
            console.log(cartes);
            localStorage.setItem('cartes', JSON.stringify(cartes));
            location.reload();

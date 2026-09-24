@@ -1,5 +1,5 @@
  
- let i = Number(localStorage.getItem('index')) || 0;
+ let i = Number(localStorage.getItem('indexaa')) || 0;
 
 
  const vocab = JSON.parse(localStorage.getItem('vocabToReviewUniqueWord'));
@@ -59,7 +59,7 @@
  const reRead = document.createElement('div');
  
  const defX = document.createElement('div');
- const index = localStorage.getItem('index');
+ const indexaa = localStorage.getItem('indexaa');
  
  
  
@@ -184,7 +184,7 @@
        i++;
         delet.innerHTML = '';
         delet.classList.remove('Delete');
-        localStorage.setItem('index', i);
+        localStorage.setItem('indexaa', i);
         numeroMot.textContent++;
         value = numeroMot.textContent;
         document.querySelector('.progress').innerHTML = `<progress class="prog" value="${value}" max='${total.textContent}'></progress>`;
@@ -380,7 +380,7 @@ pass.addEventListener('click', ()=> {
 
 function removeIndex() {
   i=0;
-  localStorage.removeItem('index');
+  localStorage.removeItem('indexaa');
 }
 document.getElementById('quit').addEventListener('click', ()=> {
  removeIndex();

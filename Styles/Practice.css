@@ -37,7 +37,7 @@ main {
 .div {
   background-color: #fffdf8;
   padding: 0.7rem 0.7rem;
-  border-radius: 15px ;
+  border-radius: 15px 
   
 }
 .vocab {
@@ -58,6 +58,7 @@ main {
   font-size: 0.75rem;
   padding: 0.2rem 0.5rem;
   border-radius: 15px;
+  margin-right: 1rem;
 }
 .myWords {
   color: #4a3b32;
@@ -100,19 +101,19 @@ main {
 .word {
   color: #9c8468;
   font-family: sans-serif;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.75rem;
   font-weight: 400;
 }
 .word2 {
   color: #B4863C;
   font-family: sans-serif;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.75rem;
   font-weight: 400;
 }
 .word3 {
   color: #4B7A5C;
   font-family: sans-serif;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.75rem;
   font-weight: 400;
 }
 .all-word-number {
@@ -120,7 +121,6 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-  background-color: rgb(241, 240, 240);
   border-radius: 1rem;
   padding:0 1rem;
 
@@ -168,7 +168,7 @@ main {
 }
 /** add carts**/
 .page {
-  background-color: #c9b49d;
+  background-color: rgb(205, 175, 140);
   position: fixed;
   right: 1rem;
   left: 1rem;
@@ -219,6 +219,7 @@ main {
   border-radius: 10px;
   padding-left: 1.2rem;
   border: #9e7e28 1px ;
+  margin-bottom: 1.5rem;
 }
 .vide {
   margin-inline: auto;
@@ -263,25 +264,38 @@ font-size: 1rem;
   align-items: center;
   height: fit-content;
   margin-bottom: 1rem;
-  background-color: rgb(241, 240, 240);
-  padding:0.1rem 0.3rem;
+  padding:0.1rem 1rem;
   border-radius: 1rem;
 
 }
-.commencerPersonal {
-  background-color: rgb(166, 125, 21);
- color: #fff9e9;
- border: none;
- font-size: 1.2rem;
- display: flex;
- justify-content: center;
+.commencerPersonal1 {
+  background-color: transparent;
+ color: #9e7e28;
+ border: 1.5px solid ;
+ font-size: 1rem;
  text-decoration: none;
- font-weight: 500;
- font-family: sans-serif;
- padding: 0.25rem 1.3rem;
- width: auto;
- max-width: 80%;
- border-radius: 15px;
+ font-weight: 400;
+ font-family:'Poppins', serif;
+ padding: 0.2rem 0.3rem;
+ width: 80%;
+ margin-right: 1rem;
+ justify-content: center;
+ display: flex;
+ border-radius: 20px;
+}
+.commencerPersonal2 {
+  background-color: rgb(247, 227, 175);
+ color: #9e7e28;
+ border: none;
+ font-size: 1rem;
+ text-decoration: none;
+ font-weight: 400;
+ font-family:'Poppins', serif;
+ padding: 0.2rem 0.6rem;
+ width: 80%;
+ justify-content: center;
+ display: flex;
+ border-radius: 20px;
 }
 .parcticeAdd {
   display: flex;

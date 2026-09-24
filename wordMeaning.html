@@ -29,7 +29,7 @@
     <link rel="icon" type="image/svg+xml" href="Pictures/logo.svg">
     <style>
        main { 
-      background-color: var(--bg-card);
+      background-color: #c19a2f;
       margin-top: 7rem;
       width: 90%;
       display: flex;
@@ -56,8 +56,14 @@
       flex-direction: column;
      }
      .input {
-      margin-top: 1rem;
-      height: 2rem;
+  display: flex;
+  margin-top: 1rem;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  border: #9e7e28 1px ;
      }
     </style>
   </head>
@@ -137,7 +143,7 @@
     
   </body>
   <script>
-    let cartes = JSON.parse(localStorage.getItem('cartes')).reverse();
+    let cartes = JSON.parse(localStorage.getItem('cartes'));
     
     
     console.log(cartes);
@@ -153,12 +159,12 @@
       console.log(terme.value);
       vocaObjet.word = `${terme.value}`;
       vocaObjet.meaning = `${meaning.value}`;
-      cartes[index].wordMeaningCarts.push(vocaObjet);
+      cartes[index].wordMeaningCarts.unshift(vocaObjet);
       localStorage.setItem('cartes', JSON.stringify(cartes));
       
       console.log(cartes);
-     // window.location.href = 'AddWordsToCart.html';
-     location.reload();
+      location.reload();
+      window.location.href = 'AddWordsToCart.html';
     };
 
 
